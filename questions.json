@@ -4653,5 +4653,760 @@
 "e": "GI categories: low 55 or below, medium (average) 56–69, high 70 or above.",
 "s": "Categorías de IG: bajo 55 o menos, medio 56–69, alto 70 o más.",
 "src": "portal"
+},
+{
+"id": "ana058",
+"t": "anatomy",
+"q": "The anatomical position describes a person:",
+"o": [
+"Standing upright, palms facing forward",
+"Standing upright, palms facing backward",
+"Sitting upright with arms beside the body",
+"Lying supine"
+],
+"a": 0,
+"e": "Anatomical position: standing upright, looking ahead, feet parallel, arms by the sides with the palms facing forward.",
+"s": "Posición anatómica: de pie, mirando al frente, pies paralelos, brazos a los lados con las palmas hacia delante.",
+"src": "copilot"
+},
+{
+"id": "ana059",
+"t": "anatomy",
+"q": "Which plane divides the body into anterior and posterior portions?",
+"o": [
+"Sagittal",
+"Frontal (coronal)",
+"Transverse",
+"Median"
+],
+"a": 1,
+"e": "The frontal (coronal) plane splits the body into front (anterior) and back (posterior). The sagittal plane splits left and right; the transverse plane splits top and bottom.",
+"s": "El plano frontal (coronal) divide el cuerpo en parte delantera (anterior) y trasera (posterior). El sagital divide izquierda y derecha; el transversal, arriba y abajo.",
+"src": "copilot"
+},
+{
+"id": "ana060",
+"t": "anatomy",
+"q": "Abduction occurs when a limb moves:",
+"o": [
+"Towards the midline",
+"Away from the midline",
+"In a circular motion",
+"Through extension"
+],
+"a": 1,
+"e": "Abduction = moving away from the midline (think 'abducted' = taken away). Adduction brings it back toward the midline.",
+"s": "Abducción = alejarse de la línea media. La aducción lo devuelve hacia la línea media.",
+"src": "copilot"
+},
+{
+"id": "ana061",
+"t": "anatomy",
+"q": "Which muscle is the prime mover during a chest press?",
+"o": [
+"Latissimus dorsi",
+"Pectoralis major",
+"Trapezius",
+"Rhomboid"
+],
+"a": 1,
+"e": "The pectoralis major is the agonist (prime mover) in a chest press, helped by the anterior deltoid and triceps.",
+"s": "El pectoral mayor es el agonista (motor principal) en el press de pecho, ayudado por el deltoides anterior y el tríceps.",
+"src": "copilot"
+},
+{
+"id": "ana062",
+"t": "anatomy",
+"q": "Which muscle is primarily responsible for knee extension?",
+"o": [
+"Hamstrings",
+"Gastrocnemius",
+"Gluteus maximus",
+"Quadriceps"
+],
+"a": 3,
+"e": "The quadriceps extend (straighten) the knee. The hamstrings and gastrocnemius flex it.",
+"s": "El cuádriceps extiende (endereza) la rodilla. Los isquiotibiales y el gastrocnemio la flexionan.",
+"src": "copilot"
+},
+{
+"id": "ana063",
+"t": "anatomy",
+"q": "The rotator cuff consists of:",
+"o": [
+"Three muscles",
+"Four muscles",
+"Five muscles",
+"Six muscles"
+],
+"a": 1,
+"e": "Four muscles (SITS): supraspinatus, infraspinatus, teres minor and subscapularis. They stabilise the shoulder joint.",
+"s": "Cuatro músculos (SITS): supraespinoso, infraespinoso, redondo menor y subescapular. Estabilizan la articulación del hombro.",
+"src": "copilot"
+},
+{
+"id": "ana064",
+"t": "anatomy",
+"q": "During the lowering phase of a biceps curl the biceps perform:",
+"o": [
+"Concentric contraction",
+"Eccentric contraction",
+"Isometric contraction",
+"Isokinetic contraction"
+],
+"a": 1,
+"e": "While lowering, the biceps lengthen under load to control the weight: that's an eccentric contraction.",
+"s": "Al bajar, el bíceps se alarga bajo carga para controlar el peso: es una contracción excéntrica.",
+"src": "copilot"
+},
+{
+"id": "ana065",
+"t": "anatomy",
+"q": "Which joint is classified as a ball-and-socket joint?",
+"o": [
+"Elbow",
+"Knee",
+"Shoulder",
+"Wrist"
+],
+"a": 2,
+"e": "The shoulder (and the hip) are ball-and-socket joints. The elbow and knee are hinge joints.",
+"s": "El hombro (y la cadera) son articulaciones esféricas. El codo y la rodilla son articulaciones en bisagra.",
+"src": "copilot"
+},
+{
+"id": "ana066",
+"t": "anatomy",
+"q": "The vertebral column normally contains:",
+"o": [
+"24 vertebrae",
+"26 vertebrae",
+"33 vertebrae",
+"36 vertebrae"
+],
+"a": 2,
+"e": "33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused into the sacrum) and about 4 coccygeal (fused into the coccyx).",
+"s": "33 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, 5 sacras (fusionadas en el sacro) y unas 4 coccígeas (fusionadas en el cóccix).",
+"src": "copilot",
+"flag": "From the Copilot mock exam. 33 counts the vertebrae before fusion; adults have 24 movable vertebrae plus the sacrum and coccyx."
+},
+{
+"id": "ana067",
+"t": "anatomy",
+"q": "Which muscle assists with plantar flexion?",
+"o": [
+"Tibialis anterior",
+"Gastrocnemius",
+"Rectus femoris",
+"Gluteus medius"
+],
+"a": 1,
+"e": "The gastrocnemius (with the soleus) points the foot down (plantar flexion). The tibialis anterior does the opposite: dorsiflexion.",
+"s": "El gastrocnemio (con el sóleo) apunta el pie hacia abajo (flexión plantar). El tibial anterior hace lo contrario: la dorsiflexión.",
+"src": "copilot"
+},
+{
+"id": "phy042",
+"t": "physiology",
+"q": "ATP is stored in the muscles in:",
+"o": [
+"Unlimited quantities",
+"Very small quantities",
+"Large quantities",
+"Moderate quantities only"
+],
+"a": 1,
+"e": "Muscles store only a tiny amount of ATP, enough for a few seconds of maximal work, so it must be rebuilt constantly by the energy systems.",
+"s": "Los músculos almacenan muy poco ATP, suficiente para unos segundos de trabajo máximo, por lo que debe regenerarse constantemente mediante los sistemas energéticos.",
+"src": "copilot"
+},
+{
+"id": "phy043",
+"t": "physiology",
+"q": "The ATP-PC energy system predominates during activity lasting:",
+"o": [
+"Up to approximately 10 seconds",
+"30–60 seconds",
+"2–5 minutes",
+"Over 20 minutes"
+],
+"a": 0,
+"e": "ATP-PC (phosphate system) dominates in maximal efforts up to about 10 seconds, such as a sprint start or a heavy lift.",
+"s": "El sistema ATP-PC (fosfágenos) domina en esfuerzos máximos de hasta unos 10 segundos, como una salida de sprint o un levantamiento pesado.",
+"src": "copilot"
+},
+{
+"id": "phy044",
+"t": "physiology",
+"q": "The by-product associated with anaerobic glycolysis is:",
+"o": [
+"Glycogen",
+"Lactate",
+"Oxygen",
+"Creatine"
+],
+"a": 1,
+"e": "Anaerobic glycolysis breaks down glucose without enough oxygen and produces lactate (lactic acid).",
+"s": "La glucólisis anaeróbica descompone la glucosa sin suficiente oxígeno y produce lactato (ácido láctico).",
+"src": "copilot"
+},
+{
+"id": "phy045",
+"t": "physiology",
+"q": "Which adaptation commonly occurs following aerobic training?",
+"o": [
+"Decreased stroke volume",
+"Increased resting heart rate",
+"Increased capillarisation",
+"Reduced mitochondrial density"
+],
+"a": 2,
+"e": "Aerobic training increases the number of capillaries around muscle fibres, as well as stroke volume and mitochondria. Resting heart rate goes down.",
+"s": "El entrenamiento aeróbico aumenta el número de capilares alrededor de las fibras musculares, además del volumen sistólico y las mitocondrias. La frecuencia cardíaca en reposo baja.",
+"src": "copilot"
+},
+{
+"id": "phy046",
+"t": "physiology",
+"q": "Maximum heart rate is often estimated using:",
+"o": [
+"220 − age",
+"100 + age",
+"180 − age",
+"200 − age"
+],
+"a": 0,
+"e": "HRmax ≈ 220 − age (an estimate with about ±10–12 beats spread).",
+"s": "FCmáx ≈ 220 − edad (una estimación con un margen de unos ±10–12 latidos).",
+"src": "copilot"
+},
+{
+"id": "phy047",
+"t": "physiology",
+"q": "Which blood vessel carries oxygenated blood from the heart to the body?",
+"o": [
+"Pulmonary artery",
+"Vena cava",
+"Aorta",
+"Pulmonary vein"
+],
+"a": 2,
+"e": "The aorta carries oxygen-rich blood from the left ventricle to the body. The pulmonary vein brings oxygen-rich blood from the lungs to the heart, not to the body.",
+"s": "La aorta lleva sangre rica en oxígeno del ventrículo izquierdo al cuerpo. La vena pulmonar trae sangre oxigenada de los pulmones al corazón, no al cuerpo.",
+"src": "copilot"
+},
+{
+"id": "phy048",
+"t": "physiology",
+"q": "VO₂ max is:",
+"o": [
+"Maximum ventilation rate",
+"Maximum oxygen uptake",
+"Maximum blood pressure",
+"Maximum cardiac output"
+],
+"a": 1,
+"e": "VO₂max is the maximum amount of oxygen the body can take up and use per minute: the gold-standard measure of aerobic fitness.",
+"s": "El VO₂max es la cantidad máxima de oxígeno que el cuerpo puede captar y usar por minuto: la medida de referencia de la capacidad aeróbica.",
+"src": "copilot"
+},
+{
+"id": "tra047",
+"t": "training",
+"q": "Which training variable has the greatest effect on cardiovascular intensity?",
+"o": [
+"Exercise selection",
+"Music choice",
+"Heart rate response",
+"Clothing choice"
+],
+"a": 2,
+"e": "Cardiovascular intensity is set and monitored through the heart rate response (e.g. % of HRmax or Karvonen). The other options barely affect it.",
+"s": "La intensidad cardiovascular se fija y controla mediante la respuesta de la frecuencia cardíaca (p. ej., % de FCmáx o Karvonen). Las otras opciones apenas influyen.",
+"src": "copilot",
+"flag": "From the Copilot mock exam; the wording is a bit odd. The point: heart rate is how you set and check cardio intensity."
+},
+{
+"id": "phy049",
+"t": "physiology",
+"q": "DOMS typically appears:",
+"o": [
+"During exercise",
+"Immediately afterward",
+"24–72 hours later",
+"One week later"
+],
+"a": 2,
+"e": "Delayed Onset Muscle Soreness peaks about 24–72 hours after unaccustomed or eccentric-heavy exercise.",
+"s": "Las agujetas (DOMS) alcanzan su máximo unas 24–72 horas después de un ejercicio no habitual o con mucho trabajo excéntrico.",
+"src": "copilot"
+},
+{
+"id": "phy050",
+"t": "physiology",
+"q": "An endurance athlete would generally have:",
+"o": [
+"Higher resting heart rate",
+"Lower stroke volume",
+"Lower resting heart rate",
+"Smaller left ventricle"
+],
+"a": 2,
+"e": "Endurance training enlarges the left ventricle and stroke volume, so the heart needs fewer beats at rest: a lower resting heart rate.",
+"s": "El entrenamiento de resistencia agranda el ventrículo izquierdo y el volumen sistólico, así que el corazón necesita menos latidos en reposo: una frecuencia cardíaca en reposo más baja.",
+"src": "copilot"
+},
+{
+"id": "tra048",
+"t": "training",
+"q": "The principle of specificity means:",
+"o": [
+"Everyone follows the same programme",
+"Adaptations are specific to the training stimulus",
+"Cardio is preferred over resistance training",
+"Weight must increase every session"
+],
+"a": 1,
+"e": "The body adapts specifically to the type of training it gets: train endurance to get better endurance, strength for strength.",
+"s": "El cuerpo se adapta específicamente al tipo de entrenamiento que recibe: entrena resistencia para mejorar la resistencia y fuerza para la fuerza.",
+"src": "copilot"
+},
+{
+"id": "tra049",
+"t": "training",
+"q": "Progressive overload can be achieved by:",
+"o": [
+"Increasing resistance",
+"Increasing repetitions",
+"Reducing rest periods",
+"All of the above"
+],
+"a": 3,
+"e": "Any training variable can be progressed: more weight, more reps or sets, shorter rests, more frequency or duration.",
+"s": "Se puede progresar cualquier variable: más peso, más repeticiones o series, descansos más cortos, más frecuencia o duración.",
+"src": "copilot",
+"fixed": true
+},
+{
+"id": "tra050",
+"t": "training",
+"q": "Which rep range is most associated with maximal strength?",
+"o": [
+"1–5 reps",
+"8–12 reps",
+"15–20 reps",
+"20–30 reps"
+],
+"a": 0,
+"e": "Maximal strength: heavy loads (about 85%+ 1RM) for 1–5 reps with long rests.",
+"s": "Fuerza máxima: cargas altas (aprox. 85%+ del 1RM) en 1–5 repeticiones con descansos largos.",
+"src": "copilot"
+},
+{
+"id": "tra051",
+"t": "training",
+"q": "Which rep range is commonly used for hypertrophy?",
+"o": [
+"1–3 reps",
+"4–6 reps",
+"6–12 reps",
+"20–30 reps"
+],
+"a": 2,
+"e": "Hypertrophy is classically trained with 6–12 reps at roughly 65–85% of 1RM.",
+"s": "La hipertrofia se entrena clásicamente con 6–12 repeticiones a aproximadamente el 65–85% del 1RM.",
+"src": "copilot"
+},
+{
+"id": "tra052",
+"t": "training",
+"q": "Which rep range is most suitable for muscular endurance?",
+"o": [
+"1–5 reps",
+"6–8 reps",
+"8–12 reps",
+"15+ reps"
+],
+"a": 3,
+"e": "Muscular endurance: lighter loads, 15 or more reps, short rests.",
+"s": "Resistencia muscular: cargas ligeras, 15 o más repeticiones, descansos cortos.",
+"src": "copilot"
+},
+{
+"id": "tra053",
+"t": "training",
+"q": "Which exercise is a compound movement?",
+"o": [
+"Biceps curl",
+"Leg extension",
+"Squat",
+"Triceps pushdown"
+],
+"a": 2,
+"e": "A compound movement uses several joints: the squat works hip, knee and ankle. The others are single-joint (isolation) exercises.",
+"s": "Un ejercicio compuesto implica varias articulaciones: la sentadilla trabaja cadera, rodilla y tobillo. Los demás son ejercicios de una sola articulación (aislamiento).",
+"src": "copilot"
+},
+{
+"id": "tra054",
+"t": "training",
+"q": "For a beginner client, exercise technique should be prioritised before:",
+"o": [
+"Progression of load",
+"Warm-up",
+"Cool-down",
+"Hydration"
+],
+"a": 0,
+"e": "First learn correct technique with light load; only then add weight. Warm-up, cool-down and hydration are always part of the session.",
+"s": "Primero se aprende la técnica correcta con carga ligera; solo después se añade peso. El calentamiento, la vuelta a la calma y la hidratación siempre forman parte de la sesión.",
+"src": "copilot"
+},
+{
+"id": "tra055",
+"t": "training",
+"q": "A mesocycle typically spans:",
+"o": [
+"One session",
+"One week",
+"Several weeks",
+"One year"
+],
+"a": 2,
+"e": "Microcycle ≈ 1 week, mesocycle ≈ several weeks (often 3–6), macrocycle ≈ a season or year.",
+"s": "Microciclo ≈ 1 semana, mesociclo ≈ varias semanas (a menudo 3–6), macrociclo ≈ una temporada o un año.",
+"src": "copilot"
+},
+{
+"id": "tra056",
+"t": "training",
+"q": "Which training method is most appropriate for improving cardiovascular fitness in novices?",
+"o": [
+"Steady-state continuous training",
+"Olympic lifting only",
+"Maximum sprint intervals only",
+"Powerlifting"
+],
+"a": 0,
+"e": "Beginners build aerobic fitness safely with steady, moderate continuous training (brisk walking, cycling, easy jogging).",
+"s": "Los principiantes mejoran su forma aeróbica de forma segura con entrenamiento continuo y moderado (caminar rápido, bici, trote suave).",
+"src": "copilot"
+},
+{
+"id": "tra057",
+"t": "training",
+"q": "The FITT principle stands for:",
+"o": [
+"Frequency, Intensity, Time, Type",
+"Fitness, Intensity, Technique, Training",
+"Function, Integration, Type, Training",
+"Frequency, Integration, Time, Technique"
+],
+"a": 0,
+"e": "FITT = Frequency, Intensity, Time (duration), Type.",
+"s": "FITT = Frecuencia, Intensidad, Tiempo (duración), Tipo.",
+"src": "copilot"
+},
+{
+"id": "nut043",
+"t": "nutrition",
+"q": "Carbohydrates provide:",
+"o": [
+"9 kcal/g",
+"7 kcal/g",
+"4 kcal/g",
+"2 kcal/g"
+],
+"a": 2,
+"e": "Carbohydrate 4 kcal/g (same as protein). Fat 9, alcohol 7.",
+"s": "Carbohidratos 4 kcal/g (igual que la proteína). Grasa 9, alcohol 7.",
+"src": "copilot"
+},
+{
+"id": "nut044",
+"t": "nutrition",
+"q": "Fat provides:",
+"o": [
+"4 kcal/g",
+"7 kcal/g",
+"9 kcal/g",
+"12 kcal/g"
+],
+"a": 2,
+"e": "Fat is the most energy-dense nutrient at about 9 kcal per gram.",
+"s": "La grasa es el nutriente con más energía, unas 9 kcal por gramo.",
+"src": "copilot"
+},
+{
+"id": "nut045",
+"t": "nutrition",
+"q": "Alcohol provides:",
+"o": [
+"2 kcal/g",
+"4 kcal/g",
+"7 kcal/g",
+"9 kcal/g"
+],
+"a": 2,
+"e": "Alcohol provides about 7 kcal per gram, with no useful nutrients.",
+"s": "El alcohol aporta unas 7 kcal por gramo, sin nutrientes útiles.",
+"src": "copilot"
+},
+{
+"id": "nut046",
+"t": "nutrition",
+"q": "Which nutrient is generally the preferred fuel source during high-intensity exercise?",
+"o": [
+"Protein",
+"Carbohydrate",
+"Water",
+"Vitamins"
+],
+"a": 1,
+"e": "At high intensity the body relies mainly on carbohydrate (glycogen/glucose), which can be broken down quickly, even without enough oxygen.",
+"s": "A alta intensidad el cuerpo depende sobre todo de los carbohidratos (glucógeno/glucosa), que se descomponen rápido, incluso sin suficiente oxígeno.",
+"src": "copilot"
+},
+{
+"id": "nut047",
+"t": "nutrition",
+"q": "Which is considered a complete protein source?",
+"o": [
+"Rice",
+"Almonds",
+"Eggs",
+"Lettuce"
+],
+"a": 2,
+"e": "Eggs contain all nine essential amino acids in good amounts. Most single plant foods lack enough of one or more.",
+"s": "Los huevos contienen los nueve aminoácidos esenciales en buena cantidad. La mayoría de los alimentos vegetales por separado no tienen suficiente de uno o más.",
+"src": "copilot"
+},
+{
+"id": "nut048",
+"t": "nutrition",
+"q": "Mild dehydration is likely to:",
+"o": [
+"Improve performance",
+"Reduce performance",
+"Increase VO₂ max",
+"Increase flexibility"
+],
+"a": 1,
+"e": "Losing about 2% of body weight in fluid already reduces endurance, strength and concentration.",
+"s": "Perder alrededor del 2% del peso corporal en líquido ya reduce la resistencia, la fuerza y la concentración.",
+"src": "copilot"
+},
+{
+"id": "nut049",
+"t": "nutrition",
+"q": "Which vitamin is primarily synthesised from sunlight exposure?",
+"o": [
+"Vitamin C",
+"Vitamin D",
+"Vitamin A",
+"Vitamin K"
+],
+"a": 1,
+"e": "The skin makes vitamin D under UV light. It helps absorb calcium for strong bones.",
+"s": "La piel produce vitamina D con la luz UV. Ayuda a absorber el calcio para tener huesos fuertes.",
+"src": "copilot"
+},
+{
+"id": "nut050",
+"t": "nutrition",
+"q": "A calorie deficit is generally required for:",
+"o": [
+"Fat loss",
+"Muscle maintenance only",
+"Strength gain only",
+"Flexibility improvement"
+],
+"a": 0,
+"e": "To lose body fat you must use more energy than you take in (negative energy balance).",
+"s": "Para perder grasa corporal hay que gastar más energía de la que se ingiere (balance energético negativo).",
+"src": "copilot"
+},
+{
+"id": "nut051",
+"t": "nutrition",
+"q": "The primary role of protein is:",
+"o": [
+"Hydration",
+"Tissue growth and repair",
+"Oxygen transport",
+"Thermoregulation"
+],
+"a": 1,
+"e": "Protein is the building material for growth and repair of muscles, tendons, ligaments, enzymes and hormones.",
+"s": "La proteína es el material de construcción para el crecimiento y la reparación de músculos, tendones, ligamentos, enzimas y hormonas.",
+"src": "copilot"
+},
+{
+"id": "nut052",
+"t": "nutrition",
+"q": "Which beverage is generally most suitable for rehydration after moderate exercise?",
+"o": [
+"Energy drink",
+"Coffee",
+"Water",
+"Alcohol"
+],
+"a": 2,
+"e": "After moderate exercise, water is enough. Sports drinks are only useful for long or very sweaty sessions; alcohol increases fluid loss.",
+"s": "Tras un ejercicio moderado, el agua es suficiente. Las bebidas deportivas solo son útiles en sesiones largas o con mucho sudor; el alcohol aumenta la pérdida de líquido.",
+"src": "copilot"
+},
+{
+"id": "int034",
+"t": "intake",
+"q": "A PAR-Q is mainly used to:",
+"o": [
+"Measure body fat percentage",
+"Assess exercise readiness and risk factors",
+"Measure strength levels",
+"Estimate VO₂ max"
+],
+"a": 1,
+"e": "The Physical Activity Readiness Questionnaire screens for health risks before starting exercise. A 'yes' means medical clearance first.",
+"s": "El PAR-Q (cuestionario de aptitud para la actividad física) detecta riesgos de salud antes de empezar a hacer ejercicio. Un 'sí' implica pedir antes autorización médica.",
+"src": "copilot"
+},
+{
+"id": "saf034",
+"t": "safety",
+"q": "A client reports dizziness and chest pain during a session. You should:",
+"o": [
+"Continue training carefully",
+"Reduce intensity and monitor",
+"Stop the session and seek medical guidance",
+"Give water and continue"
+],
+"a": 2,
+"e": "Chest pain and dizziness are red flags for a heart problem: stop immediately, keep the client calm and call for medical help (112 if serious).",
+"s": "El dolor en el pecho y los mareos son señales de alarma de un problema cardíaco: detén la sesión, mantén al cliente tranquilo y pide ayuda médica (112 si es grave).",
+"src": "copilot"
+},
+{
+"id": "coa051",
+"t": "coaching",
+"q": "Client information should be:",
+"o": [
+"Shared with other members",
+"Treated confidentially",
+"Made public if requested by friends",
+"Displayed in the gym"
+],
+"a": 1,
+"e": "Health and personal data are confidential (and protected by privacy law, GDPR). Only share with the client's consent or when legally required.",
+"s": "Los datos personales y de salud son confidenciales (y están protegidos por la ley de privacidad, RGPD). Solo se comparten con el consentimiento del cliente o cuando la ley lo exige.",
+"src": "copilot"
+},
+{
+"id": "saf035",
+"t": "safety",
+"q": "A trainer should refer a client when:",
+"o": [
+"The issue falls outside their scope of practice",
+"Weight loss is slow",
+"The client misses sessions",
+"The trainer dislikes the goal"
+],
+"a": 0,
+"e": "Refer to a doctor, physiotherapist or dietitian when a problem is outside what a fitness trainer is qualified to handle (injury, medical condition, eating problem).",
+"s": "Deriva al médico, fisioterapeuta o dietista cuando un problema está fuera de lo que un entrenador puede tratar (lesión, enfermedad, problema alimentario).",
+"src": "copilot"
+},
+{
+"id": "coa052",
+"t": "coaching",
+"q": "Which is an example of an open-ended question?",
+"o": [
+"Do you like cardio?",
+"Are you healthy?",
+"What motivates you to train?",
+"Is this your first gym?"
+],
+"a": 2,
+"e": "Open questions start with what/how/why and can't be answered with yes or no. The others are closed questions.",
+"s": "Las preguntas abiertas empiezan con qué/cómo/por qué y no se pueden responder con sí o no. Las demás son preguntas cerradas.",
+"src": "copilot"
+},
+{
+"id": "coa053",
+"t": "coaching",
+"q": "Which coaching style generally increases long-term adherence?",
+"o": [
+"Fear-based communication",
+"Supportive client-centred communication",
+"Aggressive criticism",
+"Ignoring client feedback"
+],
+"a": 1,
+"e": "A supportive, client-centred style supports autonomy, competence and relatedness, which predicts people sticking with exercise.",
+"s": "Un estilo de apoyo centrado en el cliente favorece la autonomía, la competencia y la relación, lo que predice que la persona mantenga el ejercicio.",
+"src": "copilot"
+},
+{
+"id": "coa054",
+"t": "coaching",
+"q": "A SMART goal must be:",
+"o": [
+"Specific, Measurable, Achievable, Relevant, Time-bound",
+"Specific, Meaningful, Accurate, Reliable, Tested",
+"Strong, Manageable, Athletic, Realistic, Targeted",
+"None of the above"
+],
+"a": 0,
+"e": "SMART = Specific, Measurable, Achievable, Relevant/Realistic, Time-bound. Different sources use 'Relevant' or 'Realistic' for the R.",
+"s": "SMART = Específico, Medible, Alcanzable, Relevante/Realista, con plazo. Según la fuente, la R es 'Relevant' o 'Realistic'.",
+"src": "copilot",
+"fixed": true,
+"flag": "From the Copilot mock exam. Your course's own quiz uses 'Realistic' for the R, not 'Relevant'."
+},
+{
+"id": "int035",
+"t": "intake",
+"q": "Before starting resistance training, a PT should:",
+"o": [
+"Assess the client's readiness and goals",
+"Start with maximal testing immediately",
+"Avoid consultations",
+"Use the same plan for everyone"
+],
+"a": 0,
+"e": "Start with an intake: health screening (PAR-Q), history, current level and goals, so the programme is safe and personal.",
+"s": "Empieza con una entrevista inicial: cribado de salud (PAR-Q), historial, nivel actual y objetivos, para que el programa sea seguro y personal.",
+"src": "copilot"
+},
+{
+"id": "coa055",
+"t": "coaching",
+"q": "Which action demonstrates professional behaviour?",
+"o": [
+"Arriving late regularly",
+"Maintaining client confidentiality",
+"Discussing clients with gym members",
+"Ignoring medical history"
+],
+"a": 1,
+"e": "Keeping client information confidential is a core professional and ethical duty.",
+"s": "Mantener la confidencialidad de la información del cliente es un deber profesional y ético básico.",
+"src": "copilot"
+},
+{
+"id": "tra058",
+"t": "training",
+"q": "A client's primary goal is body-fat reduction. Which approach is best?",
+"o": [
+"Abdominal exercises daily only",
+"Long cardio sessions only",
+"Nutrition control combined with resistance and cardiovascular training",
+"Stretching only"
+],
+"a": 2,
+"e": "Fat loss needs an energy deficit (nutrition), with strength training to keep muscle and cardio to add energy use. Spot reduction (abs only) doesn't work.",
+"s": "La pérdida de grasa requiere un déficit energético (nutrición), con entrenamiento de fuerza para conservar músculo y cardio para gastar más energía. La reducción localizada (solo abdominales) no funciona.",
+"src": "copilot"
 }
 ]

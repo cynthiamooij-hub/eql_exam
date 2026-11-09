@@ -297,7 +297,7 @@ function readiness(){
 function readinessCard(){
   const R = readiness();
   if(!R) return `<section class="readiness"><div class="mascot" aria-hidden="true">🥚</div>
-    <div><div class="eyebrow">Exam readiness</div><h2>Ready to hatch?</h2><p class="say muted">${Q.length} questions across 8 topics, including the ${Q.filter(q=>q.src).length} from the official portal. Start with a mock exam so I can see where you stand.</p></div></section>`;
+    <div><div class="eyebrow">Exam readiness</div><h2>Ready to hatch?</h2><p class="say muted">${Q.length} questions across 8 topics, including ${Q.filter(q=>q.src==='portal').length} from the official portal. Start with a mock exam so I can see where you stand.</p></div></section>`;
   return `<section class="readiness"><div class="mascot" aria-hidden="true">${R.lvl.e}</div>
     <div><div class="eyebrow">Exam readiness</div><h2>${R.lvl.t}</h2><p class="say">${R.lvl.say}${R.why?` <span class="muted">${R.why}</span>`:''}</p></div>
     <div class="meter"><div class="meter-track"><div class="meter-fill" style="width:${R.r}%;--w:${R.r}"></div><div class="meter-pass" style="left:67%" title="Pass line"></div></div>
@@ -445,7 +445,7 @@ function renderMistakes(){
 function prep(q){
   // portal questions keep the official option order; bank questions get shuffled options each time
   const all = q.o.map((_,i)=>i);
-  const idx = q.src ? all : shuffled(all);
+  const idx = (q.src==='portal' || q.fixed) ? all : shuffled(all);
   return {id:q.id, order:idx, pick:null, done:false};
 }
 function startExam(){
@@ -475,7 +475,7 @@ function renderQuiz(){
   <div class="qhead"><button class="btn small ghost" id="quit">Stop</button><span class="counter">Question ${v.i+1} / ${total}</span>${isExam?`<span class="clock num" id="clock">${fmt((v.end-Date.now())/1000)}</span>`:`<span class="eyebrow">${esc(v.label)}</span>`}</div>
   <div class="progress"><i style="width:${(v.i+(it.done?1:0))/total*100}%"></i></div>
   <div id="quit-zone"></div>
-  <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src?' · <span class="portal">Official portal question</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
+  <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src==='portal'?' · <span class="portal">Official portal question</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
   <section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Answer</div><div class="opts">${opts}</div></section>
   ${it.done?`<div class="verdict ${ok?'ok':'no'}">${ok?'Correct!':'Not quite. The answer is '+'ABCD'[it.order.indexOf(q.a)]+'.'}</div>
   <section class="explain">${q.flag?`<div class="flag">${esc(q.flag)}</div>`:''}<div><span class="lang">Why</span>${esc(q.e)}</div>${ok?`<div><button class="link" id="show-es">Ver en español</button></div>`:`<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`}</section>`:''}
