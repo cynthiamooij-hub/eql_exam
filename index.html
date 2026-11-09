@@ -211,7 +211,7 @@ function loadLocal(){ try{ const r = localStorage.getItem(cacheKey()); return r 
 function rememberMe(on){ try{ if(on) localStorage.setItem('eql3:me', JSON.stringify(me)); else localStorage.removeItem('eql3:me'); }catch(e){} }
 function setSync(t){ syncLabel = t; const el = document.getElementById('sync'); if(el) el.textContent = t; }
 async function save(){
-  S.updated = Date.now(); saveLocal();
+  cleanExams(); S.updated = Date.now(); saveLocal();
   if(!me) return;
   if(saving){ again = true; return; }
   saving = true;
@@ -229,11 +229,18 @@ async function signIn(name, pin){
   const remote = Object.assign(blank(), res.progress || {});
   const local = loadLocal();
   S = (local && (local.updated||0) > (remote.updated||0)) ? Object.assign(blank(), local) : remote;
-  if(S !== remote) save(); else saveLocal();
+  if(S !== remote || cleanExams()) save(); else saveLocal();
   setSync('Progress saved');
   return null;
 }
 function signOut(){ me = null; S = blank(); rememberMe(false); view = {name:'login'}; render(); }
+
+// drop mock exams that were stopped early (saved by older versions of the app)
+function cleanExams(){
+  const before = S.exams.length;
+  S.exams = S.exams.filter(e=>{ const n = Object.values(e.byTopic||{}).reduce((a,b)=>a+(b.n||0),0); return n>=e.total || (e.secs||0) >= EXAM_MIN*60-5; });
+  return S.exams.length !== before;
+}
 
 /* ---------- mastery & adaptive selection ---------- */
 function mastery(t){ const r = S.topic[t]||[]; if(!r.length) return null; const s = r.reduce((a,b)=>a+b,0); return (s+1)/(r.length+2); }
@@ -493,8 +500,8 @@ function renderQuiz(){
   };
   const es=document.getElementById('show-es'); if(es) es.onclick=()=>{ es.parentElement.outerHTML = `<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`; };
   document.getElementById('quit').onclick = ()=>{
-    document.getElementById('quit-zone').innerHTML = `<div class="confirm"><span>Stop now? ${isExam?'The exam will be marked on the answers so far.':'Your answers so far are saved.'}</span><button class="btn small" id="q-yes">Stop</button><button class="btn small ghost" id="q-no">Continue</button></div>`;
-    document.getElementById('q-yes').onclick=finish; document.getElementById('q-no').onclick=()=>{document.getElementById('quit-zone').innerHTML='';};
+    document.getElementById('quit-zone').innerHTML = `<div class="confirm"><span>Stop now? ${isExam?'Only finished mock exams count. Your answers so far still count toward your topic scores.':'Your answers so far are saved.'}</span><button class="btn small" id="q-yes">Stop</button><button class="btn small ghost" id="q-no">Continue</button></div>`;
+    document.getElementById('q-yes').onclick=()=>finish(false); document.getElementById('q-no').onclick=()=>{document.getElementById('quit-zone').innerHTML='';};
   };
   if(isExam){
     clearInterval(timer);
@@ -509,8 +516,10 @@ function finish(timeUp){
   const total = v.mode==='exam' ? EXAM_N : answered.length;
   const byTopic = {};
   answered.forEach(it=>{ const q=byId[it.id]; const b=byTopic[q.t]||(byTopic[q.t]={c:0,n:0}); b.n++; if(it.pick===q.a) b.c++; });
-  if(v.mode==='exam'){ S.exams.push({d:Date.now(), score, total, byTopic, secs: Math.round((Date.now()-v.startedAt)/1000)}); while(S.exams.length>30) S.exams.shift(); save(); }
-  view = {name:'results', mode:v.mode, label:v.label, score, total, answered:answered.length, byTopic, timeUp:!!timeUp, wrong: answered.filter(it=>it.pick!==byId[it.id].a).map(it=>it.id)};
+  // a mock only counts when every question is answered or the 30 minutes ran out
+  const complete = answered.length===v.items.length || timeUp===true;
+  if(v.mode==='exam' && complete){ S.exams.push({d:Date.now(), score, total, byTopic, secs: Math.round((Date.now()-v.startedAt)/1000)}); while(S.exams.length>30) S.exams.shift(); save(); }
+  view = {name:'results', mode:v.mode, label:v.label, score, total, answered:answered.length, byTopic, timeUp:timeUp===true, counted: v.mode!=='exam' || complete, wrong: answered.filter(it=>it.pick!==byId[it.id].a).map(it=>it.id)};
   render();
 }
 
@@ -523,8 +532,8 @@ function renderResults(){
   const weakHere = Object.entries(v.byTopic).filter(([t,b])=>b.c/b.n<0.8).sort((a,b)=>a[1].c/a[1].n-b[1].c/b[1].n).slice(0,2).map(x=>x[0]);
   app.innerHTML = header(isExam?'Mock exam result':v.label) + `
   <section class="panel"><div class="score"><div class="big num">${v.score}<span class="muted" style="font-size:2rem">/${v.total}</span></div>
-  ${isExam?`<span class="result-pill ${pass?'pass':'fail'}">${pass?'Pass':'Not yet'}</span>`:''}</div>
-  <p class="muted">${isExam?(v.timeUp?'Time ran out. ':'')+`Pass mark: ${Math.ceil(EXAM_N*PASS)} of ${EXAM_N} (the real exam asks 40 of 60).${v.answered<v.total?` ${v.total-v.answered} unanswered questions count as wrong.`:''}`:`${Math.round(pct*100)}% correct.`}</p>
+  ${isExam?(v.counted?`<span class="result-pill ${pass?'pass':'fail'}">${pass?'Pass':'Not yet'}</span>`:`<span class="result-pill fail">Not counted</span>`):''}</div>
+  <p class="muted">${isExam && !v.counted?`You stopped after ${v.answered} of ${EXAM_N} questions, so this attempt isn't saved as a mock exam. ${v.answered?'Your answers still count toward your topic scores.':''}`:isExam?(v.timeUp?'Time ran out. ':'')+`Pass mark: ${Math.ceil(EXAM_N*PASS)} of ${EXAM_N} (the real exam asks 40 of 60).${v.answered<v.total?` ${v.total-v.answered} unanswered questions count as wrong.`:''}`:`${Math.round(pct*100)}% correct.`}</p>
   <div class="qfoot"><button class="btn ghost" id="home">Dashboard</button>${weakHere.length?`<button class="btn" id="drill">Train ${weakHere.map(t=>TOPICS[t]).join(' & ')}</button>`:`<button class="btn" id="again">${isExam?'New mock exam':'Practise again'}</button>`}</div></section>
   ${rows?`<section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">By topic · weakest first</div><div class="topics">${rows}</div></section>`:''}
   ${v.wrong.length?`<section class="panel"><div class="eyebrow">Your mistakes</div>${v.wrong.map(id=>{const q=byId[id];return `<div class="miss"><span class="tag">${TOPICS[q.t]}</span><b>${esc(q.q)}</b><span>✓ ${esc(q.o[q.a])}</span><span class="muted">${esc(q.e)}</span><span class="muted"><i>${esc(q.s)}</i></span></div>`}).join('')}</section>`:''}`;
