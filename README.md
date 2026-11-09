@@ -2,7 +2,7 @@
 
 Adaptive practice for the Fitness Trainer Level 3 (EQF/EREPS) theory exam.
 
-- **283 multiple-choice questions** in 8 topics, including the 23 questions from the official practice exam
+- **331 questions** in 8 topics, including 71 from the official portal (practice exam + lesson quizzes)
 - **Mock exam**: 50 questions, 30 minutes, pass at 67% (real exam: 40 of 60)
 - Feedback after each answer, with an explanation in English, plus Spanish when you answer wrong
 - **Adaptive**: weak topics and missed questions come back more often; missed questions are asked again a few questions later
@@ -36,7 +36,7 @@ This is fine for study progress. Don't reuse a PIN that protects anything import
    {"id":"nut035","t":"nutrition","q":"Question text?","o":["A","B","C","D"],"a":2,
     "e":"English explanation","s":"Explicación en español"}
    ```
-   `a` is the position of the right answer (0 = A, 1 = B, 2 = C, 3 = D). Options are shuffled in the app, except for questions marked `"src":"portal"`.
+   `a` is the position of the right answer (0 = A, 1 = B, 2 = C, 3 = D). Questions can have 2–4 options (true/false questions use `["Niet waar (False)","Waar (True)"]`). Options are shuffled in the app, except for questions marked `"src":"portal"`, which keep the portal's order. Add `"flag":"..."` to show a 'check this' note.
 2. Run `python3 scripts/check_questions.py`
 3. Commit and push. Netlify publishes it within a minute.
 

@@ -3461,11 +3461,12 @@
 "5 stages",
 "6 stages"
 ],
-"a": 2,
-"e": "The transtheoretical model (Prochaska & DiClemente) has 5 stages: precontemplation, contemplation, preparation, action and maintenance. Some versions add a 6th (termination) or relapse, but the course answer is 5.",
-"s": "El modelo transteórico (Prochaska y DiClemente) tiene 5 etapas: precontemplación, contemplación, preparación, acción y mantenimiento. Algunas versiones añaden una 6ª (finalización) o la recaída, pero la respuesta del curso es 5.",
+"a": 3,
+"e": "In this course the transtheoretical model (Stages of Change) has 6 stages: precontemplation, contemplation, preparation, action, maintenance and relapse. Some textbooks count 5 (without relapse), but the course lesson quiz says 6.",
+"s": "En este curso el modelo transteórico (etapas del cambio) tiene 6 etapas: precontemplación, contemplación, preparación, acción, mantenimiento y recaída. Algunos libros cuentan 5 (sin recaída), pero el test de la lección del curso dice 6.",
 "id": "coa001",
-"t": "coaching"
+"t": "coaching",
+"flag": "Changed from 5 to 6: a later lesson quiz in the portal says the model has 6 phases."
 },
 {
 "q": "Which is the correct order of the stages of change (transtheoretical model)?",
@@ -3476,8 +3477,8 @@
 "Contemplation, precontemplation, action, preparation, maintenance"
 ],
 "a": 1,
-"e": "Precontemplation (not thinking about it) → contemplation (thinking about it) → preparation (planning) → action (doing it < 6 months) → maintenance (> 6 months).",
-"s": "Precontemplación (no lo piensa) → contemplación (lo piensa) → preparación (planifica) → acción (lo hace < 6 meses) → mantenimiento (> 6 meses).",
+"e": "Precontemplation (not thinking about it) → contemplation (thinking about it) → preparation (planning) → action (doing it < 6 months) → maintenance (> 6 months). The course adds a 6th phase: relapse (falling back), after which the cycle can start again.",
+"s": "Precontemplación (no lo piensa) → contemplación (lo piensa) → preparación (planifica) → acción (lo hace < 6 meses) → mantenimiento (> 6 meses). El curso añade una 6ª fase: la recaída, tras la cual el ciclo puede empezar de nuevo.",
 "id": "coa002",
 "t": "coaching"
 },
@@ -3984,5 +3985,673 @@
 "s": "La recaída es volver al comportamiento anterior. Es normal; ayuda al cliente a verla como un aprendizaje y a volver a empezar.",
 "id": "coa038",
 "t": "coaching"
+},
+{
+"id": "coa039",
+"t": "coaching",
+"q": "What does the abbreviation SMART stand for?",
+"o": [
+"Specific Measurable Achievable Realistic Time-bound",
+"Specific Measurable Acceptable Result Time-bound"
+],
+"a": 0,
+"e": "SMART = Specific, Measurable, Achievable (or Acceptable), Realistic, Time-bound. The second option is wrong because 'R' is not 'Result'.",
+"s": "SMART = Específico, Medible, Alcanzable (o Aceptable), Realista, con plazo. La segunda opción es incorrecta porque la 'R' no es 'Result' (resultado).",
+"src": "portal",
+"flag": "Not confirmed by the portal. Some Dutch courses use 'Acceptabel' for the A, so check which wording your course book uses."
+},
+{
+"id": "coa040",
+"t": "coaching",
+"q": "What shouldn't you do when summarizing?",
+"o": [
+"Summarize in your own words",
+"Summarizing from your own perspective",
+"Incorporate both the content and the feeling into your summary."
+],
+"a": 1,
+"e": "A good summary reflects the client's story from their perspective, in your own words, including both content and feelings. Adding your own perspective or opinion is what you should avoid.",
+"s": "Un buen resumen refleja la historia del cliente desde su perspectiva, con tus propias palabras, incluyendo contenido y sentimientos. Lo que debes evitar es añadir tu propia perspectiva u opinión.",
+"src": "portal"
+},
+{
+"id": "coa041",
+"t": "coaching",
+"q": "By making people think about what they have said or done, they learn something new. This way, they also learn how to change their own behavior. You can have this conversation using the COACH method. What does the abbreviation COACH stand for?",
+"o": [
+"Coaching, Occasion, Always, Consequence and History",
+"Content, Oppurtunity, Always, Consequence and Help",
+"Content, Occasion, Always, Consequence and History"
+],
+"a": 2,
+"e": "In the course's COACH method the letters stand for Content, Occasion, Always, Consequence and History. Option A repeats the word 'Coaching' and option B swaps in Opportunity and Help.",
+"s": "En el método COACH del curso las letras significan Content (contenido), Occasion (ocasión), Always (siempre), Consequence (consecuencia) e History (historia). La opción A repite la palabra 'Coaching' y la B cambia a Opportunity y Help.",
+"src": "portal",
+"flag": "Not confirmed by the portal. Check the COACH method in your course book."
+},
+{
+"id": "coa042",
+"t": "coaching",
+"q": "\"Shouldn't you consult with your partner?\"",
+"o": [
+"Is an example of an open question",
+"Is an example of a closed question",
+"Is an example of a neutral question"
+],
+"a": 1,
+"e": "It can be answered with yes or no, so it is a closed question. It is also suggestive (it steers the client toward an answer), so it is not neutral.",
+"s": "Se puede responder con sí o no, así que es una pregunta cerrada. Además es sugestiva (dirige al cliente hacia una respuesta), por lo que no es neutral.",
+"src": "portal"
+},
+{
+"id": "coa043",
+"t": "coaching",
+"q": "The Stages of Change model focuses on behavioural change. The model consists of 6 phases that follow each other over time. The model starts with the 'Pre-contemplation' phase. In this phase, the customer is not physically active and has no intention of becoming so in the future. Following this is the 'Thinking' phase. The customer is not physically active, but has the intention to become so in the near future. Name the 4 following phases:",
+"o": [
+"Preparation, Action, Maintenance, Relapse",
+"Preparation, Maintenance, Action, Relapse",
+"Relapse, Preparation, Action, Maintenance"
+],
+"a": 0,
+"e": "The 6 phases in the course: precontemplation → contemplation (thinking) → preparation → action → maintenance → relapse.",
+"s": "Las 6 fases del curso: precontemplación → contemplación (pensar) → preparación → acción → mantenimiento → recaída.",
+"src": "portal"
+},
+{
+"id": "coa044",
+"t": "coaching",
+"q": "What percentage of our behaviour is unconscious?",
+"o": [
+"50%",
+"95%",
+"100%"
+],
+"a": 1,
+"e": "The course states that about 95% of our behaviour is unconscious (habits and automatic responses). That's why building habits matters more than willpower alone.",
+"s": "El curso indica que aproximadamente el 95% de nuestro comportamiento es inconsciente (hábitos y respuestas automáticas). Por eso crear hábitos importa más que la fuerza de voluntad.",
+"src": "portal"
+},
+{
+"id": "coa045",
+"t": "coaching",
+"q": "Which answer is correct? A correct example of a process goal is…",
+"o": [
+"During 5 weeks an average of 5 times 45 minutes of intensive exercise, of which twice fitness",
+"Lose 6 kilos in 2 months."
+],
+"a": 0,
+"e": "A process goal describes the behaviour the client will do (how often, how long). 'Lose 6 kilos' is an outcome (result) goal.",
+"s": "Un objetivo de proceso describe el comportamiento que hará el cliente (con qué frecuencia, cuánto tiempo). 'Perder 6 kilos' es un objetivo de resultado.",
+"src": "portal"
+},
+{
+"id": "coa046",
+"t": "coaching",
+"q": "To gain trust with a customer, you must adhere to at least 13 behaviors (ethical codes). What is an example of good behavior?",
+"o": [
+"Build a relationship with the client but don't become a private friend.",
+"Flirting with a customer",
+"Forget an appointment"
+],
+"a": 0,
+"e": "Professional behaviour means a warm working relationship with clear boundaries: friendly, but not a private friendship.",
+"s": "Un comportamiento profesional significa una relación de trabajo cercana con límites claros: amable, pero sin convertirse en amistad privada.",
+"src": "portal"
+},
+{
+"id": "ana045",
+"t": "anatomy",
+"q": "The anatomical posture consists of three planes of movement. These surfaces are:",
+"o": [
+"Frontal plane, sagittal plane and vertical plane",
+"Frontal plane, horizontal plane and transverse plane",
+"Frontal plane, sagittal plane and transverse plane"
+],
+"a": 2,
+"e": "The three planes are frontal, sagittal and transverse. 'Horizontal plane' is another name for the transverse plane, so option B names the same plane twice.",
+"s": "Los tres planos son frontal, sagital y transversal. 'Plano horizontal' es otro nombre del transversal, así que la opción B nombra el mismo plano dos veces.",
+"src": "portal"
+},
+{
+"id": "phy035",
+"t": "physiology",
+"q": "You can never run out of ATP.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "The muscle's own ATP store lasts only a few seconds of maximal effort. After that, ATP must be rebuilt by the energy systems (phosphate, anaerobic and aerobic).",
+"s": "La reserva propia de ATP del músculo solo dura unos segundos de esfuerzo máximo. Después, el ATP debe regenerarse mediante los sistemas energéticos (fosfágeno, anaeróbico y aeróbico).",
+"src": "portal",
+"flag": "Not confirmed by the portal. Physiologically, muscle ATP never drops to zero, but courses usually teach that the small ATP store runs out within seconds and must be rebuilt."
+},
+{
+"id": "phy036",
+"t": "physiology",
+"q": "There are three energy systems that can provide energy for ATP production and thus indirectly for muscle contractions. What system does NOT deliver this?",
+"o": [
+"The phosphate system",
+"The arobe glycolysis",
+"The aerobic system"
+],
+"a": 1,
+"e": "The three systems are the phosphate (ATP-CP) system, anaerobic glycolysis and the aerobic system. 'Arobe glycolysis' is the odd one out: the second system is ANaerobic.",
+"s": "Los tres sistemas son el de fosfágenos (ATP-PC), la glucólisis anaeróbica y el sistema aeróbico. La 'glucólisis aerobia' es la que sobra: el segundo sistema es ANaeróbico.",
+"src": "portal"
+},
+{
+"id": "phy037",
+"t": "physiology",
+"q": "The phosphate system is the fastest way to provide energy for muscle contractions.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. Creatine phosphate rebuilds ATP in a single step, so it is the fastest system, but it only lasts about 10 seconds.",
+"s": "Verdadero. La fosfocreatina regenera ATP en un solo paso, por lo que es el sistema más rápido, pero solo dura unos 10 segundos.",
+"src": "portal"
+},
+{
+"id": "phy038",
+"t": "physiology",
+"q": "The aerobic system DOES need oxygen.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. 'Aerobic' means 'with oxygen': carbohydrates and fats are burned with oxygen in the mitochondria.",
+"s": "Verdadero. 'Aeróbico' significa 'con oxígeno': los carbohidratos y las grasas se queman con oxígeno en las mitocondrias.",
+"src": "portal"
+},
+{
+"id": "phy039",
+"t": "physiology",
+"q": "Lactic acid in the muscles is caused by which system?",
+"o": [
+"The phosphate system",
+"The arobe glycolysis",
+"The Anaerobic Glycolysis System"
+],
+"a": 2,
+"e": "Lactic acid (lactate) is produced by anaerobic glycolysis, when glucose is broken down without enough oxygen.",
+"s": "El ácido láctico (lactato) se produce en la glucólisis anaeróbica, cuando la glucosa se descompone sin suficiente oxígeno.",
+"src": "portal"
+},
+{
+"id": "phy040",
+"t": "physiology",
+"q": "Arteries carry the blood to the heart and veins drain the blood from the heart.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "False, it's the other way round: arteries carry blood AWAY from the heart, veins carry it back TO the heart.",
+"s": "Falso, es al revés: las arterias llevan la sangre DESDE el corazón y las venas la devuelven AL corazón.",
+"src": "portal"
+},
+{
+"id": "ana046",
+"t": "anatomy",
+"q": "What is a monoarticular muscle?",
+"o": [
+"A muscle that is going over 1 joint and 1 bone",
+"A muscle that is going over 1 joint and 2 bones",
+"A muscle that is going over 2 joints and 2 bones"
+],
+"a": 1,
+"e": "A monoarticular (one-joint) muscle crosses one joint and so attaches to two bones, e.g. the brachialis. A bi-articular muscle (e.g. rectus femoris) crosses two joints.",
+"s": "Un músculo monoarticular cruza una articulación y por tanto se une a dos huesos, p. ej., el braquial. Un músculo biarticular (p. ej., recto femoral) cruza dos articulaciones.",
+"src": "portal"
+},
+{
+"id": "ana047",
+"t": "anatomy",
+"q": "Movements take place not only in a plane, but also around an axis of movement. When a movement from left to right takes place, on what axis does this movement take place?",
+"o": [
+"Transverse axis",
+"Sagittal axis",
+"Longitudinal axis"
+],
+"a": 1,
+"e": "A sideways (left-right) movement, such as abduction or a side bend, happens in the frontal plane, around the sagittal axis, which runs from front to back. Flexion/extension happens around the transverse axis; rotation around the longitudinal axis.",
+"s": "Un movimiento lateral (izquierda-derecha), como la abducción o la inclinación lateral, ocurre en el plano frontal alrededor del eje sagital, que va de delante a atrás. La flexión/extensión ocurre alrededor del eje transversal; la rotación alrededor del eje longitudinal.",
+"src": "portal",
+"flag": "Not confirmed by the portal."
+},
+{
+"id": "ana048",
+"t": "anatomy",
+"q": "Elevation is lifting the shoulder girdle.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. Elevation lifts the shoulder girdle (shrugging); depression lowers it.",
+"s": "Verdadero. La elevación sube la cintura escapular (encoger los hombros); la depresión la baja.",
+"src": "portal"
+},
+{
+"id": "ana049",
+"t": "anatomy",
+"q": "Our skeleton consists of 206 bones and has a number of functions. What isn't a function of the skeleton?",
+"o": [
+"Shapes the body",
+"Helps blood flow",
+"Provides protection of organs"
+],
+"a": 1,
+"e": "The skeleton gives shape, protects organs, enables movement, stores minerals and produces blood cells, but moving the blood around is the heart's job.",
+"s": "El esqueleto da forma, protege los órganos, permite el movimiento, almacena minerales y produce células sanguíneas, pero mover la sangre es tarea del corazón.",
+"src": "portal"
+},
+{
+"id": "ana050",
+"t": "anatomy",
+"q": "Muscles are attached to bones. A muscle is attached to several bones. The attachment to the other bone is called origo.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "A muscle has two kinds of attachments: the origin (origo), usually the fixed, proximal attachment, and the insertion (insertio) on the other bone, usually the moving, distal attachment. So the attachment 'to the other bone' is the insertion.",
+"s": "Un músculo tiene dos tipos de inserción: el origen (origo), normalmente la fija y proximal, y la inserción (insertio) en el otro hueso, normalmente la móvil y distal. Por tanto, la unión 'al otro hueso' es la inserción.",
+"src": "portal",
+"flag": "Not confirmed by the portal. The answer depends on how your course words it."
+},
+{
+"id": "ana051",
+"t": "anatomy",
+"q": "How is a muscle built?",
+"o": [
+"A muscle roughly consists of a muscle belly with tendons on both sides.",
+"A muscle roughly consists of only a muscle belly.",
+"A muscle consists roughly of tendons."
+],
+"a": 0,
+"e": "A skeletal muscle has a fleshy muscle belly in the middle with a tendon at each end that attaches it to bone.",
+"s": "Un músculo esquelético tiene un vientre muscular carnoso en el centro y un tendón en cada extremo que lo une al hueso.",
+"src": "portal"
+},
+{
+"id": "ana052",
+"t": "anatomy",
+"q": "What are the main 4 types of joints?",
+"o": [
+"Long joint, short joint, flat joint and irregular joint",
+"Cervical joint, Thoracic joint, Lumbar joint and Sacral joint",
+"Hinge joint, Ball and socket joint, Roller joint and Saddle joint"
+],
+"a": 2,
+"e": "Hinge, ball-and-socket, roller (pivot) and saddle joints. Option A lists the bone categories (long, short, flat, irregular), which is a common trap.",
+"s": "Articulaciones en bisagra, esféricas, en pivote (rodillo) y en silla de montar. La opción A enumera los tipos de huesos (largos, cortos, planos, irregulares), una trampa habitual.",
+"src": "portal"
+},
+{
+"id": "ana053",
+"t": "anatomy",
+"q": "Muscle tissue occurs only in muscles.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "False. Cardiac muscle tissue is in the heart, and smooth muscle tissue is in organs and blood vessel walls.",
+"s": "Falso. El tejido muscular cardíaco está en el corazón y el tejido muscular liso en los órganos y las paredes de los vasos sanguíneos.",
+"src": "portal"
+},
+{
+"id": "phy041",
+"t": "physiology",
+"q": "What does the abbreviation ATP stand for?",
+"o": [
+"Adrenaline phosphate",
+"Adenosine triphosphate",
+"Phosphate"
+],
+"a": 1,
+"e": "ATP = adenosine triphosphate: adenosine with three phosphate groups. Splitting off one releases energy and leaves ADP.",
+"s": "ATP = adenosín trifosfato: adenosina con tres grupos fosfato. Al separar uno se libera energía y queda ADP.",
+"src": "portal"
+},
+{
+"id": "ana054",
+"t": "anatomy",
+"q": "The anatomical posture is a standard body posture to describe movements. In the anatomical position, a person stands upright and looks straight ahead. The feet are parallel to each other. The arms hang next to the body with the palms forward.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. That is exactly the anatomical position: upright, looking ahead, feet parallel, arms by the sides with the palms facing forward.",
+"s": "Verdadero. Esa es exactamente la posición anatómica: de pie, mirando al frente, pies paralelos, brazos a los lados con las palmas hacia delante.",
+"src": "portal"
+},
+{
+"id": "nut035",
+"t": "nutrition",
+"q": "Slow carbohydrates, with a low GI (0 - 55) are considered healthy.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. Low-GI carbohydrates (55 or lower) raise blood sugar gradually and keep you full longer.",
+"s": "Verdadero. Los carbohidratos de IG bajo (55 o menos) elevan el azúcar en sangre de forma gradual y sacian más tiempo.",
+"src": "portal"
+},
+{
+"id": "tra041",
+"t": "training",
+"q": "Which claim is correct? A = Overload = the body compensates for the damage and exhaustion caused with a greater recovery than necessary. This increases the performance capacity. B = Overload = too much overload causing a decreasing performance level.",
+"o": [
+"A and B are correct",
+"A is right and B is wrong",
+"B is right and A is wrong",
+"A and B are both wrong"
+],
+"a": 2,
+"e": "Claim A describes supercompensation, not overload. In the course, overload means the load is higher than the load capacity, which lowers performance, as claim B says.",
+"s": "La afirmación A describe la supercompensación, no la sobrecarga. En el curso, sobrecarga significa que la carga supera la capacidad de carga, lo que reduce el rendimiento, como dice la afirmación B.",
+"src": "portal",
+"flag": "Not confirmed by the portal. In this course 'overload' means overloading (load higher than load capacity)."
+},
+{
+"id": "tra042",
+"t": "training",
+"q": "There are three basic types of fitness training. True or False?",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "True. The course names three basic types: strength training, aerobic conditioning training and agility training.",
+"s": "Verdadero. El curso nombra tres tipos básicos: entrenamiento de fuerza, entrenamiento de acondicionamiento aeróbico y entrenamiento de agilidad.",
+"src": "portal"
+},
+{
+"id": "tra043",
+"t": "training",
+"q": "An effective training session always contains three elements. These elements are:",
+"o": [
+"Warm-up, actual training and cooling down",
+"Strength training, Aerobic conditioning training and Agility training",
+"Balance, Core and Stability"
+],
+"a": 0,
+"e": "Every session has a warm-up, the core (actual) training and a cool-down. Option B lists the three basic types of training, which is a different question.",
+"s": "Cada sesión tiene calentamiento, el entrenamiento principal y vuelta a la calma. La opción B enumera los tres tipos básicos de entrenamiento, que es otra pregunta.",
+"src": "portal"
+},
+{
+"id": "ana055",
+"t": "anatomy",
+"q": "What are the 3 types of muscle contractions:",
+"o": [
+"Agonist, Antagonist and Synergist",
+"Isometric, Isotonic and Isokinetic",
+"Concentric, Eccentric and Isometric"
+],
+"a": 2,
+"e": "Concentric (shortening), eccentric (lengthening) and isometric (same length). Agonist/antagonist/synergist are muscle roles, not contraction types.",
+"s": "Concéntrica (acortamiento), excéntrica (alargamiento) e isométrica (misma longitud). Agonista/antagonista/sinergista son funciones musculares, no tipos de contracción.",
+"src": "portal"
+},
+{
+"id": "ana056",
+"t": "anatomy",
+"q": "In a concentric movement, the muscle…",
+"o": [
+"the muscle stays the same length",
+"the muscle becomes longer",
+"the muscle becomes shorter"
+],
+"a": 2,
+"e": "Concentric = the muscle shortens while producing force (e.g. lifting the dumbbell in a curl).",
+"s": "Concéntrica = el músculo se acorta mientras produce fuerza (p. ej., subir la mancuerna en un curl).",
+"src": "portal"
+},
+{
+"id": "ana057",
+"t": "anatomy",
+"q": "With eccentric muscle contraction, the muscle becomes longer and causes the movement of one or more bones. True or false? A characteristic of eccentric contraction is that the movement is always down.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "False. Eccentric means the muscle lengthens under tension. Often that's a lowering movement, but not always: in a lat pulldown the bar goes UP during the eccentric phase of the lats.",
+"s": "Falso. Excéntrica significa que el músculo se alarga bajo tensión. A menudo es un movimiento de bajada, pero no siempre: en el jalón al pecho la barra SUBE durante la fase excéntrica del dorsal.",
+"src": "portal"
+},
+{
+"id": "coa047",
+"t": "coaching",
+"q": "The technique or technical execution of an exercise or movement consists of five different aspects. Name the five aspects:",
+"o": [
+"Attitude, Range, Control, Timing and Form",
+"Control, Posture, Timing, Communication and Form",
+"Posture, Range, Control, Timing and Form"
+],
+"a": 2,
+"e": "The five technique aspects are posture, range (of motion), control, timing and form. 'Communication' is not a technique aspect.",
+"s": "Los cinco aspectos de la técnica son postura, rango (de movimiento), control, timing (ritmo) y forma. La 'comunicación' no es un aspecto técnico.",
+"src": "portal",
+"flag": "Not confirmed by the portal. A and C differ only in 'Attitude' vs 'Posture' (both translate the Dutch 'houding'). Check your course book."
+},
+{
+"id": "saf033",
+"t": "safety",
+"q": "What is the risk-benefit ratio?",
+"o": [
+"Balance between effectiveness (benefit) and safety (risk).",
+"The benefits/effects of a movement.",
+"The risk of a movement."
+],
+"a": 0,
+"e": "The risk-benefit ratio weighs how effective an exercise is against how risky it is. Choose exercises where the benefit clearly outweighs the risk for that client.",
+"s": "La relación riesgo-beneficio compara la eficacia de un ejercicio con su riesgo. Elige ejercicios en los que el beneficio supere claramente el riesgo para ese cliente.",
+"src": "portal"
+},
+{
+"id": "coa048",
+"t": "coaching",
+"q": "The goal of instruction is correct execution of movements and exercises. Correct technique means exercising both effectively and safely. Instruction consists of 3 phases in the correct order: Setup phase, Follow-up phase, Motivation phase.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 1,
+"e": "Instruction starts with the setup phase (name, explain and demonstrate the exercise), then the follow-up phase (observe and correct), then the motivation phase (encourage and keep the client going).",
+"s": "La instrucción empieza con la fase de preparación (nombrar, explicar y demostrar el ejercicio), luego la fase de seguimiento (observar y corregir) y después la fase de motivación (animar y mantener al cliente).",
+"src": "portal",
+"flag": "Not confirmed by the portal. Check the order of the instruction phases in your course book."
+},
+{
+"id": "coa049",
+"t": "coaching",
+"q": "What is an example instruction in the Setup phase?",
+"o": [
+"You motivate the client to perform",
+"You correct the movement.",
+"You tell what the exercise is called."
+],
+"a": 2,
+"e": "In the setup phase you prepare the exercise: name it, explain its purpose and set the starting position. Correcting belongs to the follow-up phase, motivating to the motivation phase.",
+"s": "En la fase de preparación preparas el ejercicio: lo nombras, explicas su objetivo y colocas la posición inicial. Corregir pertenece a la fase de seguimiento y motivar a la de motivación.",
+"src": "portal"
+},
+{
+"id": "nut036",
+"t": "nutrition",
+"q": "What is NOT a function of proteins?",
+"o": [
+"Proteins are important building blocks of the body.",
+"Proteins can be used as fuel.",
+"Proteins are important for the protection of vital organs."
+],
+"a": 2,
+"e": "Protecting vital organs (cushioning) is a function of fat. Proteins are building blocks and can also be used as fuel.",
+"s": "Proteger los órganos vitales (amortiguar) es una función de la grasa. Las proteínas son material de construcción y también pueden usarse como combustible.",
+"src": "portal"
+},
+{
+"id": "int033",
+"t": "intake",
+"q": "The abbreviation PAR-Q stands for Physical Action Readiness Questionnaire.",
+"o": [
+"Niet waar (False)",
+"Waar (True)"
+],
+"a": 0,
+"e": "False. PAR-Q = Physical ACTIVITY Readiness Questionnaire.",
+"s": "Falso. PAR-Q = Physical ACTIVITY Readiness Questionnaire (cuestionario de aptitud para la actividad física).",
+"src": "portal"
+},
+{
+"id": "tra044",
+"t": "training",
+"q": "A warm-up consists of three elements. Name the elements:",
+"o": [
+"Aerobic activity, Stretching and Sport-specific activity",
+"General warm-up, Specific warm-up and Core",
+"Aerobic activity, Flexibility and Sport-specific activity"
+],
+"a": 0,
+"e": "A warm-up has three parts: light aerobic activity (raise heart rate and temperature), stretching/mobility, and a sport- or exercise-specific part.",
+"s": "Un calentamiento tiene tres partes: actividad aeróbica suave (subir pulso y temperatura), estiramientos/movilidad y una parte específica del deporte o ejercicio.",
+"src": "portal",
+"flag": "Not confirmed by the portal. A and C differ only in 'Stretching' vs 'Flexibility'. Check your course book."
+},
+{
+"id": "coa050",
+"t": "coaching",
+"q": "How many points of attention can you give a client to ensure that an exercise is performed properly and safely?",
+"o": [
+"As many as needed",
+"2-3 points of attention",
+"1-2 points of attention"
+],
+"a": 2,
+"e": "Give only one or two points of attention at a time. More than that overloads the client, who can't focus on everything at once.",
+"s": "Da solo uno o dos puntos de atención a la vez. Más que eso sobrecarga al cliente, que no puede concentrarse en todo a la vez.",
+"src": "portal",
+"flag": "Not confirmed by the portal. Check whether your course says 1–2 or 2–3."
+},
+{
+"id": "nut037",
+"t": "nutrition",
+"q": "How many types of vitamins are there?",
+"o": [
+"8",
+"10",
+"13"
+],
+"a": 2,
+"e": "There are 13 vitamins: A, C, D, E, K and the eight B vitamins.",
+"s": "Hay 13 vitaminas: A, C, D, E, K y las ocho vitaminas del grupo B.",
+"src": "portal"
+},
+{
+"id": "nut038",
+"t": "nutrition",
+"q": "Macronutrients provide structure, provide energy and create new tissue. Macronutrients can be found in 3 types of foods. Name the three foods that contain macronutrients:",
+"o": [
+"Fats, Carbohydrates and Proteins",
+"Minerals, Vitamins and Fructose",
+"Proteins, Fats and Vitamins"
+],
+"a": 0,
+"e": "The three macronutrients are fats, carbohydrates and proteins. Vitamins and minerals are micronutrients.",
+"s": "Los tres macronutrientes son grasas, carbohidratos y proteínas. Las vitaminas y los minerales son micronutrientes.",
+"src": "portal"
+},
+{
+"id": "nut039",
+"t": "nutrition",
+"q": "Micronutrients play a specific and essential role in various processes in the body. Name the foods that contain micronutrients:",
+"o": [
+"Monosaccharides and Disaccharides",
+"Minerals and Vitamins",
+"Galactose and Glucose"
+],
+"a": 1,
+"e": "Micronutrients are vitamins and minerals, needed in small amounts. The other options are all types of sugar (carbohydrates).",
+"s": "Los micronutrientes son las vitaminas y los minerales, necesarios en pequeñas cantidades. Las otras opciones son tipos de azúcar (carbohidratos).",
+"src": "portal"
+},
+{
+"id": "nut040",
+"t": "nutrition",
+"q": "What do you call a too high blood glucose level?",
+"o": [
+"Hyperglycemia",
+"Dyslipidemia",
+"Arthrosclerosis"
+],
+"a": 0,
+"e": "Hyper = too high, glyc = sugar, -emia = in the blood. A too low level is hypoglycemia. Dyslipidemia is abnormal blood fats.",
+"s": "Hiper = demasiado alto, gluc = azúcar, -emia = en la sangre. Un nivel demasiado bajo es hipoglucemia. La dislipidemia son grasas en sangre anormales.",
+"src": "portal"
+},
+{
+"id": "nut041",
+"t": "nutrition",
+"q": "Fats can be divided into 3 types. Name the 3 types:",
+"o": [
+"Saturated Fats, Unsaturated Fats and Trans fats",
+"Triglycerides, Cholesterol and Phospholipids",
+"Monounsaturated Fats, Polyunsaturated Fats and Trans Fats"
+],
+"a": 0,
+"e": "The course divides fats into saturated, unsaturated (mono- and polyunsaturated together) and trans fats. Option C leaves out saturated fats.",
+"s": "El curso divide las grasas en saturadas, insaturadas (mono- y poliinsaturadas juntas) y grasas trans. La opción C omite las grasas saturadas.",
+"src": "portal"
+},
+{
+"id": "tra045",
+"t": "training",
+"q": "The effect of training is determined by multiple training variables. To be effective, training must meet certain substantive conditions. The effectiveness of training is determined by the following variables:",
+"o": [
+"The type of training, the intensity of the training, the frequency of training and the duration of a session.",
+"The intensity of the training, the frequency of training and the duration of a session.",
+"The type of training"
+],
+"a": 0,
+"e": "All four FITT variables: Frequency, Intensity, Time (duration) and Type. Option B misses the type of training.",
+"s": "Las cuatro variables FITT: Frecuencia, Intensidad, Tiempo (duración) y Tipo. A la opción B le falta el tipo de entrenamiento.",
+"src": "portal"
+},
+{
+"id": "tra046",
+"t": "training",
+"q": "What does the abbreviation ROM stand for?",
+"o": [
+"Range of Move",
+"Range of Motion",
+"Range of Movement"
+],
+"a": 1,
+"e": "ROM = Range of Motion: how far a joint can move through its full range.",
+"s": "ROM = Range of Motion (rango de movimiento): cuánto puede moverse una articulación en todo su recorrido.",
+"src": "portal"
+},
+{
+"id": "nut042",
+"t": "nutrition",
+"q": "The glycemic index (GI) is a number that indicates to what extent the carbohydrates influence the blood sugar level (causes it to rise). What is an average GI?",
+"o": [
+"45 – 49",
+"50 - 55",
+"56 – 69"
+],
+"a": 2,
+"e": "GI categories: low 55 or below, medium (average) 56–69, high 70 or above.",
+"s": "Categorías de IG: bajo 55 o menos, medio 56–69, alto 70 o más.",
+"src": "portal"
 }
 ]
