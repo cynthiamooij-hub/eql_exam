@@ -30,6 +30,6 @@ with open(ROOT / "EQL_question_bank.csv", "w", newline="", encoding="utf-8-sig")
     w = csv.writer(f)
     w.writerow(["ID", "Topic", "Source", "Question", "A", "B", "C", "D", "Correct", "Explanation (EN)", "Explicación (ES)", "Note"])
     for q in qs:
-        w.writerow([q["id"], TOPICS[q["t"]], {"portal": "Official portal", "copilot": "Copilot mock exam"}.get(q.get("src"), "Mock bank"), q["q"], *(q["o"] + [""] * (4 - len(q["o"]))),
+        w.writerow([q["id"], TOPICS[q["t"]], {"portal": "Official portal", "copilot": "Copilot mock exam", "course": "Course material (lessons/course book)"}.get(q.get("src"), "Mock bank"), q["q"], *(q["o"] + [""] * (4 - len(q["o"]))),
                     "ABCD"[q["a"]], q["e"], q["s"], q.get("flag", "")])
 print(f"OK: {len(qs)} questions", dict(collections.Counter(TOPICS[q['t']] for q in qs)))

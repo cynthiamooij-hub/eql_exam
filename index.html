@@ -482,7 +482,7 @@ function renderQuiz(){
   <div class="qhead"><button class="btn small ghost" id="quit">Stop</button><span class="counter">Question ${v.i+1} / ${total}</span>${isExam?`<span class="clock num" id="clock">${fmt((v.end-Date.now())/1000)}</span>`:`<span class="eyebrow">${esc(v.label)}</span>`}</div>
   <div class="progress"><i style="width:${(v.i+(it.done?1:0))/total*100}%"></i></div>
   <div id="quit-zone"></div>
-  <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src==='portal'?' · <span class="portal">Official portal question</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
+  <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src==='portal'?' · <span class="portal">Official portal question</span>':q.src==='course'?' · <span class="portal">From the course material</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
   <section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Answer</div><div class="opts">${opts}</div></section>
   ${it.done?`<div class="verdict ${ok?'ok':'no'}">${ok?'Correct!':'Not quite. The answer is '+'ABCD'[it.order.indexOf(q.a)]+'.'}</div>
   <section class="explain">${q.flag?`<div class="flag">${esc(q.flag)}</div>`:''}<div><span class="lang">Why</span>${esc(q.e)}</div>${ok?`<div><button class="link" id="show-es">Ver en español</button></div>`:`<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`}</section>`:''}

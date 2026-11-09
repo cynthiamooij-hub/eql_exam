@@ -2,7 +2,7 @@
 
 Adaptive practice for the Fitness Trainer Level 3 (EQF/EREPS) theory exam.
 
-- **381 questions** in 8 topics: 71 from the official portal (practice exam + lesson quizzes), 50 from a Copilot-generated mock exam, the rest written for this bank
+- **405 questions** in 8 topics: 71 from the official portal (practice exam + lesson quizzes), 24 based on the course lessons/course book, 50 from a Copilot-generated mock exam, the rest written for this bank
 - **Mock exam**: 50 questions, 30 minutes, pass at 67% (real exam: 40 of 60)
 - Feedback after each answer, with an explanation in English, plus Spanish when you answer wrong
 - **Adaptive**: weak topics and missed questions come back more often; missed questions are asked again a few questions later
