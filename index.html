@@ -63,6 +63,14 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .mb-who .link{color:var(--bar-ink);opacity:.8}
 .mb-link .sh{display:none}
 
+/* quote footer */
+.quote{max-width:760px;margin:0 auto;padding-block:8px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.quote-in{border-top:3px solid var(--ink);padding-top:18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px}
+.quote .mark{font-family:var(--display);font-size:4rem;line-height:.8;color:var(--accent);font-weight:700}
+.quote blockquote{margin:0;font-family:var(--display);font-size:1.45rem;font-weight:600;line-height:1.25;text-wrap:balance}
+.quote .by{grid-column:2;color:var(--muted);font-size:.9rem}
+.quote .tr{font-style:italic}
+
 /* readiness */
 .readiness{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px 20px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
 .mascot{font-size:4rem;line-height:1;width:92px;height:92px;display:grid;place-items:center;border-radius:50%;background:var(--accent-soft);animation:bob 2.6s ease-in-out infinite}
@@ -177,6 +185,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 <body>
 <nav class="menubar" id="menubar" aria-label="Main menu"></nav>
 <div class="wrap" id="app"><p class="muted">Loading…</p></div>
+<footer class="quote" id="quote" aria-label="Quote of the day"></footer>
 <script src="config.js"></script>
 
 <script>
@@ -301,6 +310,42 @@ function readinessCard(){
     </div></section>`;
 }
 
+/* ---------- quote of the day ---------- */
+const QUOTES = [
+  ["Physical fitness is the first requisite of happiness.","Joseph Pilates"],
+  ["Exercise is king. Nutrition is queen. Put them together and you've got a kingdom.","Jack LaLanne"],
+  ["Motivation is what gets you started. Habit is what keeps you going.","Jim Ryun"],
+  ["Do not let what you cannot do interfere with what you can do.","John Wooden"],
+  ["Failure is not fatal, but failure to change might be.","John Wooden"],
+  ["I've failed over and over and over again in my life. And that is why I succeed.","Michael Jordan"],
+  ["You miss 100% of the shots you don't take.","Wayne Gretzky"],
+  ["Champions keep playing until they get it right.","Billie Jean King"],
+  ["Success is where preparation and opportunity meet.","Bobby Unser"],
+  ["Hard work beats talent when talent doesn't work hard.","Tim Notke"],
+  ["A journey of a thousand miles begins with a single step.","Lao Tzu"],
+  ["Fall seven times, stand up eight.","Japanese proverb"],
+  ["Poco a poco se va lejos.","Spanish proverb","Little by little, you go far."],
+  ["We are what we repeatedly do. Excellence, then, is not an act, but a habit.","Will Durant"],
+  ["Strength does not come from physical capacity. It comes from an indomitable will.","Mahatma Gandhi"],
+  ["Take care of your body. It's the only place you have to live.","Jim Rohn"],
+  ["The difference between the impossible and the possible lies in a person's determination.","Tommy Lasorda"],
+  ["Persistence can change failure into extraordinary achievement.","Matt Biondi"],
+  ["You have to expect things of yourself before you can do them.","Michael Jordan"],
+  ["Running is the greatest metaphor for life, because you get out of it what you put into it.","Oprah Winfrey"],
+  ["Excellence is the gradual result of always striving to do better.","Pat Riley"],
+  ["It's not whether you get knocked down; it's whether you get up.","Vince Lombardi"],
+  ["Rome wasn't built in a day.","Proverb"],
+  ["Gold medals aren't really made of gold. They're made of sweat, determination, and a hard-to-find alloy called guts.","Dan Gable"]
+];
+function renderQuote(){
+  const el = document.getElementById('quote'); if(!el) return;
+  el.hidden = view.name==='quiz';
+  const d = new Date(), day = Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 86400000);
+  const [txt, by, tr] = QUOTES[day % QUOTES.length];
+  el.innerHTML = `<div class="quote-in"><span class="mark" aria-hidden="true">“</span><blockquote>${esc(txt)}</blockquote>
+    <span class="by">${tr?`<span class="tr">${esc(tr)}</span> · `:''}${esc(by)} · <span class="eyebrow" style="font-size:.75rem">Quote of the day</span></span></div>`;
+}
+
 /* ---------- menu bar ---------- */
 function renderNav(){
   const bar = document.getElementById('menubar'); if(!bar) return;
@@ -335,6 +380,7 @@ function render(){
   else if(view.name==='results') renderResults();
   else if(view.name==='mistakes') renderMistakes();
   renderNav();
+  renderQuote();
   window.scrollTo({top:0});
 }
 
