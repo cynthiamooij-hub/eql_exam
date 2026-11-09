@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fitness Trainer L3 Exam Trainer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one centred column (max 760px); a scoreboard strip on top, then the active view. Gym-floor palette: floor-line orange on cool chalk. */
+:root{
+  --bg:#F3F5F4; --surface:#FFFFFF; --ink:#16242B; --muted:#5B6A70; --line:#D9E0DE;
+  --accent:#D9531E; --accent-ink:#FFFFFF; --accent-soft:#FBE7DE;
+  --good:#1F8A4C; --good-soft:#E2F3E8; --bad:#C2352B; --bad-soft:#FBE4E1; --warn:#B7791F; --warn-soft:#FBF0DA;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F171B; --surface:#172228; --ink:#E7EEF0; --muted:#97A7AD; --line:#2A3940;
+  --accent:#F0703C; --accent-ink:#1A0E08; --accent-soft:#3A2218;
+  --good:#4CC17E; --good-soft:#15301F; --bad:#F06A5E; --bad-soft:#3A1A17; --warn:#E3A84A; --warn-soft:#352915; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F171B; --surface:#172228; --ink:#E7EEF0; --muted:#97A7AD; --line:#2A3940;
+  --accent:#F0703C; --accent-ink:#1A0E08; --accent-soft:#3A2218;
+  --good:#4CC17E; --good-soft:#15301F; --bad:#F06A5E; --bad-soft:#3A1A17; --warn:#E3A84A; --warn-soft:#352915; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:.01em;line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:2.1rem;text-transform:uppercase}
+h2{font-size:1.5rem;text-transform:uppercase}
+h3{font-size:1.15rem}
+p{margin:0}
+.eyebrow{font-family:var(--display);text-transform:uppercase;letter-spacing:.12em;font-size:.85rem;color:var(--muted);font-weight:600}
+.muted{color:var(--muted)}
+.num{font-variant-numeric:tabular-nums}
+button{font:inherit;cursor:pointer}
+button:focus-visible,.opt:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{border:0;border-radius:10px;padding:12px 18px;font-family:var(--display);font-size:1.1rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;background:var(--accent);color:var(--accent-ink)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn.small{padding:8px 12px;font-size:.95rem}
+.btn.block{width:100%}
+.link{background:none;border:0;padding:0;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+
+/* header strip */
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;border-bottom:3px solid var(--ink);padding-bottom:12px}
+.top .sync{font-size:.8rem;color:var(--muted)}
+
+/* dashboard */
+.ready{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.ready .big{font-family:var(--display);font-size:3.6rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.ready .big small{font-size:1.4rem;color:var(--muted)}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.action{display:flex;flex-direction:column;gap:6px;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:14px;padding:16px;color:var(--ink)}
+.action:hover{border-color:var(--accent)}
+.action.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.action.primary .muted{color:inherit;opacity:.85}
+.action b{font-family:var(--display);font-size:1.35rem;text-transform:uppercase;letter-spacing:.03em}
+.topics{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.trow{display:grid;grid-template-columns:minmax(0,1fr) 120px 92px;gap:12px;align-items:center;padding:12px 16px;border-top:1px solid var(--line);background:none;border-left:0;border-right:0;border-bottom:0;text-align:left;color:var(--ink);width:100%}
+.trow:first-child{border-top:0}
+.trow:hover{background:var(--bg)}
+.trow .name{font-weight:700;min-width:0}
+.trow .sub{font-size:.8rem;color:var(--muted)}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:4px;background:var(--muted)}
+.pill{justify-self:end;font-size:.75rem;font-weight:700;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.s-weak .bar i{background:var(--bad)} .s-weak .pill{background:var(--bad-soft);color:var(--bad)}
+.s-mid .bar i{background:var(--warn)} .s-mid .pill{background:var(--warn-soft);color:var(--warn)}
+.s-strong .bar i{background:var(--good)} .s-strong .pill{background:var(--good-soft);color:var(--good)}
+.s-new .pill{background:var(--bg);color:var(--muted)}
+.history{display:flex;gap:6px;align-items:flex-end;height:64px}
+.history span{flex:1;max-width:28px;background:var(--line);border-radius:4px 4px 0 0;position:relative}
+.history span.pass{background:var(--good)} .history span.fail{background:var(--bad)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:12px}
+
+/* quiz */
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.counter{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;border:1.5px solid var(--line);border-radius:999px;padding:4px 14px;font-variant-numeric:tabular-nums}
+.clock{font-family:var(--display);font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums}
+.clock.low{color:var(--bad)}
+.progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--accent);transition:width .3s}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px 20px;display:flex;flex-direction:column;gap:10px}
+.qcard .qt{font-size:1.2rem;font-weight:700;line-height:1.4}
+.tag{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.tag .portal{color:var(--accent);font-weight:700}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{display:grid;grid-template-columns:28px minmax(0,1fr) 24px;gap:10px;align-items:center;width:100%;text-align:left;background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--ink);font-size:1rem}
+.opt .L{font-family:var(--display);font-weight:700;font-size:1.2rem}
+.opt:hover:not(:disabled){border-color:var(--ink)}
+.opt.sel{border-color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.opt.right{border-color:var(--good);background:var(--good-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default}
+.opt .mk{font-weight:700;text-align:center}
+.opt.right .mk{color:var(--good)} .opt.wrong .mk{color:var(--bad)}
+.verdict{font-weight:700;font-size:1.05rem}
+.verdict.ok{color:var(--good)} .verdict.no{color:var(--bad)}
+.explain{border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line)}
+.explain .es{border-top:1px dashed var(--line);padding-top:10px}
+.explain .lang{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:2px}
+.flag{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:.9rem}
+.qfoot{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+
+/* results */
+.score{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+.score .big{font-family:var(--display);font-size:4rem;font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.result-pill{font-family:var(--display);font-size:1.3rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:6px 14px;border-radius:8px}
+.result-pill.pass{background:var(--good-soft);color:var(--good)} .result-pill.fail{background:var(--bad-soft);color:var(--bad)}
+.miss{display:flex;flex-direction:column;gap:6px;padding:14px 0;border-top:1px solid var(--line)}
+.miss:first-child{border-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 14px;font-size:.9rem}
+.chip.on{border-color:var(--accent);background:var(--accent-soft)}
+.confirm{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--bad-soft);border-radius:10px;padding:12px}
+@media (max-width:560px){
+  .actions{grid-template-columns:1fr}
+  .ready{grid-template-columns:1fr}
+  .trow{grid-template-columns:minmax(0,1fr) 84px;}
+  .trow .bar{display:none}
+  h1{font-size:1.7rem}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+/* login */
+.who{display:flex;flex-direction:column;align-items:flex-end;gap:2px;font-size:.85rem;color:var(--muted)}
+.names{display:flex;flex-wrap:wrap;gap:10px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-weight:700}
+.field input{font:inherit;font-size:1.1rem;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);width:100%;max-width:320px}
+.field input:focus{outline:3px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+.pin{letter-spacing:.4em;font-variant-numeric:tabular-nums}
+.err{color:var(--bad);font-weight:700}
+.check{display:flex;gap:8px;align-items:center}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="muted">Loading…</p></div>
+<script src="config.js"></script>
+
+<script>
+let Q = [], byId = {};
+const TOPICS = {anatomy:"Anatomy",physiology:"Exercise physiology",biomechanics:"Biomechanics",training:"Training principles",nutrition:"Nutrition",safety:"Health & safety",intake:"Intake & testing",coaching:"Coaching & behaviour change"};
+const EXAM_N = 50, EXAM_MIN = 30, PASS = 2/3;
+const app = document.getElementById('app');
+
+/* ---------- state & storage (Supabase RPC, PIN-protected) ---------- */
+const blank = () => ({v:1, q:{}, topic:{}, exams:[], updated:0});
+let S = blank();
+let me = null;               // {name, pin}
+let saving = false, again = false, syncLabel = "";
+const CFG = window.EQL_CONFIG || {};
+async function rpc(fn, args){
+  const r = await fetch(CFG.supabaseUrl + '/rest/v1/rpc/' + fn, {method:'POST', headers:{'apikey':CFG.supabaseKey,'Content-Type':'application/json'}, body: JSON.stringify(args||{})});
+  if(!r.ok) throw new Error('HTTP ' + r.status);
+  return r.json();
+}
+function cacheKey(){ return 'eql3:' + (me ? me.name.toLowerCase() : ''); }
+function saveLocal(){ try{ localStorage.setItem(cacheKey(), JSON.stringify(S)); }catch(e){} }
+function loadLocal(){ try{ const r = localStorage.getItem(cacheKey()); return r ? JSON.parse(r) : null; }catch(e){ return null; } }
+function rememberMe(on){ try{ if(on) localStorage.setItem('eql3:me', JSON.stringify(me)); else localStorage.removeItem('eql3:me'); }catch(e){} }
+function setSync(t){ syncLabel = t; const el = document.getElementById('sync'); if(el) el.textContent = t; }
+async function save(){
+  S.updated = Date.now(); saveLocal();
+  if(!me) return;
+  if(saving){ again = true; return; }
+  saving = true;
+  try{
+    do{ again = false; const res = await rpc('eql_save', {p_name:me.name, p_pin:me.pin, p_progress:S});
+        if(!res.ok) throw new Error(res.error); } while(again);
+    setSync('Progress saved');
+  }catch(e){ setSync('Not saved online, kept on this laptop'); }
+  saving = false;
+}
+async function signIn(name, pin){
+  const res = await rpc('eql_login', {p_name:name, p_pin:pin});
+  if(!res.ok) return res.error;
+  me = {name, pin};
+  const remote = Object.assign(blank(), res.progress || {});
+  const local = loadLocal();
+  S = (local && (local.updated||0) > (remote.updated||0)) ? Object.assign(blank(), local) : remote;
+  if(S !== remote) save(); else saveLocal();
+  setSync('Progress saved');
+  return null;
+}
+function signOut(){ me = null; S = blank(); rememberMe(false); view = {name:'login'}; render(); }
+
+/* ---------- mastery & adaptive selection ---------- */
+function mastery(t){ const r = S.topic[t]||[]; if(!r.length) return null; const s = r.reduce((a,b)=>a+b,0); return (s+1)/(r.length+2); }
+function status(m){ if(m===null) return ['s-new','Not started']; if(m<0.6) return ['s-weak','Needs work']; if(m<0.8) return ['s-mid','Getting there']; return ['s-strong','Strong']; }
+function weakness(t){ const m = mastery(t); return m===null ? 0.5 : 1-m; }
+function qWeight(q, tilt=2){
+  const h = S.q[q.id]; let w = 1;
+  if(!h) w += 1;
+  else { if(h.last===0) w += 4; if(h.streak>=2) w *= 0.25; }
+  return w * (tilt===2 ? 0.4 + weakness(q.t)*2 : 0.8 + weakness(q.t)*tilt);
+}
+function sample(pool, n, tilt=2){
+  const items = pool.map(q=>({q, k: Math.pow(Math.random(), 1/qWeight(q, tilt))}));
+  items.sort((a,b)=>b.k-a.k);
+  return items.slice(0,n).map(x=>x.q);
+}
+function weakTopics(k=3){
+  const seen = Object.keys(TOPICS).filter(t=>mastery(t)!==null).sort((a,b)=>mastery(a)-mastery(b));
+  const weak = seen.filter(t=>mastery(t)<0.8);
+  return (weak.length ? weak : seen).slice(0,k);
+}
+function shuffled(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+function record(q, ok){
+  const h = S.q[q.id] || {n:0,c:0,streak:0,last:null};
+  h.n++; if(ok){h.c++; h.streak++;} else h.streak=0; h.last = ok?1:0; S.q[q.id]=h;
+  const r = S.topic[q.t] || []; r.push(ok?1:0); while(r.length>30) r.shift(); S.topic[q.t]=r;
+  save();
+}
+
+/* ---------- views ---------- */
+let view = {name:'home'};
+let timer = null;
+function esc(s){ return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function fmt(sec){ sec=Math.max(0,sec|0); return String(Math.floor(sec/60)).padStart(2,'0')+':'+String(sec%60).padStart(2,'0'); }
+
+function render(){
+  clearInterval(timer); timer=null;
+  if(view.name==='login') renderLogin();
+  else if(view.name==='home') renderHome();
+  else if(view.name==='pick') renderPick();
+  else if(view.name==='quiz') renderQuiz();
+  else if(view.name==='results') renderResults();
+  else if(view.name==='mistakes') renderMistakes();
+  window.scrollTo({top:0});
+  const sw = document.getElementById('switch'); if(sw) sw.onclick = signOut;
+}
+
+function header(sub){
+  return `<div class="top"><div><div class="eyebrow">Fitness Trainer · Level 3</div><h1>${sub||'Exam Trainer'}</h1></div>${me?`<div class="who"><span><b>${esc(me.name)}</b> · <button class="link" id="switch">Switch person</button></span><span class="sync" id="sync">${syncLabel}</span></div>`:''}</div>`;
+}
+
+function renderHome(){
+  const seen = Object.keys(S.q).length;
+  const att = Object.values(S.q).reduce((a,h)=>a+h.n,0), cor = Object.values(S.q).reduce((a,h)=>a+h.c,0);
+  const acc = att ? Math.round(cor/att*100) : null;
+  const weak = weakTopics(2);
+  const last = S.exams.slice(-12);
+  const topicRows = Object.entries(TOPICS).map(([t,name])=>{
+    const m = mastery(t), [cls,lab] = status(m), n = Q.filter(q=>q.t===t).length, s = Q.filter(q=>q.t===t && S.q[q.id]).length;
+    return `<button class="trow ${cls}" data-topic="${t}"><span><span class="name">${name}</span><br><span class="sub num">${s}/${n} seen${m!==null?' · '+Math.round(m*100)+'% recent':''}</span></span><span class="bar"><i style="width:${m===null?0:Math.round(m*100)}%"></i></span><span class="pill">${lab}</span></button>`;
+  }).join('');
+  app.innerHTML = header() + `
+  <section class="ready">
+    <div class="big num">${acc===null?'–':acc}<small>%</small></div>
+    <div><h3>${acc===null?'Start with a mock exam':'Overall accuracy'}</h3>
+    <p class="muted">${acc===null?`${Q.length} questions across 8 exam topics, including the ${Q.filter(q=>q.src).length} from the official practice exam. Your first mock shows where to focus.`:`${cor} of ${att} answers correct · ${seen} of ${Q.length} questions seen.${weak.length?' Focus next on <b>'+weak.map(t=>TOPICS[t]).join('</b> and <b>')+'</b>.':''}`}</p></div>
+  </section>
+  <section class="actions">
+    <button class="action primary" id="go-exam"><b>Mock exam</b><span class="muted">50 questions · 30 minutes · pass at 67%</span></button>
+    <button class="action" id="go-weak"><b>Train weak topics</b><span class="muted">${weak.length?'20 questions on '+weak.map(t=>TOPICS[t]).join(' & '):'Unlocks after your first answers'}</span></button>
+    <button class="action" id="go-pick"><b>Practise by topic</b><span class="muted">Choose one or more topics</span></button>
+    <button class="action" id="go-miss"><b>Review mistakes</b><span class="muted num">${Object.values(S.q).filter(h=>h.last===0).length} questions to fix</span></button>
+  </section>
+  <section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Topics · tap one to practise it</div><div class="topics">${topicRows}</div></section>
+  ${last.length?`<section class="panel"><div class="eyebrow">Mock exam history</div><div class="history">${last.map(e=>`<span class="${e.score/e.total>=PASS?'pass':'fail'}" style="height:${Math.max(6,Math.round(e.score/e.total*100))}%" title="${e.score}/${e.total}"></span>`).join('')}</div><p class="muted num">Last: ${last[last.length-1].score}/${last[last.length-1].total} · Best: ${Math.max(...S.exams.map(e=>e.score))}/${EXAM_N}</p></section>`:''}
+  <div id="reset-zone"><button class="link" id="reset">Reset all progress</button></div>`;
+  document.getElementById('go-exam').onclick = startExam;
+  document.getElementById('go-weak').onclick = ()=>{ const w=weakTopics(2); if(w.length) startPractice(w,'Weak topics'); else startExam(); };
+  document.getElementById('go-pick').onclick = ()=>{ view={name:'pick',sel:[]}; render(); };
+  document.getElementById('go-miss').onclick = ()=>{ view={name:'mistakes'}; render(); };
+  app.querySelectorAll('[data-topic]').forEach(b=>b.onclick=()=>startPractice([b.dataset.topic], TOPICS[b.dataset.topic]));
+  document.getElementById('reset').onclick = ()=>{
+    document.getElementById('reset-zone').innerHTML = `<div class="confirm"><span>Delete all answers and exam history?</span><button class="btn small" id="r-yes">Delete</button><button class="btn small ghost" id="r-no">Keep</button></div>`;
+    document.getElementById('r-yes').onclick=()=>{ S=blank(); save(); render(); };
+    document.getElementById('r-no').onclick=render;
+  };
+}
+
+function renderPick(){
+  app.innerHTML = header('Practise by topic') + `
+  <section class="panel"><p>Pick the topics to practise. Questions you got wrong and topics you're weak in come up more often.</p>
+  <div class="chips">${Object.entries(TOPICS).map(([t,n])=>`<button class="chip ${view.sel.includes(t)?'on':''}" data-t="${t}">${n}</button>`).join('')}</div>
+  <div class="qfoot"><button class="btn ghost" id="back">Back</button><button class="btn" id="go" ${view.sel.length?'':'disabled'}>Start 20 questions</button></div></section>`;
+  app.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ const t=b.dataset.t; view.sel = view.sel.includes(t)?view.sel.filter(x=>x!==t):[...view.sel,t]; renderPick(); });
+  document.getElementById('back').onclick=()=>{view={name:'home'};render();};
+  document.getElementById('go').onclick=()=>startPractice(view.sel, view.sel.length===1?TOPICS[view.sel[0]]:'Mixed topics');
+}
+
+function renderMistakes(){
+  const list = Q.filter(q=>S.q[q.id] && S.q[q.id].last===0);
+  app.innerHTML = header('Review mistakes') + `
+  <section class="panel">${list.length?`<p>${list.length} question${list.length>1?'s':''} you answered wrong last time. Practise them until they turn green.</p>
+  <div class="qfoot"><button class="btn ghost" id="back">Back</button><button class="btn" id="go">Practise these</button></div>`:`<p>No open mistakes. Do a mock exam or topic practice first.</p><div><button class="btn ghost" id="back">Back</button></div>`}</section>
+  ${list.length?`<section class="panel">${list.map(q=>`<div class="miss"><span class="tag">${TOPICS[q.t]}</span><b>${esc(q.q)}</b><span>✓ ${esc(q.o[q.a])}</span><span class="muted">${esc(q.e)}</span></div>`).join('')}</section>`:''}`;
+  document.getElementById('back').onclick=()=>{view={name:'home'};render();};
+  const g=document.getElementById('go'); if(g) g.onclick=()=>startSession(shuffled(list).slice(0,30),'practice','Mistakes');
+}
+
+/* ---------- sessions ---------- */
+function prep(q){
+  // portal questions keep the official option order; bank questions get shuffled options each time
+  const idx = q.src ? [0,1,2,3] : shuffled([0,1,2,3]);
+  return {id:q.id, order:idx, pick:null, done:false};
+}
+function startExam(){
+  const qs = sample(Q, EXAM_N, 0.8);
+  startSession(shuffled(qs),'exam','Mock exam');
+}
+function startPractice(topics, label){
+  const pool = Q.filter(q=>topics.includes(q.t));
+  startSession(sample(pool, Math.min(20,pool.length)),'practice',label);
+}
+function startSession(qs, mode, label){
+  view = {name:'quiz', mode, label, items: qs.map(prep), i:0, end: mode==='exam'? Date.now()+EXAM_MIN*60000 : null, startedAt: Date.now(), requeued:{} };
+  render();
+}
+
+function renderQuiz(){
+  const v = view, it = v.items[v.i], q = byId[it.id];
+  const total = v.items.length, isExam = v.mode==='exam';
+  const opts = it.order.map((oi,k)=>{
+    let cls = '', mk = '';
+    if(it.done){ if(oi===q.a){cls='right';mk='✓';} else if(oi===it.pick){cls='wrong';mk='✗';} }
+    else if(it.pick===oi) cls='sel';
+    return `<button class="opt ${cls}" data-o="${oi}" ${it.done?'disabled':''}><span class="L">${'ABCD'[k]}</span><span>${esc(q.o[oi])}</span><span class="mk">${mk}</span></button>`;
+  }).join('');
+  const ok = it.done && it.pick===q.a;
+  app.innerHTML = `
+  <div class="qhead"><button class="btn small ghost" id="quit">Stop</button><span class="counter">Question ${v.i+1} / ${total}</span>${isExam?`<span class="clock num" id="clock">${fmt((v.end-Date.now())/1000)}</span>`:`<span class="eyebrow">${esc(v.label)}</span>`}</div>
+  <div class="progress"><i style="width:${(v.i+(it.done?1:0))/total*100}%"></i></div>
+  <div id="quit-zone"></div>
+  <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src?' · <span class="portal">Official practice question</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
+  <section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Answer</div><div class="opts">${opts}</div></section>
+  ${it.done?`<div class="verdict ${ok?'ok':'no'}">${ok?'Correct!':'Not quite. The answer is '+'ABCD'[it.order.indexOf(q.a)]+'.'}</div>
+  <section class="explain">${q.flag?`<div class="flag">${esc(q.flag)}</div>`:''}<div><span class="lang">Why</span>${esc(q.e)}</div>${ok?`<div><button class="link" id="show-es">Ver en español</button></div>`:`<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`}</section>`:''}
+  <button class="btn block" id="main" ${!it.done && it.pick===null?'disabled':''}>${it.done?(v.i+1<total?'Next question':'See results'):'Confirm answer'}</button>`;
+  app.querySelectorAll('.opt:not(:disabled)').forEach(b=>b.onclick=()=>{ it.pick=+b.dataset.o; renderQuiz(); });
+  document.getElementById('main').onclick = ()=>{
+    if(!it.done){
+      it.done = true; const good = it.pick===q.a; record(q, good);
+      if(!good && v.mode==='practice' && !v.requeued[q.id]){ // spaced re-ask a few questions later
+        v.requeued[q.id]=1; const at = Math.min(v.items.length, v.i+4); v.items.splice(at,0,prep(q));
+      }
+      renderQuiz();
+    } else if(v.i+1<v.items.length){ v.i++; render(); }
+    else finish();
+  };
+  const es=document.getElementById('show-es'); if(es) es.onclick=()=>{ es.parentElement.outerHTML = `<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`; };
+  document.getElementById('quit').onclick = ()=>{
+    document.getElementById('quit-zone').innerHTML = `<div class="confirm"><span>Stop now? ${isExam?'The exam will be marked on the answers so far.':'Your answers so far are saved.'}</span><button class="btn small" id="q-yes">Stop</button><button class="btn small ghost" id="q-no">Continue</button></div>`;
+    document.getElementById('q-yes').onclick=finish; document.getElementById('q-no').onclick=()=>{document.getElementById('quit-zone').innerHTML='';};
+  };
+  if(isExam){
+    clearInterval(timer);
+    timer = setInterval(()=>{ const left=(v.end-Date.now())/1000; const c=document.getElementById('clock'); if(c){c.textContent=fmt(left); c.classList.toggle('low',left<300);} if(left<=0){clearInterval(timer); finish(true);} },500);
+  }
+}
+
+function finish(timeUp){
+  clearInterval(timer);
+  const v = view, answered = v.items.filter(it=>it.done);
+  const score = answered.filter(it=>it.pick===byId[it.id].a).length;
+  const total = v.mode==='exam' ? EXAM_N : answered.length;
+  const byTopic = {};
+  answered.forEach(it=>{ const q=byId[it.id]; const b=byTopic[q.t]||(byTopic[q.t]={c:0,n:0}); b.n++; if(it.pick===q.a) b.c++; });
+  if(v.mode==='exam'){ S.exams.push({d:Date.now(), score, total, byTopic, secs: Math.round((Date.now()-v.startedAt)/1000)}); while(S.exams.length>30) S.exams.shift(); save(); }
+  view = {name:'results', mode:v.mode, label:v.label, score, total, answered:answered.length, byTopic, timeUp:!!timeUp, wrong: answered.filter(it=>it.pick!==byId[it.id].a).map(it=>it.id)};
+  render();
+}
+
+function renderResults(){
+  const v = view, pct = v.total? v.score/v.total : 0, isExam = v.mode==='exam', pass = pct>=PASS;
+  const rows = Object.entries(v.byTopic).sort((a,b)=>a[1].c/a[1].n-b[1].c/b[1].n).map(([t,b])=>{
+    const p=b.c/b.n, cls = p<0.6?'s-weak':p<0.8?'s-mid':'s-strong';
+    return `<div class="trow ${cls}"><span><span class="name">${TOPICS[t]}</span></span><span class="bar"><i style="width:${Math.round(p*100)}%"></i></span><span class="pill num">${b.c}/${b.n}</span></div>`;
+  }).join('');
+  const weakHere = Object.entries(v.byTopic).filter(([t,b])=>b.c/b.n<0.8).sort((a,b)=>a[1].c/a[1].n-b[1].c/b[1].n).slice(0,2).map(x=>x[0]);
+  app.innerHTML = header(isExam?'Mock exam result':v.label) + `
+  <section class="panel"><div class="score"><div class="big num">${v.score}<span class="muted" style="font-size:2rem">/${v.total}</span></div>
+  ${isExam?`<span class="result-pill ${pass?'pass':'fail'}">${pass?'Pass':'Not yet'}</span>`:''}</div>
+  <p class="muted">${isExam?(v.timeUp?'Time ran out. ':'')+`Pass mark: ${Math.ceil(EXAM_N*PASS)} of ${EXAM_N} (the real exam asks 40 of 60).${v.answered<v.total?` ${v.total-v.answered} unanswered questions count as wrong.`:''}`:`${Math.round(pct*100)}% correct.`}</p>
+  <div class="qfoot"><button class="btn ghost" id="home">Dashboard</button>${weakHere.length?`<button class="btn" id="drill">Train ${weakHere.map(t=>TOPICS[t]).join(' & ')}</button>`:`<button class="btn" id="again">${isExam?'New mock exam':'Practise again'}</button>`}</div></section>
+  ${rows?`<section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">By topic · weakest first</div><div class="topics">${rows}</div></section>`:''}
+  ${v.wrong.length?`<section class="panel"><div class="eyebrow">Your mistakes</div>${v.wrong.map(id=>{const q=byId[id];return `<div class="miss"><span class="tag">${TOPICS[q.t]}</span><b>${esc(q.q)}</b><span>✓ ${esc(q.o[q.a])}</span><span class="muted">${esc(q.e)}</span><span class="muted"><i>${esc(q.s)}</i></span></div>`}).join('')}</section>`:''}`;
+  document.getElementById('home').onclick=()=>{view={name:'home'};render();};
+  const d=document.getElementById('drill'); if(d) d.onclick=()=>startPractice(weakHere, weakHere.map(t=>TOPICS[t]).join(' & '));
+  const a=document.getElementById('again'); if(a) a.onclick=()=> isExam?startExam():(view={name:'home'},render());
+}
+
+/* ---------- login ---------- */
+function renderLogin(){
+  const v = view; v.names = v.names || null;
+  const list = v.names===null ? '<p class="muted">Loading names…</p>' : v.names.length ? `<div class="names">${v.names.map(n=>`<button class="chip ${v.pick===n?'on':''}" data-n="${esc(n)}">${esc(n)}</button>`).join('')}<button class="chip ${v.pick==='+'?'on':''}" data-n="+">+ New person</button></div>` : '';
+  const isNew = v.pick==='+' || (v.names && !v.names.length);
+  app.innerHTML = header() + `
+  <section class="panel"><h2>Who's practising?</h2>
+  ${v.names && !v.names.length ? '<p>Nobody has signed up yet. Pick a name and a PIN to start.</p>' : '<p>Pick your name and enter your PIN. Your progress is saved online, so you can pick up where you left off.</p>'}
+  ${list}
+  ${v.pick || isNew ? `<form id="lf" class="panel" style="padding:0;border:0" novalidate>
+    ${isNew?`<div class="field"><label for="nm">Your name</label><input id="nm" autocomplete="off" maxlength="40" value="${esc(v.newName||'')}"></div>`:''}
+    <div class="field"><label for="pin">${isNew?'Choose a PIN (4–6 digits)':'PIN for '+esc(v.pick)}</label><input id="pin" class="pin" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off"></div>
+    <label class="check"><input type="checkbox" id="rem" checked> Remember me on this laptop</label>
+    ${v.err?`<p class="err">${esc(v.err)}</p>`:''}
+    <div><button class="btn" type="submit" id="lgo">${isNew?'Create and start':'Start'}</button></div>
+  </form>`:''}
+  </section>`;
+  app.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>{ v.pick=b.dataset.n; v.err=''; renderLogin(); const p=document.getElementById(v.pick==='+'?'nm':'pin'); if(p) p.focus(); });
+  const f = document.getElementById('lf');
+  if(f) f.onsubmit = async (e)=>{
+    e.preventDefault();
+    const pin = document.getElementById('pin').value.trim();
+    const name = isNew ? document.getElementById('nm').value.trim() : v.pick;
+    if(isNew) v.newName = name;
+    if(!name){ v.err='Type your name.'; return renderLogin(); }
+    if(!/^[0-9]{4,6}$/.test(pin)){ v.err='The PIN must be 4 to 6 digits.'; return renderLogin(); }
+    document.getElementById('lgo').disabled = true;
+    try{
+      if(isNew){ const r = await rpc('eql_register',{p_name:name,p_pin:pin}); if(!r.ok){ v.err = r.error==='name_taken'?'That name is taken. Pick it from the list, or choose another name.':'Could not create this name. Try another.'; return renderLogin(); } }
+      const err = await signIn(name, pin);
+      if(err){ v.err = err==='locked'?'Too many wrong PINs. This name is locked for 15 minutes.':err==='wrong_pin'?'Wrong PIN. After 5 wrong tries the name is locked for 15 minutes.':'Name not found.'; return renderLogin(); }
+      rememberMe(document.getElementById('rem').checked);
+      view = {name:'home'}; render();
+    }catch(ex){ v.err = 'No connection to the database. Check your internet and try again.'; renderLogin(); }
+  };
+}
+async function loadNames(){
+  try{ view.names = await rpc('eql_list_names'); }catch(e){ view.names = []; view.err = 'No connection to the database. Check your internet and reload.'; }
+  if(view.name==='login') renderLogin();
+}
+
+/* ---------- boot ---------- */
+(async function boot(){
+  try{ Q = await (await fetch('questions.json', {cache:'no-cache'})).json(); byId = Object.fromEntries(Q.map(q=>[q.id,q])); }
+  catch(e){ app.innerHTML = '<p class="err">Could not load the questions. Reload the page.</p>'; return; }
+  let saved = null; try{ saved = JSON.parse(localStorage.getItem('eql3:me')); }catch(e){}
+  if(saved && saved.name && saved.pin){
+    try{ const err = await signIn(saved.name, saved.pin); if(!err){ view={name:'home'}; render(); return; } }catch(e){
+      me = saved; const loc = loadLocal(); if(loc) S = Object.assign(blank(), loc); setSync('Offline, saved on this laptop'); view={name:'home'}; render(); return; }
+    rememberMe(false);
+  }
+  view = {name:'login'}; render(); loadNames();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/questions.json"
+  [headers.values]
+    Cache-Control = "no-cache"

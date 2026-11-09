@@ -1,0 +1,3988 @@
+[
+{
+"src": "portal",
+"q": "The abdominal muscles can be trained by doing a sit up and a crunch with stretched legs. In which of these exercises will a muscle other than the m. rectus abdominis play an important role?",
+"o": [
+"Crunch: transverse abdominis muscle",
+"Crunch: internal obliquus and external abdominus m.",
+"Sit up: m. iliopsoas",
+"Sit up: hamstrings"
+],
+"a": 2,
+"e": "In a full sit-up the trunk flexes at the hip, so the hip flexors (m. iliopsoas) do much of the work. A crunch only curls the spine and isolates the rectus abdominis more.",
+"s": "En un sit-up completo el tronco se flexiona en la cadera, por lo que los flexores de cadera (m. iliopsoas) hacen gran parte del trabajo. Un crunch solo enrolla la columna y aísla más el recto abdominal.",
+"id": "ana001",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "What is NOT a movement pattern (plane) of the human body?",
+"o": [
+"Sagittal plane",
+"Diagonal plane",
+"Transverse plane",
+"Frontal plane"
+],
+"a": 1,
+"e": "The three anatomical planes are sagittal, frontal and transverse. 'Diagonal plane' is not one of them.",
+"s": "Los tres planos anatómicos son sagital, frontal y transversal. El 'plano diagonal' no es uno de ellos.",
+"id": "ana002",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "By flexion we mean...",
+"o": [
+"Stretching of a joint",
+"Bending of a joint",
+"Inward rotation of a joint",
+"Outward rotation of a joint"
+],
+"a": 1,
+"e": "Flexion is bending a joint, which decreases the angle between the bones. Stretching (straightening) a joint is extension.",
+"s": "La flexión es doblar una articulación, lo que reduce el ángulo entre los huesos. Estirar una articulación es la extensión.",
+"id": "ana003",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "A function of the skeleton is?",
+"o": [
+"Shapes the body",
+"Lightening the body",
+"Converting ADP to ATP",
+"It ensures no movement"
+],
+"a": 0,
+"e": "The skeleton gives the body its shape and support, protects organs, enables movement (as levers), stores minerals and produces blood cells.",
+"s": "El esqueleto da forma y soporte al cuerpo, protege los órganos, permite el movimiento (como palancas), almacena minerales y produce células sanguíneas.",
+"id": "ana004",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "Skeletal muscle comprises approximately .. % of the total body mass in normal adults.",
+"o": [
+"30%",
+"40%",
+"50%",
+"60%"
+],
+"a": 1,
+"e": "Skeletal muscle makes up roughly 40% of total body mass in a healthy adult.",
+"s": "El músculo esquelético constituye aproximadamente el 40% de la masa corporal total en un adulto sano.",
+"id": "ana005",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "What kind of joint is the elbow joint?",
+"o": [
+"Ball joint",
+"Saddle joint",
+"Pivot joint",
+"Hinge joint"
+],
+"a": 3,
+"e": "The elbow (humero-ulnar joint) is a hinge joint: it allows flexion and extension in one plane.",
+"s": "El codo (articulación húmero-cubital) es una articulación en bisagra: permite flexión y extensión en un solo plano.",
+"id": "ana006",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "How are muscles built from large to small?",
+"o": [
+"Sarcomeres, myofibrils, muscle fibres",
+"Muscle bundles, muscle fibres, myofibrils, sarcomeres",
+"Myofibrils, sarcomeres, muscle fibres, muscle bundles",
+"Muscle bundles, muscle fibres, sarcomeres, myofibrils"
+],
+"a": 1,
+"e": "Muscle → muscle bundles (fascicles) → muscle fibres (cells) → myofibrils → sarcomeres, the smallest contractile unit.",
+"s": "Músculo → haces musculares (fascículos) → fibras musculares (células) → miofibrillas → sarcómeros, la unidad contráctil más pequeña.",
+"id": "ana007",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "Bones are grouped into four main categories:",
+"o": [
+"Long bones, short bones, flat bones and irregular bones",
+"Long bones, short bones, thin bones, thick bones",
+"Category 1, 2, 3 and 4",
+"Skull, spine, ribs and pelvis"
+],
+"a": 0,
+"e": "Bones are classified by shape: long (femur), short (carpals), flat (sternum, skull) and irregular (vertebrae).",
+"s": "Los huesos se clasifican por su forma: largos (fémur), cortos (carpos), planos (esternón, cráneo) e irregulares (vértebras).",
+"id": "ana008",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "Muscle consists of three types of muscle tissue:",
+"o": [
+"Skeletal muscle tissue, cardiac muscle tissue and strength muscle tissue",
+"Skeletal muscle tissue, cardiac muscle tissue and smooth muscle tissue",
+"Skeletal muscle tissue, cardio muscle tissue and smooth muscle tissue",
+"Energy muscle tissue, cardiac muscle tissue and smooth muscle tissue"
+],
+"a": 1,
+"e": "The three types are skeletal (voluntary, striated), cardiac (heart) and smooth (organs, blood vessels). Watch the wording: 'cardiac', not 'cardio'.",
+"s": "Los tres tipos son esquelético (voluntario, estriado), cardíaco (corazón) y liso (órganos, vasos sanguíneos). Ojo con la palabra: 'cardíaco', no 'cardio'.",
+"id": "ana009",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "What is NOT a role of the skeletal muscle?",
+"o": [
+"To hold or move the body and its segments",
+"To produce heat",
+"To maintain posture",
+"To move blood around the body"
+],
+"a": 3,
+"e": "Moving blood around the body is the job of the heart (cardiac muscle). Skeletal muscle moves and holds the body, maintains posture and produces heat.",
+"s": "Mover la sangre por el cuerpo es la función del corazón (músculo cardíaco). El músculo esquelético mueve y sostiene el cuerpo, mantiene la postura y produce calor.",
+"id": "ana010",
+"t": "anatomy"
+},
+{
+"q": "What is the smallest contractile unit of a muscle?",
+"o": [
+"Fascicle",
+"Sarcomere",
+"Myofibril",
+"Muscle fibre"
+],
+"a": 1,
+"e": "The sarcomere, made of actin and myosin filaments, is the smallest functional unit that contracts.",
+"s": "El sarcómero, formado por filamentos de actina y miosina, es la unidad funcional más pequeña que se contrae.",
+"id": "ana011",
+"t": "anatomy"
+},
+{
+"q": "Which two protein filaments slide over each other during a muscle contraction?",
+"o": [
+"Collagen and elastin",
+"Keratin and actin",
+"Myosin and haemoglobin",
+"Actin and myosin"
+],
+"a": 3,
+"e": "According to the sliding filament theory, myosin heads pull the actin filaments toward the centre of the sarcomere.",
+"s": "Según la teoría de los filamentos deslizantes, las cabezas de miosina tiran de los filamentos de actina hacia el centro del sarcómero.",
+"id": "ana012",
+"t": "anatomy"
+},
+{
+"q": "By extension we mean...",
+"o": [
+"Straightening (stretching) of a joint",
+"Bending of a joint",
+"Rotating a limb inward",
+"Moving a limb away from the midline"
+],
+"a": 0,
+"e": "Extension straightens a joint and increases the angle between the bones; it is the opposite of flexion.",
+"s": "La extensión endereza una articulación y aumenta el ángulo entre los huesos; es lo contrario de la flexión.",
+"id": "ana013",
+"t": "anatomy"
+},
+{
+"q": "Moving a limb away from the midline of the body is called...",
+"o": [
+"Pronation",
+"Flexion",
+"Adduction",
+"Abduction"
+],
+"a": 3,
+"e": "Abduction moves away from the midline (e.g. lateral raise). Adduction 'adds' the limb back to the body.",
+"s": "La abducción aleja el miembro de la línea media (p. ej., elevación lateral). La aducción lo acerca de nuevo al cuerpo.",
+"id": "ana014",
+"t": "anatomy"
+},
+{
+"q": "In which plane does a lateral raise take place?",
+"o": [
+"Transverse plane",
+"Sagittal plane",
+"Frontal plane",
+"Diagonal plane"
+],
+"a": 2,
+"e": "Sideways movements (abduction/adduction) happen in the frontal plane, which divides the body into front and back.",
+"s": "Los movimientos laterales (abducción/aducción) ocurren en el plano frontal, que divide el cuerpo en parte anterior y posterior.",
+"id": "ana015",
+"t": "anatomy"
+},
+{
+"q": "In which plane does a squat or a biceps curl mainly take place?",
+"o": [
+"Sagittal plane",
+"Horizontal plane",
+"Frontal plane",
+"Transverse plane"
+],
+"a": 0,
+"e": "Forward and backward movements (flexion/extension) take place in the sagittal plane, which divides the body into left and right.",
+"s": "Los movimientos hacia delante y atrás (flexión/extensión) ocurren en el plano sagital, que divide el cuerpo en izquierda y derecha.",
+"id": "ana016",
+"t": "anatomy"
+},
+{
+"q": "A trunk rotation (e.g. a wood chop or Russian twist) takes place mainly in the...",
+"o": [
+"Frontal plane",
+"Vertical plane",
+"Transverse plane",
+"Sagittal plane"
+],
+"a": 2,
+"e": "Rotations take place in the transverse (horizontal) plane, which divides the body into upper and lower halves.",
+"s": "Las rotaciones ocurren en el plano transversal (horizontal), que divide el cuerpo en mitad superior e inferior.",
+"id": "ana017",
+"t": "anatomy"
+},
+{
+"q": "What type of joint is the shoulder joint?",
+"o": [
+"Pivot joint",
+"Hinge joint",
+"Saddle joint",
+"Ball-and-socket joint"
+],
+"a": 3,
+"e": "The shoulder (glenohumeral) joint is a ball-and-socket joint and allows movement in all three planes.",
+"s": "El hombro (articulación glenohumeral) es una articulación esférica (enartrosis) y permite movimiento en los tres planos.",
+"id": "ana018",
+"t": "anatomy"
+},
+{
+"q": "Which joint is a saddle joint?",
+"o": [
+"Base of the thumb (carpometacarpal joint)",
+"Hip joint",
+"Knee joint",
+"Joint between atlas and axis"
+],
+"a": 0,
+"e": "The carpometacarpal joint of the thumb is the classic saddle joint, which lets the thumb oppose the fingers.",
+"s": "La articulación carpometacarpiana del pulgar es la articulación en silla de montar típica; permite oponer el pulgar a los dedos.",
+"id": "ana019",
+"t": "anatomy"
+},
+{
+"q": "The joint between the first and second cervical vertebrae (atlas and axis), which lets you shake your head 'no', is a...",
+"o": [
+"Pivot joint",
+"Saddle joint",
+"Ball-and-socket joint",
+"Hinge joint"
+],
+"a": 0,
+"e": "The atlanto-axial joint is a pivot joint and allows rotation only.",
+"s": "La articulación atlantoaxial es una articulación en pivote y solo permite rotación.",
+"id": "ana020",
+"t": "anatomy"
+},
+{
+"q": "Which muscle is the agonist during a biceps curl?",
+"o": [
+"M. pectoralis major",
+"M. triceps brachii",
+"M. biceps brachii",
+"M. deltoideus"
+],
+"a": 2,
+"e": "The agonist (prime mover) produces the movement: the biceps brachii flexes the elbow. The triceps is the antagonist.",
+"s": "El agonista (motor principal) produce el movimiento: el bíceps braquial flexiona el codo. El tríceps es el antagonista.",
+"id": "ana021",
+"t": "anatomy"
+},
+{
+"q": "What is the antagonist of the m. quadriceps femoris during a knee extension?",
+"o": [
+"M. iliopsoas",
+"Hamstrings",
+"M. gastrocnemius",
+"M. gluteus maximus"
+],
+"a": 1,
+"e": "The antagonist performs the opposite movement. The hamstrings flex the knee, so they oppose the quadriceps.",
+"s": "El antagonista realiza el movimiento opuesto. Los isquiotibiales flexionan la rodilla, por lo que se oponen al cuádriceps.",
+"id": "ana022",
+"t": "anatomy"
+},
+{
+"q": "Which muscle group is primarily responsible for hip extension?",
+"o": [
+"Adductors",
+"M. rectus femoris",
+"M. iliopsoas",
+"M. gluteus maximus and hamstrings"
+],
+"a": 3,
+"e": "The gluteus maximus and hamstrings extend the hip, for example when standing up from a squat or during a deadlift.",
+"s": "El glúteo mayor y los isquiotibiales extienden la cadera, por ejemplo al levantarse de una sentadilla o en el peso muerto.",
+"id": "ana023",
+"t": "anatomy"
+},
+{
+"q": "Which muscle is the main hip flexor?",
+"o": [
+"M. iliopsoas",
+"M. tibialis anterior",
+"M. gluteus medius",
+"M. biceps femoris"
+],
+"a": 0,
+"e": "The iliopsoas (psoas major + iliacus) is the strongest hip flexor.",
+"s": "El iliopsoas (psoas mayor + ilíaco) es el flexor de cadera más potente.",
+"id": "ana024",
+"t": "anatomy"
+},
+{
+"q": "Which part of the quadriceps also crosses the hip joint?",
+"o": [
+"M. vastus medialis",
+"M. vastus intermedius",
+"M. rectus femoris",
+"M. vastus lateralis"
+],
+"a": 2,
+"e": "The rectus femoris is a two-joint (bi-articular) muscle: it extends the knee and also flexes the hip.",
+"s": "El recto femoral es un músculo biarticular: extiende la rodilla y además flexiona la cadera.",
+"id": "ana025",
+"t": "anatomy"
+},
+{
+"q": "Which muscle forms most of the calf and plantar-flexes the ankle?",
+"o": [
+"M. tibialis anterior",
+"M. gastrocnemius",
+"M. peroneus",
+"M. sartorius"
+],
+"a": 1,
+"e": "The gastrocnemius (with the soleus) plantar-flexes the ankle, as in a calf raise. The tibialis anterior does the opposite (dorsiflexion).",
+"s": "El gastrocnemio (junto con el sóleo) realiza la flexión plantar del tobillo, como en una elevación de talones. El tibial anterior hace lo contrario (dorsiflexión).",
+"id": "ana026",
+"t": "anatomy"
+},
+{
+"q": "Which muscle is mainly trained with a lat pulldown?",
+"o": [
+"M. trapezius",
+"M. erector spinae",
+"M. latissimus dorsi",
+"M. pectoralis major"
+],
+"a": 2,
+"e": "The latissimus dorsi adducts and extends the upper arm, which is the pulling-down movement of the lat pulldown.",
+"s": "El dorsal ancho aduce y extiende el brazo, que es el movimiento de tirar hacia abajo en el jalón al pecho.",
+"id": "ana027",
+"t": "anatomy"
+},
+{
+"q": "Which muscle keeps the spine upright and extends the back?",
+"o": [
+"M. serratus anterior",
+"M. rectus abdominis",
+"M. erector spinae",
+"M. obliquus externus"
+],
+"a": 2,
+"e": "The erector spinae runs along the spine and extends it; it is important for posture.",
+"s": "El erector de la columna recorre la columna vertebral y la extiende; es importante para la postura.",
+"id": "ana028",
+"t": "anatomy"
+},
+{
+"q": "Which abdominal muscle acts like a natural 'corset' and is important for core stability?",
+"o": [
+"M. iliopsoas",
+"M. rectus abdominis",
+"M. obliquus externus",
+"M. transversus abdominis"
+],
+"a": 3,
+"e": "The transversus abdominis is the deepest abdominal muscle; it wraps around the trunk and raises intra-abdominal pressure to stabilise the spine.",
+"s": "El transverso del abdomen es el músculo abdominal más profundo; rodea el tronco y aumenta la presión intraabdominal para estabilizar la columna.",
+"id": "ana029",
+"t": "anatomy"
+},
+{
+"q": "What connects a muscle to a bone?",
+"o": [
+"Fascia",
+"Tendon",
+"Cartilage",
+"Ligament"
+],
+"a": 1,
+"e": "Tendons connect muscle to bone. Ligaments connect bone to bone.",
+"s": "Los tendones conectan el músculo con el hueso. Los ligamentos conectan hueso con hueso.",
+"id": "ana030",
+"t": "anatomy"
+},
+{
+"q": "What connects bone to bone and stabilises a joint?",
+"o": [
+"Tendon",
+"Muscle",
+"Ligament",
+"Bursa"
+],
+"a": 2,
+"e": "Ligaments connect bones to each other and give stability to joints.",
+"s": "Los ligamentos unen los huesos entre sí y dan estabilidad a las articulaciones.",
+"id": "ana031",
+"t": "anatomy"
+},
+{
+"q": "How many vertebrae does the cervical spine have?",
+"o": [
+"7",
+"5",
+"4",
+"12"
+],
+"a": 0,
+"e": "Cervical 7, thoracic 12, lumbar 5, then the sacrum and coccyx.",
+"s": "Cervicales 7, torácicas 12, lumbares 5, después el sacro y el cóccix.",
+"id": "ana032",
+"t": "anatomy"
+},
+{
+"q": "How many thoracic vertebrae are there?",
+"o": [
+"10",
+"5",
+"12",
+"7"
+],
+"a": 2,
+"e": "There are 12 thoracic vertebrae; each connects to a pair of ribs.",
+"s": "Hay 12 vértebras torácicas; cada una se une a un par de costillas.",
+"id": "ana033",
+"t": "anatomy"
+},
+{
+"q": "The natural forward curve of the lumbar spine is called...",
+"o": [
+"Scoliosis",
+"Kyphosis",
+"Flexion",
+"Lordosis"
+],
+"a": 3,
+"e": "Lordosis is the natural inward (forward) curve in the neck and lower back. Kyphosis is the outward curve of the thoracic spine. Scoliosis is a sideways curve.",
+"s": "La lordosis es la curva natural hacia dentro (hacia delante) del cuello y la zona lumbar. La cifosis es la curva hacia fuera de la columna torácica. La escoliosis es una curva lateral.",
+"id": "ana034",
+"t": "anatomy"
+},
+{
+"q": "An abnormal sideways curvature of the spine is called...",
+"o": [
+"Scoliosis",
+"Lordosis",
+"Kyphosis",
+"Hyperextension"
+],
+"a": 0,
+"e": "Scoliosis is a lateral (sideways) curvature of the spine, often with rotation.",
+"s": "La escoliosis es una curvatura lateral de la columna, a menudo con rotación.",
+"id": "ana035",
+"t": "anatomy"
+},
+{
+"q": "What is the longest and strongest bone in the human body?",
+"o": [
+"Fibula",
+"Humerus",
+"Femur",
+"Tibia"
+],
+"a": 2,
+"e": "The femur (thigh bone) is the longest and strongest bone.",
+"s": "El fémur (hueso del muslo) es el hueso más largo y fuerte.",
+"id": "ana036",
+"t": "anatomy"
+},
+{
+"q": "Which muscle fibre type is best suited for endurance activities?",
+"o": [
+"Type IIx fibres",
+"Type IIa fibres",
+"Fast glycolytic fibres",
+"Type I (slow-twitch) fibres"
+],
+"a": 3,
+"e": "Type I (slow-twitch, red) fibres have many mitochondria and capillaries, use oxygen and fatigue slowly.",
+"s": "Las fibras tipo I (lentas, rojas) tienen muchas mitocondrias y capilares, usan oxígeno y se fatigan lentamente.",
+"id": "ana037",
+"t": "anatomy"
+},
+{
+"q": "Which statement about type II (fast-twitch) muscle fibres is correct?",
+"o": [
+"They fatigue slowly",
+"They produce a lot of force quickly but fatigue fast",
+"They contain the most mitochondria",
+"They are mainly used at rest"
+],
+"a": 1,
+"e": "Fast-twitch fibres contract quickly and forcefully, rely more on anaerobic energy and tire quickly. Sprinters have a high proportion.",
+"s": "Las fibras rápidas se contraen con rapidez y fuerza, dependen más de la energía anaeróbica y se cansan pronto. Los velocistas tienen una gran proporción.",
+"id": "ana038",
+"t": "anatomy"
+},
+{
+"q": "A muscle contraction in which the muscle lengthens under tension is called...",
+"o": [
+"Isometric",
+"Eccentric",
+"Isotonic shortening",
+"Concentric"
+],
+"a": 1,
+"e": "Eccentric = lengthening under load (e.g. lowering the bar in a curl). Concentric = shortening. Isometric = no change in length.",
+"s": "Excéntrica = alargamiento bajo carga (p. ej., bajar la barra en un curl). Concéntrica = acortamiento. Isométrica = sin cambio de longitud.",
+"id": "ana039",
+"t": "anatomy"
+},
+{
+"q": "Holding a plank is an example of which type of muscle contraction?",
+"o": [
+"Eccentric",
+"Concentric",
+"Isometric",
+"Isokinetic"
+],
+"a": 2,
+"e": "In an isometric contraction the muscle produces force without changing length and without joint movement.",
+"s": "En una contracción isométrica el músculo produce fuerza sin cambiar de longitud y sin movimiento articular.",
+"id": "ana040",
+"t": "anatomy"
+},
+{
+"q": "Turning the palm of the hand downward is called...",
+"o": [
+"Eversion",
+"Pronation",
+"Inversion",
+"Supination"
+],
+"a": 1,
+"e": "Pronation turns the palm down (or back). Supination turns the palm up, as if holding a bowl of soup.",
+"s": "La pronación gira la palma hacia abajo (o atrás). La supinación gira la palma hacia arriba, como si sostuvieras un plato de sopa.",
+"id": "ana041",
+"t": "anatomy"
+},
+{
+"q": "Which term describes a position closer to the trunk or point of attachment?",
+"o": [
+"Distal",
+"Lateral",
+"Proximal",
+"Superficial"
+],
+"a": 2,
+"e": "Proximal = closer to the trunk/origin; distal = further away. The elbow is proximal to the wrist.",
+"s": "Proximal = más cerca del tronco/origen; distal = más lejos. El codo es proximal respecto a la muñeca.",
+"id": "ana042",
+"t": "anatomy"
+},
+{
+"q": "Where in the body are red blood cells produced?",
+"o": [
+"In the kidneys",
+"In the red bone marrow",
+"In the liver",
+"In the muscles"
+],
+"a": 1,
+"e": "Red blood cells are produced in the red bone marrow (haematopoiesis), one of the functions of the skeleton.",
+"s": "Los glóbulos rojos se producen en la médula ósea roja (hematopoyesis), una de las funciones del esqueleto.",
+"id": "ana043",
+"t": "anatomy"
+},
+{
+"q": "Which joint type allows the most freedom of movement?",
+"o": [
+"Ball-and-socket joint",
+"Fibrous joint",
+"Hinge joint",
+"Pivot joint"
+],
+"a": 0,
+"e": "Ball-and-socket joints (shoulder, hip) move in all three planes, so they have the largest range of motion.",
+"s": "Las articulaciones esféricas (hombro, cadera) se mueven en los tres planos, por lo que tienen la mayor amplitud de movimiento.",
+"id": "ana044",
+"t": "anatomy"
+},
+{
+"src": "portal",
+"q": "EPOC stands for",
+"o": [
+"Extra post-exercise oxygen consumption",
+"Excess post-exercise oxygen consumption",
+"Excess prior oxygen consumption",
+"Excess post-exercise oxygen"
+],
+"a": 1,
+"e": "EPOC = Excess Post-exercise Oxygen Consumption: the extra oxygen used after exercise to restore the body (refill CP stores, clear lactate, cool down). Note the trap words 'Extra' and the missing 'consumption'.",
+"s": "EPOC = consumo excesivo de oxígeno post-ejercicio: el oxígeno extra que se usa después del ejercicio para recuperar el cuerpo (reponer la fosfocreatina, eliminar lactato, enfriarse). Cuidado con las trampas 'Extra' y la falta de 'consumption'.",
+"id": "phy001",
+"t": "physiology"
+},
+{
+"src": "portal",
+"q": "What is ADP?",
+"o": [
+"Waste from nutrient combustion",
+"An energy-rich phosphate compound",
+"Another word for ATP",
+"A residue after cleavage of ATP"
+],
+"a": 3,
+"e": "When ATP releases energy, one phosphate group splits off and ADP (adenosine diphosphate) remains. ADP is then rebuilt into ATP.",
+"s": "Cuando el ATP libera energía, se separa un grupo fosfato y queda ADP (adenosín difosfato). Después el ADP se vuelve a convertir en ATP.",
+"id": "phy002",
+"t": "physiology"
+},
+{
+"src": "portal",
+"q": "What substance is produced during the anaerobic breakdown of glucose in the muscle fibre?",
+"o": [
+"CO2 and H2O",
+"Creatine phosphate",
+"Lactic acid",
+"Sweat"
+],
+"a": 2,
+"e": "Without enough oxygen, glucose is broken down to pyruvate and then lactic acid (lactate). CO2 and H2O are the products of aerobic breakdown.",
+"s": "Sin suficiente oxígeno, la glucosa se descompone en piruvato y luego en ácido láctico (lactato). El CO2 y el H2O son los productos de la vía aeróbica.",
+"id": "phy003",
+"t": "physiology"
+},
+{
+"q": "What is ATP?",
+"o": [
+"The direct energy source for muscle contraction",
+"A type of muscle fibre",
+"A hormone that regulates blood sugar",
+"A waste product of fat burning"
+],
+"a": 0,
+"e": "ATP (adenosine triphosphate) is the only direct energy source for muscle contraction. All energy systems exist to rebuild ATP.",
+"s": "El ATP (adenosín trifosfato) es la única fuente directa de energía para la contracción muscular. Todos los sistemas energéticos existen para regenerar ATP.",
+"id": "phy004",
+"t": "physiology"
+},
+{
+"q": "How long does the ATP-CP (phosphagen) system supply energy at maximal effort?",
+"o": [
+"About 2 minutes",
+"More than 30 minutes",
+"About 10 seconds",
+"About 10 minutes"
+],
+"a": 2,
+"e": "Stored ATP and creatine phosphate deliver energy very fast but only for roughly 6–10 seconds of maximal effort, e.g. a 60 m sprint or a heavy single lift.",
+"s": "El ATP almacenado y la fosfocreatina aportan energía muy rápido pero solo durante unos 6–10 segundos de esfuerzo máximo, p. ej., un sprint de 60 m o un levantamiento pesado.",
+"id": "phy005",
+"t": "physiology"
+},
+{
+"q": "Which energy system dominates during a 400 m sprint (about 50–60 seconds)?",
+"o": [
+"ATP-CP system",
+"Aerobic system",
+"Anaerobic glycolysis (lactic acid system)",
+"Fat oxidation"
+],
+"a": 2,
+"e": "Maximal efforts of roughly 10 seconds to 2 minutes rely mainly on anaerobic glycolysis, which produces lactate.",
+"s": "Los esfuerzos máximos de unos 10 segundos a 2 minutos dependen sobre todo de la glucólisis anaeróbica, que produce lactato.",
+"id": "phy006",
+"t": "physiology"
+},
+{
+"q": "Which energy system is used mainly during a 45-minute easy run?",
+"o": [
+"Aerobic system",
+"Lactic acid system",
+"Creatine system",
+"ATP-CP system"
+],
+"a": 0,
+"e": "Long, moderate efforts are fuelled aerobically: carbohydrates and fats are broken down with oxygen in the mitochondria.",
+"s": "Los esfuerzos largos y moderados se alimentan aeróbicamente: los carbohidratos y las grasas se descomponen con oxígeno en las mitocondrias.",
+"id": "phy007",
+"t": "physiology"
+},
+{
+"q": "What are the end products of the aerobic breakdown of glucose?",
+"o": [
+"Lactic acid and ATP",
+"CO2, H2O and ATP",
+"Creatine and ADP",
+"Ketones and lactate"
+],
+"a": 1,
+"e": "With oxygen, glucose is fully broken down to carbon dioxide, water and a large amount of ATP.",
+"s": "Con oxígeno, la glucosa se descompone por completo en dióxido de carbono, agua y una gran cantidad de ATP.",
+"id": "phy008",
+"t": "physiology"
+},
+{
+"q": "In which part of the muscle cell does aerobic energy production take place?",
+"o": [
+"Nucleus",
+"Sarcomere",
+"Cell membrane",
+"Mitochondria"
+],
+"a": 3,
+"e": "The mitochondria are the 'power plants' of the cell, where aerobic ATP production takes place.",
+"s": "Las mitocondrias son las 'centrales eléctricas' de la célula, donde se produce el ATP de forma aeróbica.",
+"id": "phy009",
+"t": "physiology"
+},
+{
+"q": "Which energy system delivers energy the fastest?",
+"o": [
+"Aerobic system",
+"ATP-CP system",
+"Anaerobic glycolysis",
+"Fat oxidation"
+],
+"a": 1,
+"e": "The ATP-CP system is the fastest (one chemical step) but has the smallest capacity. The aerobic system is the slowest but has the largest capacity.",
+"s": "El sistema ATP-PC es el más rápido (un solo paso químico) pero tiene la menor capacidad. El sistema aeróbico es el más lento pero tiene la mayor capacidad.",
+"id": "phy010",
+"t": "physiology"
+},
+{
+"q": "What does VO2max indicate?",
+"o": [
+"Maximum lactate concentration",
+"Maximum lung volume",
+"Maximum heart rate",
+"Maximum amount of oxygen the body can take up and use per minute"
+],
+"a": 3,
+"e": "VO2max is the maximal oxygen uptake (ml/kg/min), the best single indicator of aerobic (cardiorespiratory) fitness.",
+"s": "El VO2max es el consumo máximo de oxígeno (ml/kg/min), el mejor indicador individual de la capacidad aeróbica (cardiorrespiratoria).",
+"id": "phy011",
+"t": "physiology"
+},
+{
+"q": "Which formula is commonly used to estimate maximum heart rate?",
+"o": [
+"220 − resting heart rate",
+"180 + age",
+"200 − age",
+"220 − age"
+],
+"a": 3,
+"e": "HRmax ≈ 220 − age. It is an estimate with a spread of about ±10–12 beats.",
+"s": "FCmáx ≈ 220 − edad. Es una estimación con un margen de unos ±10–12 latidos.",
+"id": "phy012",
+"t": "physiology"
+},
+{
+"q": "Cardiac output is...",
+"o": [
+"Stroke volume ÷ heart rate",
+"Blood pressure × heart rate",
+"Heart rate × stroke volume",
+"Heart rate − resting heart rate"
+],
+"a": 2,
+"e": "Cardiac output (litres per minute) = heart rate × stroke volume (the amount of blood pumped per beat).",
+"s": "El gasto cardíaco (litros por minuto) = frecuencia cardíaca × volumen sistólico (la cantidad de sangre bombeada por latido).",
+"id": "phy013",
+"t": "physiology"
+},
+{
+"q": "What is a typical long-term effect of endurance training on resting heart rate?",
+"o": [
+"It rises",
+"It stays exactly the same",
+"It becomes irregular",
+"It falls"
+],
+"a": 3,
+"e": "Endurance training enlarges the stroke volume, so the heart needs fewer beats at rest to pump the same amount of blood.",
+"s": "El entrenamiento de resistencia aumenta el volumen sistólico, así que el corazón necesita menos latidos en reposo para bombear la misma cantidad de sangre.",
+"id": "phy014",
+"t": "physiology"
+},
+{
+"q": "Which blood vessels carry blood away from the heart?",
+"o": [
+"Capillaries",
+"Arteries",
+"Lymph vessels",
+"Veins"
+],
+"a": 1,
+"e": "Arteries carry blood away from the heart; veins carry it back. Gas exchange takes place in the capillaries.",
+"s": "Las arterias llevan la sangre desde el corazón; las venas la devuelven. El intercambio de gases ocurre en los capilares.",
+"id": "phy015",
+"t": "physiology"
+},
+{
+"q": "Where does gas exchange between the lungs and the blood take place?",
+"o": [
+"Trachea",
+"Bronchi",
+"Diaphragm",
+"Alveoli"
+],
+"a": 3,
+"e": "Oxygen and CO2 are exchanged in the alveoli, tiny air sacs surrounded by capillaries.",
+"s": "El oxígeno y el CO2 se intercambian en los alvéolos, pequeños sacos de aire rodeados de capilares.",
+"id": "phy016",
+"t": "physiology"
+},
+{
+"q": "What is the main breathing muscle?",
+"o": [
+"M. trapezius",
+"M. pectoralis major",
+"M. rectus abdominis",
+"Diaphragm"
+],
+"a": 3,
+"e": "The diaphragm contracts and flattens during inhalation, which draws air into the lungs.",
+"s": "El diafragma se contrae y se aplana durante la inspiración, lo que hace entrar aire en los pulmones.",
+"id": "phy017",
+"t": "physiology"
+},
+{
+"q": "Which substance in the blood transports oxygen?",
+"o": [
+"Plasma",
+"Haemoglobin",
+"Insulin",
+"Glycogen"
+],
+"a": 1,
+"e": "Haemoglobin in the red blood cells binds oxygen and carries it to the tissues.",
+"s": "La hemoglobina de los glóbulos rojos se une al oxígeno y lo transporta a los tejidos.",
+"id": "phy018",
+"t": "physiology"
+},
+{
+"q": "What is the anaerobic (lactate) threshold?",
+"o": [
+"The heart rate at rest",
+"The point at which fat burning stops completely",
+"The intensity above which lactate builds up faster than it can be removed",
+"The maximum amount of weight you can lift"
+],
+"a": 2,
+"e": "Above the lactate threshold, lactate production exceeds clearance, so it accumulates and fatigue follows quickly.",
+"s": "Por encima del umbral de lactato, la producción supera la eliminación, el lactato se acumula y la fatiga llega rápido.",
+"id": "phy019",
+"t": "physiology"
+},
+{
+"q": "In which form are carbohydrates stored in the muscles and liver?",
+"o": [
+"Protein",
+"Triglycerides",
+"Glycogen",
+"Glucose"
+],
+"a": 2,
+"e": "Carbohydrate is stored as glycogen in muscle and liver. Fat is stored as triglycerides.",
+"s": "Los carbohidratos se almacenan como glucógeno en el músculo y el hígado. La grasa se almacena como triglicéridos.",
+"id": "phy020",
+"t": "physiology"
+},
+{
+"q": "Which hormone lowers blood sugar levels?",
+"o": [
+"Insulin",
+"Adrenaline",
+"Cortisol",
+"Glucagon"
+],
+"a": 0,
+"e": "Insulin (from the pancreas) helps cells take up glucose, which lowers blood sugar. Glucagon raises it.",
+"s": "La insulina (del páncreas) ayuda a las células a absorber la glucosa, lo que reduce el azúcar en sangre. El glucagón lo eleva.",
+"id": "phy021",
+"t": "physiology"
+},
+{
+"q": "What is supercompensation?",
+"o": [
+"Eating extra carbohydrates before a match",
+"Overtraining caused by too little rest",
+"Losing fitness after a break",
+"Recovery to a level above the starting level after training and rest"
+],
+"a": 3,
+"e": "After training load (fatigue) and adequate recovery, the body adapts above its previous level. Training again at that moment leads to progress.",
+"s": "Tras la carga de entrenamiento (fatiga) y una recuperación adecuada, el cuerpo se adapta por encima de su nivel anterior. Volver a entrenar en ese momento produce progreso.",
+"id": "phy022",
+"t": "physiology"
+},
+{
+"q": "What is the main cause of muscle hypertrophy?",
+"o": [
+"Fat turning into muscle",
+"An increase in bone density",
+"An increase in the size (cross-section) of existing muscle fibres",
+"An increase in the number of muscle fibres"
+],
+"a": 2,
+"e": "Hypertrophy mainly means existing fibres get thicker through more myofibrils and contractile proteins.",
+"s": "La hipertrofia significa principalmente que las fibras existentes se engrosan por un aumento de miofibrillas y proteínas contráctiles.",
+"id": "phy023",
+"t": "physiology"
+},
+{
+"q": "Strength gains in the first weeks of a strength training programme are mainly caused by...",
+"o": [
+"Neural adaptations (better recruitment and coordination)",
+"More fat mass",
+"More type I fibres",
+"Muscle hypertrophy"
+],
+"a": 0,
+"e": "Early gains (roughly the first 4–8 weeks) come mainly from the nervous system: more motor units recruited and better coordination. Hypertrophy follows later.",
+"s": "Las mejoras iniciales (aproximadamente las primeras 4–8 semanas) vienen sobre todo del sistema nervioso: se reclutan más unidades motoras y mejora la coordinación. La hipertrofia llega después.",
+"id": "phy024",
+"t": "physiology"
+},
+{
+"q": "A motor unit consists of...",
+"o": [
+"One sarcomere and one myofibril",
+"The brain and the spinal cord",
+"One motor neuron and all the muscle fibres it innervates",
+"One muscle and one tendon"
+],
+"a": 2,
+"e": "A motor unit is one motor neuron plus all the muscle fibres it controls. More force = more and larger motor units recruited.",
+"s": "Una unidad motora es una motoneurona más todas las fibras musculares que controla. Más fuerza = se reclutan más unidades motoras y más grandes.",
+"id": "phy025",
+"t": "physiology"
+},
+{
+"q": "Which statement about lactate (lactic acid) is correct?",
+"o": [
+"It is only produced at rest",
+"It is produced during anaerobic glycolysis and can be reused as fuel",
+"It is produced in the ATP-CP system",
+"It causes muscle soreness 2 days after training (DOMS)"
+],
+"a": 1,
+"e": "Lactate is a by-product of anaerobic glycolysis and is reused as fuel (by the heart, muscles and liver). DOMS is caused by micro-damage, not lactate.",
+"s": "El lactato es un subproducto de la glucólisis anaeróbica y se reutiliza como combustible (corazón, músculos, hígado). Las agujetas (DOMS) se deben a microlesiones, no al lactato.",
+"id": "phy026",
+"t": "physiology"
+},
+{
+"q": "What is DOMS?",
+"o": [
+"Delayed onset muscle soreness",
+"Dynamic overload muscle strain",
+"Delayed oxygen muscle supply",
+"Direct overload muscle syndrome"
+],
+"a": 0,
+"e": "DOMS = Delayed Onset Muscle Soreness, the stiffness that peaks 24–72 hours after unaccustomed (especially eccentric) exercise.",
+"s": "DOMS = dolor muscular de aparición tardía (agujetas), la rigidez que alcanza su máximo 24–72 horas después de un ejercicio no habitual (sobre todo excéntrico).",
+"id": "phy027",
+"t": "physiology"
+},
+{
+"q": "Which type of contraction causes the most muscle soreness (DOMS)?",
+"o": [
+"Concentric",
+"Eccentric",
+"Isokinetic",
+"Isometric"
+],
+"a": 1,
+"e": "Eccentric contractions (e.g. downhill running, lowering weights) cause the most micro-damage and therefore the most DOMS.",
+"s": "Las contracciones excéntricas (p. ej., correr cuesta abajo, bajar pesos) causan más microlesiones y, por tanto, más agujetas.",
+"id": "phy028",
+"t": "physiology"
+},
+{
+"q": "What is the normal resting heart rate range for an adult?",
+"o": [
+"60–100 bpm",
+"100–120 bpm",
+"40–50 bpm",
+"120–140 bpm"
+],
+"a": 0,
+"e": "Normal resting heart rate is about 60–100 beats per minute. Well-trained endurance athletes can be lower.",
+"s": "La frecuencia cardíaca normal en reposo es de unos 60–100 latidos por minuto. Los deportistas de resistencia entrenados pueden tenerla más baja.",
+"id": "phy029",
+"t": "physiology"
+},
+{
+"q": "Which blood pressure value is considered normal/optimal for adults?",
+"o": [
+"120/80 mmHg",
+"90/40 mmHg",
+"160/100 mmHg",
+"140/95 mmHg"
+],
+"a": 0,
+"e": "Around 120/80 mmHg (systolic/diastolic) is normal. 140/90 or higher is generally classed as high blood pressure (hypertension).",
+"s": "Alrededor de 120/80 mmHg (sistólica/diastólica) es normal. 140/90 o más se clasifica generalmente como hipertensión.",
+"id": "phy030",
+"t": "physiology"
+},
+{
+"q": "The systolic blood pressure is the pressure...",
+"o": [
+"In the veins",
+"When the heart relaxes",
+"When the heart contracts",
+"In the lungs"
+],
+"a": 2,
+"e": "Systolic = pressure during contraction of the heart (upper number). Diastolic = pressure during relaxation (lower number).",
+"s": "Sistólica = presión durante la contracción del corazón (número superior). Diastólica = presión durante la relajación (número inferior).",
+"id": "phy031",
+"t": "physiology"
+},
+{
+"q": "Which macronutrient is the main fuel at rest and during low-intensity exercise?",
+"o": [
+"Carbohydrate",
+"Alcohol",
+"Protein",
+"Fat"
+],
+"a": 3,
+"e": "At rest and low intensity, fat supplies most of the energy. As intensity rises, carbohydrate takes over.",
+"s": "En reposo y a baja intensidad, la grasa aporta la mayor parte de la energía. Al aumentar la intensidad, los carbohidratos toman el relevo.",
+"id": "phy032",
+"t": "physiology"
+},
+{
+"q": "What happens to blood flow to the working muscles during exercise?",
+"o": [
+"It stops",
+"It decreases",
+"It increases",
+"It stays the same"
+],
+"a": 2,
+"e": "During exercise blood is redirected to working muscles (vasodilation there, less to the digestive organs).",
+"s": "Durante el ejercicio la sangre se redirige a los músculos activos (vasodilatación allí y menos flujo a los órganos digestivos).",
+"id": "phy033",
+"t": "physiology"
+},
+{
+"q": "Creatine phosphate is used to...",
+"o": [
+"Store fat",
+"Rapidly rebuild ATP from ADP",
+"Transport oxygen",
+"Build muscle protein"
+],
+"a": 1,
+"e": "Creatine phosphate donates its phosphate to ADP, rebuilding ATP very quickly at the start of intense effort.",
+"s": "La fosfocreatina cede su fosfato al ADP y regenera ATP muy rápidamente al inicio de un esfuerzo intenso.",
+"id": "phy034",
+"t": "physiology"
+},
+{
+"src": "portal",
+"q": "The definition of biomechanics is?",
+"o": [
+"Indicating the difference between strength, load and being strong",
+"Calculating the magnitude and direction of the force",
+"Creating training schedules with the help of different forces",
+"The doctrine of forces and the effect of forces on the human body"
+],
+"a": 3,
+"e": "Biomechanics is the study of forces and their effects on the human body (movement, loading of joints and tissues).",
+"s": "La biomecánica es el estudio de las fuerzas y sus efectos sobre el cuerpo humano (movimiento, carga de articulaciones y tejidos).",
+"id": "bio001",
+"t": "biomechanics"
+},
+{
+"src": "portal",
+"q": "How does overloading occur?",
+"o": [
+"The load is equal to the load capacity",
+"The load is higher than the load capacity",
+"The load capacity is greater than the load",
+"The load is lower than the load capacity"
+],
+"a": 1,
+"e": "Overload (overbelasting) happens when the load is greater than what the tissue or person can handle (the load capacity). This can lead to injury.",
+"s": "La sobrecarga ocurre cuando la carga es mayor que lo que el tejido o la persona puede soportar (la capacidad de carga). Puede provocar lesiones.",
+"id": "bio002",
+"t": "biomechanics"
+},
+{
+"q": "What is load capacity (belastbaarheid)?",
+"o": [
+"The total training volume per week",
+"The weight on the bar",
+"The number of repetitions in a set",
+"The amount of load a person or tissue can handle without damage"
+],
+"a": 3,
+"e": "Load capacity is what the body or a tissue can tolerate. Good training keeps load slightly above current level, then lets capacity grow with recovery.",
+"s": "La capacidad de carga es lo que el cuerpo o un tejido puede tolerar. Un buen entrenamiento mantiene la carga ligeramente por encima del nivel actual y deja que la capacidad crezca con la recuperación.",
+"id": "bio003",
+"t": "biomechanics"
+},
+{
+"q": "Which factor lowers a person's load capacity?",
+"o": [
+"Fatigue and poor recovery",
+"Good sleep",
+"Adequate nutrition",
+"Gradual training build-up"
+],
+"a": 0,
+"e": "Fatigue, stress, poor sleep, illness and previous injury reduce load capacity, so the same load is more likely to cause overload.",
+"s": "La fatiga, el estrés, dormir mal, la enfermedad y las lesiones previas reducen la capacidad de carga, así que la misma carga tiene más probabilidad de causar sobrecarga.",
+"id": "bio004",
+"t": "biomechanics"
+},
+{
+"q": "A force is described by its...",
+"o": [
+"Size only",
+"Size (magnitude), direction and point of application",
+"Mass and colour",
+"Speed only"
+],
+"a": 1,
+"e": "A force is a vector: it has a magnitude, a direction and a point of application.",
+"s": "Una fuerza es un vector: tiene magnitud, dirección y punto de aplicación.",
+"id": "bio005",
+"t": "biomechanics"
+},
+{
+"q": "In what unit is force expressed?",
+"o": [
+"Joule",
+"Kilogram",
+"Watt",
+"Newton"
+],
+"a": 3,
+"e": "Force is measured in Newtons (N). 1 kg of mass weighs roughly 10 N on Earth.",
+"s": "La fuerza se mide en newtons (N). 1 kg de masa pesa aproximadamente 10 N en la Tierra.",
+"id": "bio006",
+"t": "biomechanics"
+},
+{
+"q": "Newton's second law states that...",
+"o": [
+"Force = mass × acceleration",
+"Every action has an equal and opposite reaction",
+"Energy cannot be destroyed",
+"An object stays at rest unless a force acts on it"
+],
+"a": 0,
+"e": "F = m × a. The first law is inertia; the third is action = reaction.",
+"s": "F = m × a. La primera ley es la inercia; la tercera es acción = reacción.",
+"id": "bio007",
+"t": "biomechanics"
+},
+{
+"q": "When you push off the ground while running, the ground pushes back on you. Which law is this?",
+"o": [
+"Newton's third law (action = reaction)",
+"Law of gravity",
+"Newton's first law (inertia)",
+"Newton's second law (F = m × a)"
+],
+"a": 0,
+"e": "Newton's third law: every action has an equal and opposite reaction (ground reaction force).",
+"s": "Tercera ley de Newton: a toda acción le corresponde una reacción igual y opuesta (fuerza de reacción del suelo).",
+"id": "bio008",
+"t": "biomechanics"
+},
+{
+"q": "What is a moment (torque)?",
+"o": [
+"Force ÷ time",
+"Weight × height",
+"Force × moment arm",
+"Mass × speed"
+],
+"a": 2,
+"e": "Moment (torque) = force × moment arm (the perpendicular distance from the line of force to the axis of rotation).",
+"s": "El momento (par de fuerza) = fuerza × brazo de momento (la distancia perpendicular de la línea de fuerza al eje de rotación).",
+"id": "bio009",
+"t": "biomechanics"
+},
+{
+"q": "During a lateral raise, when is the load on the shoulder greatest?",
+"o": [
+"When the arms are horizontal (90°)",
+"When the arms hang down",
+"The load is the same throughout",
+"At the start of the movement"
+],
+"a": 0,
+"e": "The moment arm of the dumbbell is longest when the arm is horizontal, so the torque on the shoulder is highest there.",
+"s": "El brazo de momento de la mancuerna es máximo cuando el brazo está horizontal, por lo que el par sobre el hombro es mayor en ese punto.",
+"id": "bio010",
+"t": "biomechanics"
+},
+{
+"q": "How can you make a push-up easier without changing the exercise?",
+"o": [
+"Move the hands closer together",
+"Hold the bottom position longer",
+"Do it from the knees (shorter lever)",
+"Put the feet on a bench"
+],
+"a": 2,
+"e": "From the knees the lever (body length) is shorter and less body weight is lifted, which lowers the load.",
+"s": "Desde las rodillas la palanca (longitud del cuerpo) es más corta y se levanta menos peso corporal, lo que reduce la carga.",
+"id": "bio011",
+"t": "biomechanics"
+},
+{
+"q": "In a squat, which change increases the load (moment) on the lower back?",
+"o": [
+"Reducing the depth",
+"Leaning the trunk further forward",
+"Keeping the trunk more upright",
+"Using a lighter weight"
+],
+"a": 1,
+"e": "Leaning forward moves the bar further from the hip and spine axis, so the moment arm and the load on the lower back increase.",
+"s": "Inclinarse hacia delante aleja la barra del eje de la cadera y la columna, de modo que aumentan el brazo de momento y la carga en la zona lumbar.",
+"id": "bio012",
+"t": "biomechanics"
+},
+{
+"q": "A lever system consists of...",
+"o": [
+"Muscle, tendon and ligament",
+"Axis (fulcrum), force (effort) and resistance (load)",
+"Bone, cartilage and joint fluid",
+"Agonist, antagonist and synergist"
+],
+"a": 1,
+"e": "Every lever has an axis/fulcrum (the joint), an effort (muscle force) and a resistance (load). In the body, bones are the levers.",
+"s": "Toda palanca tiene un eje o punto de apoyo (la articulación), una potencia (fuerza muscular) y una resistencia (carga). En el cuerpo, los huesos son las palancas.",
+"id": "bio013",
+"t": "biomechanics"
+},
+{
+"q": "Most levers in the human body (e.g. the elbow during a biceps curl) are...",
+"o": [
+"Second-class levers",
+"No levers at all",
+"First-class levers",
+"Third-class levers"
+],
+"a": 3,
+"e": "In a third-class lever the effort lies between the axis and the load. This favours speed and range of motion over force.",
+"s": "En una palanca de tercer grado la potencia está entre el eje y la carga. Favorece la velocidad y la amplitud de movimiento frente a la fuerza.",
+"id": "bio014",
+"t": "biomechanics"
+},
+{
+"q": "Standing on your toes (calf raise) is often given as an example of a...",
+"o": [
+"Third-class lever",
+"Second-class lever",
+"Pulley",
+"First-class lever"
+],
+"a": 1,
+"e": "In a calf raise the axis is the ball of the foot, the load (body weight) is in the middle and the effort (calf) is at the heel: a second-class lever.",
+"s": "En una elevación de talones el eje es la parte anterior del pie, la carga (peso corporal) está en el medio y la potencia (gemelo) en el talón: palanca de segundo grado.",
+"id": "bio015",
+"t": "biomechanics"
+},
+{
+"q": "Nodding the head (the neck joint as axis between head weight and neck muscles) is an example of a...",
+"o": [
+"Third-class lever",
+"First-class lever",
+"Wheel and axle",
+"Second-class lever"
+],
+"a": 1,
+"e": "In a first-class lever the axis lies between effort and load, like a seesaw.",
+"s": "En una palanca de primer grado el eje está entre la potencia y la carga, como un balancín.",
+"id": "bio016",
+"t": "biomechanics"
+},
+{
+"q": "When is a person most stable?",
+"o": [
+"Large base of support and low centre of gravity",
+"Small base of support and high centre of gravity",
+"Standing on one leg",
+"Centre of gravity outside the base of support"
+],
+"a": 0,
+"e": "Stability increases with a wider base of support, a lower centre of gravity and the centre of gravity well within the base.",
+"s": "La estabilidad aumenta con una base de apoyo más amplia, un centro de gravedad más bajo y el centro de gravedad bien dentro de la base.",
+"id": "bio017",
+"t": "biomechanics"
+},
+{
+"q": "Where is the centre of gravity of a standing adult roughly located?",
+"o": [
+"At the level of the head",
+"Around the navel / just in front of the sacrum",
+"At the knees",
+"At the chest"
+],
+"a": 1,
+"e": "In upright standing the centre of gravity lies roughly at navel height, just in front of the second sacral vertebra.",
+"s": "De pie, el centro de gravedad está aproximadamente a la altura del ombligo, justo delante de la segunda vértebra sacra.",
+"id": "bio018",
+"t": "biomechanics"
+},
+{
+"q": "Which type of load on tissue is caused by forces pulling in opposite directions?",
+"o": [
+"Tension (tensile load)",
+"Torsion",
+"Shear",
+"Compression"
+],
+"a": 0,
+"e": "Tension pulls tissue apart; compression pushes it together; shear makes layers slide; torsion twists.",
+"s": "La tensión (tracción) separa el tejido; la compresión lo junta; el cizallamiento hace deslizar las capas; la torsión lo retuerce.",
+"id": "bio019",
+"t": "biomechanics"
+},
+{
+"q": "Speed × mass equals...",
+"o": [
+"Momentum",
+"Force",
+"Power",
+"Work"
+],
+"a": 0,
+"e": "Momentum = mass × velocity. Power = work ÷ time. Work = force × distance.",
+"s": "Cantidad de movimiento = masa × velocidad. Potencia = trabajo ÷ tiempo. Trabajo = fuerza × distancia.",
+"id": "bio020",
+"t": "biomechanics"
+},
+{
+"q": "Power is defined as...",
+"o": [
+"Mass × acceleration",
+"Work ÷ time (force × velocity)",
+"Force × distance",
+"Maximum strength"
+],
+"a": 1,
+"e": "Power is the rate of doing work: work ÷ time, or force × velocity. Explosive movements require high power.",
+"s": "La potencia es la rapidez con la que se realiza un trabajo: trabajo ÷ tiempo, o fuerza × velocidad. Los movimientos explosivos requieren mucha potencia.",
+"id": "bio021",
+"t": "biomechanics"
+},
+{
+"q": "Why does a cable machine give a different strength curve than a free weight?",
+"o": [
+"There is no difference",
+"The direction of resistance follows the cable, not gravity",
+"Gravity always pulls the cable down",
+"Cables are always heavier"
+],
+"a": 1,
+"e": "With free weights resistance always acts vertically (gravity). With cables, resistance follows the cable line, so the hardest point of the movement changes.",
+"s": "Con peso libre la resistencia siempre actúa en vertical (gravedad). Con poleas, la resistencia sigue la línea del cable, así que el punto más difícil del movimiento cambia.",
+"id": "bio022",
+"t": "biomechanics"
+},
+{
+"q": "What is the effect of a longer lever arm with the same weight?",
+"o": [
+"No effect",
+"Lower torque",
+"Higher torque",
+"The weight becomes lighter"
+],
+"a": 2,
+"e": "Torque = force × lever arm. Longer arm, same weight → more torque, so the exercise feels heavier (e.g. straight-arm vs bent-arm fly).",
+"s": "Par = fuerza × brazo de palanca. Brazo más largo con el mismo peso → más par, así que el ejercicio se siente más pesado (p. ej., aperturas con brazos rectos frente a flexionados).",
+"id": "bio023",
+"t": "biomechanics"
+},
+{
+"q": "Load and load capacity are in balance. What happens if you train regularly with a load slightly above the current capacity and allow recovery?",
+"o": [
+"Injury is certain",
+"Nothing changes",
+"Load capacity decreases",
+"Load capacity increases"
+],
+"a": 3,
+"e": "A load slightly above capacity followed by recovery stimulates adaptation, so load capacity grows (principle of progressive overload).",
+"s": "Una carga ligeramente superior a la capacidad seguida de recuperación estimula la adaptación, así que la capacidad de carga aumenta (principio de sobrecarga progresiva).",
+"id": "bio024",
+"t": "biomechanics"
+},
+{
+"q": "Which statement about friction is correct?",
+"o": [
+"Friction only exists in water",
+"Friction is a force that opposes sliding between two surfaces",
+"Friction increases body weight",
+"Friction always helps movement"
+],
+"a": 1,
+"e": "Friction resists sliding between surfaces. Good shoe grip uses friction; a slippery floor lacks it.",
+"s": "La fricción se opone al deslizamiento entre superficies. El buen agarre de una zapatilla usa la fricción; un suelo resbaladizo carece de ella.",
+"id": "bio025",
+"t": "biomechanics"
+},
+{
+"q": "A deadlift with the bar far from the shins is riskier because...",
+"o": [
+"The bar becomes lighter",
+"Gravity changes direction",
+"The legs do more work",
+"The moment arm to the lower back increases"
+],
+"a": 3,
+"e": "The further the bar is from the body, the longer the moment arm around the hip and spine, which increases load on the lower back.",
+"s": "Cuanto más lejos esté la barra del cuerpo, más largo es el brazo de momento alrededor de la cadera y la columna, lo que aumenta la carga en la zona lumbar.",
+"id": "bio026",
+"t": "biomechanics"
+},
+{
+"q": "What is inertia?",
+"o": [
+"The speed of a falling object",
+"The flexibility of a joint",
+"The tendency of an object to resist a change in its state of motion",
+"The force of a muscle"
+],
+"a": 2,
+"e": "Inertia (Newton's first law): an object stays at rest or in uniform motion unless a force acts on it. More mass = more inertia.",
+"s": "Inercia (primera ley de Newton): un objeto permanece en reposo o en movimiento uniforme a menos que actúe una fuerza sobre él. Más masa = más inercia.",
+"id": "bio027",
+"t": "biomechanics"
+},
+{
+"q": "What is a closed kinetic chain exercise?",
+"o": [
+"An exercise in which the hand or foot moves freely (e.g. leg extension)",
+"An exercise performed on a machine only",
+"An exercise without load",
+"An exercise in which the hand or foot is fixed against a surface (e.g. squat, push-up)"
+],
+"a": 3,
+"e": "Closed chain: distal segment fixed (squat, push-up). Open chain: distal segment free (leg extension, biceps curl).",
+"s": "Cadena cerrada: segmento distal fijo (sentadilla, flexión). Cadena abierta: segmento distal libre (extensión de pierna, curl de bíceps).",
+"id": "bio028",
+"t": "biomechanics"
+},
+{
+"q": "A leg extension on a machine is an example of...",
+"o": [
+"A plyometric exercise",
+"A closed kinetic chain exercise",
+"An isometric exercise",
+"An open kinetic chain exercise"
+],
+"a": 3,
+"e": "In a leg extension the foot moves freely, so it is an open kinetic chain exercise.",
+"s": "En una extensión de pierna el pie se mueve libremente, así que es un ejercicio de cadena cinética abierta.",
+"id": "bio029",
+"t": "biomechanics"
+},
+{
+"q": "What does the training principle 'specificity' mean?",
+"o": [
+"You should always train with heavy weights",
+"Training must be varied every session",
+"Every training gives the same result",
+"The body adapts specifically to the type of load it is given"
+],
+"a": 3,
+"e": "Specificity: adaptations match the training stimulus. A marathon runner should mainly train endurance, not maximal strength.",
+"s": "Especificidad: las adaptaciones corresponden al estímulo de entrenamiento. Un maratoniano debe entrenar sobre todo la resistencia, no la fuerza máxima.",
+"id": "tra001",
+"t": "training"
+},
+{
+"q": "What does the principle of 'reversibility' mean?",
+"o": [
+"Exercises can be done in reverse order",
+"Training effects disappear when training stops",
+"Heavier training always gives faster results",
+"You can reverse an injury by training"
+],
+"a": 1,
+"e": "Reversibility ('use it or lose it'): when you stop training, adaptations gradually decline.",
+"s": "Reversibilidad ('lo que no se usa se pierde'): cuando dejas de entrenar, las adaptaciones disminuyen poco a poco.",
+"id": "tra002",
+"t": "training"
+},
+{
+"q": "What does 'progressive overload' mean?",
+"o": [
+"Training until exhaustion every session",
+"Training more than twice a day",
+"Gradually increasing the training load as the body adapts",
+"Always using the maximum weight"
+],
+"a": 2,
+"e": "Progressive overload: increase load (weight, reps, sets, intensity, duration) step by step to keep stimulating adaptation.",
+"s": "Sobrecarga progresiva: aumentar la carga (peso, repeticiones, series, intensidad, duración) poco a poco para seguir estimulando la adaptación.",
+"id": "tra003",
+"t": "training"
+},
+{
+"q": "What does FITT stand for?",
+"o": [
+"Force, Interval, Tempo, Technique",
+"Frequency, Interval, Training, Tempo",
+"Fitness, Intensity, Time, Training",
+"Frequency, Intensity, Time, Type"
+],
+"a": 3,
+"e": "FITT = Frequency, Intensity, Time (duration), Type. These are the variables you adjust in a training programme.",
+"s": "FITT = Frecuencia, Intensidad, Tiempo (duración), Tipo. Son las variables que se ajustan en un programa de entrenamiento.",
+"id": "tra004",
+"t": "training"
+},
+{
+"q": "Which repetition range is most suitable for training maximal strength?",
+"o": [
+"1–5 repetitions",
+"8–12 repetitions",
+"15–20 repetitions",
+"25–30 repetitions"
+],
+"a": 0,
+"e": "Maximal strength is trained with heavy loads (about 85%+ of 1RM) for 1–5 reps and long rests.",
+"s": "La fuerza máxima se entrena con cargas altas (aprox. 85%+ del 1RM) en 1–5 repeticiones y descansos largos.",
+"id": "tra005",
+"t": "training"
+},
+{
+"q": "Which repetition range is classically recommended for hypertrophy (muscle growth)?",
+"o": [
+"50+ repetitions",
+"1–3 repetitions",
+"20–30 repetitions",
+"6–12 repetitions"
+],
+"a": 3,
+"e": "The classic hypertrophy zone is about 6–12 reps at roughly 65–85% of 1RM, with moderate rests (about 60–90 s).",
+"s": "La zona clásica de hipertrofia es de unas 6–12 repeticiones al 65–85% del 1RM, con descansos moderados (unos 60–90 s).",
+"id": "tra006",
+"t": "training"
+},
+{
+"q": "Which repetition range fits muscular endurance training?",
+"o": [
+"15 repetitions or more",
+"Only isometric holds",
+"4–6 repetitions",
+"1–3 repetitions"
+],
+"a": 0,
+"e": "Muscular endurance is trained with lighter loads (below about 65% 1RM) and high reps (15+), with short rests.",
+"s": "La resistencia muscular se entrena con cargas ligeras (por debajo del 65% del 1RM) y muchas repeticiones (15+), con descansos cortos.",
+"id": "tra007",
+"t": "training"
+},
+{
+"q": "What does 1RM mean?",
+"o": [
+"The maximum weight you can lift once with good technique",
+"One round of a circuit",
+"The minimum weight for a warm-up",
+"One repetition per minute"
+],
+"a": 0,
+"e": "1RM (one repetition maximum) is the heaviest load you can lift for a single correct repetition. Training loads are often given as a % of 1RM.",
+"s": "El 1RM (una repetición máxima) es la carga más pesada que puedes levantar en una sola repetición correcta. Las cargas suelen expresarse como % del 1RM.",
+"id": "tra008",
+"t": "training"
+},
+{
+"q": "What rest between sets is appropriate for maximal strength training?",
+"o": [
+"2–5 minutes",
+"15–30 seconds",
+"10 minutes",
+"30–60 seconds"
+],
+"a": 0,
+"e": "Heavy maximal strength sets need 2–5 minutes so the ATP-CP system can recover.",
+"s": "Las series pesadas de fuerza máxima necesitan 2–5 minutos para que el sistema ATP-PC se recupere.",
+"id": "tra009",
+"t": "training"
+},
+{
+"q": "What is periodisation?",
+"o": [
+"Resting for a whole period",
+"Training only in the morning",
+"Systematically planning training in phases (cycles) with different goals",
+"Training at the same intensity all year"
+],
+"a": 2,
+"e": "Periodisation divides training into macro-, meso- and microcycles with changing goals, volume and intensity to optimise progress and prevent overtraining.",
+"s": "La periodización divide el entrenamiento en macro-, meso- y microciclos con objetivos, volumen e intensidad cambiantes para optimizar el progreso y evitar el sobreentrenamiento.",
+"id": "tra010",
+"t": "training"
+},
+{
+"q": "A microcycle usually lasts...",
+"o": [
+"About one week",
+"One year",
+"About one month",
+"One day"
+],
+"a": 0,
+"e": "Microcycle ≈ 1 week; mesocycle ≈ several weeks (often 3–6); macrocycle ≈ a season or a year.",
+"s": "Microciclo ≈ 1 semana; mesociclo ≈ varias semanas (a menudo 3–6); macrociclo ≈ una temporada o un año.",
+"id": "tra011",
+"t": "training"
+},
+{
+"q": "What is the order of the training cycles from largest to smallest?",
+"o": [
+"Mesocycle, macrocycle, microcycle",
+"Macrocycle, microcycle, mesocycle",
+"Microcycle, mesocycle, macrocycle",
+"Macrocycle, mesocycle, microcycle"
+],
+"a": 3,
+"e": "Macro (largest, e.g. a year) → meso (block of weeks) → micro (a week).",
+"s": "Macro (el más grande, p. ej., un año) → meso (bloque de semanas) → micro (una semana).",
+"id": "tra012",
+"t": "training"
+},
+{
+"q": "Which is a sign of overtraining?",
+"o": [
+"Faster recovery after each session",
+"Persistent fatigue, declining performance and a raised resting heart rate",
+"More motivation to train",
+"Lower resting heart rate and better sleep"
+],
+"a": 1,
+"e": "Overtraining shows as lasting fatigue, falling performance, raised resting heart rate, poor sleep, irritability and more illness.",
+"s": "El sobreentrenamiento se manifiesta como fatiga persistente, bajada del rendimiento, frecuencia cardíaca en reposo elevada, mal sueño, irritabilidad y más enfermedades.",
+"id": "tra013",
+"t": "training"
+},
+{
+"q": "The Karvonen formula uses...",
+"o": [
+"Body weight and height",
+"Heart rate reserve (HRmax − HRrest)",
+"Blood pressure",
+"Only maximum heart rate"
+],
+"a": 1,
+"e": "Karvonen: target HR = HRrest + (HRmax − HRrest) × intensity %. It accounts for individual resting heart rate.",
+"s": "Karvonen: FC objetivo = FCreposo + (FCmáx − FCreposo) × % de intensidad. Tiene en cuenta la frecuencia cardíaca en reposo individual.",
+"id": "tra014",
+"t": "training"
+},
+{
+"q": "A 40-year-old client has a resting heart rate of 60. Using Karvonen, what is the target heart rate at 70% intensity?",
+"o": [
+"144 bpm",
+"126 bpm",
+"168 bpm",
+"154 bpm"
+],
+"a": 0,
+"e": "HRmax = 220 − 40 = 180. Reserve = 180 − 60 = 120. 120 × 0.7 = 84. Target = 60 + 84 = 144 bpm. (126 bpm is 70% of HRmax, the simple method without the resting heart rate.)",
+"s": "FCmáx = 220 − 40 = 180. Reserva = 180 − 60 = 120. 120 × 0,7 = 84. 60 + 84 = 144 lpm.",
+"id": "tra015",
+"t": "training"
+},
+{
+"q": "What does RPE stand for?",
+"o": [
+"Rate of Perceived Exertion",
+"Rate of Physical Endurance",
+"Resting Pulse Evaluation",
+"Repetition Performance Estimate"
+],
+"a": 0,
+"e": "RPE = Rate (Rating) of Perceived Exertion, e.g. the Borg scale (6–20) or a 1–10 scale.",
+"s": "RPE = escala de esfuerzo percibido, p. ej., la escala de Borg (6–20) o una escala de 1–10.",
+"id": "tra016",
+"t": "training"
+},
+{
+"q": "The original Borg scale runs from...",
+"o": [
+"0 to 10",
+"1 to 5",
+"6 to 20",
+"1 to 100"
+],
+"a": 2,
+"e": "The original Borg RPE scale runs from 6 to 20 (roughly heart rate ÷ 10). The modified CR10 scale runs from 0 to 10.",
+"s": "La escala de Borg original va de 6 a 20 (aproximadamente frecuencia cardíaca ÷ 10). La escala CR10 modificada va de 0 a 10.",
+"id": "tra017",
+"t": "training"
+},
+{
+"q": "What is interval training?",
+"o": [
+"Only strength training",
+"Training at one steady pace",
+"Training once per week",
+"Alternating periods of high intensity with periods of rest or low intensity"
+],
+"a": 3,
+"e": "Interval training alternates work and recovery bouts, allowing more time at high intensity than continuous training.",
+"s": "El entrenamiento por intervalos alterna fases de trabajo y recuperación, lo que permite pasar más tiempo a alta intensidad que el entrenamiento continuo.",
+"id": "tra018",
+"t": "training"
+},
+{
+"q": "What is circuit training?",
+"o": [
+"Only machine training",
+"A series of exercises done one after another with little rest",
+"Running laps on a track",
+"Stretching after training"
+],
+"a": 1,
+"e": "Circuit training: several stations performed in sequence with short rests, often combining strength and cardio.",
+"s": "El entrenamiento en circuito: varias estaciones realizadas en secuencia con descansos cortos, a menudo combinando fuerza y cardio.",
+"id": "tra019",
+"t": "training"
+},
+{
+"q": "What is a superset?",
+"o": [
+"A set with 50 repetitions",
+"One very heavy set",
+"Two exercises performed back to back without rest, often for opposing muscle groups",
+"A set on a machine"
+],
+"a": 2,
+"e": "A superset combines two exercises without rest in between, often agonist and antagonist (e.g. biceps curl + triceps extension).",
+"s": "Una superserie combina dos ejercicios sin descanso entre ellos, a menudo agonista y antagonista (p. ej., curl de bíceps + extensión de tríceps).",
+"id": "tra020",
+"t": "training"
+},
+{
+"q": "What is the main purpose of a warm-up?",
+"o": [
+"To burn as many calories as possible",
+"To tire the muscles before training",
+"To replace the cool-down",
+"To prepare body and mind for exercise and reduce injury risk"
+],
+"a": 3,
+"e": "A warm-up raises body and muscle temperature and heart rate, improves mobility and coordination, and prepares mentally.",
+"s": "El calentamiento eleva la temperatura corporal y muscular y la frecuencia cardíaca, mejora la movilidad y la coordinación y prepara mentalmente.",
+"id": "tra021",
+"t": "training"
+},
+{
+"q": "How long should a general warm-up typically last?",
+"o": [
+"1–2 minutes",
+"It is not needed",
+"30–45 minutes",
+"5–15 minutes"
+],
+"a": 3,
+"e": "A typical warm-up lasts about 5–15 minutes, longer in cold conditions or before intense efforts.",
+"s": "Un calentamiento típico dura unos 5–15 minutos, más en condiciones frías o antes de esfuerzos intensos.",
+"id": "tra022",
+"t": "training"
+},
+{
+"q": "Which type of stretching is best suited to a warm-up?",
+"o": [
+"PNF stretching to the maximum",
+"Dynamic stretching",
+"No movement at all",
+"Long static stretches (60+ seconds)"
+],
+"a": 1,
+"e": "Dynamic stretching (controlled movements through the range) prepares muscles without the temporary drop in strength that long static holds can cause.",
+"s": "El estiramiento dinámico (movimientos controlados en todo el rango) prepara los músculos sin la pérdida temporal de fuerza que pueden provocar los estiramientos estáticos largos.",
+"id": "tra023",
+"t": "training"
+},
+{
+"q": "What is the purpose of a cool-down?",
+"o": [
+"To increase lactate",
+"To build muscle",
+"To raise body temperature",
+"To gradually bring heart rate and breathing back to rest"
+],
+"a": 3,
+"e": "A cool-down gradually lowers heart rate and breathing and helps avoid blood pooling and dizziness after intense exercise.",
+"s": "La vuelta a la calma reduce poco a poco la frecuencia cardíaca y la respiración y ayuda a evitar la acumulación de sangre y los mareos tras un ejercicio intenso.",
+"id": "tra024",
+"t": "training"
+},
+{
+"q": "What does PNF stretching stand for?",
+"o": [
+"Passive Neural Flexibility",
+"Progressive Nerve Function",
+"Proprioceptive Neuromuscular Facilitation",
+"Physical Neuromuscular Flexion"
+],
+"a": 2,
+"e": "PNF = Proprioceptive Neuromuscular Facilitation: contract-relax techniques to increase range of motion.",
+"s": "PNF = Facilitación Neuromuscular Propioceptiva: técnicas de contracción-relajación para aumentar la amplitud de movimiento.",
+"id": "tra025",
+"t": "training"
+},
+{
+"q": "How long is a static stretch typically held to improve flexibility?",
+"o": [
+"5 minutes",
+"2–5 seconds",
+"15–30 seconds (up to 60)",
+"As long as it hurts"
+],
+"a": 2,
+"e": "Hold static stretches about 15–30 seconds (up to 60 for older adults), to mild tension, never pain.",
+"s": "Mantén los estiramientos estáticos unos 15–30 segundos (hasta 60 en personas mayores), hasta una tensión leve, nunca dolor.",
+"id": "tra026",
+"t": "training"
+},
+{
+"q": "What is the recommended minimum amount of moderate-intensity physical activity for adults per week (WHO)?",
+"o": [
+"300 minutes is the minimum",
+"30 minutes",
+"60 minutes",
+"150 minutes"
+],
+"a": 3,
+"e": "WHO: at least 150–300 minutes of moderate (or 75–150 min vigorous) activity per week, plus muscle-strengthening activities on 2 or more days.",
+"s": "OMS: al menos 150–300 minutos de actividad moderada (o 75–150 min vigorosa) por semana, más ejercicios de fortalecimiento muscular 2 o más días.",
+"id": "tra027",
+"t": "training"
+},
+{
+"q": "How often per week does the WHO recommend muscle-strengthening activities for adults?",
+"o": [
+"Once per month",
+"Every day twice",
+"At least 2 days per week",
+"Not needed for adults"
+],
+"a": 2,
+"e": "Adults should do muscle-strengthening activities involving all major muscle groups on 2 or more days a week.",
+"s": "Los adultos deben realizar actividades de fortalecimiento de todos los grupos musculares principales 2 o más días a la semana.",
+"id": "tra028",
+"t": "training"
+},
+{
+"q": "In a training programme, in which order should exercises usually be performed?",
+"o": [
+"Small muscle groups first, then large",
+"Isolation exercises first",
+"The order never matters",
+"Large, multi-joint exercises first, then small, single-joint exercises"
+],
+"a": 3,
+"e": "Do complex multi-joint exercises (squat, deadlift) while fresh, then smaller isolation exercises.",
+"s": "Haz los ejercicios complejos multiarticulares (sentadilla, peso muerto) cuando estás fresco y después los ejercicios de aislamiento más pequeños.",
+"id": "tra029",
+"t": "training"
+},
+{
+"q": "Which is an example of a compound (multi-joint) exercise?",
+"o": [
+"Calf raise",
+"Leg extension",
+"Squat",
+"Biceps curl"
+],
+"a": 2,
+"e": "A squat involves hip, knee and ankle. A biceps curl, leg extension and calf raise involve one joint each.",
+"s": "La sentadilla implica cadera, rodilla y tobillo. El curl de bíceps, la extensión de pierna y la elevación de talones implican una sola articulación cada uno.",
+"id": "tra030",
+"t": "training"
+},
+{
+"q": "What is the minimum recovery time usually advised before training the same muscle group heavily again?",
+"o": [
+"2 weeks",
+"1 week",
+"About 48 hours",
+"6 hours"
+],
+"a": 2,
+"e": "After an intensive session a muscle group generally needs about 48 hours (48–72) to recover.",
+"s": "Tras una sesión intensa, un grupo muscular necesita en general unas 48 horas (48–72) para recuperarse.",
+"id": "tra031",
+"t": "training"
+},
+{
+"q": "What does 'tempo 3-1-1' in strength training typically mean?",
+"o": [
+"3 seconds eccentric, 1 second pause, 1 second concentric",
+"3 sets, 1 rep, 1 minute rest",
+"3 exercises, 1 circuit, 1 rest",
+"3 kg, 1 kg, 1 kg"
+],
+"a": 0,
+"e": "Tempo notation describes the seconds per phase, usually starting with the eccentric (lowering) phase.",
+"s": "La notación de tempo describe los segundos por fase, normalmente empezando por la fase excéntrica (bajada).",
+"id": "tra032",
+"t": "training"
+},
+{
+"q": "Which heart rate zone (as % of HRmax) is generally considered moderate intensity aerobic training?",
+"o": [
+"30–40%",
+"95–100%",
+"About 64–76%",
+"Above 100%"
+],
+"a": 2,
+"e": "Moderate intensity is roughly 64–76% of HRmax (ACSM). Vigorous is about 77–95%.",
+"s": "La intensidad moderada es aproximadamente el 64–76% de la FCmáx (ACSM). La vigorosa es aproximadamente el 77–95%.",
+"id": "tra033",
+"t": "training"
+},
+{
+"q": "Which training method is best for improving aerobic endurance in a beginner?",
+"o": [
+"Continuous training at moderate intensity",
+"Heavy 1–3 rep sets",
+"Plyometric jumps",
+"Maximal sprints"
+],
+"a": 0,
+"e": "Beginners build aerobic endurance safely with continuous moderate-intensity training (e.g. brisk walking, cycling, easy jogging).",
+"s": "Los principiantes desarrollan la resistencia aeróbica con seguridad mediante entrenamiento continuo de intensidad moderada (p. ej., caminar rápido, bici, trote suave).",
+"id": "tra034",
+"t": "training"
+},
+{
+"q": "What is plyometric training?",
+"o": [
+"Isometric holding",
+"Explosive jumping/throwing using the stretch-shortening cycle",
+"Low-intensity walking",
+"Slow stretching"
+],
+"a": 1,
+"e": "Plyometrics use a rapid eccentric then concentric action (stretch-shortening cycle) to develop power, e.g. box jumps.",
+"s": "La pliometría usa una acción excéntrica rápida seguida de una concéntrica (ciclo de estiramiento-acortamiento) para desarrollar potencia, p. ej., saltos al cajón.",
+"id": "tra035",
+"t": "training"
+},
+{
+"q": "A client wants to lose fat. Which advice is most evidence-based?",
+"o": [
+"Create an energy deficit with a combination of nutrition, cardio and strength training",
+"Sweat as much as possible in a sauna suit",
+"Only do abdominal exercises to burn belly fat",
+"Only train in the fat-burning zone"
+],
+"a": 0,
+"e": "Fat loss requires an energy deficit. Spot reduction does not work. Strength training helps preserve muscle mass during the deficit.",
+"s": "La pérdida de grasa requiere un déficit energético. La reducción localizada no funciona. El entrenamiento de fuerza ayuda a conservar la masa muscular durante el déficit.",
+"id": "tra036",
+"t": "training"
+},
+{
+"q": "Which statement about training older adults is correct?",
+"o": [
+"They do not adapt to training anymore",
+"Strength and balance training help prevent falls and preserve muscle mass",
+"Strength training is dangerous for them",
+"They should only walk"
+],
+"a": 1,
+"e": "Older adults still adapt. Strength and balance training reduce fall risk and counter sarcopenia (age-related muscle loss).",
+"s": "Las personas mayores siguen adaptándose. El entrenamiento de fuerza y equilibrio reduce el riesgo de caídas y combate la sarcopenia (pérdida muscular por la edad).",
+"id": "tra037",
+"t": "training"
+},
+{
+"q": "What is sarcopenia?",
+"o": [
+"Loss of bone density",
+"Age-related loss of muscle mass and strength",
+"Inflammation of a tendon",
+"A muscle cramp"
+],
+"a": 1,
+"e": "Sarcopenia is the age-related loss of muscle mass and strength. Loss of bone density is osteoporosis.",
+"s": "La sarcopenia es la pérdida de masa y fuerza muscular asociada a la edad. La pérdida de densidad ósea es la osteoporosis.",
+"id": "tra038",
+"t": "training"
+},
+{
+"q": "What is the 'Valsalva manoeuvre'?",
+"o": [
+"A stretching technique",
+"Holding your breath and pressing against a closed airway, which raises blood pressure",
+"A warm-up exercise",
+"A heart rate test"
+],
+"a": 1,
+"e": "Breath-holding while straining strongly raises blood pressure. Clients with high blood pressure or heart problems should avoid it: breathe out during the effort.",
+"s": "Contener la respiración mientras se hace fuerza eleva mucho la presión arterial. Los clientes con hipertensión o problemas cardíacos deben evitarlo: espirar durante el esfuerzo.",
+"id": "tra039",
+"t": "training"
+},
+{
+"q": "When should a client exhale during a strength exercise?",
+"o": [
+"Never; hold the breath",
+"Only at the end of the set",
+"During the effort (concentric) phase",
+"During the lowering (eccentric) phase"
+],
+"a": 2,
+"e": "Exhale during the effort (e.g. pushing the bar up), inhale during the lowering phase.",
+"s": "Espira durante el esfuerzo (p. ej., al empujar la barra hacia arriba) e inspira durante la fase de bajada.",
+"id": "tra040",
+"t": "training"
+},
+{
+"src": "portal",
+"q": "Which substance provides the most energy per gram?",
+"o": [
+"Sugar",
+"Alcohol",
+"Fats",
+"Carbohydrates"
+],
+"a": 2,
+"e": "Fat ≈ 9 kcal/g, alcohol ≈ 7 kcal/g, carbohydrate (incl. sugar) and protein ≈ 4 kcal/g.",
+"s": "Grasa ≈ 9 kcal/g, alcohol ≈ 7 kcal/g, carbohidratos (incl. azúcar) y proteína ≈ 4 kcal/g.",
+"id": "nut001",
+"t": "nutrition"
+},
+{
+"src": "portal",
+"q": "What are proteins important for?",
+"o": [
+"For mineral absorption",
+"For building and maintaining the skeleton",
+"For the energy supply",
+"For the maintenance of muscles, tendons and ligaments"
+],
+"a": 3,
+"e": "Proteins are the building material of the body: they build and repair muscles, tendons, ligaments, enzymes and hormones. Energy supply is mainly the job of carbohydrates and fats.",
+"s": "Las proteínas son el material de construcción del cuerpo: forman y reparan músculos, tendones, ligamentos, enzimas y hormonas. El aporte de energía es sobre todo función de los carbohidratos y las grasas.",
+"id": "nut002",
+"t": "nutrition"
+},
+{
+"src": "portal",
+"q": "What can happen to an athlete if he loses 3% of his body fluids during a sports performance due to perspiration?",
+"o": [
+"His thermoregulation is disturbed",
+"He may lose consciousness",
+"His strength or endurance decreases",
+"His metabolism decreases"
+],
+"a": 2,
+"e": "From about 2% fluid loss, performance (endurance and strength) measurably drops. Loss of consciousness and serious heat problems occur with much larger losses.",
+"s": "A partir de una pérdida de líquido de aproximadamente el 2%, el rendimiento (resistencia y fuerza) baja de forma medible. La pérdida de consciencia y los problemas graves por calor ocurren con pérdidas mucho mayores.",
+"id": "nut003",
+"t": "nutrition"
+},
+{
+"q": "How many kcal does 1 gram of carbohydrate provide?",
+"o": [
+"9 kcal",
+"4 kcal",
+"2 kcal",
+"7 kcal"
+],
+"a": 1,
+"e": "Carbohydrate 4 kcal/g, protein 4 kcal/g, alcohol 7 kcal/g, fat 9 kcal/g.",
+"s": "Carbohidrato 4 kcal/g, proteína 4 kcal/g, alcohol 7 kcal/g, grasa 9 kcal/g.",
+"id": "nut004",
+"t": "nutrition"
+},
+{
+"q": "How many kcal does 1 gram of protein provide?",
+"o": [
+"4 kcal",
+"9 kcal",
+"2 kcal",
+"7 kcal"
+],
+"a": 0,
+"e": "Protein provides about 4 kcal per gram, the same as carbohydrate.",
+"s": "La proteína aporta unas 4 kcal por gramo, igual que los carbohidratos.",
+"id": "nut005",
+"t": "nutrition"
+},
+{
+"q": "How many kcal does 1 gram of alcohol provide?",
+"o": [
+"5 kcal",
+"9 kcal",
+"4 kcal",
+"7 kcal"
+],
+"a": 3,
+"e": "Alcohol provides about 7 kcal per gram but no useful nutrients ('empty calories').",
+"s": "El alcohol aporta unas 7 kcal por gramo pero ningún nutriente útil ('calorías vacías').",
+"id": "nut006",
+"t": "nutrition"
+},
+{
+"q": "Which three nutrients are the macronutrients that provide energy?",
+"o": [
+"Fibre, water and protein",
+"Sugar, salt and fat",
+"Carbohydrates, fats and proteins",
+"Vitamins, minerals and water"
+],
+"a": 2,
+"e": "The energy-providing macronutrients are carbohydrates, fats and proteins. Vitamins and minerals are micronutrients and provide no energy.",
+"s": "Los macronutrientes que aportan energía son los carbohidratos, las grasas y las proteínas. Las vitaminas y los minerales son micronutrientes y no aportan energía.",
+"id": "nut007",
+"t": "nutrition"
+},
+{
+"q": "Which nutrient is the body's preferred fuel during high-intensity exercise?",
+"o": [
+"Carbohydrate",
+"Protein",
+"Fat",
+"Fibre"
+],
+"a": 0,
+"e": "At high intensity carbohydrates (glycogen, glucose) are the main fuel because they can be broken down quickly, also anaerobically.",
+"s": "A alta intensidad los carbohidratos (glucógeno, glucosa) son el combustible principal porque se descomponen rápido, incluso de forma anaeróbica.",
+"id": "nut008",
+"t": "nutrition"
+},
+{
+"q": "What is the recommended daily protein intake for a sedentary healthy adult?",
+"o": [
+"3 g per kg body weight",
+"0.2 g per kg body weight",
+"About 0.8 g per kg body weight",
+"5 g per kg body weight"
+],
+"a": 2,
+"e": "The general recommendation is about 0.8 g/kg/day. Strength athletes often benefit from about 1.6–2.2 g/kg/day.",
+"s": "La recomendación general es de unos 0,8 g/kg/día. Los deportistas de fuerza suelen beneficiarse de unos 1,6–2,2 g/kg/día.",
+"id": "nut009",
+"t": "nutrition"
+},
+{
+"q": "What protein intake is commonly advised for strength athletes who want to build muscle?",
+"o": [
+"About 1.6–2.2 g/kg/day",
+"Protein does not matter",
+"5 g/kg/day",
+"0.5 g/kg/day"
+],
+"a": 0,
+"e": "Research (e.g. ISSN position stand) supports about 1.4–2.0 g/kg/day, with benefit plateauing around 1.6–2.2 g/kg.",
+"s": "La investigación (p. ej., la posición de la ISSN) respalda unos 1,4–2,0 g/kg/día, y el beneficio se estabiliza alrededor de 1,6–2,2 g/kg.",
+"id": "nut010",
+"t": "nutrition"
+},
+{
+"q": "What are amino acids?",
+"o": [
+"A type of vitamin",
+"The building blocks of fats",
+"Minerals found in water",
+"The building blocks of proteins"
+],
+"a": 3,
+"e": "Proteins are chains of amino acids. Essential amino acids must come from food because the body cannot make them.",
+"s": "Las proteínas son cadenas de aminoácidos. Los aminoácidos esenciales deben venir de los alimentos porque el cuerpo no puede fabricarlos.",
+"id": "nut011",
+"t": "nutrition"
+},
+{
+"q": "How many essential amino acids are there?",
+"o": [
+"9",
+"20",
+"50",
+"3"
+],
+"a": 0,
+"e": "There are 20 amino acids in protein; 9 are essential (must come from the diet).",
+"s": "Hay 20 aminoácidos en las proteínas; 9 son esenciales (deben venir de la dieta).",
+"id": "nut012",
+"t": "nutrition"
+},
+{
+"q": "Which fats are considered the healthiest?",
+"o": [
+"Saturated fats",
+"Trans fats",
+"Hydrogenated fats",
+"Unsaturated fats (mono- and polyunsaturated)"
+],
+"a": 3,
+"e": "Unsaturated fats (olive oil, nuts, oily fish) support heart health. Trans fats are the most harmful; saturated fats should be limited.",
+"s": "Las grasas insaturadas (aceite de oliva, frutos secos, pescado azul) favorecen la salud cardiovascular. Las grasas trans son las más perjudiciales; las saturadas deben limitarse.",
+"id": "nut013",
+"t": "nutrition"
+},
+{
+"q": "Omega-3 fatty acids are found mainly in...",
+"o": [
+"Butter",
+"White bread",
+"Sugar",
+"Oily fish such as salmon and mackerel"
+],
+"a": 3,
+"e": "Oily fish, walnuts and flaxseed are rich in omega-3, a polyunsaturated fat.",
+"s": "El pescado azul, las nueces y la linaza son ricos en omega-3, una grasa poliinsaturada.",
+"id": "nut014",
+"t": "nutrition"
+},
+{
+"q": "Which vitamins are fat-soluble?",
+"o": [
+"B and C",
+"Only vitamin C",
+"All B vitamins",
+"A, D, E and K"
+],
+"a": 3,
+"e": "Vitamins A, D, E and K are fat-soluble and can be stored in the body. B vitamins and vitamin C are water-soluble.",
+"s": "Las vitaminas A, D, E y K son liposolubles y se pueden almacenar en el cuerpo. Las vitaminas B y la vitamina C son hidrosolubles.",
+"id": "nut015",
+"t": "nutrition"
+},
+{
+"q": "Which mineral is most important for strong bones?",
+"o": [
+"Sodium",
+"Potassium",
+"Calcium",
+"Iron"
+],
+"a": 2,
+"e": "Calcium (together with vitamin D for absorption) is essential for bone strength.",
+"s": "El calcio (junto con la vitamina D para su absorción) es esencial para la fortaleza de los huesos.",
+"id": "nut016",
+"t": "nutrition"
+},
+{
+"q": "Which mineral is needed for oxygen transport in the blood?",
+"o": [
+"Iron",
+"Zinc",
+"Magnesium",
+"Calcium"
+],
+"a": 0,
+"e": "Iron is part of haemoglobin, which carries oxygen. Iron deficiency causes fatigue and lower endurance.",
+"s": "El hierro forma parte de la hemoglobina, que transporta el oxígeno. La falta de hierro causa cansancio y menor resistencia.",
+"id": "nut017",
+"t": "nutrition"
+},
+{
+"q": "Which vitamin is made in the skin under the influence of sunlight?",
+"o": [
+"Vitamin D",
+"Vitamin C",
+"Vitamin A",
+"Vitamin K"
+],
+"a": 0,
+"e": "Vitamin D is produced in the skin under UV light and helps absorb calcium.",
+"s": "La vitamina D se produce en la piel con la luz UV y ayuda a absorber el calcio.",
+"id": "nut018",
+"t": "nutrition"
+},
+{
+"q": "What is the main function of dietary fibre?",
+"o": [
+"Transporting oxygen",
+"Supporting digestion and bowel function and giving a feeling of fullness",
+"Building muscle",
+"Providing a lot of energy"
+],
+"a": 1,
+"e": "Fibre supports bowel function, feeds gut bacteria, slows sugar uptake and helps you feel full. Adults are advised about 30–40 g per day.",
+"s": "La fibra favorece el tránsito intestinal, alimenta la flora, ralentiza la absorción de azúcar y aumenta la saciedad. Se recomiendan unos 30–40 g al día para adultos.",
+"id": "nut019",
+"t": "nutrition"
+},
+{
+"q": "What does BMR (basal metabolic rate) mean?",
+"o": [
+"The energy used during exercise",
+"The energy the body needs at complete rest for basic functions",
+"The energy in a meal",
+"The maximum energy you can burn"
+],
+"a": 1,
+"e": "BMR is the energy needed at complete rest to keep basic functions going (breathing, circulation, temperature). It is the largest part of daily energy use.",
+"s": "El metabolismo basal es la energía necesaria en reposo total para mantener las funciones básicas (respiración, circulación, temperatura). Es la mayor parte del gasto diario.",
+"id": "nut020",
+"t": "nutrition"
+},
+{
+"q": "A client wants to lose weight. What is the basic principle?",
+"o": [
+"Energy intake lower than energy expenditure",
+"Energy intake higher than energy expenditure",
+"Eat only protein",
+"Energy intake equal to energy expenditure"
+],
+"a": 0,
+"e": "Weight loss requires a negative energy balance: you take in less energy than you use.",
+"s": "Perder peso requiere un balance energético negativo: ingerir menos energía de la que se gasta.",
+"id": "nut021",
+"t": "nutrition"
+},
+{
+"q": "How many kcal is roughly equal to 1 kg of body fat?",
+"o": [
+"7,000 kcal",
+"1,000 kcal",
+"15,000 kcal",
+"3,500 kcal"
+],
+"a": 0,
+"e": "1 kg of body fat stores about 7,000–7,700 kcal. (1 lb ≈ 3,500 kcal, a common trap.)",
+"s": "1 kg de grasa corporal almacena unas 7.000–7.700 kcal. (1 libra ≈ 3.500 kcal, una trampa habitual.)",
+"id": "nut022",
+"t": "nutrition"
+},
+{
+"q": "What does the glycaemic index (GI) indicate?",
+"o": [
+"The amount of fat in a food",
+"The protein quality of a food",
+"The number of calories in a food",
+"How quickly a carbohydrate food raises blood sugar"
+],
+"a": 3,
+"e": "High-GI foods (white bread) raise blood sugar quickly; low-GI foods (lentils, oats) raise it slowly.",
+"s": "Los alimentos de IG alto (pan blanco) elevan el azúcar en sangre rápidamente; los de IG bajo (lentejas, avena) lo elevan lentamente.",
+"id": "nut023",
+"t": "nutrition"
+},
+{
+"q": "How much water should an average adult drink per day (approximately)?",
+"o": [
+"About 1.5–2 litres",
+"5 litres",
+"10 litres",
+"0.5 litre"
+],
+"a": 0,
+"e": "Guidelines (e.g. Voedingscentrum) advise about 1.5–2 litres of fluid per day, more with exercise and heat.",
+"s": "Las guías (p. ej., Voedingscentrum) aconsejan unos 1,5–2 litros de líquido al día, más con ejercicio y calor.",
+"id": "nut024",
+"t": "nutrition"
+},
+{
+"q": "What is a good way for a client to check hydration?",
+"o": [
+"Amount of sweat on the shirt",
+"Number of meals",
+"Heart rate at rest only",
+"Colour of the urine (pale yellow is good)"
+],
+"a": 3,
+"e": "Pale, straw-coloured urine indicates good hydration; dark urine suggests dehydration.",
+"s": "Una orina de color amarillo pálido indica buena hidratación; una orina oscura sugiere deshidratación.",
+"id": "nut025",
+"t": "nutrition"
+},
+{
+"q": "What is the main cause of muscle cramps in endurance sports, according to the traditional explanation taught in many courses?",
+"o": [
+"Fluid and electrolyte loss (and muscle fatigue)",
+"Too much vitamin C",
+"Too much protein",
+"Eating fat"
+],
+"a": 0,
+"e": "Cramps are linked to muscle fatigue and to fluid/electrolyte loss through sweat. Current research points mostly to neuromuscular fatigue.",
+"s": "Los calambres se relacionan con la fatiga muscular y con la pérdida de líquidos/electrolitos por el sudor. La investigación actual apunta sobre todo a la fatiga neuromuscular.",
+"id": "nut026",
+"t": "nutrition"
+},
+{
+"q": "Which electrolyte is lost most through sweat?",
+"o": [
+"Vitamin B12",
+"Sodium",
+"Iron",
+"Calcium"
+],
+"a": 1,
+"e": "Sweat contains mostly sodium (salt), plus smaller amounts of potassium.",
+"s": "El sudor contiene sobre todo sodio (sal), además de cantidades menores de potasio.",
+"id": "nut027",
+"t": "nutrition"
+},
+{
+"q": "What is a good recovery meal after strength training?",
+"o": [
+"A combination of protein and carbohydrates",
+"Only water",
+"Nothing for 6 hours",
+"Only fat"
+],
+"a": 0,
+"e": "Protein (about 20–40 g) supports muscle repair, carbohydrates refill glycogen.",
+"s": "La proteína (unos 20–40 g) favorece la reparación muscular y los carbohidratos reponen el glucógeno.",
+"id": "nut028",
+"t": "nutrition"
+},
+{
+"q": "Which statement about carbohydrates is correct?",
+"o": [
+"They are only found in sugar",
+"They are stored as glycogen in liver and muscles in limited amounts",
+"They are stored without limit in the body",
+"They provide 9 kcal per gram"
+],
+"a": 1,
+"e": "Glycogen stores are limited (roughly 400–500 g in total), which is why long efforts need carbohydrate intake.",
+"s": "Las reservas de glucógeno son limitadas (unos 400–500 g en total), por eso los esfuerzos largos requieren ingerir carbohidratos.",
+"id": "nut029",
+"t": "nutrition"
+},
+{
+"q": "What is the 'Schijf van Vijf' / healthy plate model mainly used for?",
+"o": [
+"Measuring body fat",
+"Planning training sessions",
+"Calculating 1RM",
+"Giving guidance on a varied and healthy diet"
+],
+"a": 3,
+"e": "The Dutch 'Schijf van Vijf' (Wheel of Five) from the Voedingscentrum shows which food groups to eat for a healthy, varied diet.",
+"s": "La 'Schijf van Vijf' (Rueda de Cinco) del Voedingscentrum neerlandés muestra qué grupos de alimentos comer para una dieta sana y variada.",
+"id": "nut030",
+"t": "nutrition"
+},
+{
+"q": "What is the main function of carbohydrates?",
+"o": [
+"Transporting oxygen",
+"Providing energy",
+"Building muscle",
+"Storing vitamins"
+],
+"a": 1,
+"e": "Carbohydrates are mainly an energy source, especially for the brain and for intense exercise.",
+"s": "Los carbohidratos son principalmente una fuente de energía, sobre todo para el cerebro y el ejercicio intenso.",
+"id": "nut031",
+"t": "nutrition"
+},
+{
+"q": "Which is a complete protein source (contains all essential amino acids)?",
+"o": [
+"Rice alone",
+"Olive oil",
+"Eggs",
+"Apples"
+],
+"a": 2,
+"e": "Animal proteins (eggs, meat, fish, dairy) and soy contain all essential amino acids. Plant sources can be combined to cover them.",
+"s": "Las proteínas animales (huevos, carne, pescado, lácteos) y la soja contienen todos los aminoácidos esenciales. Las fuentes vegetales pueden combinarse para cubrirlos.",
+"id": "nut032",
+"t": "nutrition"
+},
+{
+"q": "A supplement that has good scientific evidence for improving short, high-intensity performance is...",
+"o": [
+"Detox tea",
+"Raspberry ketones",
+"Creatine monohydrate",
+"L-carnitine for fat burning"
+],
+"a": 2,
+"e": "Creatine monohydrate is one of the best-researched supplements: it increases creatine phosphate stores and improves repeated high-intensity efforts.",
+"s": "La creatina monohidrato es uno de los suplementos más estudiados: aumenta las reservas de fosfocreatina y mejora los esfuerzos repetidos de alta intensidad.",
+"id": "nut033",
+"t": "nutrition"
+},
+{
+"q": "Which nutrient has the largest effect on satiety (feeling full) per kcal?",
+"o": [
+"Sugar",
+"Fat",
+"Alcohol",
+"Protein"
+],
+"a": 3,
+"e": "Protein is the most satiating macronutrient and also costs more energy to digest (thermic effect).",
+"s": "La proteína es el macronutriente más saciante y además requiere más energía para digerirse (efecto térmico).",
+"id": "nut034",
+"t": "nutrition"
+},
+{
+"src": "portal",
+"q": "What does the 'C' of the ICE rule mean?",
+"o": [
+"Compliment",
+"Correction",
+"Control",
+"Compression"
+],
+"a": 3,
+"e": "ICE = Ice (cooling), Compression, Elevation. Compression limits swelling after an acute injury such as a sprained ankle.",
+"s": "ICE = Ice (hielo/enfriar), Compression (compresión), Elevation (elevación). La compresión limita la hinchazón tras una lesión aguda como un esguince de tobillo.",
+"id": "saf001",
+"t": "safety"
+},
+{
+"src": "portal",
+"flag": "Answer not confirmed by the portal. Check this one in your course book.",
+"q": "While running on the treadmill, a person's ankle breaks. He can no longer stand on it. How long do you have to cool?",
+"o": [
+"You don't need to cool",
+"5 minutes",
+"10 minutes",
+"20 minutes"
+],
+"a": 3,
+"e": "Following the ICE rule, cool the injured area for about 20 minutes (with a cloth between ice and skin) and call professional help for a suspected fracture. Do not move the ankle.",
+"s": "Siguiendo la regla ICE, enfría la zona lesionada unos 20 minutos (con un paño entre el hielo y la piel) y pide ayuda profesional ante una posible fractura. No muevas el tobillo.",
+"id": "saf002",
+"t": "safety"
+},
+{
+"q": "What does the 'E' of the ICE rule stand for?",
+"o": [
+"Evaluation",
+"Extension",
+"Elevation",
+"Exercise"
+],
+"a": 2,
+"e": "Elevation: raise the injured limb above heart level to reduce swelling.",
+"s": "Elevation (elevación): eleva el miembro lesionado por encima del nivel del corazón para reducir la hinchazón.",
+"id": "saf003",
+"t": "safety"
+},
+{
+"q": "Why should you never put ice directly on the skin?",
+"o": [
+"It is not hygienic",
+"Ice makes swelling worse",
+"It can cause frostbite/skin damage",
+"It cools too slowly"
+],
+"a": 2,
+"e": "Direct contact can freeze the skin. Always use a cloth or towel between ice and skin.",
+"s": "El contacto directo puede congelar la piel. Usa siempre un paño o toalla entre el hielo y la piel.",
+"id": "saf004",
+"t": "safety"
+},
+{
+"q": "What is the difference between a sprain and a strain?",
+"o": [
+"A strain is always more serious",
+"A sprain is a muscle injury; a strain is a bone injury",
+"There is no difference",
+"A sprain is a ligament injury; a strain is a muscle or tendon injury"
+],
+"a": 3,
+"e": "Sprain = ligament (e.g. ankle sprain). Strain = muscle or tendon (e.g. pulled hamstring). Tip: strain has a 't' for tendon.",
+"s": "Esguince (sprain) = ligamento (p. ej., esguince de tobillo). Distensión (strain) = músculo o tendón (p. ej., rotura de isquiotibial). Truco: strain tiene una 't' de tendon.",
+"id": "saf005",
+"t": "safety"
+},
+{
+"q": "An inflammation of a tendon is called...",
+"o": [
+"Arthritis",
+"Fasciitis",
+"Tendinitis (tendinopathy)",
+"Bursitis"
+],
+"a": 2,
+"e": "Tendinitis/tendinopathy is irritation of a tendon, usually due to overload. Bursitis is inflammation of a bursa.",
+"s": "La tendinitis/tendinopatía es la irritación de un tendón, normalmente por sobrecarga. La bursitis es la inflamación de una bolsa sinovial.",
+"id": "saf006",
+"t": "safety"
+},
+{
+"q": "What is the first thing you do when someone collapses in the gym and does not respond?",
+"o": [
+"Start stretching their legs",
+"Give them water",
+"Wait to see if they wake up",
+"Check for danger, then check responsiveness and breathing, and call for help (112)"
+],
+"a": 3,
+"e": "Make sure the area is safe, check responsiveness and breathing, call 112 (or have someone call) and get the AED if they are not breathing normally.",
+"s": "Asegúrate de que la zona es segura, comprueba si responde y respira, llama al 112 (o pide que alguien llame) y trae el DEA si no respira con normalidad.",
+"id": "saf007",
+"t": "safety"
+},
+{
+"q": "What is the emergency number in the Netherlands and most of Europe?",
+"o": [
+"999",
+"112",
+"911",
+"100"
+],
+"a": 1,
+"e": "112 is the European emergency number.",
+"s": "El 112 es el número de emergencias europeo.",
+"id": "saf008",
+"t": "safety"
+},
+{
+"q": "What does AED stand for?",
+"o": [
+"Advanced Emergency Device",
+"Automatic External Defibrillator",
+"Artificial Emergency Defibrillation",
+"Automated Electrical Diagnosis"
+],
+"a": 1,
+"e": "AED = Automated External Defibrillator. It analyses heart rhythm and gives a shock if needed.",
+"s": "DEA = Desfibrilador Externo Automático. Analiza el ritmo cardíaco y da una descarga si es necesario.",
+"id": "saf009",
+"t": "safety"
+},
+{
+"q": "What is the ratio of chest compressions to rescue breaths in adult CPR?",
+"o": [
+"30:2",
+"10:1",
+"5:1",
+"15:2"
+],
+"a": 0,
+"e": "Adult CPR: 30 chest compressions followed by 2 rescue breaths, at 100–120 compressions per minute.",
+"s": "RCP en adultos: 30 compresiones torácicas seguidas de 2 insuflaciones, a 100–120 compresiones por minuto.",
+"id": "saf010",
+"t": "safety"
+},
+{
+"q": "A diabetic client feels shaky, sweaty and confused during training. What is most likely happening?",
+"o": [
+"Hyperglycaemia (blood sugar too high)",
+"Dehydration only",
+"Hypoglycaemia (blood sugar too low)",
+"Muscle cramp"
+],
+"a": 2,
+"e": "These are signs of hypoglycaemia. Stop the exercise and give fast-acting sugar (e.g. glucose tablets, lemonade).",
+"s": "Son signos de hipoglucemia. Detén el ejercicio y da azúcar de acción rápida (p. ej., tabletas de glucosa, refresco azucarado).",
+"id": "saf011",
+"t": "safety"
+},
+{
+"q": "Which symptom during exercise is a reason to stop immediately?",
+"o": [
+"Slightly faster breathing",
+"Sweating",
+"Muscle fatigue at the end of a set",
+"Chest pain or pressure"
+],
+"a": 3,
+"e": "Chest pain, severe breathlessness, dizziness, fainting or irregular heartbeat are warning signs: stop and seek medical help.",
+"s": "El dolor u opresión en el pecho, la falta de aire intensa, los mareos, el desmayo o el latido irregular son señales de alarma: detén el ejercicio y busca ayuda médica.",
+"id": "saf012",
+"t": "safety"
+},
+{
+"q": "A client faints in the gym but is breathing normally. What position do you put them in?",
+"o": [
+"Face down",
+"The recovery (stable side) position",
+"Standing",
+"Sitting upright"
+],
+"a": 1,
+"e": "An unresponsive person who is breathing normally goes in the recovery position to keep the airway open. Call 112 and keep checking breathing.",
+"s": "Una persona inconsciente que respira con normalidad se coloca en posición lateral de seguridad para mantener la vía aérea abierta. Llama al 112 y sigue comprobando la respiración.",
+"id": "saf013",
+"t": "safety"
+},
+{
+"q": "What is the main purpose of the ICE rule after an acute injury?",
+"o": [
+"To warm up the tissue",
+"To speed up muscle growth",
+"To stretch the injured tissue",
+"To limit swelling and pain"
+],
+"a": 3,
+"e": "Cooling, compression and elevation limit swelling, internal bleeding and pain in the first phase after an acute injury.",
+"s": "Enfriar, comprimir y elevar limitan la hinchazón, la hemorragia interna y el dolor en la primera fase tras una lesión aguda.",
+"id": "saf014",
+"t": "safety"
+},
+{
+"q": "What is an acute injury?",
+"o": [
+"An injury of the skin only",
+"An injury that never heals",
+"An injury that develops slowly through repeated overload",
+"An injury that happens suddenly due to a single event"
+],
+"a": 3,
+"e": "Acute injury: sudden, clear moment (sprain, fracture). Overuse injury: gradual, from repeated overload (tendinopathy, shin splints).",
+"s": "Lesión aguda: repentina, con un momento claro (esguince, fractura). Lesión por sobrecarga: gradual, por sobrecarga repetida (tendinopatía, periostitis tibial).",
+"id": "saf015",
+"t": "safety"
+},
+{
+"q": "Which is an example of an overuse injury?",
+"o": [
+"Ankle sprain",
+"Shin splints",
+"Dislocated shoulder",
+"Broken wrist after a fall"
+],
+"a": 1,
+"e": "Shin splints (medial tibial stress syndrome) develop gradually through repeated overload, typically in runners.",
+"s": "La periostitis tibial (síndrome de estrés tibial medial) se desarrolla gradualmente por sobrecarga repetida, típicamente en corredores.",
+"id": "saf016",
+"t": "safety"
+},
+{
+"q": "How can a fitness trainer best prevent overuse injuries in clients?",
+"o": [
+"Train the same exercise every day",
+"Never let clients warm up",
+"Build up load gradually and plan enough recovery",
+"Increase training load quickly"
+],
+"a": 2,
+"e": "Gradual progression with adequate recovery keeps load within load capacity, which prevents overload.",
+"s": "Una progresión gradual con recuperación suficiente mantiene la carga dentro de la capacidad de carga, lo que previene la sobrecarga.",
+"id": "saf017",
+"t": "safety"
+},
+{
+"q": "What is the safest action when you notice a broken or faulty machine in the gym?",
+"o": [
+"Put it out of use (mark it) and report it immediately",
+"Tell clients to avoid it only if they ask",
+"Fix it yourself during a session",
+"Keep using it carefully"
+],
+"a": 0,
+"e": "Mark the equipment as out of order, prevent use and report it so it can be repaired. This is part of your duty of care.",
+"s": "Marca el equipo como fuera de servicio, impide su uso e infórmalo para que se repare. Forma parte de tu deber de cuidado.",
+"id": "saf018",
+"t": "safety"
+},
+{
+"q": "What is the best way to prevent clients from being injured by free weights lying on the floor?",
+"o": [
+"Leave them; clients will see them",
+"Only allow experienced clients",
+"Use lighter weights",
+"Keep the training area tidy and put weights back in the rack"
+],
+"a": 3,
+"e": "A tidy training floor prevents tripping and falling. Encourage clients to rack weights after use.",
+"s": "Una zona de entrenamiento ordenada evita tropiezos y caídas. Anima a los clientes a devolver los pesos a su sitio.",
+"id": "saf019",
+"t": "safety"
+},
+{
+"q": "A client has high blood pressure (hypertension). What should you avoid?",
+"o": [
+"Warming up",
+"Light strength training",
+"Holding the breath and very heavy isometric efforts (Valsalva)",
+"Moderate aerobic training"
+],
+"a": 2,
+"e": "Breath-holding and very heavy straining raise blood pressure sharply. Moderate aerobic and dynamic strength training with proper breathing are recommended.",
+"s": "Contener la respiración y los esfuerzos muy pesados elevan bruscamente la presión arterial. Se recomienda entrenamiento aeróbico moderado y de fuerza dinámica con buena respiración.",
+"id": "saf020",
+"t": "safety"
+},
+{
+"q": "What is a contra-indication?",
+"o": [
+"A training goal",
+"A type of warm-up",
+"An exercise for the abdomen",
+"A reason why a certain exercise or training should not be done"
+],
+"a": 3,
+"e": "A contra-indication is a condition or factor that makes a treatment or exercise inadvisable (e.g. exercise with a fever).",
+"s": "Una contraindicación es una condición o factor que hace desaconsejable un tratamiento o ejercicio (p. ej., hacer ejercicio con fiebre).",
+"id": "saf021",
+"t": "safety"
+},
+{
+"q": "A client has a fever. What do you advise?",
+"o": [
+"Only do cardio",
+"Train hard to sweat it out",
+"Do not train until the fever has gone",
+"Train with heavier weights"
+],
+"a": 2,
+"e": "Exercising with a fever is a contra-indication: it increases the risk of heart muscle inflammation (myocarditis). Rest until recovered.",
+"s": "Hacer ejercicio con fiebre está contraindicado: aumenta el riesgo de inflamación del músculo cardíaco (miocarditis). Descansar hasta recuperarse.",
+"id": "saf022",
+"t": "safety"
+},
+{
+"q": "What are the classic signs of inflammation?",
+"o": [
+"Itching only",
+"Muscle growth",
+"Redness, heat, swelling, pain and loss of function",
+"Cold skin and paleness"
+],
+"a": 2,
+"e": "The five classic signs: rubor (redness), calor (heat), tumor (swelling), dolor (pain) and functio laesa (loss of function).",
+"s": "Los cinco signos clásicos: rubor (enrojecimiento), calor, tumor (hinchazón), dolor y functio laesa (pérdida de función).",
+"id": "saf023",
+"t": "safety"
+},
+{
+"q": "What is heat stroke?",
+"o": [
+"A light sunburn",
+"Feeling thirsty",
+"A muscle cramp due to heat",
+"A life-threatening rise in body temperature where the body can no longer cool itself"
+],
+"a": 3,
+"e": "Heat stroke: core temperature above about 40 °C with confusion. Call 112 and cool the person down immediately.",
+"s": "Golpe de calor: temperatura central por encima de unos 40 °C con confusión. Llama al 112 y enfría a la persona inmediatamente.",
+"id": "saf024",
+"t": "safety"
+},
+{
+"q": "Who is responsible for creating a safe training environment during a personal training session?",
+"o": [
+"Only the client",
+"Only the gym owner",
+"The fitness trainer (duty of care)",
+"Nobody"
+],
+"a": 2,
+"e": "The trainer has a duty of care: check equipment, space, technique and the client's health status.",
+"s": "El entrenador tiene un deber de cuidado: revisar el equipo, el espacio, la técnica y el estado de salud del cliente.",
+"id": "saf025",
+"t": "safety"
+},
+{
+"q": "A client with lower back pain asks for advice. What is the right action for a fitness trainer?",
+"o": [
+"Diagnose the cause and treat it",
+"Refer to a (sports) physiotherapist or doctor if pain is unexplained, severe or persistent",
+"Massage the back",
+"Tell them to rest for 6 weeks"
+],
+"a": 1,
+"e": "A fitness trainer does not diagnose. Refer to a medical professional when needed and stay within your scope of practice.",
+"s": "Un entrenador de fitness no diagnostica. Deriva a un profesional sanitario cuando sea necesario y mantente dentro de tus competencias.",
+"id": "saf026",
+"t": "safety"
+},
+{
+"q": "What is a common sign of dehydration?",
+"o": [
+"Dark urine, thirst, headache and fatigue",
+"Increased performance",
+"Lower body temperature",
+"Pale urine"
+],
+"a": 0,
+"e": "Dark urine, thirst, headache, dizziness and fatigue indicate dehydration.",
+"s": "La orina oscura, la sed, el dolor de cabeza, los mareos y la fatiga indican deshidratación.",
+"id": "saf027",
+"t": "safety"
+},
+{
+"q": "What is the main risk of a cool-down that is skipped after very intensive exercise?",
+"o": [
+"Blood pooling in the legs, which can cause dizziness or fainting",
+"Better flexibility",
+"Higher VO2max",
+"More muscle growth"
+],
+"a": 0,
+"e": "Stopping suddenly removes the muscle pump; blood can pool in the legs and blood pressure drops, causing dizziness.",
+"s": "Parar de golpe elimina la bomba muscular; la sangre puede acumularse en las piernas y la presión arterial cae, lo que provoca mareos.",
+"id": "saf028",
+"t": "safety"
+},
+{
+"q": "A client who is pregnant wants to continue training. Which advice is correct?",
+"o": [
+"Stop all exercise immediately",
+"Train only lying on the stomach",
+"With medical approval, moderate exercise is generally recommended; avoid lying flat on the back for long periods later in pregnancy and avoid contact/fall risks",
+"Only do heavy maximal lifts"
+],
+"a": 2,
+"e": "Guidelines (ACOG, WHO) recommend moderate activity during an uncomplicated pregnancy, avoiding fall/contact risk and prolonged supine positions after the first trimester.",
+"s": "Las guías (ACOG, OMS) recomiendan actividad moderada en un embarazo sin complicaciones, evitando el riesgo de caídas/contacto y la posición boca arriba prolongada después del primer trimestre.",
+"id": "saf029",
+"t": "safety"
+},
+{
+"q": "What does 'scope of practice' mean for a fitness trainer?",
+"o": [
+"The number of clients",
+"The trainer's training schedule",
+"The size of the gym",
+"The tasks a trainer is qualified and allowed to do"
+],
+"a": 3,
+"e": "A fitness trainer advises on exercise and general healthy lifestyle; diagnosing injuries, prescribing diets for medical conditions or treating are outside the scope.",
+"s": "Un entrenador de fitness asesora sobre ejercicio y estilo de vida saludable en general; diagnosticar lesiones, prescribir dietas para enfermedades o tratar quedan fuera de sus competencias.",
+"id": "saf030",
+"t": "safety"
+},
+{
+"q": "Which client should you refer to a doctor before starting a training programme?",
+"o": [
+"A client who already runs twice a week",
+"A client who wants to lose 2 kg",
+"A client who answers 'yes' to one or more PAR-Q questions",
+"A healthy 25-year-old"
+],
+"a": 2,
+"e": "A 'yes' on the PAR-Q indicates a possible health risk; ask for medical clearance first.",
+"s": "Un 'sí' en el PAR-Q indica un posible riesgo para la salud; pide primero autorización médica.",
+"id": "saf031",
+"t": "safety"
+},
+{
+"q": "Which factor increases the risk of cardiovascular disease?",
+"o": [
+"Smoking",
+"Normal blood pressure",
+"A diet high in fibre",
+"Regular exercise"
+],
+"a": 0,
+"e": "Risk factors include smoking, high blood pressure, high cholesterol, diabetes, obesity, inactivity and family history.",
+"s": "Los factores de riesgo incluyen fumar, hipertensión, colesterol alto, diabetes, obesidad, inactividad y antecedentes familiares.",
+"id": "saf032",
+"t": "safety"
+},
+{
+"src": "portal",
+"q": "PAR-Q stands for?",
+"o": [
+"Physical Activity Reason Questionnaire",
+"Post Activity Readiness Questionnaire",
+"Physical Activity Readiness Questionnaire",
+"Physical Activity Range Questionnaire"
+],
+"a": 2,
+"e": "PAR-Q = Physical Activity Readiness Questionnaire: a short health screening to see if someone can safely start exercising or needs medical clearance first.",
+"s": "PAR-Q = Cuestionario de Aptitud para la Actividad Física: un breve cribado de salud para ver si alguien puede empezar a hacer ejercicio con seguridad o necesita antes autorización médica.",
+"id": "int001",
+"t": "intake"
+},
+{
+"src": "portal",
+"q": "The Cooper test measures the distance that can be covered in how many minutes?",
+"o": [
+"6 minutes",
+"12 minutes",
+"18 minutes",
+"24 minutes"
+],
+"a": 1,
+"e": "The Cooper test is a 12-minute run for maximum distance, used to estimate VO2max (aerobic fitness).",
+"s": "El test de Cooper es una carrera de 12 minutos para recorrer la máxima distancia; se usa para estimar el VO2max (capacidad aeróbica).",
+"id": "int002",
+"t": "intake"
+},
+{
+"q": "How is BMI calculated?",
+"o": [
+"Weight (kg) ÷ height (m)",
+"Height (cm) − 100",
+"Weight (kg) ÷ height² (m²)",
+"Weight (kg) × height (m)"
+],
+"a": 2,
+"e": "BMI = body weight in kg divided by height in metres squared.",
+"s": "IMC = peso corporal en kg dividido por la altura en metros al cuadrado.",
+"id": "int003",
+"t": "intake"
+},
+{
+"q": "A client weighs 80 kg and is 2.00 m tall. What is the BMI?",
+"o": [
+"20",
+"40",
+"25",
+"16"
+],
+"a": 0,
+"e": "80 ÷ (2.00 × 2.00) = 80 ÷ 4 = 20.",
+"s": "80 ÷ (2,00 × 2,00) = 80 ÷ 4 = 20.",
+"id": "int004",
+"t": "intake"
+},
+{
+"q": "A BMI between 25 and 30 is classified as...",
+"o": [
+"Healthy weight",
+"Obese",
+"Overweight",
+"Underweight"
+],
+"a": 2,
+"e": "WHO: below 18.5 underweight; 18.5–24.9 healthy; 25–29.9 overweight; 30 or more obese.",
+"s": "OMS: menos de 18,5 bajo peso; 18,5–24,9 peso saludable; 25–29,9 sobrepeso; 30 o más obesidad.",
+"id": "int005",
+"t": "intake"
+},
+{
+"q": "From what BMI is someone classified as obese?",
+"o": [
+"35",
+"27",
+"25",
+"30"
+],
+"a": 3,
+"e": "A BMI of 30 or higher is classified as obesity.",
+"s": "Un IMC de 30 o más se clasifica como obesidad.",
+"id": "int006",
+"t": "intake"
+},
+{
+"q": "What is an important limitation of BMI?",
+"o": [
+"It requires a blood test",
+"It only works for children",
+"It does not distinguish between muscle mass and fat mass",
+"It is hard to calculate"
+],
+"a": 2,
+"e": "A muscular athlete can have a high BMI without excess fat. BMI says nothing about body composition or fat distribution.",
+"s": "Un deportista musculoso puede tener un IMC alto sin exceso de grasa. El IMC no dice nada de la composición corporal ni de la distribución de la grasa.",
+"id": "int007",
+"t": "intake"
+},
+{
+"q": "Which waist circumference indicates an increased health risk for a man (European guideline)?",
+"o": [
+"Over 120 cm only",
+"Over 94 cm (high risk over 102 cm)",
+"Over 60 cm",
+"Over 70 cm"
+],
+"a": 1,
+"e": "Men: increased risk above 94 cm, substantially increased above 102 cm. Women: above 80 cm and 88 cm.",
+"s": "Hombres: riesgo aumentado por encima de 94 cm, muy aumentado por encima de 102 cm. Mujeres: por encima de 80 cm y 88 cm.",
+"id": "int008",
+"t": "intake"
+},
+{
+"q": "Which waist circumference indicates an increased health risk for a woman?",
+"o": [
+"Over 110 cm",
+"Over 60 cm",
+"Over 80 cm (high risk over 88 cm)",
+"Over 94 cm"
+],
+"a": 2,
+"e": "Women: increased risk above 80 cm, substantially increased above 88 cm.",
+"s": "Mujeres: riesgo aumentado por encima de 80 cm, muy aumentado por encima de 88 cm.",
+"id": "int009",
+"t": "intake"
+},
+{
+"q": "Why is waist circumference a useful measurement?",
+"o": [
+"It shows bone density",
+"It measures flexibility",
+"It measures muscle mass",
+"It indicates abdominal (visceral) fat, which is linked to health risks"
+],
+"a": 3,
+"e": "Abdominal fat around the organs is strongly linked to cardiovascular disease and type 2 diabetes.",
+"s": "La grasa abdominal alrededor de los órganos está fuertemente relacionada con las enfermedades cardiovasculares y la diabetes tipo 2.",
+"id": "int010",
+"t": "intake"
+},
+{
+"q": "Which method measures body fat percentage using skinfold thickness?",
+"o": [
+"Callipers (skinfold measurement)",
+"Spirometer",
+"Heart rate monitor",
+"Tape measure"
+],
+"a": 0,
+"e": "A skinfold calliper measures subcutaneous fat at fixed sites; formulas then estimate body fat percentage.",
+"s": "Un plicómetro mide la grasa subcutánea en puntos fijos; después se estima el porcentaje de grasa con fórmulas.",
+"id": "int011",
+"t": "intake"
+},
+{
+"q": "What does bio-electrical impedance analysis (BIA) measure?",
+"o": [
+"Strength",
+"Body composition (estimate of fat %) via a small electrical current",
+"Blood pressure",
+"Lung capacity"
+],
+"a": 1,
+"e": "BIA sends a weak current through the body; fat conducts less than muscle/water. Results depend strongly on hydration.",
+"s": "La BIA envía una corriente débil por el cuerpo; la grasa conduce peor que el músculo/agua. Los resultados dependen mucho de la hidratación.",
+"id": "int012",
+"t": "intake"
+},
+{
+"q": "What is the purpose of an intake (anamnesis) with a new client?",
+"o": [
+"To set a diet",
+"To gather information about health, history, goals and wishes to make a safe, personal programme",
+"To test the 1RM straight away",
+"To sell a subscription quickly"
+],
+"a": 1,
+"e": "The intake collects health status, injuries, medication, lifestyle, experience and goals as the basis for a safe and personal plan.",
+"s": "La entrevista inicial recoge estado de salud, lesiones, medicación, estilo de vida, experiencia y objetivos como base de un plan seguro y personalizado.",
+"id": "int013",
+"t": "intake"
+},
+{
+"q": "Where is the best place to measure the heart rate manually?",
+"o": [
+"At the elbow",
+"At the knee",
+"At the ankle",
+"At the wrist (radial artery) or neck (carotid artery)"
+],
+"a": 3,
+"e": "The radial pulse (wrist, thumb side) or carotid pulse (neck) are used. Use fingers, not your thumb, and press lightly on the carotid.",
+"s": "Se usa el pulso radial (muñeca, lado del pulgar) o el carotídeo (cuello). Usa los dedos, no el pulgar, y presiona suavemente la carótida.",
+"id": "int014",
+"t": "intake"
+},
+{
+"q": "When is the best moment to measure resting heart rate?",
+"o": [
+"In the morning after waking, before getting up",
+"After drinking coffee",
+"Directly after training",
+"During a warm-up"
+],
+"a": 0,
+"e": "True resting heart rate is measured in the morning, lying down, just after waking.",
+"s": "La frecuencia cardíaca en reposo real se mide por la mañana, tumbado, justo al despertar.",
+"id": "int015",
+"t": "intake"
+},
+{
+"q": "What does the sit-and-reach test measure?",
+"o": [
+"Balance",
+"Aerobic endurance",
+"Flexibility of the hamstrings and lower back",
+"Upper body strength"
+],
+"a": 2,
+"e": "The sit-and-reach test measures flexibility of the hamstrings and lower back.",
+"s": "El test de sit-and-reach mide la flexibilidad de los isquiotibiales y la zona lumbar.",
+"id": "int016",
+"t": "intake"
+},
+{
+"q": "What does a push-up test mainly measure?",
+"o": [
+"Flexibility",
+"Muscular endurance of the upper body",
+"Maximal leg strength",
+"VO2max"
+],
+"a": 1,
+"e": "Push-ups to fatigue measure muscular endurance of the chest, shoulders and triceps.",
+"s": "Las flexiones hasta el fallo miden la resistencia muscular del pecho, hombros y tríceps.",
+"id": "int017",
+"t": "intake"
+},
+{
+"q": "Which test is used to estimate aerobic capacity on a bicycle ergometer?",
+"o": [
+"Sit-and-reach test",
+"Push-up test",
+"Astrand(-Ryhming) test",
+"Stork balance test"
+],
+"a": 2,
+"e": "The Astrand(-Ryhming) test uses a submaximal cycling workload and the heart rate to estimate VO2max.",
+"s": "El test de Astrand(-Ryhming) usa una carga submáxima en bicicleta y la frecuencia cardíaca para estimar el VO2max.",
+"id": "int018",
+"t": "intake"
+},
+{
+"q": "What is a submaximal test?",
+"o": [
+"A test for children only",
+"A test where the client works below maximal effort and the maximum is estimated",
+"A test where the client works to complete exhaustion",
+"A test without movement"
+],
+"a": 1,
+"e": "Submaximal tests are safer for untrained clients: the maximum (e.g. VO2max or 1RM) is estimated from a lower effort.",
+"s": "Los tests submáximos son más seguros para clientes no entrenados: el máximo (p. ej., VO2max o 1RM) se estima a partir de un esfuerzo menor.",
+"id": "int019",
+"t": "intake"
+},
+{
+"q": "Why should you retest a client after some weeks?",
+"o": [
+"It is not useful",
+"Because the first test is always wrong",
+"To evaluate progress and adjust the programme",
+"To make the client tired"
+],
+"a": 2,
+"e": "Retesting (same conditions, same protocol) shows progress, motivates the client and guides programme changes.",
+"s": "Repetir el test (mismas condiciones, mismo protocolo) muestra el progreso, motiva al cliente y orienta los cambios del programa.",
+"id": "int020",
+"t": "intake"
+},
+{
+"q": "What makes a test 'reliable'?",
+"o": [
+"It gives the same result when repeated under the same conditions",
+"It is easy to do",
+"It measures what it is supposed to measure",
+"It is expensive"
+],
+"a": 0,
+"e": "Reliability = reproducibility (same result on repetition). Validity = it measures what it claims to measure.",
+"s": "Fiabilidad = reproducibilidad (mismo resultado al repetir). Validez = mide lo que dice medir.",
+"id": "int021",
+"t": "intake"
+},
+{
+"q": "What makes a test 'valid'?",
+"o": [
+"Anyone can do it",
+"It measures what it is intended to measure",
+"It takes little time",
+"It gives the same result every time"
+],
+"a": 1,
+"e": "Validity: the test measures the quality it intends to measure (e.g. the Cooper test for aerobic endurance).",
+"s": "Validez: el test mide la cualidad que pretende medir (p. ej., el test de Cooper para la resistencia aeróbica).",
+"id": "int022",
+"t": "intake"
+},
+{
+"q": "During a posture analysis you see an increased hollow in the lower back. This is called...",
+"o": [
+"Flat back",
+"Hyperkyphosis",
+"Hyperlordosis",
+"Scoliosis"
+],
+"a": 2,
+"e": "An increased lumbar curve is hyperlordosis, often with an anterior pelvic tilt.",
+"s": "Una curva lumbar aumentada es hiperlordosis, a menudo con inclinación pélvica anterior.",
+"id": "int023",
+"t": "intake"
+},
+{
+"q": "Hyperlordosis is often associated with...",
+"o": [
+"Strong abdominal and gluteal muscles",
+"Posterior pelvic tilt",
+"Anterior pelvic tilt with tight hip flexors",
+"Flat feet only"
+],
+"a": 2,
+"e": "Tight hip flexors and lower back muscles with weak abdominals and glutes tilt the pelvis forward (lower crossed syndrome).",
+"s": "Los flexores de cadera y lumbares acortados con abdominales y glúteos débiles inclinan la pelvis hacia delante (síndrome cruzado inferior).",
+"id": "int024",
+"t": "intake"
+},
+{
+"q": "A client has rounded shoulders and a forward head. Which muscles are usually tight?",
+"o": [
+"Rhomboids and lower trapezius",
+"Hamstrings",
+"Pectoralis major/minor and upper trapezius",
+"Gluteus maximus"
+],
+"a": 2,
+"e": "Upper crossed syndrome: tight chest and upper trapezius, weak deep neck flexors, rhomboids and lower trapezius.",
+"s": "Síndrome cruzado superior: pectoral y trapecio superior acortados; flexores profundos del cuello, romboides y trapecio inferior débiles.",
+"id": "int025",
+"t": "intake"
+},
+{
+"q": "From which views do you carry out a static posture analysis?",
+"o": [
+"Only from above",
+"Only during walking",
+"From the front, side and back",
+"Only from the front"
+],
+"a": 2,
+"e": "A static posture analysis is done from the front (anterior), side (lateral) and back (posterior), often with a plumb line.",
+"s": "El análisis postural estático se hace de frente (anterior), de lado (lateral) y de espaldas (posterior), a menudo con una plomada.",
+"id": "int026",
+"t": "intake"
+},
+{
+"q": "In a side view of good posture, the plumb line runs through...",
+"o": [
+"The toes",
+"Ear, shoulder, hip, slightly in front of the knee and in front of the ankle",
+"Only the hip",
+"Nose, navel and between the feet"
+],
+"a": 1,
+"e": "Lateral view: earlobe – shoulder (acromion) – hip (greater trochanter) – just in front of the knee – just in front of the lateral ankle.",
+"s": "Vista lateral: lóbulo de la oreja – hombro (acromion) – cadera (trocánter mayor) – justo delante de la rodilla – justo delante del maléolo externo.",
+"id": "int027",
+"t": "intake"
+},
+{
+"q": "What is 'informed consent'?",
+"o": [
+"A certificate",
+"A medical diagnosis",
+"The client's permission after being informed about the training, risks and tests",
+"A training schedule"
+],
+"a": 2,
+"e": "Informed consent: the client agrees in writing after being clearly told what the training/tests involve and their possible risks.",
+"s": "Consentimiento informado: el cliente acepta por escrito después de ser informado claramente de lo que implican el entrenamiento/los tests y sus posibles riesgos.",
+"id": "int028",
+"t": "intake"
+},
+{
+"q": "What does a 1RM test measure?",
+"o": [
+"Muscular endurance",
+"Maximal strength",
+"Speed",
+"Flexibility"
+],
+"a": 1,
+"e": "A 1RM test measures maximal dynamic strength. For beginners, estimate 1RM from a submaximal set (e.g. 10RM) instead.",
+"s": "Un test de 1RM mide la fuerza máxima dinámica. Para principiantes, estima el 1RM a partir de una serie submáxima (p. ej., 10RM).",
+"id": "int029",
+"t": "intake"
+},
+{
+"q": "What does a hand grip dynamometer measure?",
+"o": [
+"Grip (isometric) strength",
+"Heart rate",
+"Balance",
+"Body fat"
+],
+"a": 0,
+"e": "The hand grip test measures isometric grip strength, a good indicator of overall strength and health in older adults.",
+"s": "El test de dinamometría de mano mide la fuerza isométrica de agarre, buen indicador de fuerza general y salud en personas mayores.",
+"id": "int030",
+"t": "intake"
+},
+{
+"q": "Which test measures balance?",
+"o": [
+"1RM bench press",
+"Stork (single-leg) stand test",
+"Sit-and-reach test",
+"Cooper test"
+],
+"a": 1,
+"e": "The stork stand test measures static balance: how long a person can stand on one leg.",
+"s": "El test de la cigüeña mide el equilibrio estático: cuánto tiempo puede mantenerse una persona sobre una pierna.",
+"id": "int031",
+"t": "intake"
+},
+{
+"q": "Before which of these tests is a PAR-Q especially important?",
+"o": [
+"Measuring the waist",
+"Measuring height",
+"Weighing",
+"A maximal exercise test"
+],
+"a": 3,
+"e": "Maximal and strenuous tests put high demands on heart and circulation, so health screening beforehand is essential.",
+"s": "Los tests máximos y exigentes suponen una gran carga para el corazón y la circulación, por eso es esencial el cribado de salud previo.",
+"id": "int032",
+"t": "intake"
+},
+{
+"src": "portal",
+"q": "The transtheoretical model has .. stages?",
+"o": [
+"3 stages",
+"4 stages",
+"5 stages",
+"6 stages"
+],
+"a": 2,
+"e": "The transtheoretical model (Prochaska & DiClemente) has 5 stages: precontemplation, contemplation, preparation, action and maintenance. Some versions add a 6th (termination) or relapse, but the course answer is 5.",
+"s": "El modelo transteórico (Prochaska y DiClemente) tiene 5 etapas: precontemplación, contemplación, preparación, acción y mantenimiento. Algunas versiones añaden una 6ª (finalización) o la recaída, pero la respuesta del curso es 5.",
+"id": "coa001",
+"t": "coaching"
+},
+{
+"q": "Which is the correct order of the stages of change (transtheoretical model)?",
+"o": [
+"Action, maintenance, preparation, contemplation, precontemplation",
+"Precontemplation, contemplation, preparation, action, maintenance",
+"Preparation, action, contemplation, maintenance, precontemplation",
+"Contemplation, precontemplation, action, preparation, maintenance"
+],
+"a": 1,
+"e": "Precontemplation (not thinking about it) → contemplation (thinking about it) → preparation (planning) → action (doing it < 6 months) → maintenance (> 6 months).",
+"s": "Precontemplación (no lo piensa) → contemplación (lo piensa) → preparación (planifica) → acción (lo hace < 6 meses) → mantenimiento (> 6 meses).",
+"id": "coa002",
+"t": "coaching"
+},
+{
+"q": "A client says: 'I know I should exercise more and I'm thinking about starting in the next few months.' Which stage is this?",
+"o": [
+"Contemplation",
+"Precontemplation",
+"Preparation",
+"Maintenance"
+],
+"a": 0,
+"e": "Contemplation: the person is considering change within about 6 months but has not taken steps yet.",
+"s": "Contemplación: la persona considera cambiar en unos 6 meses pero aún no ha dado pasos.",
+"id": "coa003",
+"t": "coaching"
+},
+{
+"q": "A client has been training regularly for 8 months. Which stage of change is this?",
+"o": [
+"Contemplation",
+"Action",
+"Preparation",
+"Maintenance"
+],
+"a": 3,
+"e": "Maintenance = new behaviour kept up for more than 6 months. Action = less than 6 months.",
+"s": "Mantenimiento = nuevo comportamiento mantenido más de 6 meses. Acción = menos de 6 meses.",
+"id": "coa004",
+"t": "coaching"
+},
+{
+"q": "A client has just bought sports shoes and signed up for the gym starting next week. Which stage is this?",
+"o": [
+"Preparation",
+"Action",
+"Precontemplation",
+"Contemplation"
+],
+"a": 0,
+"e": "Preparation: the person intends to act soon (within a month) and is taking small steps.",
+"s": "Preparación: la persona tiene intención de actuar pronto (en un mes) y está dando pequeños pasos.",
+"id": "coa005",
+"t": "coaching"
+},
+{
+"q": "A person says: 'Exercise isn't for me, I don't see why I would.' Which stage is this?",
+"o": [
+"Precontemplation",
+"Preparation",
+"Contemplation",
+"Relapse"
+],
+"a": 0,
+"e": "Precontemplation: no intention to change in the foreseeable future, often unaware of or denying the problem.",
+"s": "Precontemplación: no hay intención de cambiar en un futuro próximo, a menudo sin ser consciente del problema o negándolo.",
+"id": "coa006",
+"t": "coaching"
+},
+{
+"q": "What does the 'S' in SMART goals stand for?",
+"o": [
+"Simple",
+"Smart",
+"Specific",
+"Strong"
+],
+"a": 2,
+"e": "SMART = Specific, Measurable, Acceptable/Achievable, Realistic, Time-bound.",
+"s": "SMART = Específico, Medible, Aceptable/Alcanzable, Realista, con plazo (Time-bound).",
+"id": "coa007",
+"t": "coaching"
+},
+{
+"q": "What does the 'T' in SMART stand for?",
+"o": [
+"Time-bound",
+"Tough",
+"Trainable",
+"Tested"
+],
+"a": 0,
+"e": "Time-bound: the goal has a clear deadline, e.g. 'within 12 weeks'.",
+"s": "Time-bound: el objetivo tiene una fecha límite clara, p. ej., 'en 12 semanas'.",
+"id": "coa008",
+"t": "coaching"
+},
+{
+"q": "Which goal is formulated SMART?",
+"o": [
+"I want to get fitter",
+"I want to look better on the beach",
+"I want to lose weight soon",
+"I want to run 5 km without walking within 10 weeks, training 3 times per week"
+],
+"a": 3,
+"e": "Only this goal is specific, measurable, realistic and has a deadline.",
+"s": "Solo este objetivo es específico, medible, realista y tiene una fecha límite.",
+"id": "coa009",
+"t": "coaching"
+},
+{
+"q": "What is intrinsic motivation?",
+"o": [
+"Motivation from within, because the activity itself is enjoyable or meaningful",
+"Motivation caused by pressure from others",
+"Motivation from a trainer's punishment",
+"Motivation from rewards such as money or prizes"
+],
+"a": 0,
+"e": "Intrinsic motivation comes from inside (enjoyment, interest). It predicts long-term exercise adherence better than extrinsic motivation.",
+"s": "La motivación intrínseca viene de dentro (disfrute, interés). Predice mejor la adherencia al ejercicio a largo plazo que la motivación extrínseca.",
+"id": "coa010",
+"t": "coaching"
+},
+{
+"q": "Which is an example of extrinsic motivation?",
+"o": [
+"Liking the challenge of learning a new skill",
+"Training to win a bet or to please others",
+"Feeling proud of yourself",
+"Enjoying the feeling of running"
+],
+"a": 1,
+"e": "Extrinsic motivation comes from outside rewards or pressure (money, prizes, approval).",
+"s": "La motivación extrínseca viene de recompensas o presiones externas (dinero, premios, aprobación).",
+"id": "coa011",
+"t": "coaching"
+},
+{
+"q": "According to Self-Determination Theory, which three basic needs support motivation?",
+"o": [
+"Money, status and health",
+"Strength, speed and endurance",
+"Rest, food and sleep",
+"Autonomy, competence and relatedness"
+],
+"a": 3,
+"e": "Self-Determination Theory (Deci & Ryan): autonomy (own choice), competence (feeling capable) and relatedness (connection with others).",
+"s": "Teoría de la Autodeterminación (Deci y Ryan): autonomía (elección propia), competencia (sentirse capaz) y relación (conexión con otros).",
+"id": "coa012",
+"t": "coaching"
+},
+{
+"q": "How can a trainer support a client's autonomy?",
+"o": [
+"Criticise mistakes",
+"Decide everything for the client",
+"Give the client choices and involve them in decisions",
+"Only give orders"
+],
+"a": 2,
+"e": "Offering choices and explaining the 'why' supports autonomy and long-term motivation.",
+"s": "Ofrecer opciones y explicar el 'porqué' favorece la autonomía y la motivación a largo plazo.",
+"id": "coa013",
+"t": "coaching"
+},
+{
+"q": "What is an open question?",
+"o": [
+"A question with multiple choice answers",
+"A question about training equipment",
+"A question that can be answered with yes or no",
+"A question that invites the client to explain in their own words"
+],
+"a": 3,
+"e": "Open questions (what, how, which) start a conversation, e.g. 'How did your week of training go?'",
+"s": "Las preguntas abiertas (qué, cómo, cuál) inician una conversación, p. ej., '¿Cómo te fue la semana de entrenamiento?'",
+"id": "coa014",
+"t": "coaching"
+},
+{
+"q": "Which is an example of a closed question?",
+"o": [
+"Did you train on Monday?",
+"How do you feel about your progress?",
+"What makes training difficult for you?",
+"What would you like to achieve?"
+],
+"a": 0,
+"e": "A closed question can be answered with yes/no or a single fact.",
+"s": "Una pregunta cerrada se puede responder con sí/no o con un solo dato.",
+"id": "coa015",
+"t": "coaching"
+},
+{
+"q": "What does 'active listening' include?",
+"o": [
+"Giving advice immediately",
+"Paying full attention, summarising and asking follow-up questions",
+"Interrupting with your own experience",
+"Looking at your phone"
+],
+"a": 1,
+"e": "Active listening: attention (eye contact, nodding), summarising, paraphrasing and asking further (in Dutch: LSD – Luisteren, Samenvatten, Doorvragen).",
+"s": "Escucha activa: atención (contacto visual, asentir), resumir, parafrasear y seguir preguntando (en neerlandés: LSD – Luisteren, Samenvatten, Doorvragen).",
+"id": "coa016",
+"t": "coaching"
+},
+{
+"q": "In the Dutch communication technique 'LSD', what does the 'S' stand for?",
+"o": [
+"Samenvatten (summarising)",
+"Sport",
+"Spreken (speaking)",
+"Stimuleren (stimulating)"
+],
+"a": 0,
+"e": "LSD = Luisteren (listen), Samenvatten (summarise), Doorvragen (ask further).",
+"s": "LSD = Luisteren (escuchar), Samenvatten (resumir), Doorvragen (seguir preguntando).",
+"id": "coa017",
+"t": "coaching"
+},
+{
+"q": "Which percentage of communication is often said to be non-verbal?",
+"o": [
+"0%",
+"About 50%",
+"The largest part (often quoted as about 70–90%)",
+"About 10%"
+],
+"a": 2,
+"e": "Courses often quote that most communication is non-verbal (body language, tone). The famous '93%' figure comes from Mehrabian's limited studies on feelings, so treat exact numbers with care.",
+"s": "Los cursos suelen afirmar que la mayor parte de la comunicación es no verbal (lenguaje corporal, tono). La famosa cifra del '93%' viene de estudios limitados de Mehrabian sobre sentimientos, así que trata las cifras exactas con cuidado.",
+"id": "coa018",
+"t": "coaching"
+},
+{
+"q": "What is the 'sandwich method' of giving feedback?",
+"o": [
+"Feedback during lunch",
+"Only negative feedback",
+"Positive point – point for improvement – positive point",
+"Feedback in writing only"
+],
+"a": 2,
+"e": "The sandwich method wraps a point for improvement between two positives, so feedback is received well.",
+"s": "El método sándwich coloca un punto de mejora entre dos aspectos positivos, para que el feedback se reciba bien.",
+"id": "coa019",
+"t": "coaching"
+},
+{
+"q": "Which feedback is most effective for a client learning a new exercise?",
+"o": [
+"'That's wrong.'",
+"'Just do it like I do.'",
+"'Good, now push your knees outward a little more.'",
+"No feedback at all"
+],
+"a": 2,
+"e": "Effective feedback is specific, positive and gives one clear action point at a time.",
+"s": "El feedback eficaz es específico, positivo y da un único punto de acción claro cada vez.",
+"id": "coa020",
+"t": "coaching"
+},
+{
+"q": "What are the three stages of motor learning (Fitts & Posner)?",
+"o": [
+"Explain, show, do",
+"Warm-up, core, cool-down",
+"Cognitive, associative, autonomous",
+"Beginner, intermediate, expert"
+],
+"a": 2,
+"e": "Cognitive (understanding, many errors) → associative (refining) → autonomous (automatic, little conscious attention).",
+"s": "Cognitiva (comprensión, muchos errores) → asociativa (perfeccionamiento) → autónoma (automática, poca atención consciente).",
+"id": "coa021",
+"t": "coaching"
+},
+{
+"q": "A client is learning a deadlift for the first time and makes many mistakes. Which learning stage is this?",
+"o": [
+"Associative stage",
+"Maintenance stage",
+"Autonomous stage",
+"Cognitive stage"
+],
+"a": 3,
+"e": "In the cognitive stage the learner is figuring out what to do; give simple instructions and limited, clear feedback.",
+"s": "En la etapa cognitiva el aprendiz está entendiendo qué hacer; da instrucciones sencillas y un feedback limitado y claro.",
+"id": "coa022",
+"t": "coaching"
+},
+{
+"q": "What is the most effective way to teach a new exercise to a beginner?",
+"o": [
+"Let the client figure it out alone",
+"Show it once very fast",
+"Explain briefly, demonstrate, let the client perform, then give feedback",
+"Give a long theoretical explanation only"
+],
+"a": 2,
+"e": "Tell – show – do – feedback: short explanation, demonstration, practice and specific feedback.",
+"s": "Explicar – mostrar – hacer – feedback: explicación breve, demostración, práctica y feedback específico.",
+"id": "coa023",
+"t": "coaching"
+},
+{
+"q": "What is a 'cue' in fitness instruction?",
+"o": [
+"A long explanation",
+"A type of equipment",
+"A short, clear instruction or signal that helps the client move correctly",
+"A warm-up exercise"
+],
+"a": 2,
+"e": "Cues are short instructions (verbal, visual or tactile), e.g. 'chest up', 'push the floor away'.",
+"s": "Las indicaciones (cues) son instrucciones breves (verbales, visuales o táctiles), p. ej., 'pecho arriba', 'empuja el suelo'.",
+"id": "coa024",
+"t": "coaching"
+},
+{
+"q": "Which is an example of a tactile (kinaesthetic) cue?",
+"o": [
+"Lightly touching the client's upper back to show where to engage",
+"Saying 'squeeze your glutes'",
+"Showing a video",
+"Writing the exercise on a card"
+],
+"a": 0,
+"e": "Tactile cues use touch; always ask permission first and explain why.",
+"s": "Las indicaciones táctiles usan el contacto; pide siempre permiso primero y explica por qué.",
+"id": "coa025",
+"t": "coaching"
+},
+{
+"q": "What is an external focus cue?",
+"o": [
+"'Think about your hamstrings'",
+"'Feel your abdominal muscles'",
+"'Tighten your quadriceps'",
+"'Push the floor away from you'"
+],
+"a": 3,
+"e": "External focus points attention to the movement's effect on the environment. Research (Wulf) shows it often improves performance and learning compared with internal (body-focused) cues.",
+"s": "El foco externo dirige la atención al efecto del movimiento sobre el entorno. La investigación (Wulf) muestra que suele mejorar el rendimiento y el aprendizaje frente a indicaciones internas (centradas en el cuerpo).",
+"id": "coa026",
+"t": "coaching"
+},
+{
+"q": "Where should a trainer stand while instructing a client on a squat?",
+"o": [
+"Behind a pillar",
+"In a position where the trainer can see the movement well and intervene if needed",
+"Far away at the reception",
+"Always directly in front, touching the client"
+],
+"a": 1,
+"e": "Choose a position (often at a 45° angle to the side) with a good view of the movement and where you can act safely.",
+"s": "Elige una posición (a menudo a 45° de lado) con buena visión del movimiento y desde donde puedas actuar con seguridad.",
+"id": "coa027",
+"t": "coaching"
+},
+{
+"q": "What is the most important factor for client retention in a gym?",
+"o": [
+"Many machines",
+"Personal attention, results and a good relationship with staff",
+"Loud music",
+"Low prices only"
+],
+"a": 1,
+"e": "Clients stay when they feel seen, supported and see progress. Personal contact strongly predicts retention.",
+"s": "Los clientes se quedan cuando se sienten vistos, apoyados y ven progreso. El contacto personal predice fuertemente la retención.",
+"id": "coa028",
+"t": "coaching"
+},
+{
+"q": "A client hasn't come to the gym for three weeks. What is the best action?",
+"o": [
+"Cancel their membership",
+"Do nothing; it is their choice",
+"Contact the client in a friendly way to ask how they are and help them restart",
+"Send a warning"
+],
+"a": 2,
+"e": "Proactive, friendly contact shows care and helps the client back into the routine, which improves retention.",
+"s": "Un contacto proactivo y amable muestra interés y ayuda al cliente a retomar la rutina, lo que mejora la retención.",
+"id": "coa029",
+"t": "coaching"
+},
+{
+"q": "What is 'self-efficacy' (Bandura)?",
+"o": [
+"Belief in one's own ability to successfully perform a behaviour",
+"Being efficient with time",
+"A training method",
+"Being able to train alone"
+],
+"a": 0,
+"e": "Self-efficacy is confidence in your ability to succeed. It grows mainly through mastery experiences (small successes).",
+"s": "La autoeficacia es la confianza en la propia capacidad para tener éxito. Crece sobre todo con experiencias de logro (pequeños éxitos).",
+"id": "coa030",
+"t": "coaching"
+},
+{
+"q": "What is the strongest way to increase a client's self-efficacy?",
+"o": [
+"Giving them very difficult tasks",
+"Telling them they are great",
+"Comparing them with others",
+"Letting them experience success with achievable tasks"
+],
+"a": 3,
+"e": "Mastery experiences (achieving realistic steps) are the strongest source of self-efficacy.",
+"s": "Las experiencias de logro (alcanzar pasos realistas) son la fuente más fuerte de autoeficacia.",
+"id": "coa031",
+"t": "coaching"
+},
+{
+"q": "What is motivational interviewing?",
+"o": [
+"A client-centred conversation style that strengthens the client's own motivation for change",
+"An interview for a job",
+"Convincing the client with arguments",
+"A test of motivation with questionnaires"
+],
+"a": 0,
+"e": "Motivational interviewing uses open questions, affirmations, reflections and summaries (OARS) to draw out the client's own reasons for change.",
+"s": "La entrevista motivacional usa preguntas abiertas, afirmaciones, reflejos y resúmenes (OARS) para hacer surgir las razones propias del cliente para cambiar.",
+"id": "coa032",
+"t": "coaching"
+},
+{
+"q": "How should a trainer respond to a client in the precontemplation stage?",
+"o": [
+"Provide information and raise awareness without pressure",
+"Ignore the client",
+"Sell a 12-month package",
+"Give an intensive 5-day training schedule"
+],
+"a": 0,
+"e": "In precontemplation, focus on awareness and information about benefits; pushing an action plan rarely works.",
+"s": "En la precontemplación, céntrate en la concienciación y en la información sobre los beneficios; imponer un plan de acción rara vez funciona.",
+"id": "coa033",
+"t": "coaching"
+},
+{
+"q": "Which describes good customer service by a fitness trainer?",
+"o": [
+"Training yourself during working hours",
+"Greeting clients, being approachable and proactive in offering help",
+"Staying in the office",
+"Only helping clients who pay extra"
+],
+"a": 1,
+"e": "Being visible, friendly and proactive on the gym floor is the basis of good service and retention.",
+"s": "Ser visible, amable y proactivo en la sala es la base de un buen servicio y de la retención.",
+"id": "coa034",
+"t": "coaching"
+},
+{
+"q": "What is the main purpose of evaluating goals with a client regularly?",
+"o": [
+"To make the client feel guilty",
+"It has no purpose",
+"To raise the price",
+"To monitor progress, celebrate success and adjust the plan"
+],
+"a": 3,
+"e": "Regular evaluation keeps goals relevant, shows progress (motivation) and allows the programme to be adjusted.",
+"s": "La evaluación periódica mantiene los objetivos relevantes, muestra el progreso (motivación) y permite ajustar el programa.",
+"id": "coa035",
+"t": "coaching"
+},
+{
+"q": "Which teaching method splits a complex exercise into smaller parts?",
+"o": [
+"Part (part-whole) method",
+"Whole method",
+"Random method",
+"Mirror method"
+],
+"a": 0,
+"e": "The part method teaches components separately (e.g. hip hinge before a full clean), then combines them.",
+"s": "El método por partes enseña los componentes por separado (p. ej., la bisagra de cadera antes de una cargada completa) y luego los combina.",
+"id": "coa036",
+"t": "coaching"
+},
+{
+"q": "What does 'empathy' mean in client communication?",
+"o": [
+"Agreeing with everything the client says",
+"Understanding and acknowledging the client's feelings and perspective",
+"Telling the client your own problems",
+"Feeling sorry for the client"
+],
+"a": 1,
+"e": "Empathy means understanding the client's situation and showing it, e.g. 'I can imagine that's frustrating.'",
+"s": "La empatía es comprender la situación del cliente y demostrarlo, p. ej., 'Me imagino que eso es frustrante.'",
+"id": "coa037",
+"t": "coaching"
+},
+{
+"q": "What is a relapse in the context of behaviour change?",
+"o": [
+"Reaching your goal",
+"Starting a new sport",
+"Increasing training load",
+"Falling back to old behaviour"
+],
+"a": 3,
+"e": "Relapse is a return to old behaviour. It is normal; help the client see it as a learning moment and restart.",
+"s": "La recaída es volver al comportamiento anterior. Es normal; ayuda al cliente a verla como un aprendizaje y a volver a empezar.",
+"id": "coa038",
+"t": "coaching"
+}
+]
