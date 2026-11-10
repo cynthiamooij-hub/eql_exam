@@ -1810,13 +1810,13 @@
 "q": "How long should a general warm-up typically last?",
 "o": [
 "1–2 minutes",
-"It is not needed",
+"5–10 minutes",
 "30–45 minutes",
-"5–15 minutes"
+"It is not needed"
 ],
-"a": 3,
-"e": "A typical warm-up lasts about 5–15 minutes, longer in cold conditions or before intense efforts.",
-"s": "Un calentamiento típico dura unos 5–15 minutos, más en condiciones frías o antes de esfuerzos intensos.",
+"a": 1,
+"e": "The course book (7.3): a 60-minute session has a 5–10 minute warm-up, about 3/4 actual training and a 5–10 minute cool-down.",
+"s": "Libro del curso (7.3): una sesión de 60 minutos tiene 5–10 minutos de calentamiento, unas 3/4 partes de entrenamiento y 5–10 minutos de vuelta a la calma.",
 "id": "tra022",
 "t": "training"
 },
@@ -2196,8 +2196,8 @@
 "5 g per kg body weight"
 ],
 "a": 2,
-"e": "The general recommendation is about 0.8 g/kg/day. Strength athletes often benefit from about 1.6–2.2 g/kg/day.",
-"s": "La recomendación general es de unos 0,8 g/kg/día. Los deportistas de fuerza suelen beneficiarse de unos 1,6–2,2 g/kg/día.",
+"e": "The general recommendation is about 0.8 g/kg/day (the course book: 0.83 g/kg; vegans 1.08 g/kg). People who exercise 3× a week need 1.2–1.8 g/kg.",
+"s": "La recomendación general es de unos 0,8 g/kg/día (el libro: 0,83 g/kg; veganos 1,08 g/kg). Quien entrena 3 veces por semana necesita 1,2–1,8 g/kg.",
 "id": "nut009",
 "t": "nutrition"
 },
@@ -2232,16 +2232,17 @@
 {
 "q": "How many essential amino acids are there?",
 "o": [
-"9",
+"3",
+"8",
 "20",
-"50",
-"3"
+"50"
 ],
-"a": 0,
-"e": "There are 20 amino acids in protein; 9 are essential (must come from the diet).",
-"s": "Hay 20 aminoácidos en las proteínas; 9 son esenciales (deben venir de la dieta).",
+"a": 1,
+"e": "The course book (6.1): 20 amino acids, 12 non-essential (made by the body) and 8 essential (must come from food). Current science counts 9, but the exam follows the course.",
+"s": "Libro del curso (6.1): 20 aminoácidos, 12 no esenciales (los produce el cuerpo) y 8 esenciales (deben venir de la dieta). La ciencia actual cuenta 9, pero el examen sigue el curso.",
 "id": "nut012",
-"t": "nutrition"
+"t": "nutrition",
+"flag": "Changed from 9 to 8 to match the course book (6.1)."
 },
 {
 "q": "Which fats are considered the healthiest?",
@@ -2300,7 +2301,7 @@
 "t": "nutrition"
 },
 {
-"q": "Which mineral is needed for oxygen transport in the blood?",
+"q": "Which mineral/trace element is needed for oxygen transport in the blood?",
 "o": [
 "Iron",
 "Zinc",
@@ -2308,8 +2309,8 @@
 "Calcium"
 ],
 "a": 0,
-"e": "Iron is part of haemoglobin, which carries oxygen. Iron deficiency causes fatigue and lower endurance.",
-"s": "El hierro forma parte de la hemoglobina, que transporta el oxígeno. La falta de hierro causa cansancio y menor resistencia.",
+"e": "Iron is part of haemoglobin, which carries oxygen; a deficiency causes fatigue and lower endurance. The course classes iron as a trace element (intake under 100 mg/day).",
+"s": "El hierro forma parte de la hemoglobina, que transporta oxígeno; su falta causa cansancio y menos resistencia. El curso clasifica el hierro como oligoelemento (menos de 100 mg/día).",
 "id": "nut017",
 "t": "nutrition"
 },
@@ -2336,8 +2337,8 @@
 "Providing a lot of energy"
 ],
 "a": 1,
-"e": "Fibre supports bowel function, feeds gut bacteria, slows sugar uptake and helps you feel full. Adults are advised about 30–40 g per day.",
-"s": "La fibra favorece el tránsito intestinal, alimenta la flora, ralentiza la absorción de azúcar y aumenta la saciedad. Se recomiendan unos 30–40 g al día para adultos.",
+"e": "Fibre supports bowel function, gives a full feeling with hardly any calories and benefits blood pressure and cholesterol. The course advises at least 25 g/day for women and 38 g/day for men.",
+"s": "La fibra favorece el tránsito intestinal, sacia casi sin calorías y mejora la tensión y el colesterol. El curso aconseja al menos 25 g/día para mujeres y 38 g/día para hombres.",
 "id": "nut019",
 "t": "nutrition"
 },
@@ -2406,8 +2407,8 @@
 "0.5 litre"
 ],
 "a": 0,
-"e": "Guidelines (e.g. Voedingscentrum) advise about 1.5–2 litres of fluid per day, more with exercise and heat.",
-"s": "Las guías (p. ej., Voedingscentrum) aconsejan unos 1,5–2 litros de líquido al día, más con ejercicio y calor.",
+"e": "The course advises 6–8 glasses of water a day (about 1.5–2 l), more when hot or exercising. Total fluid need (incl. food) is about 3.7 l for men and 2.7 l for women.",
+"s": "El curso aconseja 6–8 vasos de agua al día (unos 1,5–2 l), más con calor o ejercicio. La necesidad total de líquido (incl. comida) es de unos 3,7 l en hombres y 2,7 l en mujeres.",
 "id": "nut024",
 "t": "nutrition"
 },
@@ -2434,8 +2435,8 @@
 "Eating fat"
 ],
 "a": 0,
-"e": "Cramps are linked to muscle fatigue and to fluid/electrolyte loss through sweat. Current research points mostly to neuromuscular fatigue.",
-"s": "Los calambres se relacionan con la fatiga muscular y con la pérdida de líquidos/electrolitos por el sudor. La investigación actual apunta sobre todo a la fatiga neuromuscular.",
+"e": "Cramps are linked to fluid/electrolyte loss and muscle fatigue. The course's first aid (9.6): stretch the cramping muscle gradually and gently (calf: pull the foot up); heat cramps are best treated by cooling.",
+"s": "Los calambres se relacionan con la pérdida de líquidos/electrolitos y la fatiga. Primeros auxilios del curso (9.6): estira el músculo poco a poco y con suavidad (gemelo: tira del pie hacia arriba); los calambres por calor se tratan enfriando.",
 "id": "nut026",
 "t": "nutrition"
 },
@@ -2561,14 +2562,14 @@
 "Compression"
 ],
 "a": 3,
-"e": "ICE = Ice (cooling), Compression, Elevation. Compression limits swelling after an acute injury such as a sprained ankle.",
-"s": "ICE = Ice (hielo/enfriar), Compression (compresión), Elevation (elevación). La compresión limita la hinchazón tras una lesión aguda como un esguince de tobillo.",
+"e": "In the course's ICE rule you first cool for 10 minutes, then: I = Immobilise, C = Compression (pressure bandage, preferably by a first aider), E = Elevation. (Many other sources say I = Ice.)",
+"s": "En la regla ICE del curso primero se enfría 10 minutos y luego: I = Inmovilizar, C = Compresión (vendaje compresivo, mejor por un socorrista), E = Elevación. (Muchas otras fuentes dicen I = Ice, hielo.)",
 "id": "saf001",
 "t": "safety"
 },
 {
 "src": "portal",
-"flag": "Answer not confirmed by the portal. Check this one in your course book.",
+"flag": "Changed from 20 to 10 minutes after checking the course book (9.6 ICE rule: 'Cool for 10 min').",
 "q": "While running on the treadmill, a person's ankle breaks. He can no longer stand on it. How long do you have to cool?",
 "o": [
 "You don't need to cool",
@@ -2576,9 +2577,9 @@
 "10 minutes",
 "20 minutes"
 ],
-"a": 3,
-"e": "Following the ICE rule, cool the injured area for about 20 minutes (with a cloth between ice and skin) and call professional help for a suspected fracture. Do not move the ankle.",
-"s": "Siguiendo la regla ICE, enfría la zona lesionada unos 20 minutos (con un paño entre el hielo y la piel) y pide ayuda profesional ante una posible fractura. No muevas el tobillo.",
+"a": 2,
+"e": "The course's ICE rule (9.6): cool for 10 minutes with water, ice or a cold pack, then Immobilise, Compression, Elevation. A suspected fracture is also a reason to call the emergency number.",
+"s": "La regla ICE del curso (9.6): enfriar 10 minutos con agua, hielo o una bolsa de frío, y después Inmovilizar, Comprimir y Elevar. Una posible fractura también es motivo para llamar a emergencias.",
 "id": "saf002",
 "t": "safety"
 },
@@ -2591,8 +2592,8 @@
 "Exercise"
 ],
 "a": 2,
-"e": "Elevation: raise the injured limb above heart level to reduce swelling.",
-"s": "Elevation (elevación): eleva el miembro lesionado por encima del nivel del corazón para reducir la hinchazón.",
+"e": "Elevation: place the injured body part up to limit swelling. The course's full rule: cool 10 min, then Immobilise, Compression, Elevation.",
+"s": "Elevación: coloca la zona lesionada en alto para limitar la hinchazón. La regla completa del curso: enfriar 10 min y luego Inmovilizar, Comprimir, Elevar.",
 "id": "saf003",
 "t": "safety"
 },
@@ -2745,8 +2746,8 @@
 "To limit swelling and pain"
 ],
 "a": 3,
-"e": "Cooling, compression and elevation limit swelling, internal bleeding and pain in the first phase after an acute injury.",
-"s": "Enfriar, comprimir y elevar limitan la hinchazón, la hemorragia interna y el dolor en la primera fase tras una lesión aguda.",
+"e": "Cooling (10 min), immobilising, compression and elevation limit swelling, internal bleeding and pain after a bruise or sprain. If serious or in doubt, see a doctor.",
+"s": "Enfriar (10 min), inmovilizar, comprimir y elevar limitan la hinchazón, la hemorragia interna y el dolor tras una contusión o esguince. Si es grave o hay dudas, al médico.",
 "id": "saf014",
 "t": "safety"
 },
@@ -3462,11 +3463,10 @@
 "6 stages"
 ],
 "a": 3,
-"e": "In this course the transtheoretical model (Stages of Change) has 6 stages: precontemplation, contemplation, preparation, action, maintenance and relapse. Some textbooks count 5 (without relapse), but the course lesson quiz says 6.",
-"s": "En este curso el modelo transteórico (etapas del cambio) tiene 6 etapas: precontemplación, contemplación, preparación, acción, mantenimiento y recaída. Algunos libros cuentan 5 (sin recaída), pero el test de la lección del curso dice 6.",
+"e": "In this course the transtheoretical model (Stages of Change) has 6 stages: precontemplation, contemplation, preparation, action, maintenance and relapse. Some textbooks count 5 (without relapse), but the course lesson quiz says 6. Confirmed in the course book (3.3): 'The model consists of 6 phases'.",
+"s": "En este curso el modelo transteórico (etapas del cambio) tiene 6 etapas: precontemplación, contemplación, preparación, acción, mantenimiento y recaída. Algunos libros cuentan 5 (sin recaída), pero el test de la lección del curso dice 6. Confirmado en el libro del curso (3.3): 'El modelo consta de 6 fases'.",
 "id": "coa001",
-"t": "coaching",
-"flag": "Changed from 5 to 6: a later lesson quiz in the portal says the model has 6 phases."
+"t": "coaching"
 },
 {
 "q": "Which is the correct order of the stages of change (transtheoretical model)?",
@@ -3995,10 +3995,9 @@
 "Specific Measurable Acceptable Result Time-bound"
 ],
 "a": 0,
-"e": "SMART = Specific, Measurable, Achievable (or Acceptable), Realistic, Time-bound. The second option is wrong because 'R' is not 'Result'.",
-"s": "SMART = Específico, Medible, Alcanzable (o Aceptable), Realista, con plazo. La segunda opción es incorrecta porque la 'R' no es 'Result' (resultado).",
-"src": "portal",
-"flag": "Not confirmed by the portal. Some Dutch courses use 'Acceptabel' for the A, so check which wording your course book uses."
+"e": "SMART = Specific, Measurable, Achievable (or Acceptable), Realistic, Time-bound. The second option is wrong because 'R' is not 'Result'. The course book uses 'Acceptable' (2.1) and 'Achievable' (2.1, 3.2) for the A; 'Result' never appears.",
+"s": "SMART = Específico, Medible, Alcanzable (o Aceptable), Realista, con plazo. La segunda opción es incorrecta porque la 'R' no es 'Result' (resultado). El libro usa 'Acceptable' (2.1) y 'Achievable' (2.1, 3.2) para la A; 'Result' nunca aparece.",
+"src": "portal"
 },
 {
 "id": "coa040",
@@ -4024,10 +4023,9 @@
 "Content, Occasion, Always, Consequence and History"
 ],
 "a": 2,
-"e": "In the course's COACH method the letters stand for Content, Occasion, Always, Consequence and History. Option A repeats the word 'Coaching' and option B swaps in Opportunity and Help.",
-"s": "En el método COACH del curso las letras significan Content (contenido), Occasion (ocasión), Always (siempre), Consequence (consecuencia) e History (historia). La opción A repite la palabra 'Coaching' y la B cambia a Opportunity y Help.",
-"src": "portal",
-"flag": "Not confirmed by the portal. Check the COACH method in your course book."
+"e": "Confirmed in the course book (2.1): Content (what the problem really is), Occasion (the cause), Always (when it occurs), Consequence (effect on the goal), History (since when).",
+"s": "Confirmado en el libro del curso (2.1): Content (qué es el problema), Occasion (la causa), Always (cuándo ocurre), Consequence (efecto en el objetivo), History (desde cuándo).",
+"src": "portal"
 },
 {
 "id": "coa042",
@@ -4120,11 +4118,10 @@
 "Niet waar (False)",
 "Waar (True)"
 ],
-"a": 0,
-"e": "The muscle's own ATP store lasts only a few seconds of maximal effort. After that, ATP must be rebuilt by the energy systems (phosphate, anaerobic and aerobic).",
-"s": "La reserva propia de ATP del músculo solo dura unos segundos de esfuerzo máximo. Después, el ATP debe regenerarse mediante los sistemas energéticos (fosfágeno, anaeróbico y aeróbico).",
-"src": "portal",
-"flag": "Not confirmed by the portal. Physiologically, muscle ATP never drops to zero, but courses usually teach that the small ATP store runs out within seconds and must be rebuilt."
+"a": 1,
+"e": "True according to the course book (5.1.1): 'Fortunately, the ATP never runs out, because if it did, the muscle would get stuck and become stiff' (as in rigor mortis). Acute muscle fatigue is never caused by a shortage of ATP.",
+"s": "Verdadero según el libro del curso (5.1.1): el ATP nunca se agota, porque si lo hiciera el músculo se quedaría rígido (como en el rigor mortis). La fatiga muscular aguda nunca se debe a falta de ATP.",
+"src": "portal"
 },
 {
 "id": "phy036",
@@ -4216,11 +4213,11 @@
 "Sagittal axis",
 "Longitudinal axis"
 ],
-"a": 1,
-"e": "A sideways (left-right) movement, such as abduction or a side bend, happens in the frontal plane, around the sagittal axis, which runs from front to back. Flexion/extension happens around the transverse axis; rotation around the longitudinal axis.",
-"s": "Un movimiento lateral (izquierda-derecha), como la abducción o la inclinación lateral, ocurre en el plano frontal alrededor del eje sagital, que va de delante a atrás. La flexión/extensión ocurre alrededor del eje transversal; la rotación alrededor del eje longitudinal.",
+"a": 0,
+"e": "The course book literally defines the axes as: transverse axis → from left to right; sagittal axis → from back to front; longitudinal axis → from bottom to top. So 'left to right' = transverse axis. (Note: a sideways movement like abduction happens AROUND the sagittal axis; this question tests the course's axis definition.)",
+"s": "El libro del curso define los ejes así: eje transversal → de izquierda a derecha; eje sagital → de atrás adelante; eje longitudinal → de abajo arriba. Así que 'de izquierda a derecha' = eje transversal. (Ojo: un movimiento lateral como la abducción ocurre ALREDEDOR del eje sagital; esta pregunta evalúa la definición del curso.)",
 "src": "portal",
-"flag": "Not confirmed by the portal."
+"flag": "Changed after checking the course book (4.1): it defines the transverse axis as running 'from left to right'."
 },
 {
 "id": "ana048",
@@ -4258,10 +4255,9 @@
 "Waar (True)"
 ],
 "a": 0,
-"e": "A muscle has two kinds of attachments: the origin (origo), usually the fixed, proximal attachment, and the insertion (insertio) on the other bone, usually the moving, distal attachment. So the attachment 'to the other bone' is the insertion.",
-"s": "Un músculo tiene dos tipos de inserción: el origen (origo), normalmente la fija y proximal, y la inserción (insertio) en el otro hueso, normalmente la móvil y distal. Por tanto, la unión 'al otro hueso' es la inserción.",
-"src": "portal",
-"flag": "Not confirmed by the portal. The answer depends on how your course words it."
+"e": "False. The course book (4.4): the origin (origo) is the least movable attachment; 'the attachment to the other bone is called insertion' (most movable point).",
+"s": "Falso. Libro del curso (4.4): el origen es la inserción menos móvil; 'la unión al otro hueso se llama inserción' (punto más móvil).",
+"src": "portal"
 },
 {
 "id": "ana051",
@@ -4354,11 +4350,10 @@
 "B is right and A is wrong",
 "A and B are both wrong"
 ],
-"a": 2,
-"e": "Claim A describes supercompensation, not overload. In the course, overload means the load is higher than the load capacity, which lowers performance, as claim B says.",
-"s": "La afirmación A describe la supercompensación, no la sobrecarga. En el curso, sobrecarga significa que la carga supera la capacidad de carga, lo que reduce el rendimiento, como dice la afirmación B.",
-"src": "portal",
-"flag": "Not confirmed by the portal. In this course 'overload' means overloading (load higher than load capacity)."
+"a": 1,
+"e": "The course book (7.2) says supercompensation follows an effective load, and 'such a load is called overload': the body compensates with greater recovery than necessary, so performance increases (claim A). A load that is too high with too little recovery leads to declining performance: that is overtraining, not overload (so B is wrong).",
+"s": "El libro del curso (7.2) dice que la supercompensación sigue a una carga eficaz, y 'esa carga se llama sobrecarga': el cuerpo compensa más de lo necesario y el rendimiento sube (afirmación A). Una carga demasiado alta con poca recuperación hace bajar el rendimiento: eso es sobreentrenamiento, no sobrecarga (por eso B es falsa).",
+"src": "portal"
 },
 {
 "id": "tra042",
@@ -4423,9 +4418,9 @@
 "Niet waar (False)",
 "Waar (True)"
 ],
-"a": 0,
-"e": "False. Eccentric means the muscle lengthens under tension. Often that's a lowering movement, but not always: in a lat pulldown the bar goes UP during the eccentric phase of the lats.",
-"s": "Falso. Excéntrica significa que el músculo se alarga bajo tensión. A menudo es un movimiento de bajada, pero no siempre: en el jalón al pecho la barra SUBE durante la fase excéntrica del dorsal.",
+"a": 1,
+"e": "True according to the course book (8.1): characteristics of eccentric contraction: 'The movement is always downward', it goes with gravity, it's the lightest phase and the muscle can move the most weight eccentrically. (Physically, cable exercises can be an exception, but the exam follows the course.)",
+"s": "Verdadero según el libro del curso (8.1): en la contracción excéntrica 'el movimiento es siempre hacia abajo', va a favor de la gravedad, es la fase más ligera y el músculo puede mover más peso en excéntrico. (Físicamente las poleas pueden ser una excepción, pero el examen sigue el curso.)",
 "src": "portal"
 },
 {
@@ -4438,10 +4433,9 @@
 "Posture, Range, Control, Timing and Form"
 ],
 "a": 2,
-"e": "The five technique aspects are posture, range (of motion), control, timing and form. 'Communication' is not a technique aspect.",
-"s": "Los cinco aspectos de la técnica son postura, rango (de movimiento), control, timing (ritmo) y forma. La 'comunicación' no es un aspecto técnico.",
-"src": "portal",
-"flag": "Not confirmed by the portal. A and C differ only in 'Attitude' vs 'Posture' (both translate the Dutch 'houding'). Check your course book."
+"e": "The five technique aspects are posture, range (of motion), control, timing and form. 'Communication' is not a technique aspect. Confirmed in the course book (8.2): posture, range, control, timing and form.",
+"s": "Los cinco aspectos de la técnica son postura, rango (de movimiento), control, timing (ritmo) y forma. La 'comunicación' no es un aspecto técnico. Confirmado en el libro del curso (8.2): postura, recorrido, control, timing y forma.",
+"src": "portal"
 },
 {
 "id": "saf033",
@@ -4466,10 +4460,9 @@
 "Waar (True)"
 ],
 "a": 1,
-"e": "Instruction starts with the setup phase (name, explain and demonstrate the exercise), then the follow-up phase (observe and correct), then the motivation phase (encourage and keep the client going).",
-"s": "La instrucción empieza con la fase de preparación (nombrar, explicar y demostrar el ejercicio), luego la fase de seguimiento (observar y corregir) y después la fase de motivación (animar y mantener al cliente).",
-"src": "portal",
-"flag": "Not confirmed by the portal. Check the order of the instruction phases in your course book."
+"e": "Instruction starts with the setup phase (name, explain and demonstrate the exercise), then the follow-up phase (observe and correct), then the motivation phase (encourage and keep the client going). Confirmed in the course book (8.2).",
+"s": "La instrucción empieza con la fase de preparación (nombrar, explicar y demostrar el ejercicio), luego la fase de seguimiento (observar y corregir) y después la fase de motivación (animar y mantener al cliente). Confirmado en el libro del curso (8.2).",
+"src": "portal"
 },
 {
 "id": "coa049",
@@ -4522,10 +4515,9 @@
 "Aerobic activity, Flexibility and Sport-specific activity"
 ],
 "a": 0,
-"e": "A warm-up has three parts: light aerobic activity (raise heart rate and temperature), stretching/mobility, and a sport- or exercise-specific part.",
-"s": "Un calentamiento tiene tres partes: actividad aeróbica suave (subir pulso y temperatura), estiramientos/movilidad y una parte específica del deporte o ejercicio.",
-"src": "portal",
-"flag": "Not confirmed by the portal. A and C differ only in 'Stretching' vs 'Flexibility'. Check your course book."
+"e": "A warm-up has three parts: light aerobic activity (raise heart rate and temperature), stretching/mobility, and a sport- or exercise-specific part. Confirmed in the course book (9.1, Fradkin et al. 2010): aerobic activity, stretching and sport-specific activity.",
+"s": "Un calentamiento tiene tres partes: actividad aeróbica suave (subir pulso y temperatura), estiramientos/movilidad y una parte específica del deporte o ejercicio. Confirmado en el libro del curso (9.1, Fradkin et al. 2010): actividad aeróbica, estiramiento y actividad específica.",
+"src": "portal"
 },
 {
 "id": "coa050",
@@ -4537,10 +4529,9 @@
 "1-2 points of attention"
 ],
 "a": 2,
-"e": "Give only one or two points of attention at a time. More than that overloads the client, who can't focus on everything at once.",
-"s": "Da solo uno o dos puntos de atención a la vez. Más que eso sobrecarga al cliente, que no puede concentrarse en todo a la vez.",
-"src": "portal",
-"flag": "Not confirmed by the portal. Check whether your course says 1–2 or 2–3."
+"e": "Give only one or two points of attention at a time. More than that overloads the client, who can't focus on everything at once. Confirmed in the course book (9.4): 'Give 1 or 2 tips for attention'.",
+"s": "Da solo uno o dos puntos de atención a la vez. Más que eso sobrecarga al cliente, que no puede concentrarse en todo a la vez. Confirmado en el libro del curso (9.4): 'Da 1 o 2 puntos de atención'.",
+"src": "portal"
 },
 {
 "id": "nut037",
@@ -4785,10 +4776,9 @@
 "36 vertebrae"
 ],
 "a": 2,
-"e": "33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused into the sacrum) and about 4 coccygeal (fused into the coccyx).",
-"s": "33 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, 5 sacras (fusionadas en el sacro) y unas 4 coccígeas (fusionadas en el cóccix).",
-"src": "copilot",
-"flag": "From the Copilot mock exam. 33 counts the vertebrae before fusion; adults have 24 movable vertebrae plus the sacrum and coccyx."
+"e": "33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused into the sacrum) and about 4 coccygeal (fused into the coccyx). The course book (4.2) lists 7 + 12 + 5 + sacrum (5) + coccyx (4) = 33.",
+"s": "33 vértebras: 7 cervicales, 12 torácicas, 5 lumbares, 5 sacras (fusionadas en el sacro) y unas 4 coccígeas (fusionadas en el cóccix). El libro del curso (4.2) enumera 7 + 12 + 5 + sacro (5) + cóccix (4) = 33.",
+"src": "copilot"
 },
 {
 "id": "ana067",
@@ -5362,7 +5352,7 @@
 "s": "SMART = Específico, Medible, Alcanzable, Relevante/Realista, con plazo. Según la fuente, la R es 'Relevant' o 'Realistic'.",
 "src": "copilot",
 "fixed": true,
-"flag": "From the Copilot mock exam. Your course's own quiz uses 'Realistic' for the R, not 'Relevant'."
+"flag": "From the Copilot mock exam. The course book uses 'Acceptable/Achievable' and 'Realistic', not 'Relevant'. If both appear, pick the course wording."
 },
 {
 "id": "int035",
@@ -5727,16 +5717,16 @@
 {
 "id": "phy051",
 "t": "physiology",
-"q": "Which are skill-related components of fitness (as opposed to health-related components)?",
+"q": "According to the course, which element of physical fitness is mainly skill-related rather than health-related?",
 "o": [
-"Agility, balance, coordination, power, reaction time and speed",
-"Cardiorespiratory endurance, muscular strength and body composition",
-"Flexibility and muscular endurance only",
-"Blood pressure and cholesterol"
+"Speed",
+"Cardiovascular endurance",
+"Body composition",
+"Flexibility"
 ],
 "a": 0,
-"e": "Skill-related fitness covers agility, balance, coordination, power, reaction time and speed. Health-related fitness covers cardio endurance, strength, muscular endurance, flexibility and body composition.",
-"s": "La condición física relacionada con la habilidad incluye agilidad, equilibrio, coordinación, potencia, tiempo de reacción y velocidad. La relacionada con la salud incluye resistencia cardiorrespiratoria, fuerza, resistencia muscular, flexibilidad y composición corporal.",
+"e": "The course book (5.3) defines fitness with health-related elements: cardiovascular endurance, strength, flexibility, coordination, balance and body composition. Speed is given as a skill-related element, important for sport performance.",
+"s": "El libro (5.3) define la condición física con elementos de salud: resistencia cardiovascular, fuerza, flexibilidad, coordinación, equilibrio y composición corporal. La velocidad se da como elemento de habilidad, importante para el rendimiento deportivo.",
 "src": "course"
 },
 {
@@ -5767,6 +5757,4657 @@
 "a": 0,
 "e": "A 'yes' on the PAR-Q means a possible health risk: the client first consults their general practitioner (GP) before starting or increasing training.",
 "s": "Un 'sí' en el PAR-Q indica un posible riesgo de salud: el cliente consulta primero a su médico de cabecera antes de empezar o aumentar el entrenamiento.",
+"src": "course"
+},
+{
+"id": "coa061",
+"t": "coaching",
+"q": "Which three parts make up the Fitness Trainer Level 3 exam, according to the course?",
+"o": [
+"Theory exam, portfolio and practical exam",
+"Only a theory exam",
+"Theory exam and a fitness test",
+"Portfolio and an interview"
+],
+"a": 0,
+"e": "The exam consists of the theory exam, the portfolio and the practical exam (with 3–4 people you give a lesson to).",
+"s": "El examen consta de examen teórico, portafolio y examen práctico (con 3–4 personas a las que das una clase).",
+"src": "course"
+},
+{
+"id": "coa062",
+"t": "coaching",
+"q": "In Simon Sinek's 'Start with Why' model, what is the WHY?",
+"o": [
+"Making money",
+"The products you sell",
+"The reason or belief why your business exists",
+"How you differ from competitors"
+],
+"a": 2,
+"e": "WHY = the core reason or belief (money is the result, not the why). HOW = what distinguishes you. WHAT = the products or services.",
+"s": "POR QUÉ = la razón o creencia de fondo (el dinero es el resultado, no el porqué). CÓMO = lo que te distingue. QUÉ = los productos o servicios.",
+"src": "course"
+},
+{
+"id": "coa063",
+"t": "coaching",
+"q": "What are advantages of having a vision as a fitness trainer, according to the course?",
+"o": [
+"It gives direction (what you will and won't do) and it motivates",
+"It guarantees more clients",
+"It replaces a qualification",
+"It sets your prices"
+],
+"a": 0,
+"e": "A vision gives direction, helps map out a career and motivates, because you know what you do and why.",
+"s": "Una visión da dirección, ayuda a trazar una carrera y motiva, porque sabes qué haces y por qué.",
+"src": "course"
+},
+{
+"id": "coa064",
+"t": "coaching",
+"q": "According to the course's vision on lifelong learning, why should a trainer build a network of other professionals?",
+"o": [
+"To refer clients to e.g. a massage therapist, physician, mental coach or career coach when needed",
+"To sell more memberships",
+"To avoid working with clients",
+"It is not needed"
+],
+"a": 0,
+"e": "A network lets you advise clients to visit other professionals to help them reach a goal.",
+"s": "Una red te permite aconsejar al cliente que visite a otros profesionales para lograr su objetivo.",
+"src": "course"
+},
+{
+"id": "coa065",
+"t": "coaching",
+"q": "Why does the course say a fitness trainer should be fit and demonstrate exercises with perfect technique?",
+"o": [
+"Because the trainer is a role model for clients",
+"Because it's required by law",
+"To win competitions",
+"To charge more"
+],
+"a": 0,
+"e": "Under 'practice and theory', the course states you are a role model: be healthy, be fit and demonstrate with perfect technique.",
+"s": "En 'práctica y teoría' el curso dice que eres un modelo para tus clientes: estar sano, en forma y demostrar con técnica perfecta.",
+"src": "course"
+},
+{
+"id": "coa066",
+"t": "coaching",
+"q": "With which words does an open question start?",
+"o": [
+"A verb, such as 'Do', 'Are' or 'Shouldn't'",
+"A question word: who, what, where, when, why or how",
+"Always with 'I think that...'",
+"With the client's name"
+],
+"a": 1,
+"e": "Open questions start with a question word (who, what, where, when, why, how) and can't be answered with yes or no. Closed questions start with a verb.",
+"s": "Las preguntas abiertas empiezan con una palabra interrogativa (quién, qué, dónde, cuándo, por qué, cómo) y no se responden con sí o no. Las cerradas empiezan con un verbo.",
+"src": "course"
+},
+{
+"id": "coa067",
+"t": "coaching",
+"q": "Which question does the course call the most neutral way to start an open question?",
+"o": [
+"'Don't you think you should...?'",
+"'What do you think of...?'",
+"'Are you going to...?'",
+"'Why didn't you...?'"
+],
+"a": 1,
+"e": "'What do you think of...?' doesn't suggest or limit anything, so it gives the most information about the client's opinion, knowledge and feelings.",
+"s": "'¿Qué te parece...?' no sugiere ni limita nada, así que da la máxima información sobre la opinión, conocimientos y sentimientos del cliente.",
+"src": "course"
+},
+{
+"id": "coa068",
+"t": "coaching",
+"q": "Which is NOT one of the components of a good question according to the course?",
+"o": [
+"Neutral",
+"Short",
+"Supported with body language",
+"Contains your own advice"
+],
+"a": 3,
+"e": "A good question is neutral, short, starts with the right question word, is spoken invitingly and is supported with body language. Adding your own advice makes it suggestive.",
+"s": "Una buena pregunta es neutral, corta, empieza con la palabra interrogativa adecuada, se formula de forma acogedora y se apoya con lenguaje corporal. Añadir tu propio consejo la vuelve sugestiva.",
+"src": "course"
+},
+{
+"id": "coa069",
+"t": "coaching",
+"q": "What should you do right after asking an open question?",
+"o": [
+"Immediately give an example answer",
+"Stay silent for at least five seconds and give the client time to think",
+"Ask a second question straight away",
+"Summarise the answer you expect"
+],
+"a": 1,
+"e": "The course says: remain silent for at least five seconds, even if no answer comes immediately. If the answer stays unclear, ask the question again slightly differently.",
+"s": "El curso dice: quédate en silencio al menos cinco segundos, aunque no llegue respuesta enseguida. Si la respuesta sigue sin estar clara, reformula la pregunta.",
+"src": "course"
+},
+{
+"id": "coa070",
+"t": "coaching",
+"q": "A client says: 'My workouts haven't been going well for a while.' Which follow-up question is best?",
+"o": [
+"'So you think I can't motivate you enough?'",
+"'Do you want to stop training with me?'",
+"'What can we do to get you motivated again?'",
+"'Why are you so lazy lately?'"
+],
+"a": 2,
+"e": "Only respond to what the client actually said; don't exaggerate or interpret. The neutral, positive question is 'What can we do to get you motivated again?'",
+"s": "Responde solo a lo que el cliente ha dicho realmente, sin exagerar ni interpretar. La pregunta neutral y positiva es '¿Qué podemos hacer para que vuelvas a estar motivado?'",
+"src": "course"
+},
+{
+"id": "coa071",
+"t": "coaching",
+"q": "Which is NOT a mistake when summarising, according to the course?",
+"o": [
+"Parroting the client's exact words",
+"Concluding before you have all the information",
+"Including both content and emotions",
+"Making the summary too long"
+],
+"a": 2,
+"e": "Including both content and emotions is good practice: it shows empathy. Parroting, concluding too quickly, misinterpreting, a long summary, no room for correction and summarising from your own perspective are mistakes.",
+"s": "Incluir contenido y emociones es una buena práctica: muestra empatía. Repetir como un loro, concluir demasiado pronto, malinterpretar, un resumen largo, no dejar corregir y resumir desde tu perspectiva son errores.",
+"src": "course"
+},
+{
+"id": "coa072",
+"t": "coaching",
+"q": "Why should you raise your voice at the end of a summary?",
+"o": [
+"To show you are the expert",
+"To make clear the client may correct the summary",
+"To end the conversation",
+"To motivate the client"
+],
+"a": 1,
+"e": "Ending with a rising tone turns the summary into a check, so the client feels free to contradict it if it isn't right.",
+"s": "Terminar con un tono ascendente convierte el resumen en una comprobación, para que el cliente se sienta libre de corregirlo si no es correcto.",
+"src": "course"
+},
+{
+"id": "coa073",
+"t": "coaching",
+"q": "In the COACH method, what does the 'O' (Occasion) ask about?",
+"o": [
+"The cause of the problem",
+"When the behaviour occurs",
+"The consequences for the goal",
+"Since when the behaviour exists"
+],
+"a": 0,
+"e": "Content = what the problem really is; Occasion = its cause; Always = when it occurs; Consequence = effect on the goal; History = since when.",
+"s": "Content = qué es realmente el problema; Occasion = su causa; Always = cuándo ocurre; Consequence = efecto en el objetivo; History = desde cuándo.",
+"src": "course"
+},
+{
+"id": "coa074",
+"t": "coaching",
+"q": "In the COACH method, which letter asks 'Since when does this behaviour take place?'",
+"o": [
+"C – Content",
+"A – Always",
+"C – Consequence",
+"H – History"
+],
+"a": 3,
+"e": "History asks since when the behaviour exists. 'Always' asks when (in which situations) it occurs.",
+"s": "History pregunta desde cuándo existe el comportamiento. 'Always' pregunta cuándo (en qué situaciones) ocurre.",
+"src": "course"
+},
+{
+"id": "coa075",
+"t": "coaching",
+"q": "Which tips for goal setting does the course give?",
+"o": [
+"Positively formulated, by initiative and control of the client, visibly perceptible and SMART",
+"Set by the trainer, strict and long-term",
+"Only weight-related and monthly",
+"As ambitious as possible"
+],
+"a": 0,
+"e": "Goals should be formulated positively, come from the client's initiative and control, be visibly perceptible and be SMART.",
+"s": "Los objetivos deben formularse en positivo, surgir de la iniciativa y control del cliente, ser visiblemente perceptibles y SMART.",
+"src": "course"
+},
+{
+"id": "coa076",
+"t": "coaching",
+"q": "According to the course, what does the 'A' in SMART mean when you formulate agreements with a client?",
+"o": [
+"Accurate: the goal is precise to the decimal",
+"Acceptable: everyone involved accepts the goal and gives 100% effort",
+"Athletic: the goal is about sport",
+"Average: the goal fits the average client"
+],
+"a": 1,
+"e": "The course explains SMART as Specific, Measurable, Acceptable, Realistic, Time-bound. Acceptable = everyone involved accepts the goal and commits to it. (Elsewhere it also uses 'Achievable'.)",
+"s": "El curso explica SMART como Específico, Medible, Aceptable, Realista y con plazo. Aceptable = todos los implicados aceptan el objetivo y se comprometen. (En otro punto también usa 'Achievable', alcanzable.)",
+"src": "course"
+},
+{
+"id": "coa077",
+"t": "coaching",
+"q": "What is the Service Quality Model (GAP model) used for?",
+"o": [
+"Measuring body fat",
+"Aligning client expectations with the service you deliver",
+"Planning periodisation",
+"Calculating training heart rate"
+],
+"a": 1,
+"e": "The GAP model shows 5 possible gaps between what clients expect and what is designed, communicated and delivered. Good service means closing these gaps.",
+"s": "El modelo GAP muestra 5 posibles brechas entre lo que el cliente espera y lo que se diseña, comunica y entrega. Un buen servicio cierra esas brechas.",
+"src": "course"
+},
+{
+"id": "coa078",
+"t": "coaching",
+"q": "How many gaps does the Service Quality (GAP) model describe?",
+"o": [
+"3",
+"4",
+"5",
+"7"
+],
+"a": 2,
+"e": "The GAP model describes 5 gaps (key focus areas) in aligning and delivering service.",
+"s": "El modelo GAP describe 5 brechas (áreas clave) para alinear y prestar el servicio.",
+"src": "course"
+},
+{
+"id": "coa079",
+"t": "coaching",
+"q": "Which GAP is about the match between the service the client experienced and the expectations the client had beforehand?",
+"o": [
+"GAP 1",
+"GAP 3",
+"GAP 4",
+"GAP 5"
+],
+"a": 3,
+"e": "GAP 5 compares experienced service with prior expectations, which depend on the client's views, needs and previous experiences. That's why you ask extensively about needs and expectations.",
+"s": "La brecha 5 compara el servicio vivido con las expectativas previas, que dependen de las opiniones, necesidades y experiencias anteriores del cliente. Por eso preguntas a fondo por necesidades y expectativas.",
+"src": "course"
+},
+{
+"id": "coa080",
+"t": "coaching",
+"q": "GAP 4 of the service model is about...",
+"o": [
+"Communicating clearly what you will and will not deliver",
+"Arriving on time",
+"The client's body composition",
+"The price of a membership"
+],
+"a": 0,
+"e": "GAP 4 is the alignment between the design and the communication of what will be delivered, so clients don't get expectations that are too high or too low.",
+"s": "La brecha 4 es la alineación entre el diseño y la comunicación de lo que se va a entregar, para que el cliente no tenga expectativas demasiado altas ni bajas.",
+"src": "course"
+},
+{
+"id": "coa081",
+"t": "coaching",
+"q": "When does the 'confirmation call' take place?",
+"o": [
+"The day after the first session",
+"About 12 to 24 hours before the (first) session",
+"One week after signing up",
+"Only when the client cancels"
+],
+"a": 1,
+"e": "The confirmation call is a service call 12–24 hours before the session to maximise attendance.",
+"s": "La llamada de confirmación es una llamada de servicio 12–24 horas antes de la sesión para asegurar la asistencia.",
+"src": "course"
+},
+{
+"id": "coa082",
+"t": "coaching",
+"q": "What is the purpose of the 'evaluation call'?",
+"o": [
+"To sell a new package",
+"To find out the day after the first session how the client experienced it",
+"To confirm the next appointment",
+"To measure progress after 12 weeks"
+],
+"a": 1,
+"e": "The evaluation call happens the day after the first session: What did you think of the training? What did you like most? Any muscle pain?",
+"s": "La llamada de evaluación se hace el día después de la primera sesión: ¿Qué te pareció el entrenamiento? ¿Qué te gustó más? ¿Tienes agujetas?",
+"src": "course"
+},
+{
+"id": "coa083",
+"t": "coaching",
+"q": "How long does a 'progression meeting' last according to the course?",
+"o": [
+"About 2 minutes",
+"About 10 minutes",
+"About 30 minutes",
+"A full hour"
+],
+"a": 1,
+"e": "A progression meeting is a 10-minute face-to-face conversation before or after a session about how the training is going.",
+"s": "Una reunión de progreso es una conversación cara a cara de 10 minutos antes o después de una sesión sobre cómo va el entrenamiento.",
+"src": "course"
+},
+{
+"id": "coa084",
+"t": "coaching",
+"q": "Trust between trainer and client is built on 13 behaviours. What is the fastest way to BREAK trust?",
+"o": [
+"Violating behaviours that stem from character",
+"Showing behaviours that stem from competence",
+"Asking open questions",
+"Giving homework"
+],
+"a": 0,
+"e": "All 13 behaviours combine character and competence. Violating character behaviours breaks trust fastest; showing competence builds it fastest.",
+"s": "Los 13 comportamientos combinan carácter y competencia. Fallar en los de carácter destruye la confianza más rápido; mostrar competencia la construye más rápido.",
+"src": "course"
+},
+{
+"id": "coa085",
+"t": "coaching",
+"q": "On each of the 13 trust behaviours, how many checkpoints does a client use to judge your credibility?",
+"o": [
+"1 to 2",
+"3 to 5",
+"8 to 10",
+"20 or more"
+],
+"a": 2,
+"e": "The course says the client has between 8 and 10 checkpoints for each of the 13 behaviours.",
+"s": "El curso dice que el cliente tiene entre 8 y 10 puntos de control para cada uno de los 13 comportamientos.",
+"src": "course"
+},
+{
+"id": "coa086",
+"t": "coaching",
+"q": "A client tells you she is pregnant before telling her family. What does the course's 'Doctor's secrets' rule say?",
+"o": [
+"Share it with colleagues so they can adapt",
+"Everything the client tells you is confidential",
+"Tell her family it's good news",
+"Post it in the gym's newsletter"
+],
+"a": 1,
+"e": "All personal information you hear as a trainer (pregnancy, relationship or work problems) is confidential.",
+"s": "Toda la información personal que conoces como entrenador (embarazo, problemas de pareja o de trabajo) es confidencial.",
+"src": "course"
+},
+{
+"id": "coa087",
+"t": "coaching",
+"q": "What does SAFER stand for in the course's lifestyle factors?",
+"o": [
+"Smoking less, moderate Alcohol, healthy Food, more Exercise, sufficient Relaxation",
+"Strength, Agility, Flexibility, Endurance, Rest",
+"Safety, Attention, Feedback, Evaluation, Results",
+"Sleep, Activity, Fruit, Energy, Recovery"
+],
+"a": 0,
+"e": "SAFER: Smoking less or not at all, moderate Alcohol, healthy Food, more Exercise and sufficient Relaxation.",
+"s": "SAFER: fumar menos o nada (Smoking), Alcohol moderado, comida sana (Food), más Ejercicio y Relajación suficiente.",
+"src": "course"
+},
+{
+"id": "coa088",
+"t": "coaching",
+"q": "According to the 2002 European survey in the course, roughly what share of Europeans got enough exercise?",
+"o": [
+"About 10%",
+"About 31%",
+"About 60%",
+"About 85%"
+],
+"a": 1,
+"e": "Two-thirds did not meet the recommended amount; on average only about 31% got enough exercise.",
+"s": "Dos tercios no cumplían la cantidad recomendada; de media solo un 31% hacía suficiente ejercicio.",
+"src": "course"
+},
+{
+"id": "coa089",
+"t": "coaching",
+"q": "Which are the INTERNAL factors that determine behaviour?",
+"o": [
+"Partner, friends and family",
+"Physical environment like home and work",
+"What we know, what we can do and what we want (knowledge, attitudes, skills)",
+"The weather and the gym's opening hours"
+],
+"a": 2,
+"e": "Internal factors are personal: knowledge, beliefs, attitudes and skills. Partner, family and environment are external factors.",
+"s": "Los factores internos son personales: conocimientos, creencias, actitudes y habilidades. La pareja, la familia y el entorno son factores externos.",
+"src": "course"
+},
+{
+"id": "coa090",
+"t": "coaching",
+"q": "A client's partner opens a bag of chips every night while the client tries to lose weight. What kind of factor is this?",
+"o": [
+"An internal factor",
+"An external social factor",
+"A biological factor",
+"A capacity factor"
+],
+"a": 1,
+"e": "Attitudes and behaviours of others around the client are external (social) factors.",
+"s": "Las actitudes y comportamientos de las personas del entorno son factores externos (sociales).",
+"src": "course"
+},
+{
+"id": "coa091",
+"t": "coaching",
+"q": "According to the course, which three factors predict behavioural intention (the ASE model)?",
+"o": [
+"Age, Sex and Education",
+"Attitude, Social influence and Self-efficacy",
+"Agility, Strength and Endurance",
+"Awareness, Support and Energy"
+],
+"a": 1,
+"e": "ASE = Attitude, Social influence and Self-efficacy (confidence in your own ability). These determine the intention to change behaviour.",
+"s": "ASE = Actitud, influencia Social y autoEficacia (confianza en tu propia capacidad). Determinan la intención de cambiar de conducta.",
+"src": "course"
+},
+{
+"id": "coa092",
+"t": "coaching",
+"q": "What does 'self-regulation' refer to in the course?",
+"o": [
+"The 95% of behaviour that is automatic",
+"How people set goals, use strategies and deal with setbacks — controlling the conscious part of behaviour",
+"Regulating body temperature",
+"The gym's rules"
+],
+"a": 1,
+"e": "Self-regulation is about formulating goals, the strategies to reach them and coping with frustration and setbacks: control over the ~5% conscious behaviour.",
+"s": "La autorregulación trata de formular objetivos, las estrategias para lograrlos y cómo afrontar frustraciones y contratiempos: el control sobre el ~5% de conducta consciente.",
+"src": "course"
+},
+{
+"id": "coa093",
+"t": "coaching",
+"q": "Why is behaviour change so difficult, according to the course?",
+"o": [
+"People don't know exercise is healthy",
+"The reward comes later, but the temptation is there immediately",
+"Fitness clubs are too expensive",
+"Training is always painful"
+],
+"a": 1,
+"e": "The benefits of a new behaviour come in the long term, while the temptation of the old behaviour gives an immediate reward.",
+"s": "Los beneficios de la nueva conducta llegan a largo plazo, mientras que la tentación de la vieja da una recompensa inmediata.",
+"src": "course"
+},
+{
+"id": "coa094",
+"t": "coaching",
+"q": "Which three conditions should goals meet when you formulate them with a client (module 3.2)?",
+"o": [
+"Process and result goals, matched to the client's phase of behaviour change, and SMART",
+"Only result goals, set by the trainer, yearly",
+"Only weight goals, measurable, public",
+"Long-term only, ambitious, fixed"
+],
+"a": 0,
+"e": "Formulate both process and result goals, fit them to the client's phase of behaviour change, and make them SMART.",
+"s": "Formula objetivos de proceso y de resultado, adáptalos a la fase de cambio del cliente y hazlos SMART.",
+"src": "course"
+},
+{
+"id": "coa095",
+"t": "coaching",
+"q": "In the DISC model, which type is dominant, direct and wants to take on challenges and win?",
+"o": [
+"D",
+"I",
+"S",
+"C"
+],
+"a": 0,
+"e": "D = Dominant/direct. Be direct with them, avoid hesitation and too much detail.",
+"s": "D = Dominante/directo. Sé directo con ellos y evita las dudas y el exceso de detalle.",
+"src": "course"
+},
+{
+"id": "coa096",
+"t": "coaching",
+"q": "Which DISC type is introverted, cautious, analytical and asks precise questions?",
+"o": [
+"D – Dominant",
+"I – Influential",
+"S – Steady",
+"C – Compliant/Conscientious"
+],
+"a": 3,
+"e": "The C type is precise and analytical: answer all their questions precisely and give a timeline so they don't delay decisions.",
+"s": "El tipo C es preciso y analítico: responde a todas sus preguntas con precisión y dale un calendario para que no retrase sus decisiones.",
+"src": "course"
+},
+{
+"id": "coa097",
+"t": "coaching",
+"q": "Which DISC types are more task-oriented and rational?",
+"o": [
+"D and C",
+"I and S",
+"D and I",
+"S and C only"
+],
+"a": 0,
+"e": "D and C are task-oriented and rational; I and S are people-oriented and emotional. D and I are extroverted; S and C more introverted.",
+"s": "D y C están orientados a la tarea y son racionales; I y S, a las personas y son emocionales. D e I son extrovertidos; S y C más introvertidos.",
+"src": "course"
+},
+{
+"id": "coa098",
+"t": "coaching",
+"q": "How should you coach an S (steady) type client?",
+"o": [
+"Be very blunt and fast",
+"Take your time, let information sink in, maybe give it on paper, and tell something about yourself first",
+"Never give them information",
+"Push them to decide immediately"
+],
+"a": 1,
+"e": "S types like stability and well-considered choices: give them time, written information, and open up with something about yourself.",
+"s": "A los tipos S les gusta la estabilidad y las decisiones meditadas: dales tiempo, información por escrito y abre la conversación contando algo de ti.",
+"src": "course"
+},
+{
+"id": "coa099",
+"t": "coaching",
+"q": "Which DISC type speaks lively, talks a lot, likes to be among people and wants to be liked?",
+"o": [
+"D",
+"I",
+"S",
+"C"
+],
+"a": 1,
+"e": "The I (influential) type is lively and sociable, not always a good listener; goals must really come from the client.",
+"s": "El tipo I (influyente) es animado y sociable, no siempre escucha bien; los objetivos deben venir realmente del cliente.",
+"src": "course"
+},
+{
+"id": "coa100",
+"t": "coaching",
+"q": "In the Stages of Change model, after how long of active behaviour is someone in the 'maintenance' phase?",
+"o": [
+"At least 2 weeks",
+"At least 6 months",
+"At least 2 years",
+"At least 10 years"
+],
+"a": 1,
+"e": "Maintenance = active behaviour for at least six months; the chance of relapse has decreased. Before that, it's the action phase.",
+"s": "Mantenimiento = conducta activa durante al menos seis meses; el riesgo de recaída ha bajado. Antes de eso es la fase de acción.",
+"src": "course"
+},
+{
+"id": "coa101",
+"t": "coaching",
+"q": "What does 'ego-depletion' mean in the context of relapse?",
+"o": [
+"The client's ego is too big",
+"Self-control gets exhausted like a tired muscle, so willpower temporarily drops",
+"Losing muscle mass",
+"Comparing yourself with others"
+],
+"a": 1,
+"e": "Self-control costs energy and can be temporarily used up, which makes falling back into old behaviour more likely.",
+"s": "El autocontrol cuesta energía y puede agotarse temporalmente, lo que hace más probable volver a la conducta anterior.",
+"src": "course"
+},
+{
+"id": "coa102",
+"t": "coaching",
+"q": "The I Change model merges which two models?",
+"o": [
+"DISC and SMART",
+"The ASE model and the Stages of Change model",
+"FITT and GAP",
+"Self-determination and goal achievement theory"
+],
+"a": 1,
+"e": "The I Change model combines the ASE model (motivational factors) and the Stages of Change model (intention status).",
+"s": "El modelo I Change combina el modelo ASE (factores motivacionales) y el de las etapas del cambio (estado de intención).",
+"src": "course"
+},
+{
+"id": "coa103",
+"t": "coaching",
+"q": "In the I Change model, body image is an example of which predisposing factor?",
+"o": [
+"Behavioural factor",
+"Psychological factor",
+"Biological factor",
+"Social and cultural factor"
+],
+"a": 1,
+"e": "Psychological factors include body image; behavioural = previous activity; biological = age and gender; social/cultural = ethnicity, mode of transport.",
+"s": "Los factores psicológicos incluyen la imagen corporal; conductuales = actividad previa; biológicos = edad y sexo; socioculturales = etnia, medio de transporte.",
+"src": "course"
+},
+{
+"id": "coa104",
+"t": "coaching",
+"q": "According to the course, what is the main barrier to physical activity?",
+"o": [
+"Lack of time",
+"Too much knowledge",
+"Good weather",
+"High motivation"
+],
+"a": 0,
+"e": "Lack of time is the main barrier; others are injuries, pain during exercise, high costs, lack of facilities and urban living.",
+"s": "La falta de tiempo es la principal barrera; otras son lesiones, dolor al hacer ejercicio, costes altos, falta de instalaciones y vivir en ciudad.",
+"src": "course"
+},
+{
+"id": "coa105",
+"t": "coaching",
+"q": "In the I Change model, what is true about knowledge and physical activity?",
+"o": [
+"More knowledge always leads to more exercise",
+"The direct relationship between knowledge and physical activity is small",
+"Knowledge is the main barrier",
+"Knowledge replaces motivation"
+],
+"a": 1,
+"e": "Increasing knowledge about the benefits of exercise does not by itself lead to more exercise.",
+"s": "Aumentar el conocimiento sobre los beneficios del ejercicio no lleva por sí solo a hacer más ejercicio.",
+"src": "course"
+},
+{
+"id": "coa106",
+"t": "coaching",
+"q": "Why do many people underestimate the risk of too little exercise (risk perception)?",
+"o": [
+"They overestimate their own fitness",
+"They read too much research",
+"They exercise too much",
+"They are too old"
+],
+"a": 0,
+"e": "Because people overestimate their fitness, they lower their estimate of the risks, so the incentive to act is low.",
+"s": "Como la gente sobreestima su forma física, rebaja su estimación de los riesgos y el incentivo para actuar es bajo.",
+"src": "course"
+},
+{
+"id": "coa107",
+"t": "coaching",
+"q": "In Bronfenbrenner's ecological systems theory, the direct influence of you as personal trainer on the client is part of the...",
+"o": [
+"Microsystem",
+"Mesosystem",
+"Exosystem",
+"Chronosystem"
+],
+"a": 0,
+"e": "The microsystem is the directly experienced social environment: partner, family, friends and the personal trainer.",
+"s": "El microsistema es el entorno social vivido directamente: pareja, familia, amigos y el entrenador personal.",
+"src": "course"
+},
+{
+"id": "coa108",
+"t": "coaching",
+"q": "Involving the client's partner in the goals (e.g. no snacking after 8 p.m.) works on which level of the ecological systems theory?",
+"o": [
+"Microsystem",
+"Mesosystem",
+"Exosystem",
+"Macrosystem"
+],
+"a": 1,
+"e": "The mesosystem is about connections between microsystems, e.g. between you as trainer and the client's partner.",
+"s": "El mesosistema trata de las conexiones entre microsistemas, p. ej., entre tú como entrenador y la pareja del cliente.",
+"src": "course"
+},
+{
+"id": "coa109",
+"t": "coaching",
+"q": "A client's partner loses their job, so the client must work five days instead of four. Which system is this?",
+"o": [
+"Microsystem",
+"Mesosystem",
+"Exosystem",
+"Chronosystem"
+],
+"a": 2,
+"e": "The exosystem affects the person indirectly. You can't influence it, but you may need to adjust the schedule.",
+"s": "El exosistema afecta a la persona de forma indirecta. No puedes influir en él, pero quizá tengas que ajustar el plan.",
+"src": "course"
+},
+{
+"id": "coa110",
+"t": "coaching",
+"q": "Planning fewer outdoor sessions in the rainy season fits which system?",
+"o": [
+"Microsystem",
+"Exosystem",
+"Chronosystem",
+"Mesosystem"
+],
+"a": 2,
+"e": "The chronosystem is the influence of time: timing interventions, seasons and age stages.",
+"s": "El cronosistema es la influencia del tiempo: el momento de las intervenciones, las estaciones y las etapas de la vida.",
+"src": "course"
+},
+{
+"id": "coa111",
+"t": "coaching",
+"q": "According to the course, how long can a really good induction of new behaviour take?",
+"o": [
+"2 weeks",
+"2 months",
+"Up to 2 years",
+"10 years"
+],
+"a": 2,
+"e": "The course states that a really good induction of new behaviour often takes up to 2 years.",
+"s": "El curso afirma que consolidar bien una nueva conducta a menudo lleva hasta 2 años.",
+"src": "course"
+},
+{
+"id": "coa112",
+"t": "coaching",
+"q": "Which three forms of motivation does Self-Determination Theory distinguish?",
+"o": [
+"Amotivation, extrinsic motivation and intrinsic motivation",
+"Task, ego and social motivation",
+"High, medium and low motivation",
+"Internal, external and neutral motivation"
+],
+"a": 0,
+"e": "SDT distinguishes amotivation (no motivation), extrinsic motivation (with four regulation forms) and intrinsic motivation.",
+"s": "La TAD distingue la amotivación, la motivación extrínseca (con cuatro formas de regulación) y la motivación intrínseca.",
+"src": "course"
+},
+{
+"id": "coa113",
+"t": "coaching",
+"q": "A client exercises because his doctor told him to and he dreads telling the doctor he hasn't lost weight. Which regulation is this?",
+"o": [
+"Intrinsic motivation",
+"Integrated regulation",
+"External regulation",
+"Identified regulation"
+],
+"a": 2,
+"e": "Behaviour controlled from outside (doctor, reward/punishment) is external regulation, the least stable form of extrinsic motivation.",
+"s": "Una conducta controlada desde fuera (médico, premio/castigo) es regulación externa, la forma menos estable de motivación extrínseca.",
+"src": "course"
+},
+{
+"id": "coa114",
+"t": "coaching",
+"q": "What is the correct order of motivation from least to most self-determined?",
+"o": [
+"Intrinsic, integrated, identified, introjected, external",
+"External, introjected, identified, integrated, intrinsic",
+"Introjected, external, intrinsic, identified, integrated",
+"Identified, external, intrinsic, introjected, integrated"
+],
+"a": 1,
+"e": "From amotivation through external, introjected, identified and integrated regulation to intrinsic motivation. Aim to move clients to the right.",
+"s": "De la amotivación pasando por regulación externa, introyectada, identificada e integrada hasta la motivación intrínseca. El objetivo es llevar al cliente hacia la derecha.",
+"src": "course"
+},
+{
+"id": "coa115",
+"t": "coaching",
+"q": "A person with an internal Locus of Control believes that...",
+"o": [
+"Results depend on luck and other people",
+"They are responsible for their own success or failure",
+"The trainer decides everything",
+"Goals don't matter"
+],
+"a": 1,
+"e": "Internal locus of control: results are attributed to one's own behaviour. External: to luck, other people or circumstances.",
+"s": "Locus de control interno: los resultados se atribuyen a la propia conducta. Externo: a la suerte, a otras personas o a las circunstancias.",
+"src": "course"
+},
+{
+"id": "coa116",
+"t": "coaching",
+"q": "According to the course, what happened when fitness members were encouraged in a hard, harsh way?",
+"o": [
+"They participated more",
+"They were actually less inclined to participate",
+"Nothing changed",
+"They lost more weight"
+],
+"a": 1,
+"e": "Research in the course shows hard messages miss the mark: members pushed harshly participated less. Avoid a harsh way of instructing.",
+"s": "La investigación del curso muestra que los mensajes duros no funcionan: los socios presionados con dureza participaban menos. Evita instruir con dureza.",
+"src": "course"
+},
+{
+"id": "coa117",
+"t": "coaching",
+"q": "In goal achievement theory, a task-oriented athlete...",
+"o": [
+"Compares their performance with others",
+"Bases performance on personal progress",
+"Only enjoys winning",
+"Avoids feedback"
+],
+"a": 1,
+"e": "Task orientation = focus on personal progress, enjoyment, high commitment. Ego orientation = comparing with others. Low task orientation increases dropout.",
+"s": "Orientación a la tarea = foco en el progreso personal, disfrute y compromiso. Orientación al ego = compararse con otros. Una baja orientación a la tarea aumenta el abandono.",
+"src": "course"
+},
+{
+"id": "coa118",
+"t": "coaching",
+"q": "Which strategy creates a task-oriented climate in the gym?",
+"o": [
+"Rank members on a leaderboard",
+"Emphasise process goals and personal progress",
+"Praise only the fittest members",
+"Encourage rivalry"
+],
+"a": 1,
+"e": "Focus on effort, process goals and personal progress; value everyone and celebrate progress. Rivalry and praising only the best create an ego climate.",
+"s": "Céntrate en el esfuerzo, los objetivos de proceso y el progreso personal; valora a todos y celebra los avances. La rivalidad y elogiar solo a los mejores crean un clima de ego.",
+"src": "course"
+},
+{
+"id": "coa119",
+"t": "coaching",
+"q": "According to Kronsteiner (2010), clients who exercise with a personal trainer...",
+"o": [
+"Have more extrinsic motives",
+"Are less likely to have extrinsic motives",
+"Drop out more often",
+"Train less often"
+],
+"a": 1,
+"e": "Clients with a personal trainer were less likely to have extrinsic motives, showing the positive influence a trainer can have.",
+"s": "Los clientes con entrenador personal tenían menos motivos extrínsecos, lo que muestra la influencia positiva del entrenador.",
+"src": "course"
+},
+{
+"id": "coa120",
+"t": "coaching",
+"q": "What is the most frequently mentioned motive for starting to exercise?",
+"o": [
+"Meeting new people",
+"Promoting one's own health",
+"Winning competitions",
+"Pleasing a partner"
+],
+"a": 1,
+"e": "Research in the course shows people mainly start to stay healthy, get fit or get a nice body; promoting health is mentioned most.",
+"s": "La investigación del curso muestra que la gente empieza sobre todo para estar sana, en forma o tener un buen cuerpo; promover la salud es lo más citado.",
+"src": "course"
+},
+{
+"id": "ana068",
+"t": "anatomy",
+"q": "Which plane divides the body into a left and a right half?",
+"o": [
+"Frontal plane",
+"Sagittal plane",
+"Transverse plane",
+"Horizontal plane"
+],
+"a": 1,
+"e": "Sagittal (sagitta = arrow) = left/right. Frontal = front/back. Transverse = top/bottom.",
+"s": "Sagital (sagitta = flecha) = izquierda/derecha. Frontal = delante/detrás. Transversal = arriba/abajo.",
+"src": "course"
+},
+{
+"id": "ana069",
+"t": "anatomy",
+"q": "Which plane divides the body into a top and a bottom half?",
+"o": [
+"Frontal plane",
+"Sagittal plane",
+"Transverse plane",
+"Median plane"
+],
+"a": 2,
+"e": "The transverse plane (cross-section) divides the body into top and bottom.",
+"s": "El plano transversal (corte transversal) divide el cuerpo en parte superior e inferior.",
+"src": "course"
+},
+{
+"id": "ana070",
+"t": "anatomy",
+"q": "According to the course, which axis runs from back to front?",
+"o": [
+"Transverse axis",
+"Sagittal axis",
+"Longitudinal axis",
+"Frontal axis"
+],
+"a": 1,
+"e": "Transverse axis: left to right. Sagittal axis: back to front. Longitudinal axis: bottom to top.",
+"s": "Eje transversal: de izquierda a derecha. Eje sagital: de atrás adelante. Eje longitudinal: de abajo arriba.",
+"src": "course"
+},
+{
+"id": "ana071",
+"t": "anatomy",
+"q": "Flexion and extension of the knee happen in which plane and around which axis?",
+"o": [
+"Frontal plane, sagittal axis",
+"Sagittal plane, transverse axis",
+"Transverse plane, longitudinal axis",
+"Sagittal plane, longitudinal axis"
+],
+"a": 1,
+"e": "Forward/backward movements (flexion, extension, anteflexion, retroflexion) take place in the sagittal plane around the transverse axis.",
+"s": "Los movimientos hacia delante/atrás (flexión, extensión, anteflexión, retroflexión) ocurren en el plano sagital alrededor del eje transversal.",
+"src": "course"
+},
+{
+"id": "ana072",
+"t": "anatomy",
+"q": "Abduction and adduction of the arm happen in which plane and around which axis?",
+"o": [
+"Frontal plane, sagittal axis",
+"Sagittal plane, transverse axis",
+"Transverse plane, longitudinal axis",
+"Frontal plane, longitudinal axis"
+],
+"a": 0,
+"e": "Lateral (sideways) movements take place in the frontal plane around the sagittal axis.",
+"s": "Los movimientos laterales ocurren en el plano frontal alrededor del eje sagital.",
+"src": "course"
+},
+{
+"id": "ana073",
+"t": "anatomy",
+"q": "Rotations such as endorotation and exorotation of the hip happen around which axis?",
+"o": [
+"Transverse axis",
+"Sagittal axis",
+"Longitudinal axis",
+"No axis"
+],
+"a": 2,
+"e": "Rotational (horizontal) movements take place in the transverse plane around the longitudinal axis.",
+"s": "Los movimientos de rotación (horizontales) ocurren en el plano transversal alrededor del eje longitudinal.",
+"src": "course"
+},
+{
+"id": "ana074",
+"t": "anatomy",
+"q": "What does 'anteflexion' mean?",
+"o": [
+"Moving the arm or leg forward",
+"Moving the arm or leg backward",
+"Bending the spine sideways",
+"Turning the palm up"
+],
+"a": 0,
+"e": "Anteflexion = arm or leg forward; retroflexion = arm or leg backward.",
+"s": "Anteflexión = brazo o pierna hacia delante; retroflexión = hacia atrás.",
+"src": "course"
+},
+{
+"id": "ana075",
+"t": "anatomy",
+"q": "Lifting the outer edge of the foot is called...",
+"o": [
+"Inversion",
+"Eversion",
+"Dorsiflexion",
+"Plantar flexion"
+],
+"a": 1,
+"e": "Eversion lifts the outer edge of the foot; inversion lifts the inner edge.",
+"s": "La eversión levanta el borde externo del pie; la inversión levanta el borde interno.",
+"src": "course"
+},
+{
+"id": "ana076",
+"t": "anatomy",
+"q": "Moving the back of the foot toward the shinbone is called...",
+"o": [
+"Plantar flexion",
+"Dorsiflexion",
+"Palmar flexion",
+"Eversion"
+],
+"a": 1,
+"e": "Dorsiflexion brings the foot up toward the shin; plantar flexion points the sole away (like standing on your toes).",
+"s": "La dorsiflexión sube el pie hacia la espinilla; la flexión plantar aleja la planta (como ponerse de puntillas).",
+"src": "course"
+},
+{
+"id": "ana077",
+"t": "anatomy",
+"q": "Which memory aid does the course give for supination of the forearm?",
+"o": [
+"Cheers",
+"Eat soup",
+"Wave goodbye",
+"Thumbs down"
+],
+"a": 1,
+"e": "Supination (thumb turns outward, palm up) = 'eat soup'. Pronation (thumb turns inward) = 'cheers'.",
+"s": "Supinación (pulgar hacia fuera, palma arriba) = 'comer sopa'. Pronación (pulgar hacia dentro) = 'brindar'.",
+"src": "course"
+},
+{
+"id": "ana078",
+"t": "anatomy",
+"q": "Bringing the shoulder girdle down is called...",
+"o": [
+"Elevation",
+"Depression",
+"Protraction",
+"Retraction"
+],
+"a": 1,
+"e": "Elevation lifts the shoulder girdle; depression brings it down.",
+"s": "La elevación sube la cintura escapular; la depresión la baja.",
+"src": "course"
+},
+{
+"id": "ana079",
+"t": "anatomy",
+"q": "Which are the functions of the skeleton named in the course?",
+"o": [
+"Shape, support, movement (muscle attachment) and protection of organs",
+"Digestion, breathing and hormone production",
+"Pumping blood and regulating temperature",
+"Storing fat only"
+],
+"a": 0,
+"e": "The skeleton (206 bones) gives shape and support, allows movement as attachment for muscles, and protects organs.",
+"s": "El esqueleto (206 huesos) da forma y soporte, permite el movimiento como anclaje de los músculos y protege los órganos.",
+"src": "course"
+},
+{
+"id": "ana080",
+"t": "anatomy",
+"q": "Why do older people break bones more easily than children?",
+"o": [
+"Their bones contain more glue",
+"With age the glue content decreases and the mineral content increases, so bone becomes less elastic",
+"Their bones are longer",
+"Children have no minerals in their bones"
+],
+"a": 1,
+"e": "As we age, bone loses 'glue' (elastic components) and gains minerals, making it less elastic and more fracture-prone.",
+"s": "Con la edad el hueso pierde 'cola' (componentes elásticos) y gana minerales, por lo que es menos elástico y se rompe más.",
+"src": "course"
+},
+{
+"id": "ana081",
+"t": "anatomy",
+"q": "Where does bone grow in length until puberty?",
+"o": [
+"In the bone marrow",
+"In the epiphyseal (growth) plates at the ends of the bone",
+"In the periosteum only",
+"In the joint capsule"
+],
+"a": 1,
+"e": "Length growth happens in the epiphyseal plates, where cartilage turns into bone. That's why children's bones shouldn't be loaded too heavily.",
+"s": "El crecimiento en longitud ocurre en las placas epifisarias, donde el cartílago se convierte en hueso. Por eso no se deben cargar en exceso los huesos de los niños.",
+"src": "course"
+},
+{
+"id": "ana082",
+"t": "anatomy",
+"q": "Which type of exercise increases bone density and helps prevent osteoporosis?",
+"o": [
+"Swimming only",
+"Weight-bearing exercise",
+"Stretching",
+"Complete rest"
+],
+"a": 1,
+"e": "Weight-bearing movements put strain on the bone, increasing its mineral content and density.",
+"s": "Los movimientos con carga del propio peso estresan el hueso y aumentan su contenido mineral y su densidad.",
+"src": "course"
+},
+{
+"id": "ana083",
+"t": "anatomy",
+"q": "What is the Latin name of the shoulder blade?",
+"o": [
+"Os clavicula",
+"Os scapula",
+"Os sternum",
+"Os humerus"
+],
+"a": 1,
+"e": "Scapula = shoulder blade, clavicula = collarbone, sternum = breastbone, humerus = upper arm bone.",
+"s": "Escápula = omóplato, clavícula = clavícula, esternón = esternón, húmero = hueso del brazo.",
+"src": "course"
+},
+{
+"id": "ana084",
+"t": "anatomy",
+"q": "In the anatomical position, which forearm bone is on the thumb side?",
+"o": [
+"Ulna",
+"Radius",
+"Humerus",
+"Fibula"
+],
+"a": 1,
+"e": "The radius is on the thumb side, the ulna on the little-finger side.",
+"s": "El radio está en el lado del pulgar y el cúbito en el lado del meñique.",
+"src": "course"
+},
+{
+"id": "ana085",
+"t": "anatomy",
+"q": "The pelvis is made up of which three bones?",
+"o": [
+"Ilium, pubis and ischium",
+"Femur, tibia and fibula",
+"Sacrum, coccyx and lumbar",
+"Scapula, clavicle and sternum"
+],
+"a": 0,
+"e": "The pelvis consists of the os ilium, os pubis and os ischii.",
+"s": "La pelvis está formada por el ilion, el pubis y el isquion.",
+"src": "course"
+},
+{
+"id": "ana086",
+"t": "anatomy",
+"q": "The bump on the inside of the ankle is called...",
+"o": [
+"Malleolus lateralis",
+"Malleolus medialis",
+"Calcaneus",
+"Patella"
+],
+"a": 1,
+"e": "Malleolus medialis (inside, part of the tibia); malleolus lateralis (outside, part of the fibula).",
+"s": "Maléolo medial (interno, parte de la tibia); maléolo lateral (externo, parte del peroné).",
+"src": "course"
+},
+{
+"id": "ana087",
+"t": "anatomy",
+"q": "What is the Latin name of the heel bone?",
+"o": [
+"Talus",
+"Calcaneus",
+"Tarsalia",
+"Phalanges"
+],
+"a": 1,
+"e": "Calcaneus = heel bone; talus = ankle bone; phalanges = toes.",
+"s": "Calcáneo = hueso del talón; astrágalo (talus) = hueso del tobillo; falanges = dedos.",
+"src": "course"
+},
+{
+"id": "ana088",
+"t": "anatomy",
+"q": "How many lumbar vertebrae are there?",
+"o": [
+"4",
+"5",
+"7",
+"12"
+],
+"a": 1,
+"e": "Cervical 7, thoracic 12, lumbar 5, sacrum 5 (fused), coccyx 4.",
+"s": "Cervicales 7, torácicas 12, lumbares 5, sacro 5 (fusionadas), cóccix 4.",
+"src": "course"
+},
+{
+"id": "ana089",
+"t": "anatomy",
+"q": "Seen from the side, the spine has which shape?",
+"o": [
+"A straight line",
+"A double 'S' shape",
+"A single 'C' shape",
+"A zigzag"
+],
+"a": 1,
+"e": "Hollow in the neck, bulge in the upper back, hollow in the lower back and bulge of sacrum/coccyx: a double S.",
+"s": "Cóncava en el cuello, convexa en la espalda alta, cóncava en la zona lumbar y convexa en sacro/cóccix: una doble S.",
+"src": "course"
+},
+{
+"id": "ana090",
+"t": "anatomy",
+"q": "An increased bulge (outward curve) in the upper back is called...",
+"o": [
+"Lordosis",
+"Kyphosis",
+"Scoliosis",
+"Spondylosis"
+],
+"a": 1,
+"e": "Kyphosis = bulge; lordosis = hollowing; scoliosis = sideways curve seen from the front.",
+"s": "Cifosis = curva hacia fuera; lordosis = hundimiento; escoliosis = curva lateral vista de frente.",
+"src": "course"
+},
+{
+"id": "ana091",
+"t": "anatomy",
+"q": "Which is NOT a function of cartilage in a joint?",
+"o": [
+"Better fit between the bones",
+"Protecting the joint",
+"Producing joint fluid (synovia)",
+"Contracting to move the bones"
+],
+"a": 3,
+"e": "Cartilage improves the fit, protects the joint and helps produce lubricating synovia. Contraction is what muscles do.",
+"s": "El cartílago mejora el encaje, protege la articulación y ayuda a producir la sinovia lubricante. Contraerse es cosa de los músculos.",
+"src": "course"
+},
+{
+"id": "ana092",
+"t": "anatomy",
+"q": "Which structures provide PASSIVE stability of a joint?",
+"o": [
+"Muscles",
+"Joint capsule and ligaments",
+"Tendons and nerves",
+"Blood vessels"
+],
+"a": 1,
+"e": "The capsule and ligaments give passive stability; muscles (tension and coordination) give active stability.",
+"s": "La cápsula y los ligamentos dan estabilidad pasiva; los músculos (tensión y coordinación) dan estabilidad activa.",
+"src": "course"
+},
+{
+"id": "ana093",
+"t": "anatomy",
+"q": "How many axes of movement does a hinge joint have?",
+"o": [
+"1",
+"2",
+"3",
+"4"
+],
+"a": 0,
+"e": "Hinge 1 axis, roller 1 axis, saddle 2 axes, ball-and-socket 3 axes.",
+"s": "Bisagra 1 eje, rodillo/pivote 1 eje, silla de montar 2 ejes, esférica 3 ejes.",
+"src": "course"
+},
+{
+"id": "ana094",
+"t": "anatomy",
+"q": "How many axes of movement does a saddle joint have?",
+"o": [
+"1",
+"2",
+"3",
+"None"
+],
+"a": 1,
+"e": "The saddle joint (e.g. at the base of the thumb) has 2 axes of movement.",
+"s": "La articulación en silla de montar (p. ej., en la base del pulgar) tiene 2 ejes de movimiento.",
+"src": "course"
+},
+{
+"id": "ana095",
+"t": "anatomy",
+"q": "The joint between radius and ulna (used in pronation/supination) is which type, according to the course?",
+"o": [
+"Hinge joint",
+"Roller joint",
+"Saddle joint",
+"Ball-and-socket joint"
+],
+"a": 1,
+"e": "The course calls it a roller joint (pivot), with 1 axis of movement.",
+"s": "El curso la llama articulación en rodillo (trocoide/pivote), con 1 eje de movimiento.",
+"src": "course"
+},
+{
+"id": "ana096",
+"t": "anatomy",
+"q": "Why can the shoulder joint dislocate relatively easily?",
+"o": [
+"The socket is shallow and the head is held mainly by muscles",
+"It has no ligaments at all",
+"It is a hinge joint",
+"The humerus is too small"
+],
+"a": 0,
+"e": "The humeral head sits in a shallow socket of the scapula and is held there mainly by muscles (the rotator cuff).",
+"s": "La cabeza del húmero está en una cavidad poco profunda de la escápula y la sujetan sobre todo los músculos (manguito rotador).",
+"src": "course"
+},
+{
+"id": "ana097",
+"t": "anatomy",
+"q": "The shoulder girdle consists of which three joints?",
+"o": [
+"Shoulder joint, AC joint and sternoclavicular joint",
+"Elbow, wrist and shoulder joints",
+"Hip, knee and ankle joints",
+"Atlas, axis and C7"
+],
+"a": 0,
+"e": "The shoulder joint, the acromioclavicular (AC) joint (scapula–clavicle) and the sternoclavicular joint (sternum–clavicle).",
+"s": "La articulación del hombro, la acromioclavicular (escápula–clavícula) y la esternoclavicular (esternón–clavícula).",
+"src": "course"
+},
+{
+"id": "ana098",
+"t": "anatomy",
+"q": "When is rotation of the lower leg possible in the knee?",
+"o": [
+"When the knee is fully extended",
+"When the knee is bent",
+"Never",
+"Only when running"
+],
+"a": 1,
+"e": "With a bent knee some rotation is possible; when the knee is fully extended it is locked and no rotation is possible.",
+"s": "Con la rodilla flexionada es posible cierta rotación; con la rodilla totalmente extendida queda bloqueada y no rota.",
+"src": "course"
+},
+{
+"id": "ana099",
+"t": "anatomy",
+"q": "Which structures are unique to the knee joint?",
+"o": [
+"Menisci and cruciate ligaments",
+"Labrum and rotator cuff",
+"Synovia and capsule",
+"Bursa and cartilage"
+],
+"a": 0,
+"e": "The knee has a meniscus on each side and the anterior and posterior cruciate ligaments.",
+"s": "La rodilla tiene un menisco a cada lado y los ligamentos cruzados anterior y posterior.",
+"src": "course"
+},
+{
+"id": "ana100",
+"t": "anatomy",
+"q": "The 'ligamentum patellae' is actually...",
+"o": [
+"A ligament between two bones",
+"The tendon of the quadriceps",
+"Part of the meniscus",
+"A cruciate ligament"
+],
+"a": 1,
+"e": "Despite its name, the ligamentum patellae is the tendon of the quadriceps, attaching below the kneecap.",
+"s": "A pesar de su nombre, el ligamento rotuliano es el tendón del cuádriceps, que se inserta bajo la rótula.",
+"src": "course"
+},
+{
+"id": "ana101",
+"t": "anatomy",
+"q": "In which ankle joint do inversion and eversion take place?",
+"o": [
+"Upper ankle joint",
+"Lower ankle joint",
+"Knee joint",
+"Hip joint"
+],
+"a": 1,
+"e": "Upper ankle joint: plantar and dorsal flexion. Lower ankle joint: inversion and eversion.",
+"s": "Articulación superior del tobillo: flexión plantar y dorsal. Inferior: inversión y eversión.",
+"src": "course"
+},
+{
+"id": "ana102",
+"t": "anatomy",
+"q": "Roughly how many skeletal muscles does the body have?",
+"o": [
+"About 60",
+"About 206",
+"More than 600",
+"More than 6,000"
+],
+"a": 2,
+"e": "The body has more than 600 skeletal muscles (206 is the number of bones).",
+"s": "El cuerpo tiene más de 600 músculos esqueléticos (206 es el número de huesos).",
+"src": "course"
+},
+{
+"id": "ana103",
+"t": "anatomy",
+"q": "Why are muscles arranged in pairs on either side of a bone?",
+"o": [
+"Muscles can only pull, not push",
+"For extra weight",
+"To produce blood",
+"To protect the bone"
+],
+"a": 0,
+"e": "Muscles can only pull, so one muscle bends a joint and the opposite one straightens it (agonist and antagonist).",
+"s": "Los músculos solo pueden tirar, así que uno flexiona la articulación y el opuesto la extiende (agonista y antagonista).",
+"src": "course"
+},
+{
+"id": "ana104",
+"t": "anatomy",
+"q": "The origo of a muscle is...",
+"o": [
+"The most movable attachment point",
+"The least movable attachment point",
+"The middle of the muscle belly",
+"The nerve that controls it"
+],
+"a": 1,
+"e": "Origo = attachment on the least movable bone; insertion = attachment on the most movable bone.",
+"s": "Origen = inserción en el hueso menos móvil; inserción = en el hueso más móvil.",
+"src": "course"
+},
+{
+"id": "ana105",
+"t": "anatomy",
+"q": "A bi-articular muscle runs over...",
+"o": [
+"1 joint and 2 bones",
+"2 joints and 3 bones",
+"3 joints and 4 bones",
+"No joints"
+],
+"a": 1,
+"e": "Bi-articular = over 2 joints and 3 bones (e.g. rectus femoris). Monoarticular = over 1 joint and 2 bones.",
+"s": "Biarticular = sobre 2 articulaciones y 3 huesos (p. ej., recto femoral). Monoarticular = 1 articulación y 2 huesos.",
+"src": "course"
+},
+{
+"id": "ana106",
+"t": "anatomy",
+"q": "Which four muscles form the abdominal muscle group?",
+"o": [
+"Rectus abdominis, obliquus externus, obliquus internus and transversus abdominis",
+"Rectus abdominis, iliopsoas, quadratus lumborum and erector spinae",
+"Pectoralis, serratus, rectus and deltoid",
+"Rectus femoris, vastus, sartorius and gracilis"
+],
+"a": 0,
+"e": "The four abdominal muscles: rectus abdominis, external oblique, internal oblique and transversus abdominis.",
+"s": "Los cuatro abdominales: recto abdominal, oblicuo externo, oblicuo interno y transverso del abdomen.",
+"src": "course"
+},
+{
+"id": "ana107",
+"t": "anatomy",
+"q": "What are the functions of the rectus abdominis?",
+"o": [
+"Flexion of the spine and tilting the pelvis back",
+"Rotation of the hip",
+"Extension of the spine",
+"Abduction of the hip"
+],
+"a": 0,
+"e": "The rectus abdominis (ribs to pubis) flexes the spine (ribs and pelvis toward each other) and tilts the pelvis back.",
+"s": "El recto abdominal (costillas a pubis) flexiona la columna (acerca costillas y pelvis) e inclina la pelvis hacia atrás.",
+"src": "course"
+},
+{
+"id": "ana108",
+"t": "anatomy",
+"q": "Which muscle works like a belt around the waist and is best felt when you pull in your navel?",
+"o": [
+"Rectus abdominis",
+"Obliquus externus",
+"Transversus abdominis",
+"Quadratus lumborum"
+],
+"a": 2,
+"e": "The transversus abdominis tightens the waist, builds up pressure in the abdominal cavity (stabilising) and helps abdominal breathing.",
+"s": "El transverso del abdomen aprieta la cintura, aumenta la presión abdominal (estabiliza) y ayuda a la respiración abdominal.",
+"src": "course"
+},
+{
+"id": "ana109",
+"t": "anatomy",
+"q": "Which muscle, deep in the abdominal cavity, causes lateroflexion and (on both sides) extension of the lower back?",
+"o": [
+"Quadratus lumborum",
+"Iliopsoas",
+"Transversus abdominis",
+"Rhomboideus"
+],
+"a": 0,
+"e": "The quadratus lumborum runs from the inner pelvic rim to the lowest rib and lumbar vertebrae. Typical exercise: side bend.",
+"s": "El cuadrado lumbar va del borde interno de la pelvis a la última costilla y vértebras lumbares. Ejercicio típico: inclinación lateral.",
+"src": "course"
+},
+{
+"id": "ana110",
+"t": "anatomy",
+"q": "Which three muscles together form the iliopsoas?",
+"o": [
+"Psoas major, psoas minor and iliacus",
+"Gluteus maximus, medius and minimus",
+"Biceps femoris, semitendinosus and semimembranosus",
+"Supraspinatus, infraspinatus and teres minor"
+],
+"a": 0,
+"e": "Psoas major, psoas minor and iliacus form the iliopsoas, the most powerful hip flexor.",
+"s": "El psoas mayor, el psoas menor y el ilíaco forman el iliopsoas, el flexor de cadera más potente.",
+"src": "course"
+},
+{
+"id": "ana111",
+"t": "anatomy",
+"q": "Why does the course advise avoiding abdominal exercises with stretched legs?",
+"o": [
+"They train the iliopsoas more than the abdominals and can hollow the lower back",
+"They are too easy",
+"They train the calves",
+"They cause shoulder pain"
+],
+"a": 0,
+"e": "With stretched legs the iliopsoas does most of the work; a tight iliopsoas pulls the pelvis forward and hollows the lower back.",
+"s": "Con las piernas estiradas el iliopsoas hace la mayor parte del trabajo; un iliopsoas tenso tira de la pelvis hacia delante y arquea la zona lumbar.",
+"src": "course"
+},
+{
+"id": "ana112",
+"t": "anatomy",
+"q": "Which part of the trapezius causes elevation of the shoulder girdle?",
+"o": [
+"Upper part (pars descendens)",
+"Middle part (pars transversus)",
+"Lower part (pars ascendens)",
+"None of its parts"
+],
+"a": 0,
+"e": "Upper: elevation and retraction. Middle: retraction. Lower: depression and retraction.",
+"s": "Parte superior: elevación y retracción. Media: retracción. Inferior: depresión y retracción.",
+"src": "course"
+},
+{
+"id": "ana113",
+"t": "anatomy",
+"q": "Which muscle is trained with a shrug and lifts the shoulder blade?",
+"o": [
+"Levator scapulae",
+"Serratus anterior",
+"Teres major",
+"Latissimus dorsi"
+],
+"a": 0,
+"e": "Levator scapulae literally means 'lifter of the shoulder blade' (elevation). Typical exercise: shrug.",
+"s": "Levator scapulae significa literalmente 'elevador de la escápula' (elevación). Ejercicio típico: encogimiento de hombros.",
+"src": "course"
+},
+{
+"id": "ana114",
+"t": "anatomy",
+"q": "Which muscle pulls the shoulder blades together (retraction) and lies below the trapezius?",
+"o": [
+"Rhomboideus",
+"Serratus anterior",
+"Pectoralis minor",
+"Deltoideus"
+],
+"a": 0,
+"e": "The rhomboideus (major and minor) runs from C7/thoracic vertebrae to the medial edge of the scapula; its function is retraction.",
+"s": "El romboides (mayor y menor) va de C7/vértebras torácicas al borde medial de la escápula; su función es la retracción.",
+"src": "course"
+},
+{
+"id": "ana115",
+"t": "anatomy",
+"q": "Which part of the deltoid abducts the arm up to 90° (e.g. side raise)?",
+"o": [
+"Anterior part",
+"Lateral part",
+"Posterior part",
+"All parts equally"
+],
+"a": 1,
+"e": "Lateral part: abduction to 90°. Anterior: anteflexion and endorotation. Posterior: retroflexion and exorotation.",
+"s": "Parte lateral: abducción hasta 90°. Anterior: anteflexión y endorrotación. Posterior: retroflexión y exorrotación.",
+"src": "course"
+},
+{
+"id": "ana116",
+"t": "anatomy",
+"q": "What is the main function of the rotator cuff?",
+"o": [
+"Keeping the humeral head in the shallow socket (stabilising the shoulder)",
+"Bending the elbow",
+"Lifting the shoulder girdle",
+"Extending the spine"
+],
+"a": 0,
+"e": "The 4 rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) keep the humeral head in the socket.",
+"s": "Los 4 músculos del manguito rotador (supraespinoso, infraespinoso, redondo menor, subescapular) mantienen la cabeza del húmero en la cavidad.",
+"src": "course"
+},
+{
+"id": "ana117",
+"t": "anatomy",
+"q": "Which muscle is the 'saw muscle' that causes protraction of the shoulder blade?",
+"o": [
+"Serratus anterior",
+"Rhomboideus",
+"Teres major",
+"Trapezius"
+],
+"a": 0,
+"e": "The serratus anterior runs from the front of the upper ribs to the scapula; functions: protraction and elevation.",
+"s": "El serrato anterior va de la parte delantera de las costillas superiores a la escápula; funciones: protracción y elevación.",
+"src": "course"
+},
+{
+"id": "ana118",
+"t": "anatomy",
+"q": "Why does a reverse curl (palms down) train the brachialis more than the biceps?",
+"o": [
+"The biceps also supinates, and with the palms down it is put at a disadvantage",
+"The brachialis is bi-articular",
+"The biceps only works in the shoulder",
+"The brachialis is an extensor"
+],
+"a": 0,
+"e": "The brachialis flexes the elbow without supinating; with the palms down the biceps is largely eliminated.",
+"s": "El braquial flexiona el codo sin supinar; con las palmas hacia abajo el bíceps queda en gran parte eliminado.",
+"src": "course"
+},
+{
+"id": "ana119",
+"t": "anatomy",
+"q": "What are the functions of the biceps brachii?",
+"o": [
+"Elbow flexion, supination and anteflexion of the shoulder",
+"Elbow extension and pronation",
+"Shoulder abduction only",
+"Wrist flexion only"
+],
+"a": 0,
+"e": "The biceps is bi-articular: it flexes and supinates the elbow and moves the upper arm forward (anteflexion).",
+"s": "El bíceps es biarticular: flexiona y supina el codo y lleva el brazo hacia delante (anteflexión).",
+"src": "course"
+},
+{
+"id": "ana120",
+"t": "anatomy",
+"q": "Which forearm muscle is trained with a hammer curl?",
+"o": [
+"Brachioradialis",
+"Triceps",
+"Pectoralis",
+"Teres major"
+],
+"a": 0,
+"e": "The brachioradialis (outer forearm) flexes the elbow; typical exercise is the hammer curl.",
+"s": "El braquiorradial (antebrazo externo) flexiona el codo; ejercicio típico: curl martillo.",
+"src": "course"
+},
+{
+"id": "ana121",
+"t": "anatomy",
+"q": "Which three muscles form the hamstrings?",
+"o": [
+"Biceps femoris, semitendinosus and semimembranosus",
+"Rectus femoris, vastus medialis and vastus lateralis",
+"Gracilis, pectineus and adductor magnus",
+"Gastrocnemius, soleus and tibialis"
+],
+"a": 0,
+"e": "The hamstrings are the biceps femoris, semitendinosus and semimembranosus: knee flexion and hip retroflexion.",
+"s": "Los isquiotibiales son el bíceps femoral, el semitendinoso y el semimembranoso: flexión de rodilla y retroflexión de cadera.",
+"src": "course"
+},
+{
+"id": "ana122",
+"t": "anatomy",
+"q": "Which gluteal muscles keep the pelvis level when you stand on one leg?",
+"o": [
+"Gluteus medius and minimus",
+"Gluteus maximus only",
+"Iliopsoas",
+"Hamstrings"
+],
+"a": 0,
+"e": "Gluteus medius and minimus (with the tensor fasciae latae) are hip abductors that keep the pelvis straight.",
+"s": "El glúteo medio y el menor (con el tensor de la fascia lata) son abductores de cadera que mantienen la pelvis recta.",
+"src": "course"
+},
+{
+"id": "ana123",
+"t": "anatomy",
+"q": "What is the longest muscle in the body?",
+"o": [
+"Sartorius",
+"Rectus femoris",
+"Latissimus dorsi",
+"Gastrocnemius"
+],
+"a": 0,
+"e": "The sartorius (tailor's muscle) runs from the front of the pelvis to the inside of the tibia.",
+"s": "El sartorio (músculo del sastre) va de la parte delantera de la pelvis a la cara interna de la tibia.",
+"src": "course"
+},
+{
+"id": "ana124",
+"t": "anatomy",
+"q": "Which calf muscle is mono-articular and lies under the gastrocnemius?",
+"o": [
+"Soleus",
+"Tibialis anterior",
+"Peroneus",
+"Popliteus"
+],
+"a": 0,
+"e": "The soleus (mono-articular) and gastrocnemius (bi-articular, also flexes the knee) form the triceps surae, attaching via the Achilles tendon.",
+"s": "El sóleo (monoarticular) y el gastrocnemio (biarticular, también flexiona la rodilla) forman el tríceps sural, unidos por el tendón de Aquiles.",
+"src": "course"
+},
+{
+"id": "ana125",
+"t": "anatomy",
+"q": "Why is a seated calf raise used to target the soleus?",
+"o": [
+"With a bent knee the bi-articular gastrocnemius is less active",
+"The soleus is a hip muscle",
+"Seated exercises train the shins",
+"The gastrocnemius only works when seated"
+],
+"a": 0,
+"e": "The gastrocnemius crosses the knee; bending the knee shortens it so the soleus does more of the work.",
+"s": "El gastrocnemio cruza la rodilla; al flexionarla se acorta y el sóleo hace más trabajo.",
+"src": "course"
+},
+{
+"id": "ana126",
+"t": "anatomy",
+"q": "Which muscle tissue can be contracted consciously (voluntary)?",
+"o": [
+"Smooth muscle tissue",
+"Cardiac muscle tissue",
+"Skeletal muscle tissue",
+"All three types"
+],
+"a": 2,
+"e": "Skeletal muscle is voluntary; smooth (organs) and cardiac (heart) muscle tissue contract automatically, controlled by the nervous system.",
+"s": "El músculo esquelético es voluntario; el liso (órganos) y el cardíaco (corazón) se contraen automáticamente, controlados por el sistema nervioso.",
+"src": "course"
+},
+{
+"id": "ana127",
+"t": "anatomy",
+"q": "Why is skeletal muscle tissue also called 'striated' (transverse striated) muscle tissue?",
+"o": [
+"The sarcomeres give the myofibrils light and dark stripes",
+"It contains fat stripes",
+"It is attached to bones by stripes",
+"It only contracts in stripes"
+],
+"a": 0,
+"e": "The overlapping thin actin and thick myosin filaments in the sarcomeres create light and dark stripes.",
+"s": "Los filamentos finos de actina y gruesos de miosina que se solapan en los sarcómeros crean bandas claras y oscuras.",
+"src": "course"
+},
+{
+"id": "phy052",
+"t": "physiology",
+"q": "What happens when a muscle contracts at the level of the sarcomere?",
+"o": [
+"Myosin heads pull the actin filaments toward them, so the sarcomere shortens",
+"Actin and myosin grow longer",
+"The sarcomere fills with lactic acid",
+"The tendon shortens"
+],
+"a": 0,
+"e": "The myosin heads attach to actin and pull, the filaments slide together and the sarcomere (and so the whole muscle) shortens.",
+"s": "Las cabezas de miosina se unen a la actina y tiran, los filamentos se deslizan y el sarcómero (y todo el músculo) se acorta.",
+"src": "course"
+},
+{
+"id": "phy053",
+"t": "physiology",
+"q": "What is a motor unit?",
+"o": [
+"A motor neuron together with the muscle fibres connected to it",
+"A group of muscles",
+"A machine in the gym",
+"The brain and spinal cord"
+],
+"a": 0,
+"e": "A motor neuron plus all the muscle fibres it controls form one motor unit. During a contraction not all motor units are activated.",
+"s": "Una motoneurona y todas las fibras musculares que controla forman una unidad motora. En una contracción no se activan todas las unidades motoras.",
+"src": "course"
+},
+{
+"id": "phy054",
+"t": "physiology",
+"q": "According to the course, is acute muscle fatigue caused by a shortage of ATP?",
+"o": [
+"Yes, always",
+"No, ATP never runs out; new energy is constantly supplied to rebuild it",
+"Only in endurance sports",
+"Only in children"
+],
+"a": 1,
+"e": "The course states ATP never runs out (if it did, the muscle would become stiff, as in rigor mortis). Acute fatigue is never caused by a lack of ATP.",
+"s": "El curso afirma que el ATP nunca se agota (si lo hiciera, el músculo se quedaría rígido, como en el rigor mortis). La fatiga aguda nunca se debe a falta de ATP.",
+"src": "course"
+},
+{
+"id": "phy055",
+"t": "physiology",
+"q": "Where in the muscle is ATP used for contraction?",
+"o": [
+"In the sarcomeres, where actin and myosin slide into each other",
+"In the tendon",
+"In the bone marrow",
+"In the blood plasma"
+],
+"a": 0,
+"e": "ATP is present in the sarcomeres and is the only energy source that can be used locally for muscle contraction.",
+"s": "El ATP está en los sarcómeros y es la única fuente de energía que se puede usar localmente para la contracción muscular.",
+"src": "course"
+},
+{
+"id": "phy056",
+"t": "physiology",
+"q": "Without replenishment, how long would the ATP stored in the muscle last at maximal effort?",
+"o": [
+"Up to about 6 seconds",
+"About 1 minute",
+"About 3 minutes",
+"About 10 minutes"
+],
+"a": 0,
+"e": "Stored ATP alone would last only up to about 6 seconds. Creatine phosphate (3–5× more than ATP) extends this.",
+"s": "El ATP almacenado por sí solo duraría unos 6 segundos. La fosfocreatina (3–5 veces más que ATP) lo prolonga.",
+"src": "course"
+},
+{
+"id": "phy057",
+"t": "physiology",
+"q": "How much more creatine phosphate than ATP is stored in the muscle?",
+"o": [
+"About the same amount",
+"3 to 5 times as much",
+"10 to 20 times as much",
+"100 times as much"
+],
+"a": 1,
+"e": "There is 3–5 times as much creatine phosphate as ATP in the muscle.",
+"s": "En el músculo hay de 3 a 5 veces más fosfocreatina que ATP.",
+"src": "course"
+},
+{
+"id": "phy058",
+"t": "physiology",
+"q": "Which is NOT one of the three reasons why the phosphate system is the fastest energy system?",
+"o": [
+"It doesn't rely on long chemical reactions",
+"It doesn't depend on oxygen",
+"ATP and CP are stored on site",
+"It burns fat"
+],
+"a": 3,
+"e": "The phosphate system is fast because it uses few chemical reactions, needs no oxygen and its fuels are stored on site. It doesn't burn fat.",
+"s": "El sistema de fosfágenos es rápido porque usa pocas reacciones químicas, no necesita oxígeno y su combustible está almacenado en el músculo. No quema grasa.",
+"src": "course"
+},
+{
+"id": "phy059",
+"t": "physiology",
+"q": "For how long can anaerobic glycolysis provide energy, according to the course?",
+"o": [
+"About 10 seconds",
+"About 2 to 3 minutes",
+"About 20 minutes",
+"Indefinitely"
+],
+"a": 1,
+"e": "Anaerobic glycolysis is slower than the phosphate system but can provide energy for about 2–3 minutes.",
+"s": "La glucólisis anaeróbica es más lenta que el sistema de fosfágenos pero puede aportar energía durante unos 2–3 minutos.",
+"src": "course"
+},
+{
+"id": "phy060",
+"t": "physiology",
+"q": "Anaerobic glycolysis is also called...",
+"o": [
+"The phosphate system",
+"The lactic acid system",
+"Fatty acid oxidation",
+"The aerobic system"
+],
+"a": 1,
+"e": "Because it breaks down glucose/glycogen into lactic acid and energy, it is also called the lactic acid system.",
+"s": "Como descompone la glucosa/glucógeno en ácido láctico y energía, también se llama sistema del ácido láctico.",
+"src": "course"
+},
+{
+"id": "phy061",
+"t": "physiology",
+"q": "Why is the energy yield from glucose low during anaerobic glycolysis?",
+"o": [
+"Lactic acid still contains most of the energy, which needs oxygen to be released",
+"Glucose has no energy",
+"All energy is lost as heat",
+"ATP is not involved"
+],
+"a": 0,
+"e": "Without oxygen, glucose is only partly broken down; most of its energy stays in the lactic acid.",
+"s": "Sin oxígeno, la glucosa solo se descompone en parte; la mayor parte de su energía queda en el ácido láctico.",
+"src": "course"
+},
+{
+"id": "phy062",
+"t": "physiology",
+"q": "What is the stored form of glucose in muscles and liver called?",
+"o": [
+"Glycogen",
+"Glucagon",
+"Creatine",
+"Triglyceride"
+],
+"a": 0,
+"e": "Glucose is stored as glycogen in the muscles and liver. (Glucagon is a hormone.)",
+"s": "La glucosa se almacena como glucógeno en los músculos y el hígado. (El glucagón es una hormona.)",
+"src": "course"
+},
+{
+"id": "phy063",
+"t": "physiology",
+"q": "How long does it take for the aerobic system to get going?",
+"o": [
+"A few seconds",
+"About 2 to 3 minutes",
+"About 20 minutes",
+"About an hour"
+],
+"a": 1,
+"e": "Because of many long chemical reactions and oxygen transport, the aerobic system needs about 2–3 minutes to get going. After that it can supply energy indefinitely.",
+"s": "Por sus muchas reacciones químicas y el transporte de oxígeno, el sistema aeróbico necesita unos 2–3 minutos para arrancar. Después puede aportar energía indefinidamente.",
+"src": "course"
+},
+{
+"id": "phy064",
+"t": "physiology",
+"q": "Which fuels can the aerobic system use?",
+"o": [
+"Only creatine phosphate",
+"Carbohydrates and fats (and, if necessary, protein)",
+"Only lactic acid",
+"Only alcohol"
+],
+"a": 1,
+"e": "Mainly carbohydrates and fats. Protein is normally a building block and is only used as fuel when carbohydrates and fats are insufficient.",
+"s": "Sobre todo carbohidratos y grasas. La proteína es normalmente material de construcción y solo se usa como combustible si faltan carbohidratos y grasas.",
+"src": "course"
+},
+{
+"id": "phy065",
+"t": "physiology",
+"q": "What happens to fat burning when exercise intensity increases?",
+"o": [
+"Fat burning increases",
+"Fat burning decreases and carbohydrate burning increases",
+"Nothing changes",
+"Only protein is burned"
+],
+"a": 1,
+"e": "Fat combustion needs more oxygen and more reactions, so the higher the intensity, the lower the fat burning and the higher the carbohydrate burning.",
+"s": "Quemar grasa necesita más oxígeno y más reacciones, así que a mayor intensidad, menos grasa y más carbohidratos se queman.",
+"src": "course"
+},
+{
+"id": "phy066",
+"t": "physiology",
+"q": "What is meant by 'acidosis' in the course?",
+"o": [
+"Lactic acid starts to accumulate when glycolysis becomes anaerobic at high intensity",
+"Too much stomach acid",
+"A shortage of ATP",
+"Low blood sugar"
+],
+"a": 0,
+"e": "When oxygen supply is insufficient at high intensity, glycolysis becomes anaerobic and lactic acid accumulates: acidosis.",
+"s": "Cuando falta oxígeno a alta intensidad, la glucólisis se vuelve anaeróbica y el ácido láctico se acumula: acidosis.",
+"src": "course"
+},
+{
+"id": "phy067",
+"t": "physiology",
+"q": "Which statement about the energy systems is correct according to the course?",
+"o": [
+"They switch on one after another in a fixed order",
+"All energy systems are always active; their share changes with the ATP/ADP ratio",
+"Only one system works at a time",
+"The aerobic system only works at rest"
+],
+"a": 1,
+"e": "Energy systems are not turned on in a particular order: all are always active, and their contribution shifts with demand.",
+"s": "Los sistemas energéticos no se encienden en un orden fijo: todos están siempre activos y su contribución cambia según la demanda.",
+"src": "course"
+},
+{
+"id": "phy068",
+"t": "physiology",
+"q": "The anaerobic threshold is the point at which...",
+"o": [
+"Oxygen uptake is maximal, glycolysis becomes anaerobic again and lactic acid starts to accumulate",
+"The heart stops",
+"ATP runs out",
+"Fat burning is at its highest"
+],
+"a": 0,
+"e": "At the anaerobic threshold oxygen supply can't keep up, so lactic acid begins to accumulate.",
+"s": "En el umbral anaeróbico el aporte de oxígeno no da abasto y el ácido láctico empieza a acumularse.",
+"src": "course"
+},
+{
+"id": "phy069",
+"t": "physiology",
+"q": "In the course's energy systems summary, what happens from the phosphate system to the aerobic system?",
+"o": [
+"Speed decreases and maximum duration increases",
+"Speed increases and duration decreases",
+"Both speed and duration increase",
+"Nothing changes"
+],
+"a": 0,
+"e": "Phosphate → anaerobic glycolysis → aerobic: each system is slower but can last longer.",
+"s": "Fosfágenos → glucólisis anaeróbica → aeróbico: cada sistema es más lento pero puede durar más.",
+"src": "course"
+},
+{
+"id": "phy070",
+"t": "physiology",
+"q": "Which elements does the course use in its (mainly health-related) definition of physical fitness?",
+"o": [
+"Cardiovascular endurance, strength, flexibility, coordination, balance and body composition",
+"Speed, power and reaction time only",
+"Strength and weight only",
+"VO₂max and blood pressure only"
+],
+"a": 0,
+"e": "Because most clients train for health, the course defines fitness with cardiovascular endurance, strength, flexibility, coordination, balance and body composition.",
+"s": "Como la mayoría entrena por salud, el curso define la condición física con resistencia cardiovascular, fuerza, flexibilidad, coordinación, equilibrio y composición corporal.",
+"src": "course"
+},
+{
+"id": "phy071",
+"t": "physiology",
+"q": "According to the WHO definition used in the course, health is...",
+"o": [
+"Only the absence of disease",
+"Physical, mental and social well-being, more than just the absence of disease",
+"Being very fit",
+"Having a low body weight"
+],
+"a": 1,
+"e": "The WHO sees health as physical, mental and social well-being. Fitness and health are different: a very fit person can be ill or injured.",
+"s": "La OMS entiende la salud como bienestar físico, mental y social. Forma física y salud no son lo mismo: una persona muy en forma puede estar enferma o lesionada.",
+"src": "course"
+},
+{
+"id": "phy072",
+"t": "physiology",
+"q": "Which two systems form the oxygen transport system that determines endurance capacity?",
+"o": [
+"Cardiovascular and respiratory system",
+"Digestive and nervous system",
+"Skeletal and muscular system",
+"Endocrine and immune system"
+],
+"a": 0,
+"e": "Endurance depends on the aerobic energy system and on oxygen transport by the cardiovascular (heart, vessels) and respiratory systems.",
+"s": "La resistencia depende del sistema energético aeróbico y del transporte de oxígeno por el sistema cardiovascular (corazón, vasos) y el respiratorio.",
+"src": "course"
+},
+{
+"id": "phy073",
+"t": "physiology",
+"q": "Which vessels carry oxygen-rich blood from the lungs back to the heart?",
+"o": [
+"Pulmonary veins",
+"Pulmonary arteries",
+"Vena cava",
+"Aorta"
+],
+"a": 0,
+"e": "The pulmonary veins bring oxygen-rich blood from the lungs to the heart. Veins always go TO the heart, even when they carry oxygen-rich blood.",
+"s": "Las venas pulmonares llevan sangre rica en oxígeno de los pulmones al corazón. Las venas siempre van HACIA el corazón, aunque lleven sangre oxigenada.",
+"src": "course"
+},
+{
+"id": "nut053",
+"t": "nutrition",
+"q": "How many kilojoules does 1 gram of carbohydrate provide?",
+"o": [
+"4 kJ",
+"17 kJ",
+"38 kJ",
+"29 kJ"
+],
+"a": 1,
+"e": "1 g carbohydrate = 17 kJ (4 kcal). 1 g fat = 38 kJ (9 kcal).",
+"s": "1 g de carbohidratos = 17 kJ (4 kcal). 1 g de grasa = 38 kJ (9 kcal).",
+"src": "course"
+},
+{
+"id": "nut054",
+"t": "nutrition",
+"q": "How many kilojoules does 1 gram of fat provide?",
+"o": [
+"17 kJ",
+"29 kJ",
+"38 kJ",
+"50 kJ"
+],
+"a": 2,
+"e": "1 g fat provides 38 kJ (9 kcal).",
+"s": "1 g de grasa aporta 38 kJ (9 kcal).",
+"src": "course"
+},
+{
+"id": "nut055",
+"t": "nutrition",
+"q": "Which carbohydrates are 'simple' carbohydrates?",
+"o": [
+"Monosaccharides and disaccharides",
+"Oligosaccharides and polysaccharides",
+"Starch and fibre",
+"Glycogen only"
+],
+"a": 0,
+"e": "Simple: monosaccharides (glucose, fructose) and disaccharides (two linked monosaccharides). Complex: oligosaccharides (3–10) and polysaccharides (10+, e.g. starch).",
+"s": "Simples: monosacáridos (glucosa, fructosa) y disacáridos (dos monosacáridos unidos). Complejos: oligosacáridos (3–10) y polisacáridos (10+, p. ej., almidón).",
+"src": "course"
+},
+{
+"id": "nut056",
+"t": "nutrition",
+"q": "A polysaccharide such as starch consists of...",
+"o": [
+"1 monosaccharide",
+"2 monosaccharides",
+"3 to 10 monosaccharides",
+"10 or more monosaccharides"
+],
+"a": 3,
+"e": "Polysaccharides have 10 or more monosaccharides; oligosaccharides 3–10; disaccharides 2.",
+"s": "Los polisacáridos tienen 10 o más monosacáridos; los oligosacáridos 3–10; los disacáridos 2.",
+"src": "course"
+},
+{
+"id": "nut057",
+"t": "nutrition",
+"q": "How much glycogen does an untrained person store in total (muscles + liver)?",
+"o": [
+"About 50–100 g",
+"About 400–500 g",
+"About 2–3 kg",
+"About 10 kg"
+],
+"a": 1,
+"e": "About 400–500 g in total (muscle:liver ratio 4:1), roughly 1,600–2,000 kcal. With training and a carbohydrate-rich diet it can rise to 700–800 g.",
+"s": "Unos 400–500 g en total (proporción músculo:hígado 4:1), aproximadamente 1.600–2.000 kcal. Con entrenamiento y dieta rica en carbohidratos puede llegar a 700–800 g.",
+"src": "course"
+},
+{
+"id": "nut058",
+"t": "nutrition",
+"q": "What is the ratio of muscle glycogen to liver glycogen?",
+"o": [
+"1:1",
+"2:1",
+"4:1",
+"1:4"
+],
+"a": 2,
+"e": "The body stores about 4 times as much glycogen in the muscles as in the liver.",
+"s": "El cuerpo almacena unas 4 veces más glucógeno en los músculos que en el hígado.",
+"src": "course"
+},
+{
+"id": "nut059",
+"t": "nutrition",
+"q": "What is the role of liver glycogen during exercise?",
+"o": [
+"Keeping the blood sugar level up",
+"Direct local energy for the working muscle",
+"Building muscle",
+"Storing fat"
+],
+"a": 0,
+"e": "Muscle glycogen gives direct, local energy to the working muscle; liver glycogen keeps blood sugar levels up.",
+"s": "El glucógeno muscular da energía directa al músculo que trabaja; el hepático mantiene el nivel de azúcar en sangre.",
+"src": "course"
+},
+{
+"id": "nut060",
+"t": "nutrition",
+"q": "What are acceptable fasting blood glucose values according to the course?",
+"o": [
+"1–2 mmol/l",
+"4–8 mmol/l",
+"10–15 mmol/l",
+"20–25 mmol/l"
+],
+"a": 1,
+"e": "Acceptable fasting blood glucose is 4–8 mmol/l, measured when getting up before breakfast.",
+"s": "La glucosa en ayunas aceptable es 4–8 mmol/l, medida al levantarse antes del desayuno.",
+"src": "course"
+},
+{
+"id": "nut061",
+"t": "nutrition",
+"q": "Which hormone raises a blood glucose level that is too low?",
+"o": [
+"Insulin",
+"Glucagon",
+"Adrenaline only",
+"Testosterone"
+],
+"a": 1,
+"e": "When blood sugar is too low, insulin production is inhibited and glucagon is released, which breaks down glycogen into glucose. Both come from the pancreas.",
+"s": "Cuando el azúcar en sangre es demasiado bajo, se frena la insulina y se libera glucagón, que descompone el glucógeno en glucosa. Ambos vienen del páncreas.",
+"src": "course"
+},
+{
+"id": "nut062",
+"t": "nutrition",
+"q": "What is 'rebound hypoglycemia'?",
+"o": [
+"High blood sugar after a meal",
+"Low blood sugar when exercising within an hour after a high-GI carbohydrate meal",
+"A type of diabetes",
+"Low blood sugar during sleep"
+],
+"a": 1,
+"e": "Carbs raise blood sugar → insulin lowers it → exercise lowers it further → too low: drowsiness, dizziness, fatigue.",
+"s": "Los carbohidratos suben el azúcar → la insulina lo baja → el ejercicio lo baja aún más → demasiado bajo: somnolencia, mareo, fatiga.",
+"src": "course"
+},
+{
+"id": "nut063",
+"t": "nutrition",
+"q": "Which is NOT a function of carbohydrates according to the course?",
+"o": [
+"Main energy source for the brain and blood cells",
+"Inhibiting the breakdown of proteins",
+"Starter of fat burning",
+"Main building material of muscle tissue"
+],
+"a": 3,
+"e": "Carbohydrates provide energy (also for brain and blood cells), spare protein and start fat burning. Proteins are the building material.",
+"s": "Los carbohidratos aportan energía (también al cerebro y a las células sanguíneas), ahorran proteína e inician la quema de grasa. Las proteínas son el material de construcción.",
+"src": "course"
+},
+{
+"id": "nut064",
+"t": "nutrition",
+"q": "What happens to glucose when the glycogen stores are full?",
+"o": [
+"It is excreted in urine",
+"It is stored as fat",
+"It turns into protein",
+"It turns into vitamins"
+],
+"a": 1,
+"e": "When maximum glycogen storage is reached, extra glucose is stored as fat.",
+"s": "Cuando el almacén de glucógeno está lleno, la glucosa sobrante se almacena como grasa.",
+"src": "course"
+},
+{
+"id": "nut065",
+"t": "nutrition",
+"q": "How is glycemic load (GL) calculated?",
+"o": [
+"GI × 100",
+"(GI / 100) × grams of carbohydrate per serving",
+"GI + grams of fat",
+"kcal / GI"
+],
+"a": 1,
+"e": "GL = (GI/100) × carbohydrate per serving. A high-GI food can have a low GL if the portion contains few carbs. High GL > 20.",
+"s": "CG = (IG/100) × gramos de carbohidratos por ración. Un alimento de IG alto puede tener CG baja si la ración tiene pocos carbohidratos. CG alta > 20.",
+"src": "course"
+},
+{
+"id": "nut066",
+"t": "nutrition",
+"q": "Watermelon has a GI of 72 and a serving contains 5 g of carbohydrate. What is the glycemic load?",
+"o": [
+"About 3.6 (low)",
+"About 36 (high)",
+"About 72 (high)",
+"About 14 (medium)"
+],
+"a": 0,
+"e": "GL = 72/100 × 5 = 3.6, which is low. High GI, but little effect on blood sugar per serving.",
+"s": "CG = 72/100 × 5 = 3,6, que es baja. IG alto, pero poco efecto en el azúcar por ración.",
+"src": "course"
+},
+{
+"id": "nut067",
+"t": "nutrition",
+"q": "Which food is in the LOW GI group (0–55) according to the course?",
+"o": [
+"Baguette",
+"Lentils and chickpeas",
+"Candy bars",
+"Pure glucose"
+],
+"a": 1,
+"e": "Legumes, pasta, most fruits, dairy, high-fibre cereals and most vegetables are low GI. Baguettes, candy and glucose are high GI.",
+"s": "Las legumbres, la pasta, la mayoría de frutas, los lácteos, los cereales ricos en fibra y la mayoría de verduras tienen IG bajo. Las baguettes, los caramelos y la glucosa, IG alto.",
+"src": "course"
+},
+{
+"id": "nut068",
+"t": "nutrition",
+"q": "With a healthy diet, what share of energy comes from fat according to the course?",
+"o": [
+"5–10%",
+"20–40%",
+"50–60%",
+"70–80%"
+],
+"a": 1,
+"e": "With a healthy diet about 20–40% of energy comes from fat. Healthy food contains about 10–15% protein.",
+"s": "Con una dieta sana, alrededor del 20–40% de la energía viene de la grasa. Una dieta sana contiene un 10–15% de proteína.",
+"src": "course"
+},
+{
+"id": "nut069",
+"t": "nutrition",
+"q": "What does the course say about saturated fats?",
+"o": [
+"They are always harmful and must be avoided",
+"There is little evidence linking them to cardiovascular disease; they are not necessarily bad, but not unlimited either",
+"They are the healthiest fats",
+"They contain no energy"
+],
+"a": 1,
+"e": "Recent research shows little to no link with heart disease, so saturated fats are 'not necessarily bad fats', though they still shouldn't be eaten without limit.",
+"s": "La investigación reciente muestra poca o ninguna relación con las enfermedades cardíacas, así que las grasas saturadas 'no son necesariamente malas', aunque tampoco deben tomarse sin límite.",
+"src": "course"
+},
+{
+"id": "nut070",
+"t": "nutrition",
+"q": "What effect do unsaturated fats have on cholesterol?",
+"o": [
+"Raise LDL and lower HDL",
+"Raise HDL ('good') and lower LDL ('bad')",
+"No effect",
+"Raise both"
+],
+"a": 1,
+"e": "Unsaturated fats increase good HDL cholesterol and decrease bad LDL cholesterol, protecting against cardiovascular disease.",
+"s": "Las grasas insaturadas aumentan el colesterol bueno (HDL) y reducen el malo (LDL), protegiendo frente a enfermedades cardiovasculares.",
+"src": "course"
+},
+{
+"id": "nut071",
+"t": "nutrition",
+"q": "Which fats raise LDL, lower HDL and increase the risk of coronary heart disease?",
+"o": [
+"Omega-3 fatty acids",
+"Monounsaturated fats",
+"Trans fats",
+"Polyunsaturated fats"
+],
+"a": 2,
+"e": "Trans fats (from industrial hardening of fats, and naturally in ruminant dairy/meat) are not needed by the body and are unhealthy.",
+"s": "Las grasas trans (del endurecimiento industrial de grasas y, de forma natural, en lácteos/carne de rumiantes) no las necesita el cuerpo y son perjudiciales.",
+"src": "course"
+},
+{
+"id": "nut072",
+"t": "nutrition",
+"q": "According to the course tip, which fat is wiser to fry in?",
+"o": [
+"Olive oil",
+"Saturated fat such as coconut oil",
+"Sunflower oil",
+"Walnut oil"
+],
+"a": 1,
+"e": "Unsaturated fatty acids turn into trans fatty acids at high temperatures, so the course advises frying in saturated fat (e.g. coconut oil).",
+"s": "Los ácidos grasos insaturados se convierten en grasas trans a altas temperaturas, por eso el curso aconseja freír con grasa saturada (p. ej., aceite de coco).",
+"src": "course"
+},
+{
+"id": "nut073",
+"t": "nutrition",
+"q": "Which are the main omega-3 fatty acids named in the course?",
+"o": [
+"ALA, EPA and DHA",
+"LDL, HDL and VLDL",
+"ATP, ADP and CP",
+"BCAA, EAA and NEAA"
+],
+"a": 0,
+"e": "Alpha-linolenic acid (ALA), eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA). EPA and DHA come almost only from fish.",
+"s": "Ácido alfa-linolénico (ALA), eicosapentaenoico (EPA) y docosahexaenoico (DHA). EPA y DHA vienen casi solo del pescado.",
+"src": "course"
+},
+{
+"id": "nut074",
+"t": "nutrition",
+"q": "How often is it advised to eat fish?",
+"o": [
+"Once a month",
+"Twice a week, of which once fatty fish",
+"Every day",
+"Never"
+],
+"a": 1,
+"e": "Eat fish twice a week, one of which should be fatty fish, for omega-3 (EPA/DHA).",
+"s": "Come pescado dos veces por semana, una de ellas pescado azul, por los omega-3 (EPA/DHA).",
+"src": "course"
+},
+{
+"id": "nut075",
+"t": "nutrition",
+"q": "What is the omega-6 to omega-3 ratio in today's Western diet, and what is ideal?",
+"o": [
+"About 17:1 now; ideal 1–4:1",
+"About 1:1 now; ideal 17:1",
+"About 4:1 now; ideal 10:1",
+"About 2:1 now; ideal 1:2"
+],
+"a": 0,
+"e": "It used to be 1:1; the Western diet is now nearly 17:1. The ideal ratio is between 1:1 and 4:1, so eat more omega-3 and limit omega-6.",
+"s": "Antes era 1:1; la dieta occidental está ahora cerca de 17:1. Lo ideal es entre 1:1 y 4:1, así que come más omega-3 y limita el omega-6.",
+"src": "course"
+},
+{
+"id": "nut076",
+"t": "nutrition",
+"q": "What is the best-known omega-6 fatty acid?",
+"o": [
+"Linoleic acid",
+"DHA",
+"EPA",
+"Lactic acid"
+],
+"a": 0,
+"e": "Linoleic acid is the best-known omega-6 fatty acid; a deficiency can lead to stunted growth.",
+"s": "El ácido linoleico es el omega-6 más conocido; su carencia puede frenar el crecimiento.",
+"src": "course"
+},
+{
+"id": "nut077",
+"t": "nutrition",
+"q": "At rest, what share of energy consumption is supplied by fat?",
+"o": [
+"10–20%",
+"40–50%",
+"80–90%",
+"100%"
+],
+"a": 2,
+"e": "At rest, fat provides 80–90% of energy consumption.",
+"s": "En reposo, la grasa aporta el 80–90% del consumo de energía.",
+"src": "course"
+},
+{
+"id": "nut078",
+"t": "nutrition",
+"q": "What percentage of fat is stored around the organs to protect them in a healthy person?",
+"o": [
+"About 1%",
+"About 4%",
+"About 15%",
+"About 30%"
+],
+"a": 1,
+"e": "About 4% of fat is stored around vital organs to protect them. Other fat functions: energy reserve, building material, insulation, vitamin carrier, hunger suppressor.",
+"s": "Alrededor del 4% de la grasa está alrededor de los órganos vitales para protegerlos. Otras funciones: reserva de energía, material de construcción, aislamiento, transporte de vitaminas, saciedad.",
+"src": "course"
+},
+{
+"id": "nut079",
+"t": "nutrition",
+"q": "According to the course, how many essential amino acids must come from food?",
+"o": [
+"4",
+"8",
+"12",
+"20"
+],
+"a": 1,
+"e": "The course says there are 20 amino acids: the body makes 12 itself and 8 must come from food (essential).",
+"s": "El curso dice que hay 20 aminoácidos: el cuerpo produce 12 y 8 deben venir de la dieta (esenciales).",
+"src": "course",
+"flag": "The course teaches 8 essential amino acids (12 non-essential). Current science counts 9 (histidine added). Answer 8 on this exam."
+},
+{
+"id": "nut080",
+"t": "nutrition",
+"q": "What does the 'biological value' of a protein indicate?",
+"o": [
+"How much it costs",
+"How much the protein resembles the body's own protein, so how efficiently it can be used",
+"How many calories it has",
+"How fast it is digested"
+],
+"a": 1,
+"e": "The more a protein resembles body protein in structure and essential amino acids, the higher its biological value (egg 96, milk 90).",
+"s": "Cuanto más se parece una proteína a la del cuerpo en estructura y aminoácidos esenciales, mayor es su valor biológico (huevo 96, leche 90).",
+"src": "course"
+},
+{
+"id": "nut081",
+"t": "nutrition",
+"q": "What is the biological value of a chicken egg, according to the course?",
+"o": [
+"50",
+"70",
+"90",
+"96"
+],
+"a": 3,
+"e": "Chicken egg 96, milk 90: animal products have a high biological value.",
+"s": "Huevo de gallina 96, leche 90: los productos animales tienen un valor biológico alto.",
+"src": "course"
+},
+{
+"id": "nut082",
+"t": "nutrition",
+"q": "How much protein does the Dutch Health Council advise for vegans?",
+"o": [
+"0.5 g/kg/day",
+"0.83 g/kg/day",
+"1.08 g/kg/day (30% more)",
+"3 g/kg/day"
+],
+"a": 2,
+"e": "The basic recommendation is 0.83 g/kg/day; vegans are advised 30% more, 1.08 g/kg/day, to compensate for lower protein quality.",
+"s": "La recomendación básica es 0,83 g/kg/día; a los veganos se les aconseja un 30% más, 1,08 g/kg/día, para compensar la menor calidad proteica.",
+"src": "course"
+},
+{
+"id": "nut083",
+"t": "nutrition",
+"q": "Why is combining legumes and grains (e.g. rice with beans) useful for vegetarians?",
+"o": [
+"Together they supply all essential amino acids",
+"It lowers the calories",
+"It adds vitamin B12",
+"It makes the meal fat-free"
+],
+"a": 0,
+"e": "Legumes lack some essential amino acids that grains do provide, and vice versa; the combination covers them all.",
+"s": "A las legumbres les faltan algunos aminoácidos esenciales que sí aportan los cereales, y al revés; la combinación los cubre todos.",
+"src": "course"
+},
+{
+"id": "nut084",
+"t": "nutrition",
+"q": "According to the course, how much protein do people who exercise 3 times a week need?",
+"o": [
+"0.5–0.8 g/kg",
+"1.2–1.8 g/kg",
+"2.5–3 g/kg",
+"4 g/kg"
+],
+"a": 1,
+"e": "1.2–1.8 g/kg per day; for 70 kg that is 84–126 g, about 20–25% of daily calories.",
+"s": "1,2–1,8 g/kg al día; para 70 kg son 84–126 g, alrededor del 20–25% de las calorías diarias.",
+"src": "course"
+},
+{
+"id": "nut085",
+"t": "nutrition",
+"q": "Which vitamin is NOT water-soluble?",
+"o": [
+"Vitamin C",
+"Vitamin B12",
+"Vitamin K",
+"Vitamin B6"
+],
+"a": 2,
+"e": "Fat-soluble: A, D, E, K. Water-soluble: C and the 8 B vitamins (hardly stored, except B12).",
+"s": "Liposolubles: A, D, E, K. Hidrosolubles: C y las 8 vitaminas B (apenas se almacenan, salvo la B12).",
+"src": "course"
+},
+{
+"id": "nut086",
+"t": "nutrition",
+"q": "Which disease is caused by a long-term vitamin C deficiency?",
+"o": [
+"Rickets",
+"Scurvy",
+"Anaemia",
+"Osteoporosis"
+],
+"a": 1,
+"e": "Scurvy (known among sailors): swollen and bleeding gums, weakness, aching limbs and internal bleeding.",
+"s": "El escorbuto (conocido entre los marineros): encías inflamadas y sangrantes, debilidad, dolor de extremidades y hemorragias internas.",
+"src": "course"
+},
+{
+"id": "nut087",
+"t": "nutrition",
+"q": "What is the difference between minerals and trace elements?",
+"o": [
+"Minerals: recommended intake above 100 mg/day; trace elements: below 100 mg/day",
+"Minerals give energy; trace elements don't",
+"Trace elements are vitamins",
+"There is no difference"
+],
+"a": 0,
+"e": "Minerals (sodium, potassium, magnesium, calcium, chlorine, phosphorus) >100 mg/day; trace elements (iron, zinc, copper, iodine...) <100 mg/day. Neither provides energy.",
+"s": "Minerales (sodio, potasio, magnesio, calcio, cloro, fósforo) >100 mg/día; oligoelementos (hierro, zinc, cobre, yodo...) <100 mg/día. Ninguno aporta energía.",
+"src": "course"
+},
+{
+"id": "nut088",
+"t": "nutrition",
+"q": "According to the course, iron is a...",
+"o": [
+"Mineral",
+"Trace element",
+"Vitamin",
+"Macronutrient"
+],
+"a": 1,
+"e": "Iron is a trace element (recommended intake under 100 mg/day), like zinc, copper, iodine and selenium.",
+"s": "El hierro es un oligoelemento (ingesta recomendada inferior a 100 mg/día), como el zinc, el cobre, el yodo y el selenio.",
+"src": "course"
+},
+{
+"id": "nut089",
+"t": "nutrition",
+"q": "What does the course say about antioxidant supplements?",
+"o": [
+"They are very effective",
+"They are not effective; vegetables and fruit are the main sources",
+"They replace vegetables",
+"They are needed by everyone"
+],
+"a": 1,
+"e": "Antioxidants protect against free radicals, but supplements are not effective. Eat vegetables and fruit instead.",
+"s": "Los antioxidantes protegen contra los radicales libres, pero los suplementos no son eficaces. Mejor comer verdura y fruta.",
+"src": "course"
+},
+{
+"id": "nut090",
+"t": "nutrition",
+"q": "What percentage of the human body consists of water, according to the course?",
+"o": [
+"About 30%",
+"About 55%",
+"About 75%",
+"About 90%"
+],
+"a": 1,
+"e": "The body is about 55% water; fat-free mass is about 75% water.",
+"s": "El cuerpo es aproximadamente un 55% agua; la masa libre de grasa, un 75%.",
+"src": "course"
+},
+{
+"id": "nut091",
+"t": "nutrition",
+"q": "According to the Institute of Health report in the course, how much fluid do men and women need per day (total)?",
+"o": [
+"Men 1 l, women 0.5 l",
+"Men 3.7 l, women 2.7 l",
+"Men 6 l, women 5 l",
+"Both 1.5 l"
+],
+"a": 1,
+"e": "Men about 3.7 l and women about 2.7 l of fluid per day, about 80% through beverages (coffee included).",
+"s": "Hombres unos 3,7 l y mujeres unos 2,7 l de líquido al día, alrededor del 80% en bebidas (café incluido).",
+"src": "course"
+},
+{
+"id": "nut092",
+"t": "nutrition",
+"q": "During exercise, roughly what share of the generated energy is used for external work?",
+"o": [
+"25%; the rest is lost as heat",
+"50%",
+"75%",
+"100%"
+],
+"a": 0,
+"e": "About 25% goes to external work; the rest becomes heat, which is mainly released by sweating.",
+"s": "Alrededor del 25% se usa en trabajo externo; el resto se convierte en calor, que se elimina sobre todo sudando.",
+"src": "course"
+},
+{
+"id": "nut093",
+"t": "nutrition",
+"q": "Which statement about sweat is correct according to the course?",
+"o": [
+"Trained people's sweat contains less salt than untrained people's",
+"Women sweat more than men",
+"Children lose more fluid per unit of body than adults",
+"Sweat is pure water"
+],
+"a": 0,
+"e": "Trained individuals lose less salt in sweat. Women sweat less than men, and children lose less fluid per unit of body, but their core temperature rises faster.",
+"s": "Las personas entrenadas pierden menos sal en el sudor. Las mujeres sudan menos que los hombres y los niños pierden menos líquido por unidad corporal, pero su temperatura central sube más rápido.",
+"src": "course"
+},
+{
+"id": "nut094",
+"t": "nutrition",
+"q": "When is an isotonic sports drink recommended?",
+"o": [
+"During every gym session",
+"During heavy, prolonged efforts when salt must also be replaced",
+"Before sleep",
+"Instead of breakfast"
+],
+"a": 1,
+"e": "Normally salt is replaced with the next meal; only in heavy, prolonged efforts is an isotonic drink useful. Salt tablets are strongly discouraged.",
+"s": "Normalmente la sal se repone con la siguiente comida; solo en esfuerzos largos e intensos es útil una bebida isotónica. Las pastillas de sal están muy desaconsejadas.",
+"src": "course"
+},
+{
+"id": "nut095",
+"t": "nutrition",
+"q": "How much creatine does the body produce per day?",
+"o": [
+"About 1 gram",
+"About 10 grams",
+"About 100 grams",
+"None"
+],
+"a": 0,
+"e": "The body makes about 1 g/day (mainly in the kidneys, also liver and pancreas), and an omnivore gets about 1 g/day from meat and fish.",
+"s": "El cuerpo produce alrededor de 1 g/día (sobre todo en los riñones, también hígado y páncreas), y un omnívoro obtiene 1 g/día de carne y pescado.",
+"src": "course"
+},
+{
+"id": "nut096",
+"t": "nutrition",
+"q": "During sub-maximal training, what share of energy comes from protein?",
+"o": [
+"0%",
+"3–6%",
+"25–30%",
+"50%"
+],
+"a": 1,
+"e": "Only 3–6% of total energy comes from protein, rising when glycogen is depleted (e.g. very strict diets).",
+"s": "Solo el 3–6% de la energía total viene de la proteína, y aumenta cuando se agota el glucógeno (p. ej., dietas muy estrictas).",
+"src": "course"
+},
+{
+"id": "nut097",
+"t": "nutrition",
+"q": "When glycogen stores are nearly depleted, how much of maximum power can still be delivered by fat and protein burning?",
+"o": [
+"About 10%",
+"About 50%",
+"About 90%",
+"100%"
+],
+"a": 1,
+"e": "The body switches to protein and fat burning, which still only delivers about 50% of maximum power, so muscle glycogen often limits performance.",
+"s": "El cuerpo pasa a quemar proteína y grasa, que solo aporta un 50% de la potencia máxima; por eso el glucógeno muscular suele limitar el rendimiento.",
+"src": "course"
+},
+{
+"id": "nut098",
+"t": "nutrition",
+"q": "In the 3-step carbo-loading schedule, what happens from day 4?",
+"o": [
+"Heavy training with lots of fat",
+"Lower training intensity and lots of carbohydrates, little fat",
+"Fasting",
+"Only protein shakes"
+],
+"a": 1,
+"e": "Step 1: heavy training + low carbs (deplete glycogen). Step 2 (from day 4): less training, lots of carbs. Step 3: normal meal before the event. Only relevant for endurance sports.",
+"s": "Paso 1: entrenamiento duro + pocos carbohidratos (vaciar glucógeno). Paso 2 (desde el día 4): menos entrenamiento y muchos carbohidratos. Paso 3: comida normal antes de la prueba. Solo útil en deportes de resistencia.",
+"src": "course"
+},
+{
+"id": "nut099",
+"t": "nutrition",
+"q": "From which intensity does fat oxidation clearly decrease, according to the course?",
+"o": [
+"From 25% of VO₂max",
+"From 50% of VO₂max",
+"From about 75% of VO₂max",
+"Fat burning never decreases"
+],
+"a": 2,
+"e": "Fat oxidation is high over a wide range and only decreases from about 75% VO₂max. Low intensity has no special fat-burning advantage; it can just be sustained longer.",
+"s": "La oxidación de grasa es alta en un rango amplio y solo baja a partir del 75% del VO₂max. La baja intensidad no quema más grasa; solo se puede mantener más tiempo.",
+"src": "course"
+},
+{
+"id": "nut100",
+"t": "nutrition",
+"q": "How long before exercise should a meal be eaten?",
+"o": [
+"15 minutes",
+"2–4 hours",
+"8 hours",
+"The night before only"
+],
+"a": 1,
+"e": "Eat 2–4 hours before: carbohydrate-rich, low in fat and fibre, moderate in protein, to avoid stomach problems.",
+"s": "Come 2–4 horas antes: rica en carbohidratos, baja en grasa y fibra y moderada en proteína, para evitar molestias gástricas.",
+"src": "course"
+},
+{
+"id": "nut101",
+"t": "nutrition",
+"q": "From what duration of uninterrupted exercise is carbohydrate intake during exercise useful, and how much?",
+"o": [
+"From 10 minutes; 100 g per hour",
+"From 60 minutes; 30–60 g per hour",
+"From 3 hours; 5 g per hour",
+"Never useful"
+],
+"a": 1,
+"e": "For more than 60 minutes of continuous exercise, 30–60 g carbohydrate per hour (ACSM) keeps blood glucose up and delays fatigue.",
+"s": "Para más de 60 minutos de ejercicio continuo, 30–60 g de carbohidratos por hora (ACSM) mantienen la glucosa y retrasan la fatiga.",
+"src": "course"
+},
+{
+"id": "nut102",
+"t": "nutrition",
+"q": "How much should you drink after exercise for every 500 ml of fluid lost?",
+"o": [
+"250 ml",
+"500 ml",
+"750 ml",
+"2 litres"
+],
+"a": 2,
+"e": "Step 1 of the 5 recovery steps: drink 750 ml of water for every 500 ml lost (150%).",
+"s": "Paso 1 de los 5 pasos de recuperación: bebe 750 ml de agua por cada 500 ml perdidos (150%).",
+"src": "course"
+},
+{
+"id": "nut103",
+"t": "nutrition",
+"q": "Which is one of the course's 5 steps to recovery after exercise?",
+"o": [
+"Take in carbohydrates within 2 hours",
+"Avoid protein for 6 hours",
+"Drink alcohol",
+"Skip the next meal"
+],
+"a": 0,
+"e": "The 5 steps: replace fluids, replace electrolytes, carbohydrates within 2 hours, protein, and antioxidants.",
+"s": "Los 5 pasos: reponer líquidos, reponer electrolitos, carbohidratos en las 2 horas siguientes, proteína y antioxidantes.",
+"src": "course"
+},
+{
+"id": "nut104",
+"t": "nutrition",
+"q": "Energy consumption at rest depends on which factors?",
+"o": [
+"BMR, the thermal effect of food and energy for growth",
+"Only body weight",
+"Only the weather",
+"Only physical activity"
+],
+"a": 0,
+"e": "Resting energy use = basal metabolic rate + thermal effect of food (digestion) + energy for growth. Physical activity adds to it.",
+"s": "El gasto en reposo = metabolismo basal + efecto térmico de los alimentos (digestión) + energía para el crecimiento. La actividad física se suma.",
+"src": "course"
+},
+{
+"id": "nut105",
+"t": "nutrition",
+"q": "What does PAL stand for in estimating energy consumption?",
+"o": [
+"Personal Activity Log",
+"Physical Activity Level",
+"Protein And Lipids",
+"Power And Load"
+],
+"a": 1,
+"e": "Daily energy use ≈ PAL × basal metabolic rate: an easy estimate for a personal trainer.",
+"s": "Gasto diario ≈ PAL × metabolismo basal: una estimación sencilla para el entrenador personal.",
+"src": "course"
+},
+{
+"id": "nut106",
+"t": "nutrition",
+"q": "What is the maximum recommended salt intake per day according to the course?",
+"o": [
+"2 g",
+"6 g",
+"10 g",
+"15 g"
+],
+"a": 1,
+"e": "No more than 6 g per day. On average men eat 9.9 g and women 7.5 g, mostly hidden in cheese, meat products, ready meals and snacks.",
+"s": "No más de 6 g al día. De media los hombres toman 9,9 g y las mujeres 7,5 g, sobre todo oculta en queso, embutidos, platos preparados y aperitivos.",
+"src": "course"
+},
+{
+"id": "nut107",
+"t": "nutrition",
+"q": "What is the current Dutch guideline on alcohol in the course?",
+"o": [
+"2–3 glasses a day is healthy",
+"Preferably don't drink; if you do, at most 1 glass a day",
+"Red wine is healthy",
+"Only beer is allowed"
+],
+"a": 1,
+"e": "Preferably no alcohol; if you drink, a maximum of 1 glass per day. No alcoholic drink is healthy.",
+"s": "Preferiblemente nada de alcohol; si bebes, como máximo 1 copa al día. Ninguna bebida alcohólica es saludable.",
+"src": "course"
+},
+{
+"id": "nut108",
+"t": "nutrition",
+"q": "Why does alcohol temporarily inhibit fat burning?",
+"o": [
+"The body breaks down alcohol first, before other nutrients",
+"Alcohol contains no calories",
+"Alcohol increases muscle mass",
+"Alcohol blocks digestion completely"
+],
+"a": 0,
+"e": "The body prioritises breaking down alcohol, so fat burning is put on hold; alcohol also contains many calories and increases appetite.",
+"s": "El cuerpo prioriza eliminar el alcohol, así que la quema de grasa se detiene; además el alcohol tiene muchas calorías y aumenta el apetito.",
+"src": "course"
+},
+{
+"id": "nut109",
+"t": "nutrition",
+"q": "What is the course's fibre guideline per day?",
+"o": [
+"Women 10 g, men 15 g",
+"Women at least 25 g, men at least 38 g",
+"Both 60 g",
+"Fibre isn't needed"
+],
+"a": 1,
+"e": "Women at least 25 g and men at least 38 g of fibre per day (American Dietetic Association, used in the course).",
+"s": "Mujeres al menos 25 g y hombres al menos 38 g de fibra al día (Asociación Dietética Americana, usada en el curso).",
+"src": "course"
+},
+{
+"id": "nut110",
+"t": "nutrition",
+"q": "How many glasses of water does the course advise daily?",
+"o": [
+"2–3",
+"6–8",
+"12–15",
+"20"
+],
+"a": 1,
+"e": "Drink 6–8 glasses daily, more when hot or exercising; little and often is better than a lot at once; coffee and tea count.",
+"s": "Bebe 6–8 vasos al día, más con calor o ejercicio; mejor poco y a menudo que mucho de golpe; el café y el té cuentan.",
+"src": "course"
+},
+{
+"id": "nut111",
+"t": "nutrition",
+"q": "Which cooking method best preserves vitamins such as vitamin C in vegetables?",
+"o": [
+"Long boiling in lots of water",
+"Steaming or cooking in a little water",
+"Deep frying",
+"Microwaving until dry"
+],
+"a": 1,
+"e": "Steaming, or cooking in a small amount of water, limits the loss of vitamins and minerals.",
+"s": "Cocinar al vapor, o con poca agua, limita la pérdida de vitaminas y minerales.",
+"src": "course"
+},
+{
+"id": "nut112",
+"t": "nutrition",
+"q": "When is a diet called 'extremely low in carbohydrates' and ketogenic?",
+"o": [
+"Below 30 g carbohydrate per day",
+"30–130 g per day",
+"200 g per day",
+"300 g per day"
+],
+"a": 0,
+"e": "Low-carb: 30–130 g/day. Extremely low-carb: below 30 g/day, which puts the body in a ketogenic state.",
+"s": "Bajo en carbohidratos: 30–130 g/día. Extremadamente bajo: menos de 30 g/día, lo que pone al cuerpo en cetosis.",
+"src": "course"
+},
+{
+"id": "nut113",
+"t": "nutrition",
+"q": "What is ketogenesis?",
+"o": [
+"Building muscle from protein",
+"Breaking down free fatty acids into ketone bodies in the liver when carbohydrates are insufficient",
+"Storing glucose as glycogen",
+"Digesting fibre"
+],
+"a": 1,
+"e": "When carbs don't provide enough energy, the liver turns fatty acids into ketones, which become fuel, even for the brain.",
+"s": "Cuando los carbohidratos no dan suficiente energía, el hígado convierte los ácidos grasos en cetonas, que pasan a ser combustible, incluso para el cerebro.",
+"src": "course"
+},
+{
+"id": "nut114",
+"t": "nutrition",
+"q": "According to the studies in the course, which diet led to greater weight loss?",
+"o": [
+"Low-fat diet",
+"Extremely low-carbohydrate diet",
+"Both exactly equal",
+"Neither"
+],
+"a": 1,
+"e": "11 studies showed greater weight and belly-fat loss with an extremely low-carb diet than with a low-fat diet, though both had positive health effects.",
+"s": "11 estudios mostraron mayor pérdida de peso y de grasa abdominal con una dieta muy baja en carbohidratos que con una baja en grasa, aunque ambas tuvieron efectos positivos.",
+"src": "course"
+},
+{
+"id": "nut115",
+"t": "nutrition",
+"q": "Which food group is removed in the Paleo diet?",
+"o": [
+"Fish",
+"Vegetables",
+"Dairy",
+"Nuts"
+],
+"a": 2,
+"e": "The Paleo diet removes dairy and reduces carbs and salt; more than half of the energy comes from fish, seafood, vegetables, fruit, nuts and seeds.",
+"s": "La dieta paleo elimina los lácteos y reduce carbohidratos y sal; más de la mitad de la energía viene de pescado, marisco, verdura, fruta, frutos secos y semillas.",
+"src": "course"
+},
+{
+"id": "nut116",
+"t": "nutrition",
+"q": "Which is one of the 6 key strategies for maintaining weight loss?",
+"o": [
+"Skipping breakfast",
+"Monitoring yourself",
+"Avoiding exercise",
+"Eating the same food every day"
+],
+"a": 1,
+"e": "The 6 strategies: lots of exercise, varied food, eating breakfast, self-monitoring, a consistent eating pattern and dealing immediately with relapse.",
+"s": "Las 6 estrategias: mucho ejercicio, comida variada, desayunar, autocontrol, un patrón de comidas constante y actuar enseguida ante una recaída.",
+"src": "course"
+},
+{
+"id": "nut117",
+"t": "nutrition",
+"q": "A client needs serious help with their diet. What does the course advise?",
+"o": [
+"Write a strict diet yourself",
+"Refer to a dietician",
+"Tell them to fast",
+"Sell them supplements"
+],
+"a": 1,
+"e": "Knowing about diets doesn't make you a dietician: if a client really needs help, refer them.",
+"s": "Saber de dietas no te convierte en dietista: si un cliente necesita ayuda de verdad, derívalo.",
+"src": "course"
+},
+{
+"id": "int040",
+"t": "intake",
+"q": "What fat percentage is normal for a (non-athlete) man according to the course?",
+"o": [
+"5–10%",
+"15–20%",
+"25–35%",
+"40%"
+],
+"a": 1,
+"e": "Men 15–20%, women 20–30%. Athletes: men 5–10%, women 15–20%. Fat percentage tends to rise with age.",
+"s": "Hombres 15–20%, mujeres 20–30%. Deportistas: hombres 5–10%, mujeres 15–20%. El porcentaje de grasa suele subir con la edad.",
+"src": "course"
+},
+{
+"id": "int041",
+"t": "intake",
+"q": "What fat percentage is desirable for a (non-athlete) woman according to the course?",
+"o": [
+"5–10%",
+"15–20%",
+"20–30%",
+"35–45%"
+],
+"a": 2,
+"e": "Women 20–30%; female athletes 15–20%.",
+"s": "Mujeres 20–30%; deportistas mujeres 15–20%.",
+"src": "course"
+},
+{
+"id": "int042",
+"t": "intake",
+"q": "How do you measure waist circumference correctly according to the course?",
+"o": [
+"At the navel after a deep breath in",
+"Horizontally between the lowest ribs and the top of the hip bone, at the end of a normal exhalation, client standing with feet 25–30 cm apart",
+"Around the chest",
+"Sitting down with an elastic tape"
+],
+"a": 1,
+"e": "Use a flexible, non-elastic tape, client upright with feet 25–30 cm apart, tape horizontal between lower ribs and top of the hip bone, measure at the end of a normal exhalation.",
+"s": "Usa una cinta flexible no elástica, cliente de pie con los pies a 25–30 cm, cinta horizontal entre las costillas inferiores y la cresta ilíaca, mide al final de una espiración normal.",
+"src": "course"
+},
+{
+"id": "int043",
+"t": "intake",
+"q": "Which somatotype is described as the 'athletic' body type?",
+"o": [
+"Ectomorph",
+"Mesomorph",
+"Endomorph",
+"Leptosome"
+],
+"a": 1,
+"e": "Mesomorph = athletic, suited to almost any sport. Ectomorph (leptosome) = tall and lean. Endomorph (pycnic) = short, stocky, round face.",
+"s": "Mesomorfo = atlético, apto para casi cualquier deporte. Ectomorfo (leptosomo) = alto y delgado. Endomorfo (pícnico) = bajo, robusto, cara redonda.",
+"src": "course"
+},
+{
+"id": "int044",
+"t": "intake",
+"q": "Which body type fits endurance running and gymnastics best according to the sports diagram?",
+"o": [
+"Ectomorph",
+"Endomorph",
+"Mesomorph only",
+"No body type"
+],
+"a": 0,
+"e": "The lean ectomorph suits gymnastics and endurance running; the endomorph suits strength sports with little endurance.",
+"s": "El ectomorfo, delgado, encaja en gimnasia y carreras de fondo; el endomorfo, en deportes de fuerza con poca resistencia.",
+"src": "course"
+},
+{
+"id": "int045",
+"t": "intake",
+"q": "What is the biggest disadvantage of BMI according to the course?",
+"o": [
+"It takes too long to calculate",
+"It doesn't take muscle/fat distribution into account, so very muscular people get a high BMI",
+"It is only for children",
+"It needs a blood test"
+],
+"a": 1,
+"e": "BMI ignores the distribution of muscle and fat and of belly fat; a bodybuilder can have a high BMI without health risk. BMI also differs for children.",
+"s": "El IMC no tiene en cuenta la distribución de músculo y grasa ni la grasa abdominal; un culturista puede tener un IMC alto sin riesgo. Además, el IMC es distinto en niños.",
+"src": "course"
+},
+{
+"id": "tra073",
+"t": "training",
+"q": "What makes physical effort 'training' according to the course?",
+"o": [
+"Any exercise counts as training",
+"A goal-oriented effort aimed at improvement, progress and results, done systematically",
+"Exercise that causes muscle pain",
+"Exercise done in a gym"
+],
+"a": 1,
+"e": "Training is goal-oriented and requires a systematic, structural approach, not sporadic exercise with long breaks.",
+"s": "Entrenar es un esfuerzo orientado a un objetivo y requiere un enfoque sistemático y regular, no ejercicio esporádico con largas pausas.",
+"src": "course"
+},
+{
+"id": "tra074",
+"t": "training",
+"q": "What is the main difference between fitness training and sports training?",
+"o": [
+"Fitness aims at health; sports training aims at performance",
+"Fitness is always harder",
+"Sports training is always safer",
+"There is no difference"
+],
+"a": 0,
+"e": "Fitness is primarily aimed at improving health, not performance, which makes it by definition the safest form of training.",
+"s": "El fitness busca sobre todo mejorar la salud, no el rendimiento, por eso es por definición la forma de entrenamiento más segura.",
+"src": "course"
+},
+{
+"id": "tra075",
+"t": "training",
+"q": "Which training variable has the MOST effect according to the course?",
+"o": [
+"Frequency",
+"Intensity",
+"Duration (time)",
+"Type of clothing"
+],
+"a": 1,
+"e": "Intensity has the most effect, duration the least, and frequency is in between.",
+"s": "La intensidad es la variable con más efecto, la duración la que menos y la frecuencia está en medio.",
+"src": "course"
+},
+{
+"id": "tra076",
+"t": "training",
+"q": "Which training variable has the LEAST effect according to the course?",
+"o": [
+"Intensity",
+"Frequency",
+"Duration",
+"Type"
+],
+"a": 2,
+"e": "Because the more intense you train the shorter you can sustain it, duration is the variable with the least effect.",
+"s": "Como cuanto más intenso es el entrenamiento menos tiempo se puede mantener, la duración es la variable con menos efecto.",
+"src": "course"
+},
+{
+"id": "tra077",
+"t": "training",
+"q": "What limits the optimal training frequency?",
+"o": [
+"The gym's opening hours",
+"The time needed for full physical recovery from the previous training",
+"The price of a membership",
+"The number of machines"
+],
+"a": 1,
+"e": "The optimal frequency repeats the best intensity–duration combination each time the body has fully recovered (48–72 h for strength training).",
+"s": "La frecuencia óptima repite la mejor combinación de intensidad y duración cada vez que el cuerpo se ha recuperado del todo (48–72 h en fuerza).",
+"src": "course"
+},
+{
+"id": "tra078",
+"t": "training",
+"q": "A client can bench press 50 kg for one repetition. What is the weight at 70% of 1RM?",
+"o": [
+"25 kg",
+"35 kg",
+"40 kg",
+"45 kg"
+],
+"a": 1,
+"e": "70% × 50 kg = 35 kg, the example the course uses for a set of 10–12 repetitions.",
+"s": "70% × 50 kg = 35 kg, el ejemplo que usa el curso para una serie de 10–12 repeticiones.",
+"src": "course"
+},
+{
+"id": "tra079",
+"t": "training",
+"q": "Why are 5RM or 10RM tests often used instead of a true 1RM test?",
+"o": [
+"They are more accurate",
+"Absolute maximal lifting poses a greater risk, especially for inexperienced clients",
+"They take longer",
+"They measure endurance"
+],
+"a": 1,
+"e": "A true 1RM is risky for clients with little strength training experience, so the maximum for 5 or 10 reps is used instead.",
+"s": "Un 1RM real es arriesgado para clientes con poca experiencia en fuerza, por eso se usa el máximo para 5 o 10 repeticiones.",
+"src": "course"
+},
+{
+"id": "tra080",
+"t": "training",
+"q": "Strength and endurance form a continuum. What happens when resistance decreases and repetitions increase?",
+"o": [
+"Training shifts toward endurance training",
+"Training shifts toward maximal strength",
+"Nothing changes",
+"It becomes flexibility training"
+],
+"a": 0,
+"e": "Less resistance and more reps shift the training toward endurance; more resistance and fewer reps require more force.",
+"s": "Menos resistencia y más repeticiones desplazan el entrenamiento hacia la resistencia; más resistencia y menos repeticiones exigen más fuerza.",
+"src": "course"
+},
+{
+"id": "tra081",
+"t": "training",
+"q": "What is an important advantage of interval training over endurance (continuous) training?",
+"o": [
+"It needs no warm-up",
+"The anaerobic energy systems are also used, so average intensity and energy use are higher",
+"It is always easier",
+"It only trains flexibility"
+],
+"a": 1,
+"e": "Alternating high intensity and recovery also uses anaerobic systems, raising average intensity and energy consumption.",
+"s": "Alternar alta intensidad y recuperación usa también los sistemas anaeróbicos y aumenta la intensidad media y el gasto energético.",
+"src": "course"
+},
+{
+"id": "tra082",
+"t": "training",
+"q": "Unlike strength and endurance training, flexibility training is about...",
+"o": [
+"Tensing the muscles",
+"Relaxing the muscles",
+"Holding the breath",
+"Using maximal weights"
+],
+"a": 1,
+"e": "Flexibility is largely determined by muscle length; flexibility training is about relaxing, not tensing, the muscles.",
+"s": "La flexibilidad depende en gran parte de la longitud muscular; su entrenamiento consiste en relajar, no en tensar, los músculos.",
+"src": "course"
+},
+{
+"id": "tra083",
+"t": "training",
+"q": "For aesthetic goals, what does the course say flexibility (agility) training contributes?",
+"o": [
+"Burns the most calories",
+"Improves posture",
+"Builds the most muscle",
+"Nothing"
+],
+"a": 1,
+"e": "Aesthetic goals: strength training improves body composition and shape, cardio burns calories, flexibility improves posture.",
+"s": "Objetivos estéticos: la fuerza mejora composición y forma, el cardio quema calorías y la flexibilidad mejora la postura.",
+"src": "course"
+},
+{
+"id": "tra084",
+"t": "training",
+"q": "For health, strength training mainly helps to...",
+"o": [
+"Prevent loss of muscle mass, injuries and fractures",
+"Improve posture only",
+"Increase heart rate permanently",
+"Burn alcohol"
+],
+"a": 0,
+"e": "Health: strength training prevents muscle loss, injuries and fractures; cardio keeps the cardiovascular system healthy; flexibility prevents poor posture and joint pain.",
+"s": "Salud: la fuerza evita la pérdida muscular, lesiones y fracturas; el cardio cuida el sistema cardiovascular; la flexibilidad previene mala postura y dolor articular.",
+"src": "course"
+},
+{
+"id": "tra085",
+"t": "training",
+"q": "When is the best moment for the next training session, according to the supercompensation principle?",
+"o": [
+"Immediately after the last session",
+"When supercompensation has just been completed and is at its peak",
+"After the performance has dropped back to the old level",
+"Only after two weeks of rest"
+],
+"a": 1,
+"e": "Training again at the peak of supercompensation gives the greatest increase. Waiting too long lets performance fall back (reversibility).",
+"s": "Volver a entrenar en el pico de la supercompensación da la mayor mejora. Esperar demasiado hace que el rendimiento vuelva a bajar (reversibilidad).",
+"src": "course"
+},
+{
+"id": "tra086",
+"t": "training",
+"q": "What happens if the training is too light or too heavy, according to the course?",
+"o": [
+"Hardly any supercompensation takes place",
+"Supercompensation doubles",
+"The client always gets injured",
+"Nothing at all"
+],
+"a": 0,
+"e": "The training load must be right: too light or too heavy and hardly any supercompensation takes place.",
+"s": "La carga debe ser la adecuada: demasiado ligera o demasiado pesada y apenas hay supercompensación.",
+"src": "course"
+},
+{
+"id": "tra087",
+"t": "training",
+"q": "According to the course, what is almost always the real underlying cause of overtraining?",
+"o": [
+"Bad equipment",
+"A mental cause, such as wanting to perform too much or not listening to the body",
+"Too much sleep",
+"Eating too much protein"
+],
+"a": 1,
+"e": "Physical causes play a role, but the underlying cause is almost always mental: wanting too much, not listening to the body or professionals, lack of knowledge.",
+"s": "Hay causas físicas, pero el origen casi siempre es mental: querer rendir demasiado, no escuchar al cuerpo ni a los profesionales, falta de conocimiento.",
+"src": "course"
+},
+{
+"id": "tra088",
+"t": "training",
+"q": "Which is a main sign of overtraining according to the course?",
+"o": [
+"A low resting heart rate",
+"A high resting heart rate",
+"More energy",
+"Faster recovery"
+],
+"a": 1,
+"e": "Signs: constant fatigue, drowsiness, high resting heart rate, irritability and poor concentration, more and longer muscle pain, injuries.",
+"s": "Señales: fatiga constante, somnolencia, frecuencia cardíaca en reposo alta, irritabilidad y falta de concentración, más agujetas y más largas, lesiones.",
+"src": "course"
+},
+{
+"id": "tra089",
+"t": "training",
+"q": "Why must an elite athlete train very much to make very little progress?",
+"o": [
+"Because of the adaptation principle: the more trained, the bigger the stimulus needed",
+"Because elite athletes don't adapt",
+"Because they train too little",
+"Because of specificity only"
+],
+"a": 0,
+"e": "The body only adapts when it needs to; as you become more trained, the training stimulus must increase.",
+"s": "El cuerpo solo se adapta cuando lo necesita; cuanto más entrenado estás, mayor tiene que ser el estímulo.",
+"src": "course"
+},
+{
+"id": "tra090",
+"t": "training",
+"q": "Why can too much variation in training slow down progress?",
+"o": [
+"A one-time stimulus requires less adaptation",
+"Variation always causes injuries",
+"The body needs the same exercise every day",
+"Variation lowers motivation"
+],
+"a": 0,
+"e": "Adaptation needs a certain frequency of the same stimulus; constantly changing gives one-off stimuli that require less adaptation.",
+"s": "La adaptación necesita cierta frecuencia del mismo estímulo; cambiar todo el rato da estímulos aislados que exigen menos adaptación.",
+"src": "course"
+},
+{
+"id": "tra091",
+"t": "training",
+"q": "For which type of training is the specificity principle especially important?",
+"o": [
+"Performance training",
+"Health training",
+"Relaxation",
+"Flexibility training only"
+],
+"a": 0,
+"e": "The course says specificity should be taken into account especially for performance training rather than health.",
+"s": "El curso dice que la especificidad se debe tener en cuenta sobre todo en el entrenamiento de rendimiento más que en el de salud.",
+"src": "course"
+},
+{
+"id": "tra092",
+"t": "training",
+"q": "In a 60-minute session, how is the time divided according to the course?",
+"o": [
+"About 3/4 actual training, 5–10 min warm-up and 5–10 min cool-down",
+"Half warm-up, half training",
+"10 min training, 50 min stretching",
+"No warm-up needed"
+],
+"a": 0,
+"e": "About three-quarters is the actual training, with a 5–10 minute warm-up and a 5–10 minute cool-down.",
+"s": "Unas tres cuartas partes son el entrenamiento principal, con 5–10 minutos de calentamiento y 5–10 de vuelta a la calma.",
+"src": "course"
+},
+{
+"id": "tra093",
+"t": "training",
+"q": "Which warm-up does the course consider best?",
+"o": [
+"A general warm-up such as cycling",
+"A specific warm-up that resembles the training to follow",
+"No warm-up",
+"Static stretching only"
+],
+"a": 1,
+"e": "The more the warm-up resembles the training, the better. But a general warm-up is always better than none.",
+"s": "Cuanto más se parezca el calentamiento al entrenamiento, mejor. Pero un calentamiento general siempre es mejor que ninguno.",
+"src": "course"
+},
+{
+"id": "tra094",
+"t": "training",
+"q": "Which is a physiological effect of warming up according to the course?",
+"o": [
+"Blood moves away from the muscles to the digestive system",
+"Faster nerve conduction for better coordination",
+"Lower heart rate",
+"Thicker joint fluid"
+],
+"a": 1,
+"e": "Warm-up effects: blood to active muscles, higher muscle temperature, faster nerve conduction, higher muscle tone, better joint lubrication (synovia thinner), higher heart rate and stroke volume, faster deeper breathing.",
+"s": "Efectos del calentamiento: sangre a los músculos activos, más temperatura muscular, conducción nerviosa más rápida, más tono muscular, mejor lubricación articular (sinovia más fluida), más pulso y volumen sistólico, respiración más rápida y profunda.",
+"src": "course"
+},
+{
+"id": "tra095",
+"t": "training",
+"q": "Why does a cooling-down use restful movements instead of stopping completely?",
+"o": [
+"Active recovery keeps circulation going, improving supply of oxygen and removal of waste products",
+"To burn extra calories",
+"To build muscle",
+"To raise body temperature"
+],
+"a": 0,
+"e": "Restful movement maintains blood circulation: better supply of oxygen and nutrients and better removal of waste.",
+"s": "El movimiento suave mantiene la circulación: mejor aporte de oxígeno y nutrientes y mejor eliminación de desechos.",
+"src": "course"
+},
+{
+"id": "bio030",
+"t": "biomechanics",
+"q": "What is the difference between biomechanics and technique according to the course?",
+"o": [
+"Biomechanics: WHAT happens physically; technique: HOW the exercise should be performed",
+"They are the same",
+"Biomechanics is about nutrition",
+"Technique is about forces only"
+],
+"a": 0,
+"e": "Biomechanics explains what happens physically (forces, levers, axes); technique describes how to perform the exercise.",
+"s": "La biomecánica explica qué pasa físicamente (fuerzas, palancas, ejes); la técnica describe cómo se hace el ejercicio.",
+"src": "course"
+},
+{
+"id": "bio031",
+"t": "biomechanics",
+"q": "At which point is a biceps curl heaviest?",
+"o": [
+"With the arm fully extended",
+"With the forearm horizontal, at 90°",
+"At the top of the movement",
+"It is equally heavy everywhere"
+],
+"a": 1,
+"e": "The lever (horizontal distance between weight and elbow axis) is longest at 90°, so the biceps must deliver the most force there. That point determines the maximum weight.",
+"s": "La palanca (distancia horizontal entre el peso y el eje del codo) es máxima a 90°, así que ahí el bíceps debe hacer más fuerza. Ese punto marca el peso máximo.",
+"src": "course"
+},
+{
+"id": "bio032",
+"t": "biomechanics",
+"q": "Moving the elbows forward during a biceps curl makes the exercise...",
+"o": [
+"Heavier, because the levers get longer",
+"Lighter, because both levers get shorter",
+"More effective",
+"Safer and more effective"
+],
+"a": 1,
+"e": "Moving the elbow forward shortens both levers, so the exercise gets lighter: a form of 'smuggling'.",
+"s": "Adelantar el codo acorta ambas palancas, así que el ejercicio se aligera: una forma de 'hacer trampa'.",
+"src": "course"
+},
+{
+"id": "ana128",
+"t": "anatomy",
+"q": "According to the course, in which phase of an exercise can a muscle move the MOST weight?",
+"o": [
+"Concentric",
+"Eccentric",
+"Isometric",
+"All equal"
+],
+"a": 1,
+"e": "Strongest eccentrically, then isometrically, weakest concentrically. The concentric phase is the heaviest to perform.",
+"s": "Más fuerte en excéntrico, luego isométrico, y más débil en concéntrico. La fase concéntrica es la más pesada.",
+"src": "course"
+},
+{
+"id": "ana129",
+"t": "anatomy",
+"q": "According to the course, which phase of an exercise is the heaviest to perform?",
+"o": [
+"The concentric phase, against gravity",
+"The eccentric phase, with gravity",
+"The isometric pause",
+"The rest between sets"
+],
+"a": 0,
+"e": "The concentric phase works against gravity, so it is the heaviest; the muscle can move the least weight concentrically.",
+"s": "La fase concéntrica trabaja contra la gravedad, así que es la más pesada; el músculo mueve menos peso en concéntrico.",
+"src": "course"
+},
+{
+"id": "ana130",
+"t": "anatomy",
+"q": "How strong is a muscle isometrically compared with concentric and eccentric contractions?",
+"o": [
+"Weaker than both",
+"Stronger than concentric but weaker than eccentric",
+"Stronger than both",
+"The same as concentric"
+],
+"a": 1,
+"e": "Isometric strength lies between concentric (weakest) and eccentric (strongest).",
+"s": "La fuerza isométrica está entre la concéntrica (la más débil) y la excéntrica (la más fuerte).",
+"src": "course"
+},
+{
+"id": "tra096",
+"t": "training",
+"q": "Which is one of the ways the course names to make an exercise LIGHTER (often unconsciously)?",
+"o": [
+"Holding briefly at the bottom or top of the movement",
+"Using a full range of motion",
+"Keeping a constant tempo",
+"Lowering the weight with control"
+],
+"a": 0,
+"e": "Pausing at the top or bottom gives rest, speeding up the concentric phase shortens the heavy phase, and incomplete range or throwing the weight also makes it lighter.",
+"s": "Pausar arriba o abajo da descanso, acelerar la fase concéntrica acorta la parte pesada, y un recorrido incompleto o lanzar el peso también lo aligeran.",
+"src": "course"
+},
+{
+"id": "coa121",
+"t": "coaching",
+"q": "Which two conditions must the five technique aspects meet?",
+"o": [
+"Safety and effectiveness",
+"Speed and power",
+"Comfort and fun",
+"Weight and repetitions"
+],
+"a": 0,
+"e": "Correct technique means posture, range, control, timing and form are all both safe and effective.",
+"s": "Una técnica correcta significa que postura, recorrido, control, timing y forma son seguros y eficaces.",
+"src": "course"
+},
+{
+"id": "coa122",
+"t": "coaching",
+"q": "What does 'form' mean as a technique aspect?",
+"o": [
+"Being able to maintain the other four aspects (posture, range, control, timing)",
+"The shape of the body",
+"The training schedule",
+"The client's clothing"
+],
+"a": 0,
+"e": "Good form means maintaining posture, range, control and timing. Fatigue and a load that is too heavy (or too light) lead to loss of form.",
+"s": "Una buena forma significa mantener postura, recorrido, control y timing. La fatiga y una carga demasiado pesada (o ligera) hacen que se pierda.",
+"src": "course"
+},
+{
+"id": "coa123",
+"t": "coaching",
+"q": "Which mistakes should you always correct first?",
+"o": [
+"Effectiveness mistakes",
+"Safety mistakes",
+"Timing mistakes only",
+"None, let the client figure it out"
+],
+"a": 1,
+"e": "An injury is far worse than less effective training, so correct safety errors first, then effectiveness. Form loss is always a priority.",
+"s": "Una lesión es mucho peor que un entrenamiento menos eficaz, así que corrige primero los errores de seguridad y luego los de eficacia. La pérdida de forma siempre es prioritaria.",
+"src": "course"
+},
+{
+"id": "coa124",
+"t": "coaching",
+"q": "How can most form mistakes be corrected quickly and at the same time?",
+"o": [
+"By adjusting the intensity (load) to the right level",
+"By adding more repetitions",
+"By training faster",
+"By ignoring them"
+],
+"a": 0,
+"e": "Form errors usually come from fatigue or too much load; lowering the intensity to the right level fixes most at once.",
+"s": "Los errores de forma suelen venir de la fatiga o de demasiada carga; bajar la intensidad al nivel adecuado corrige la mayoría a la vez.",
+"src": "course"
+},
+{
+"id": "coa125",
+"t": "coaching",
+"q": "What is 'smuggling' in the course?",
+"o": [
+"Bringing your own weights",
+"An unconscious form error to make an exercise easier, often caused by a load that is too high",
+"A type of warm-up",
+"Selling supplements"
+],
+"a": 1,
+"e": "Smuggling (cheating) is a form error, often from a load chosen too high, which ironically lowers the real intensity.",
+"s": "'Hacer trampa' es un error de forma, a menudo por una carga demasiado alta, que paradójicamente reduce la intensidad real.",
+"src": "course"
+},
+{
+"id": "coa126",
+"t": "coaching",
+"q": "According to the course, is intensity in strength training the same as the weight used?",
+"o": [
+"Yes, always",
+"No, intensity also depends on posture, range, timing and control",
+"Only for beginners",
+"Only on machines"
+],
+"a": 1,
+"e": "Resistance and intensity are different: movement quality matters more for intensity than the weight.",
+"s": "Resistencia e intensidad son cosas distintas: la calidad del movimiento importa más para la intensidad que el peso.",
+"src": "course"
+},
+{
+"id": "coa127",
+"t": "coaching",
+"q": "What should a beginner always learn before training at the correct intensity?",
+"o": [
+"The correct technique",
+"The price list",
+"Their 1RM",
+"Nutrition rules"
+],
+"a": 0,
+"e": "Beginners must first learn the correct technique. Advanced participants mainly make mistakes from wrongly learned technique or years without guidance.",
+"s": "Los principiantes deben aprender primero la técnica correcta. Los avanzados fallan sobre todo por técnica mal aprendida o años sin supervisión.",
+"src": "course"
+},
+{
+"id": "coa128",
+"t": "coaching",
+"q": "Which is the correct order of the steps in the setup phase of instruction?",
+"o": [
+"Positioning – name – purpose – setup – execution – client sets equipment – client performs",
+"Execution – name – purpose – positioning",
+"Name – client performs – positioning – purpose",
+"Purpose – setup – name – motivation"
+],
+"a": 0,
+"e": "Position yourself, name the exercise, explain the purpose, show the setup and the execution, then let the client set up and perform it.",
+"s": "Colócate, nombra el ejercicio, explica el objetivo, muestra el ajuste y la ejecución, y deja que el cliente ajuste y lo haga.",
+"src": "course"
+},
+{
+"id": "coa129",
+"t": "coaching",
+"q": "Which phase of technical instruction is the most important, according to the course?",
+"o": [
+"Setup phase",
+"Follow-up phase",
+"Motivation phase",
+"Evaluation phase"
+],
+"a": 1,
+"e": "In the follow-up phase you give follow-up instructions and corrections; this is where you make the difference as a trainer.",
+"s": "En la fase de seguimiento das instrucciones y correcciones; ahí es donde marcas la diferencia como entrenador.",
+"src": "course"
+},
+{
+"id": "coa130",
+"t": "coaching",
+"q": "What happens in the motivation phase of instruction?",
+"o": [
+"You explain the exercise for the first time",
+"You remind the client of correct technique as fatigue sets in and motivate them to keep going",
+"You adjust the machine",
+"You end the session"
+],
+"a": 1,
+"e": "As the exercise gets heavier, remind them of technique and motivate them to persevere; exhaustion is essential for the result.",
+"s": "Cuando el ejercicio se hace más pesado, recuérdale la técnica y motívale a seguir; llegar al agotamiento es esencial para el resultado.",
+"src": "course"
+},
+{
+"id": "tra097",
+"t": "training",
+"q": "What does the course mean by a 'training program'?",
+"o": [
+"A single training session",
+"All the workouts someone does on a weekly basis, with the PT sessions at the centre",
+"A printed exercise card",
+"A monthly invoice"
+],
+"a": 1,
+"e": "A programme covers all weekly workouts (PT, group training, own sport); the PT sessions are central, with other sessions around them.",
+"s": "Un programa abarca todos los entrenamientos semanales (EP, clases, deporte propio); las sesiones de EP son el centro y el resto gira a su alrededor.",
+"src": "course"
+},
+{
+"id": "tra098",
+"t": "training",
+"q": "A training program should suit which three things about the client?",
+"o": [
+"Goals, preferences and possibilities",
+"Age, weight and height",
+"Income, job and address",
+"Shoe size, clothing and music"
+],
+"a": 0,
+"e": "A good programme fits the client's goals, preferences (e.g. likes running outside) and possibilities (days, times, physical limitations).",
+"s": "Un buen programa encaja con los objetivos, las preferencias (p. ej., le gusta correr fuera) y las posibilidades (días, horas, limitaciones físicas) del cliente.",
+"src": "course"
+},
+{
+"id": "int046",
+"t": "intake",
+"q": "What is the goal of the intake according to the course?",
+"o": [
+"To sell as many sessions as possible",
+"To give the client a good start with fitness or personal training",
+"To do a maximal test",
+"To weigh the client"
+],
+"a": 1,
+"e": "The intake (first appointment) determines the starting programme and aims to give the client a good start.",
+"s": "La entrevista inicial (primera cita) determina el programa de inicio y busca que el cliente empiece bien.",
+"src": "course"
+},
+{
+"id": "int047",
+"t": "intake",
+"q": "When should the intake form preferably be filled in?",
+"o": [
+"After the first month",
+"Prior to the interview, so you can review it",
+"Never, only talk",
+"During the first workout"
+],
+"a": 1,
+"e": "Have the form filled in before the interview, so you can review it and work out the programme together.",
+"s": "Haz que rellene el formulario antes de la entrevista para poder revisarlo y planificar juntos el programa.",
+"src": "course"
+},
+{
+"id": "tra099",
+"t": "training",
+"q": "Why is a push-up considered more functional than a chest press on a machine?",
+"o": [
+"The whole body must balance, coordinate and stabilise",
+"It is heavier",
+"It isolates the chest better",
+"It needs equipment"
+],
+"a": 0,
+"e": "Functional training imitates daily movement and involves most of the body; machines fix the movement and support the body.",
+"s": "El entrenamiento funcional imita movimientos cotidianos e implica casi todo el cuerpo; las máquinas fijan el movimiento y sostienen el cuerpo.",
+"src": "course"
+},
+{
+"id": "tra100",
+"t": "training",
+"q": "Which is an advantage of training on equipment (machines) according to the course?",
+"o": [
+"It is the most functional form of training",
+"Muscle groups can be isolated and the injury risk is lower",
+"It trains balance best",
+"It requires no technique at all"
+],
+"a": 1,
+"e": "Machines isolate muscle groups, are easier to learn, more controlled (lower injury risk), suit circuit training and (with cams) load the muscle across the whole range.",
+"s": "Las máquinas aíslan grupos musculares, se aprenden más fácil, son más controladas (menos riesgo), sirven para circuitos y (con levas) cargan el músculo en todo el recorrido.",
+"src": "course"
+},
+{
+"id": "tra101",
+"t": "training",
+"q": "In functional training, what is the main function of the core?",
+"o": [
+"Stabilising the body; it is where movements start and end",
+"Producing blood cells",
+"Storing glycogen",
+"Breathing only"
+],
+"a": 0,
+"e": "The core is the functional centre of the body, where movements start and end; its main function is stabilisation.",
+"s": "El core es el centro funcional del cuerpo, donde empiezan y terminan los movimientos; su función principal es estabilizar.",
+"src": "course"
+},
+{
+"id": "saf036",
+"t": "safety",
+"q": "In the course's ICE rule, what does the 'I' stand for?",
+"o": [
+"Ice",
+"Immobilize",
+"Injury",
+"Inspect"
+],
+"a": 1,
+"e": "The course: first cool for 10 minutes, then I = Immobilize (don't strain the body part), C = Compression, E = Elevation.",
+"s": "El curso: primero enfriar 10 minutos, luego I = Inmovilizar (no forzar la zona), C = Compresión, E = Elevación.",
+"src": "course"
+},
+{
+"id": "saf037",
+"t": "safety",
+"q": "According to the course's ICE rule, how long do you cool a bruise or sprain?",
+"o": [
+"2 minutes",
+"10 minutes",
+"30 minutes",
+"1 hour"
+],
+"a": 1,
+"e": "Cool for 10 minutes with water, ice or a cold pack to reduce swelling, then immobilise, compress and elevate. If serious or in doubt, consult a doctor.",
+"s": "Enfría 10 minutos con agua, hielo o una bolsa de frío para reducir la hinchazón, luego inmoviliza, comprime y eleva. Si es grave o hay dudas, consulta a un médico.",
+"src": "course"
+},
+{
+"id": "tra102",
+"t": "training",
+"q": "According to the Fradkin et al. (2010) research in the course, a warm-up should consist of at least...",
+"o": [
+"Aerobic activity, stretching and sport-specific activity",
+"Only static stretching",
+"A maximal sprint",
+"Foam rolling and massage"
+],
+"a": 0,
+"e": "At least aerobic activity, stretching and sport-specific activity, intense and long enough to start the physiological processes, but not causing fatigue.",
+"s": "Al menos actividad aeróbica, estiramientos y actividad específica del deporte, suficiente para activar los procesos fisiológicos pero sin causar fatiga.",
+"src": "course"
+},
+{
+"id": "tra103",
+"t": "training",
+"q": "Which psychological aspect of warming up does the course mention?",
+"o": [
+"The placebo effect: the belief that a warm-up works",
+"It increases fear of injury",
+"It makes clients bored",
+"It lowers concentration"
+],
+"a": 0,
+"e": "Psychological aspects: mental preparation and focus, less fear of injury, and the belief that warming up works (placebo effect).",
+"s": "Aspectos psicológicos: preparación mental y concentración, menos miedo a lesionarse y la creencia de que el calentamiento funciona (efecto placebo).",
+"src": "course"
+},
+{
+"id": "phy074",
+"t": "physiology",
+"q": "What is the Bohr effect, mentioned as a benefit of warming up?",
+"o": [
+"Haemoglobin releases more oxygen to the tissues at higher temperatures",
+"The heart beats slower",
+"Muscles get colder",
+"Blood sugar rises"
+],
+"a": 0,
+"e": "At higher temperatures haemoglobin releases more oxygen at the tissue level, improving oxygen supply to the muscles.",
+"s": "A mayor temperatura la hemoglobina libera más oxígeno en los tejidos, lo que mejora el aporte de oxígeno a los músculos.",
+"src": "course"
+},
+{
+"id": "phy075",
+"t": "physiology",
+"q": "What is vasodilation in the context of a warm-up?",
+"o": [
+"Widening of the blood vessels due to higher temperature, improving blood supply to active muscles",
+"Narrowing of the blood vessels",
+"Faster breathing",
+"Sweating"
+],
+"a": 0,
+"e": "Higher temperature dilates the vessels, improving blood supply to the active muscles.",
+"s": "La mayor temperatura dilata los vasos y mejora el riego sanguíneo de los músculos activos.",
+"src": "course"
+},
+{
+"id": "saf038",
+"t": "safety",
+"q": "Which is a consequence of stopping exercise abruptly, according to the course?",
+"o": [
+"Accumulation of blood in the legs, dizziness or fainting",
+"Faster lactate removal",
+"Lower core temperature immediately",
+"Better sleep"
+],
+"a": 0,
+"e": "Stopping suddenly removes the muscle pump: blood accumulates (heavy legs) and dizziness or fainting can occur.",
+"s": "Parar de golpe elimina la bomba muscular: la sangre se acumula (piernas pesadas) y puede haber mareo o desmayo.",
+"src": "course"
+},
+{
+"id": "phy076",
+"t": "physiology",
+"q": "At what intensity is lactate removed fastest during active recovery?",
+"o": [
+"About 10% of VO₂max",
+"About 50% of VO₂max",
+"About 90% of VO₂max",
+"Only at complete rest"
+],
+"a": 1,
+"e": "Active recovery removes lactate faster than passive; up to 50% VO₂max removal rises with intensity, so it's fastest around 50%.",
+"s": "La recuperación activa elimina el lactato más rápido que la pasiva; hasta el 50% del VO₂max la eliminación aumenta con la intensidad, así que es máxima hacia el 50%.",
+"src": "course"
+},
+{
+"id": "phy077",
+"t": "physiology",
+"q": "What happens to core temperature in the first minutes after you stop exercising?",
+"o": [
+"It drops immediately",
+"It continues to rise for a few minutes",
+"It stays exactly the same",
+"It drops below normal"
+],
+"a": 1,
+"e": "Core temperature keeps rising for a few minutes after stopping; a cool-down makes the decrease more gradual.",
+"s": "La temperatura central sigue subiendo unos minutos tras parar; la vuelta a la calma hace que baje de forma más gradual.",
+"src": "course"
+},
+{
+"id": "tra104",
+"t": "training",
+"q": "Which form of stretching uses repeated, springy movements and increases muscle tension?",
+"o": [
+"Passive stretching",
+"Ballistic stretching",
+"PNF stretching",
+"Static stretching"
+],
+"a": 1,
+"e": "Ballistic (springy) stretching increases muscle tension, so it is used in warm-ups before activities that need muscle tension.",
+"s": "El estiramiento balístico (con rebotes) aumenta la tensión muscular, por eso se usa en calentamientos antes de actividades que la requieren.",
+"src": "course"
+},
+{
+"id": "tra105",
+"t": "training",
+"q": "What are the timings of the course's Contract-Relax (PNF) method?",
+"o": [
+"Tense 4–6 s, relax 2–5 s, stretch 8–16 s, repeated 3 times",
+"Tense 30 s, stretch 2 s",
+"Stretch 60 s only",
+"Tense 1 s, relax 1 s, stretch 1 s"
+],
+"a": 0,
+"e": "Tense 4–6 seconds, relax 2–5 seconds, stretch 8–16 seconds, 3 times per muscle group. More effective than passive stretching, but often needs two people.",
+"s": "Contraer 4–6 segundos, relajar 2–5 y estirar 8–16, 3 veces por grupo muscular. Más eficaz que el pasivo, pero suele requerir dos personas.",
+"src": "course"
+},
+{
+"id": "tra106",
+"t": "training",
+"q": "What is the main disadvantage of PNF (contract-relax) stretching?",
+"o": [
+"It is ineffective",
+"It often has to be done with two people",
+"It causes injuries",
+"It takes 2 hours"
+],
+"a": 1,
+"e": "PNF appears more effective than passive stretching, but usually needs a partner.",
+"s": "El PNF parece más eficaz que el estiramiento pasivo, pero normalmente necesita un compañero.",
+"src": "course"
+},
+{
+"id": "phy078",
+"t": "physiology",
+"q": "Which protein in the sarcomere acts like a spring and gives the muscle elasticity and stability?",
+"o": [
+"Actin",
+"Myosin",
+"Titin",
+"Haemoglobin"
+],
+"a": 2,
+"e": "Titin, often pictured as a spring, provides structural integrity: elasticity and stability of the muscle.",
+"s": "La titina, a menudo representada como un muelle, aporta integridad estructural: elasticidad y estabilidad del músculo.",
+"src": "course"
+},
+{
+"id": "ana131",
+"t": "anatomy",
+"q": "Which connective tissue layer surrounds the entire muscle?",
+"o": [
+"Endomysium",
+"Perimysium",
+"Epimysium",
+"Periosteum"
+],
+"a": 2,
+"e": "Endomysium surrounds each muscle fibre, perimysium a group of fibres, epimysium the whole muscle.",
+"s": "El endomisio rodea cada fibra muscular, el perimisio un grupo de fibras y el epimisio todo el músculo.",
+"src": "course"
+},
+{
+"id": "bio033",
+"t": "biomechanics",
+"q": "In which sports does the muscle-tendon complex mainly act as an elastic spring (high stretch-shortening cycles)?",
+"o": [
+"Martial arts, tennis and soccer",
+"Jogging, swimming and cycling",
+"Chess and darts",
+"Rowing only"
+],
+"a": 0,
+"e": "Sports with lots of jumping and quick direction changes rely on stretch-shortening cycles. Jogging, swimming and cycling mainly use concentric work with limited SSC.",
+"s": "Los deportes con muchos saltos y cambios rápidos de dirección se basan en ciclos de estiramiento-acortamiento. Correr suave, nadar y pedalear usan sobre todo trabajo concéntrico con poco CEA.",
+"src": "course"
+},
+{
+"id": "saf039",
+"t": "safety",
+"q": "What does the course conclude about stretching and injury prevention in general?",
+"o": [
+"Stretching always prevents injuries",
+"Generally no significant effect, but also no increased risk",
+"Stretching always causes injuries",
+"Only stretching after training prevents injuries"
+],
+"a": 1,
+"e": "Two major studies found no significant effect on injury prevention, but no added risk either. Witvrouw et al. suggest it may help in high stretch-shortening-cycle sports (soccer, martial arts, tennis).",
+"s": "Dos grandes estudios no encontraron efecto significativo en la prevención de lesiones, pero tampoco más riesgo. Witvrouw et al. sugieren que puede ayudar en deportes con muchos ciclos de estiramiento-acortamiento (fútbol, artes marciales, tenis).",
+"src": "course"
+},
+{
+"id": "phy079",
+"t": "physiology",
+"q": "According to Gabriel (2002), does stretching before or after exercise reduce muscle soreness?",
+"o": [
+"Yes, strongly",
+"No significant effect, but stretching can reduce pain once soreness is already present",
+"It doubles muscle soreness",
+"Only stretching before exercise works"
+],
+"a": 1,
+"e": "Stretching had no significant effect on soreness up to 72 h after exercise. But if a client already has sore muscles, stretching can reduce the pain.",
+"s": "Estirar no tuvo efecto significativo sobre las agujetas hasta 72 h después. Pero si el cliente ya tiene agujetas, estirar puede aliviar el dolor.",
+"src": "course"
+},
+{
+"id": "tra107",
+"t": "training",
+"q": "What did Shier (2004) find about stretching right before exercise?",
+"o": [
+"It clearly improves strength and jump height",
+"22 of 23 studies found no positive effect; most found a decrease in force or jump height",
+"It improves sprinting in all studies",
+"It has no effect on anything"
+],
+"a": 1,
+"e": "Acute stretching before exercise did not improve performance and often decreased force and jump height. Regular stretching, however, did improve performance (likely through stretch-induced hypertrophy).",
+"s": "Estirar justo antes del ejercicio no mejoró el rendimiento y a menudo redujo la fuerza y el salto. Estirar con regularidad, en cambio, sí lo mejoró (probablemente por hipertrofia inducida por estiramiento).",
+"src": "course"
+},
+{
+"id": "tra108",
+"t": "training",
+"q": "How long does the increased flexibility from a single (acute) stretch last?",
+"o": [
+"About 6 to 90 minutes",
+"About 24 hours",
+"About a week",
+"Permanently"
+],
+"a": 0,
+"e": "Acute stretching increases joint flexibility for roughly 6–90 minutes; regular stretching gives lasting flexibility.",
+"s": "Un estiramiento puntual aumenta la flexibilidad durante unos 6–90 minutos; estirar con regularidad da una flexibilidad duradera.",
+"src": "course"
+},
+{
+"id": "saf040",
+"t": "safety",
+"q": "What does the course say about very mobile (hypermobile) joints?",
+"o": [
+"They always prevent injuries",
+"They are vulnerable and can lead to instability; strength and stability training may be better",
+"They need extra stretching",
+"They don't exist"
+],
+"a": 1,
+"e": "Highly mobile joints are vulnerable (hypermobility, instability). Whether to train flexibility depends on the person and goal.",
+"s": "Las articulaciones muy móviles son vulnerables (hipermovilidad, inestabilidad). Entrenar flexibilidad depende de la persona y el objetivo.",
+"src": "course"
+},
+{
+"id": "int048",
+"t": "intake",
+"q": "What is the main purpose of pre-exercise screening?",
+"o": [
+"Selling memberships",
+"Identifying people with an increased risk of disorders (mainly cardiovascular) from exercise",
+"Measuring muscle mass",
+"Choosing music"
+],
+"a": 1,
+"e": "Screening finds people at higher risk, e.g. of a heart attack, who should be medically evaluated before starting a programme.",
+"s": "El cribado detecta a personas con más riesgo, p. ej., de infarto, que deben ser evaluadas por un médico antes de empezar.",
+"src": "course"
+},
+{
+"id": "int049",
+"t": "intake",
+"q": "Why are stricter safety policies in fitness clubs increasingly necessary, according to the course?",
+"o": [
+"Gyms are getting smaller",
+"More high-risk people are active: health awareness, an ageing population, and growing obesity and diabetes",
+"Fewer people exercise",
+"Equipment is more dangerous"
+],
+"a": 1,
+"e": "More people in risk groups are now active because of health awareness, ageing and the obesity/diabetes epidemic.",
+"s": "Ahora hay más personas de riesgo activas por la conciencia sobre la salud, el envejecimiento y la epidemia de obesidad y diabetes.",
+"src": "course"
+},
+{
+"id": "int050",
+"t": "intake",
+"q": "How many yes/no questions does the PAR-Q contain according to the course?",
+"o": [
+"3",
+"5",
+"7",
+"20"
+],
+"a": 2,
+"e": "The PAR-Q has seven yes/no questions; one or more 'yes' means consulting a GP first.",
+"s": "El PAR-Q tiene siete preguntas de sí/no; uno o más 'sí' implica consultar antes al médico de cabecera.",
+"src": "course"
+},
+{
+"id": "int051",
+"t": "intake",
+"q": "Apart from a 'yes' on the PAR-Q, when should a client always consult a GP first?",
+"o": [
+"When they are older than 69 and not used to active exercise",
+"When they are younger than 30",
+"When they want to lose weight",
+"Never"
+],
+"a": 0,
+"e": "Clients older than 69 who are not used to active exercise should always consult a GP beforehand.",
+"s": "Los clientes mayores de 69 años no habituados al ejercicio activo deben consultar siempre antes al médico de cabecera.",
+"src": "course"
+},
+{
+"id": "int052",
+"t": "intake",
+"q": "Which second screening tool looks at a person's medical and health history, including injuries?",
+"o": [
+"PAR-Q",
+"Health History Questionnaire (HHQ)",
+"Cooper test",
+"BMI"
+],
+"a": 1,
+"e": "The HHQ examines medical and health history, including injuries.",
+"s": "El HHQ examina el historial médico y de salud, incluidas las lesiones.",
+"src": "course"
+},
+{
+"id": "saf041",
+"t": "safety",
+"q": "For the average client, how often per week at most should a specific muscle group be loaded?",
+"o": [
+"Once",
+"3 times",
+"5 times",
+"Every day"
+],
+"a": 1,
+"e": "The course advises not loading a specific muscle group more than 3 times a week for the average client, to avoid overload and overtraining.",
+"s": "El curso aconseja no cargar un mismo grupo muscular más de 3 veces por semana en un cliente medio, para evitar sobrecarga y sobreentrenamiento.",
+"src": "course"
+},
+{
+"id": "saf042",
+"t": "safety",
+"q": "A client has little stability. What should you avoid in the training schedule?",
+"o": [
+"Explosive exercises",
+"Machine exercises",
+"Walking",
+"Breathing exercises"
+],
+"a": 0,
+"e": "Adapt exercises to the client's level: with little stability, don't offer explosive exercises.",
+"s": "Adapta los ejercicios al nivel del cliente: si tiene poca estabilidad, no le pongas ejercicios explosivos.",
+"src": "course"
+},
+{
+"id": "coa131",
+"t": "coaching",
+"q": "What should you do before giving technique corrections, according to the course?",
+"o": [
+"Let the client do a few repetitions first, because they often correct themselves",
+"Correct before the first repetition",
+"Physically move the client without asking",
+"Give five new tips at once"
+],
+"a": 0,
+"e": "Let the client do a few reps; often they self-correct. Then correct verbally or physically, repeating earlier tips, and always announce physical correction first.",
+"s": "Deja que el cliente haga unas repeticiones; a menudo se corrige solo. Luego corrige verbal o físicamente, repitiendo los consejos anteriores, y avisa siempre antes de tocar.",
+"src": "course"
+},
+{
+"id": "coa132",
+"t": "coaching",
+"q": "From which angles should you check a client's technique?",
+"o": [
+"Only from above",
+"Straight from the front or back, and from the side",
+"Only from behind",
+"From a distance only"
+],
+"a": 1,
+"e": "Check technique straight from the front or back and from the side.",
+"s": "Revisa la técnica de frente o de espaldas y de lado.",
+"src": "course"
+},
+{
+"id": "saf043",
+"t": "safety",
+"q": "What is the only solution for overtraining according to the course?",
+"o": [
+"Training harder",
+"Rest and reducing the training intensity",
+"Taking supplements",
+"Changing gyms"
+],
+"a": 1,
+"e": "Rest and lower intensity are necessary; also find the cause (too high load, temporarily less load capacity) and adjust the programme.",
+"s": "Son necesarios el descanso y bajar la intensidad; además hay que buscar la causa (carga excesiva, menor capacidad temporal) y ajustar el programa.",
+"src": "course"
+},
+{
+"id": "int053",
+"t": "intake",
+"q": "Which is NOT one of the four reasons for testing and measuring in the course?",
+"o": [
+"Measuring the baseline level",
+"Determining workload capacity",
+"Motivating the client",
+"Comparing the client with other members"
+],
+"a": 3,
+"e": "The four reasons: baseline (progress), workload capacity, making a training plan, and motivating the client.",
+"s": "Las cuatro razones: nivel de partida (progreso), capacidad de carga, hacer un plan de entrenamiento y motivar al cliente.",
+"src": "course"
+},
+{
+"id": "int054",
+"t": "intake",
+"q": "Which three fitness parameters are the most important to measure, according to the course?",
+"o": [
+"Strength, endurance and flexibility",
+"Height, shoe size and age",
+"Speed, reaction time and power",
+"Weight only"
+],
+"a": 0,
+"e": "Besides general medical values (blood pressure, weight, BMI, fat %, waist, resting heart rate), measure strength, endurance and flexibility.",
+"s": "Además de los valores médicos (tensión, peso, IMC, % de grasa, cintura, pulso en reposo), mide fuerza, resistencia y flexibilidad.",
+"src": "course"
+},
+{
+"id": "int055",
+"t": "intake",
+"q": "When does it make sense to measure muscle hypertrophy after starting strength training?",
+"o": [
+"After 3 days",
+"After 1 week",
+"After about a month to six weeks",
+"Never"
+],
+"a": 2,
+"e": "Neural adaptations dominate at first; hypertrophy starts after about two weeks and takes over after about four. Measure after 4–6 weeks.",
+"s": "Al principio dominan las adaptaciones nerviosas; la hipertrofia empieza a las dos semanas y domina a partir de las cuatro. Mide a las 4–6 semanas.",
+"src": "course"
+},
+{
+"id": "int056",
+"t": "intake",
+"q": "How much can a VO₂max predicted from heart rate during a submaximal test deviate from the real VO₂max?",
+"o": [
+"0–1%",
+"About 10–20%",
+"About 50%",
+"About 80%"
+],
+"a": 1,
+"e": "Because the heart rate–oxygen uptake relationship isn't fully linear and heart rate varies day to day, predictions can be 10–20% off.",
+"s": "Como la relación pulso-consumo de oxígeno no es del todo lineal y el pulso varía de un día a otro, la estimación puede desviarse un 10–20%.",
+"src": "course"
+},
+{
+"id": "int057",
+"t": "intake",
+"q": "What is the 'super assessment'?",
+"o": [
+"As many correct repetitions of basic exercises (sit-ups, push-ups, squats) as possible in one minute",
+"A maximal treadmill test",
+"A blood test",
+"A body fat scan"
+],
+"a": 0,
+"e": "Count correct reps in one minute and compare with tables; it also shows which muscle groups need attention.",
+"s": "Se cuentan las repeticiones correctas en un minuto y se comparan con tablas; también muestra qué grupos musculares necesitan atención.",
+"src": "course"
+},
+{
+"id": "int058",
+"t": "intake",
+"q": "How can you get the most reliable 1RM result according to the course?",
+"o": [
+"Test once on a single day",
+"Repeat the test 2–3 times on different days",
+"Guess it from body weight",
+"Test after a heavy workout"
+],
+"a": 1,
+"e": "Strength increases on repeated tests, so one test may underestimate it. The safest option is to estimate 1RM from several repetitions.",
+"s": "La fuerza aumenta al repetir el test, así que un solo test puede subestimarla. Lo más seguro es estimar el 1RM a partir de varias repeticiones.",
+"src": "course"
+},
+{
+"id": "saf044",
+"t": "safety",
+"q": "Which of these injuries may a personal trainer treat themselves, according to the course?",
+"o": [
+"Bone fractures",
+"Blisters, shallow wounds, nosebleeds and cramps",
+"Concussions",
+"Heart attacks"
+],
+"a": 1,
+"e": "You may treat blisters, shallow wounds, nosebleeds, cramps and tightness, and use the ICE rule for bruises and sprains.",
+"s": "Puedes tratar ampollas, heridas superficiales, hemorragias nasales, calambres y rigidez, y aplicar la regla ICE en contusiones y esguinces.",
+"src": "course"
+},
+{
+"id": "saf045",
+"t": "safety",
+"q": "Which blisters should NEVER be punctured?",
+"o": [
+"Blisters on the feet",
+"Burn blisters",
+"Small blisters",
+"Blisters on the hands"
+],
+"a": 1,
+"e": "Never puncture burn blisters. Closed blisters should stay closed if possible; pierce only if annoying, with a sterile needle parallel to the skin at the base.",
+"s": "Nunca pinches ampollas de quemaduras. Las ampollas cerradas deben seguir cerradas si es posible; perfóralas solo si molestan, con aguja estéril paralela a la piel en la base.",
+"src": "course"
+},
+{
+"id": "saf046",
+"t": "safety",
+"q": "After treating a wound, why should you advise the victim to see a doctor?",
+"o": [
+"To check whether they had a tetanus injection in the last 10 years",
+"To get painkillers",
+"To get a sick note",
+"It isn't necessary"
+],
+"a": 0,
+"e": "The doctor checks whether the victim has had a tetanus injection within the last 10 years.",
+"s": "El médico comprueba si la víctima se ha vacunado del tétanos en los últimos 10 años.",
+"src": "course"
+},
+{
+"id": "saf047",
+"t": "safety",
+"q": "When should you refer someone with an abrasion?",
+"o": [
+"When it is larger than half the palm of their hand or underlying tissue is visible",
+"When it is any size",
+"Never",
+"Only when it is on the leg"
+],
+"a": 0,
+"e": "Refer if bleeding can't be stopped, wounds can't be cleaned, abrasion > half the palm, wounds to face/eyes/genitals, bites, objects in the wound, or tetanus status unclear.",
+"s": "Deriva si no para de sangrar, no se puede limpiar, el roce es mayor que media palma, hay heridas en cara/ojos/genitales, mordeduras, objetos clavados o no se sabe si tiene la antitetánica.",
+"src": "course"
+},
+{
+"id": "saf048",
+"t": "safety",
+"q": "How do you treat a nosebleed according to the course?",
+"o": [
+"Tilt the head back",
+"Let the victim sit bent forward a little, blow once, and pinch both nostrils for 10 minutes",
+"Put ice in the nose",
+"Let them lie flat"
+],
+"a": 1,
+"e": "Sit bent forward, breathe through the mouth, blow once (not if the nose may be broken), pinch both nostrils for 10 minutes. Refer if it hasn't stopped after 2 × 10 minutes.",
+"s": "Sentado e inclinado hacia delante, respirar por la boca, sonarse una vez (no si puede estar roto), apretar ambas fosas 10 minutos. Deriva si no para tras 2 × 10 minutos.",
+"src": "course"
+},
+{
+"id": "saf049",
+"t": "safety",
+"q": "How do you treat a calf cramp?",
+"o": [
+"Massage hard",
+"Gently and gradually stretch the muscle by pulling the foot up",
+"Apply heat and keep exercising",
+"Ignore it"
+],
+"a": 1,
+"e": "Check for swelling or bruising, then stretch gradually: for a calf cramp pull the foot up. Heat cramps are best treated by cooling.",
+"s": "Comprueba que no haya hinchazón ni hematoma y estira poco a poco: en un calambre de gemelo, tira del pie hacia arriba. Los calambres por calor se tratan enfriando.",
+"src": "course"
+},
+{
+"id": "saf050",
+"t": "safety",
+"q": "A client who fainted regains consciousness. What does the course advise?",
+"o": [
+"Let them continue training immediately",
+"Leave them lying for another 10 minutes and consult a doctor if necessary",
+"Give them coffee",
+"Send them home alone"
+],
+"a": 1,
+"e": "Loosen tight clothing, don't leave them alone, keep talking, and leave them for another 10 minutes after they come round.",
+"s": "Afloja la ropa ajustada, no le dejes solo, sigue hablándole y déjale tumbado otros 10 minutos tras recuperarse.",
+"src": "course"
+},
+{
+"id": "saf051",
+"t": "safety",
+"q": "An unconscious client is not breathing. What do you do?",
+"o": [
+"Put them in the recovery position",
+"Start CPR, use an AED if available and have someone call the emergency number (say it's CPR)",
+"Give water",
+"Wait 10 minutes"
+],
+"a": 1,
+"e": "No breathing: resuscitate, get the AED and have someone call the emergency number. Breathing: recovery position, cover them and call.",
+"s": "Sin respiración: reanimar, conseguir el DEA y pedir que alguien llame a emergencias. Si respira: posición lateral de seguridad, abrigarle y llamar.",
+"src": "course"
+},
+{
+"id": "saf052",
+"t": "safety",
+"q": "What should you do when someone has an epileptic seizure?",
+"o": [
+"Hold them down firmly",
+"Keep the surroundings clear, guide but don't restrain the movements, keep the airway free",
+"Put something in their mouth",
+"Pour water over them"
+],
+"a": 1,
+"e": "Prevent injury, don't restrain, loosen tight clothing, recovery position if unconscious, and call the emergency number if seizures persist.",
+"s": "Evita que se lesione, no le sujetes, afloja la ropa, posición lateral si queda inconsciente, y llama a emergencias si las crisis continúan.",
+"src": "course"
+},
+{
+"id": "saf053",
+"t": "safety",
+"q": "In which situation should you call the emergency number, according to the course?",
+"o": [
+"A small blister",
+"Bone fractures or dislocations",
+"Mild muscle soreness",
+"A short cramp"
+],
+"a": 1,
+"e": "Call for persistent unconsciousness, heart attack symptoms, persistent epileptic seizures, fractures or dislocations, unconsciousness from a hypo, and deep wounds that keep bleeding.",
+"s": "Llama en caso de inconsciencia persistente, síntomas de infarto, crisis epilépticas persistentes, fracturas o luxaciones, inconsciencia por hipoglucemia y heridas profundas que no paran de sangrar.",
+"src": "course"
+},
+{
+"id": "saf054",
+"t": "safety",
+"q": "Which is a symptom of a heart attack according to the course?",
+"o": [
+"Sudden chest pressure/pain radiating to the jaw, shoulder and/or arm",
+"Itchy skin",
+"Hunger",
+"Cold feet only"
+],
+"a": 0,
+"e": "Heart attack symptoms: sudden chest pressure/pain radiating to jaw, shoulder or arm, restlessness, turning pale, nausea, excessive sweating.",
+"s": "Síntomas de infarto: presión/dolor repentino en el pecho que se irradia a mandíbula, hombro o brazo, inquietud, palidez, náuseas, sudor excesivo.",
+"src": "course"
+},
+{
+"id": "saf055",
+"t": "safety",
+"q": "Which combination of symptoms points to a hypo (low blood sugar)?",
+"o": [
+"Sweating, shaking, dizziness, sudden mood change, hunger",
+"Slow pulse and deep sleep",
+"High fever",
+"Sneezing and coughing"
+],
+"a": 0,
+"e": "Hypo symptoms: sweating, shaking, dizziness, sudden mood change, lack of focus, headache, tiredness, hunger. If a diabetic client faints with a hypo, call the emergency number immediately.",
+"s": "Síntomas de hipoglucemia: sudor, temblor, mareo, cambio brusco de humor, falta de concentración, dolor de cabeza, cansancio, hambre. Si un cliente diabético se desmaya por hipoglucemia, llama enseguida a emergencias.",
+"src": "course"
+},
+{
+"id": "saf056",
+"t": "safety",
+"q": "When should a victim be sent to a doctor or emergency room?",
+"o": [
+"After a nosebleed that hasn't stopped after 10 minutes, a concussion, whiplash or a knocked-out tooth",
+"After a normal workout",
+"After mild muscle soreness",
+"After a successful warm-up"
+],
+"a": 0,
+"e": "Refer for deep wounds, nosebleeds that won't stop, concussion, bruises/sprains if needed, whiplash, persistent chest tightness/breathing problems and a knocked-out tooth.",
+"s": "Deriva en caso de heridas profundas, hemorragia nasal que no para, conmoción, contusiones/esguinces si hace falta, latigazo cervical, opresión en el pecho o problemas respiratorios persistentes y un diente arrancado.",
+"src": "course"
+},
+{
+"id": "saf057",
+"t": "safety",
+"q": "Which basic safety requirements should a client meet according to the course?",
+"o": [
+"Clothing to move easily in (reflective outdoors), a towel for hygiene and enough water",
+"Expensive shoes and a heart-rate watch",
+"A gym bag and headphones",
+"Nothing in particular"
+],
+"a": 0,
+"e": "Comfortable clothing (reflective if outdoors), always a towel for hygiene, and drinking enough water.",
+"s": "Ropa cómoda (reflectante si es al aire libre), siempre una toalla por higiene y beber suficiente agua.",
 "src": "course"
 }
 ]
