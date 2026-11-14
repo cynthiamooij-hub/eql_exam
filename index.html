@@ -127,6 +127,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .counter{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;border:1.5px solid var(--line);border-radius:999px;padding:4px 14px;font-variant-numeric:tabular-nums}
 .clock{font-family:var(--display);font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums}
 .clock.low{color:var(--bad)}
+.qbtns{display:flex;gap:8px}
+.pausebox{text-align:left}
 .progress{height:4px;background:var(--line);border-radius:2px;overflow:hidden}
 .progress i{display:block;height:100%;background:var(--accent);transition:width .3s}
 .qcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px 20px;display:flex;flex-direction:column;gap:10px}
@@ -365,7 +367,7 @@ function renderNav(){
     ${me?`<div class="mb-who"><span>${esc(me.name)}</span><button class="link" id="switch">Switch</button></div>`:''}</div>`;
   bar.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>{
     const k = b.dataset.nav;
-    if(k==='exam') return startExam();
+    if(k==='exam') return examButton();
     view = k==='pick' ? {name:'pick', sel:[]} : {name:k};
     render();
   });
@@ -408,15 +410,22 @@ function renderHome(){
   app.innerHTML = header() + `
   ${readinessCard()}
   <section class="actions">
-    <button class="action primary" id="go-exam"><b>Mock exam</b><span class="muted">50 questions · 30 minutes · pass at 67%</span></button>
+    ${S.activeExam?`<button class="action primary" id="go-exam"><b>Resume mock exam</b><span class="muted num">Paused at question ${Math.min((S.activeExam.i||0)+1,EXAM_N)} / ${EXAM_N} · ${fmt(S.activeExam.left/1000)} left</span></button>`:`<button class="action primary" id="go-exam"><b>Mock exam</b><span class="muted">50 questions · 30 minutes · pass at 67%</span></button>`}
     <button class="action" id="go-weak"><b>Train weak topics</b><span class="muted">${weak.length?'20 questions on '+weak.map(t=>TOPICS[t]).join(' & '):'Unlocks after your first answers'}</span></button>
     <button class="action" id="go-pick"><b>Practise by topic</b><span class="muted">Choose one or more topics</span></button>
     <button class="action" id="go-miss"><b>Review mistakes</b><span class="muted num">${Object.values(S.q).filter(h=>h.last===0).length} questions to fix</span></button>
   </section>
+  ${S.activeExam?`<div id="discard-zone"><button class="link" id="discard">Discard the paused mock and start a new one</button></div>`:''}
   <section style="display:flex;flex-direction:column;gap:10px"><div class="eyebrow">Topics · tap one to practise it</div><div class="topics">${topicRows}</div></section>
   ${last.length?`<section class="panel"><div class="eyebrow">Mock exam history</div><div class="history">${last.map(e=>`<span class="${e.score/e.total>=PASS?'pass':'fail'}" style="height:${Math.max(6,Math.round(e.score/e.total*100))}%" title="${e.score}/${e.total}"></span>`).join('')}</div><p class="muted num">Last: ${last[last.length-1].score}/${last[last.length-1].total} · Best: ${Math.max(...S.exams.map(e=>e.score))}/${EXAM_N}</p></section>`:''}
   <div id="reset-zone"><button class="link" id="reset">Reset all progress</button></div>`;
-  document.getElementById('go-exam').onclick = startExam;
+  document.getElementById('go-exam').onclick = examButton;
+  const dz = document.getElementById('discard');
+  if(dz) dz.onclick = ()=>{
+    document.getElementById('discard-zone').innerHTML = `<div class="confirm"><span>Discard the paused mock? It won't count as a mock exam; the answers you gave still count toward your topic scores.</span><button class="btn small" id="d-yes">Discard and start new</button><button class="btn small ghost" id="d-no">Keep it</button></div>`;
+    document.getElementById('d-yes').onclick = ()=>{ delete S.activeExam; save(); startExam(); };
+    document.getElementById('d-no').onclick = render;
+  };
   document.getElementById('go-weak').onclick = ()=>{ const w=weakTopics(2); if(w.length) startPractice(w,'Weak topics'); else startExam(); };
   document.getElementById('go-pick').onclick = ()=>{ view={name:'pick',sel:[]}; render(); };
   document.getElementById('go-miss').onclick = ()=>{ view={name:'mistakes'}; render(); };
@@ -455,7 +464,24 @@ function prep(q){
   const idx = (q.src==='portal' || q.fixed) ? all : shuffled(all);
   return {id:q.id, order:idx, pick:null, done:false};
 }
+// a mock exam in progress is kept in S.activeExam, so it can be paused and resumed later (also on another device)
+function saveActive(){
+  const v = view; if(!(v && v.name==='quiz' && v.mode==='exam')) return;
+  S.activeExam = {items:v.items, i:v.i, left:Math.max(0, v.paused ? v.left : v.end-Date.now()), startedAt:v.startedAt, label:v.label, savedAt:Date.now()};
+  save();
+}
+function clearActive(){ if(S.activeExam){ delete S.activeExam; save(); } }
+function resumeExam(){
+  const a = S.activeExam; if(!a) return startExam();
+  const items = (a.items||[]).filter(it=>byId[it.id]);
+  if(!items.length || a.left<=0){ clearActive(); return startExam(); }
+  view = {name:'quiz', mode:'exam', label:a.label||'Mock exam', items, i:Math.min(a.i||0, items.length-1), end:Date.now()+a.left, startedAt:a.startedAt||Date.now(), requeued:{}, paused:true, left:a.left};
+  render();
+}
+function examButton(){ return S.activeExam ? resumeExam() : startExam(); }
+document.addEventListener('visibilitychange', ()=>{ if(document.hidden && view && view.name==='quiz' && view.mode==='exam' && !view.paused){ view.left = view.end-Date.now(); view.paused = true; clearInterval(timer); saveActive(); renderQuiz(); } });
 function startExam(){
+  if(S.activeExam){ delete S.activeExam; }
   const qs = sample(Q, EXAM_N, 0.8);
   startSession(shuffled(qs),'exam','Mock exam');
 }
@@ -478,8 +504,20 @@ function renderQuiz(){
     return `<button class="opt ${cls}" data-o="${oi}" ${it.done?'disabled':''}><span class="L">${'ABCD'[k]}</span><span>${esc(q.o[oi])}</span><span class="mk">${mk}</span></button>`;
   }).join('');
   const ok = it.done && it.pick===q.a;
+  if(isExam && v.paused){
+    const answeredN = v.items.filter(x=>x.done).length;
+    app.innerHTML = `
+    <div class="qhead"><span class="counter">Question ${v.i+1} / ${total}</span><span class="clock num">${fmt(v.left/1000)}</span></div>
+    <div class="progress"><i style="width:${answeredN/total*100}%"></i></div>
+    <section class="panel pausebox"><div class="eyebrow">Mock exam paused</div><h2>The clock is stopped</h2>
+    <p class="muted">${answeredN} of ${total} questions answered, <span class="num">${fmt(v.left/1000)}</span> left. Your answers and the remaining time are saved, so you can also come back later from the dashboard.</p>
+    <div class="qfoot"><button class="btn ghost" id="later">Continue later</button><button class="btn" id="resume">Resume</button></div></section>`;
+    document.getElementById('resume').onclick = ()=>{ v.end = Date.now()+v.left; v.paused = false; saveActive(); renderQuiz(); };
+    document.getElementById('later').onclick = ()=>{ saveActive(); view = {name:'home'}; render(); };
+    return;
+  }
   app.innerHTML = `
-  <div class="qhead"><button class="btn small ghost" id="quit">Stop</button><span class="counter">Question ${v.i+1} / ${total}</span>${isExam?`<span class="clock num" id="clock">${fmt((v.end-Date.now())/1000)}</span>`:`<span class="eyebrow">${esc(v.label)}</span>`}</div>
+  <div class="qhead"><span class="qbtns"><button class="btn small ghost" id="quit">Stop</button>${isExam?`<button class="btn small ghost" id="pause">Pause</button>`:''}</span><span class="counter">Question ${v.i+1} / ${total}</span>${isExam?`<span class="clock num" id="clock">${fmt((v.end-Date.now())/1000)}</span>`:`<span class="eyebrow">${esc(v.label)}</span>`}</div>
   <div class="progress"><i style="width:${(v.i+(it.done?1:0))/total*100}%"></i></div>
   <div id="quit-zone"></div>
   <section class="qcard"><span class="tag">${TOPICS[q.t]}${q.src==='portal'?' · <span class="portal">Official portal question</span>':q.src==='course'?' · <span class="portal">From the course material</span>':''}</span><div class="qt">${esc(q.q)}</div></section>
@@ -494,10 +532,13 @@ function renderQuiz(){
       if(!good && v.mode==='practice' && !v.requeued[q.id]){ // spaced re-ask a few questions later
         v.requeued[q.id]=1; const at = Math.min(v.items.length, v.i+4); v.items.splice(at,0,prep(q));
       }
+      if(isExam) saveActive();
       renderQuiz();
-    } else if(v.i+1<v.items.length){ v.i++; render(); }
+    } else if(v.i+1<v.items.length){ v.i++; if(isExam) saveActive(); render(); }
     else finish();
   };
+  const pb = document.getElementById('pause');
+  if(pb) pb.onclick = ()=>{ v.left = v.end-Date.now(); v.paused = true; clearInterval(timer); saveActive(); renderQuiz(); };
   const es=document.getElementById('show-es'); if(es) es.onclick=()=>{ es.parentElement.outerHTML = `<div class="es"><span class="lang">Por qué · Español</span>${esc(q.s)}</div>`; };
   document.getElementById('quit').onclick = ()=>{
     document.getElementById('quit-zone').innerHTML = `<div class="confirm"><span>Stop now? ${isExam?'Only finished mock exams count. Your answers so far still count toward your topic scores.':'Your answers so far are saved.'}</span><button class="btn small" id="q-yes">Stop</button><button class="btn small ghost" id="q-no">Continue</button></div>`;
@@ -518,7 +559,9 @@ function finish(timeUp){
   answered.forEach(it=>{ const q=byId[it.id]; const b=byTopic[q.t]||(byTopic[q.t]={c:0,n:0}); b.n++; if(it.pick===q.a) b.c++; });
   // a mock only counts when every question is answered or the 30 minutes ran out
   const complete = answered.length===v.items.length || timeUp===true;
-  if(v.mode==='exam' && complete){ S.exams.push({d:Date.now(), score, total, byTopic, secs: Math.round((Date.now()-v.startedAt)/1000)}); while(S.exams.length>30) S.exams.shift(); save(); }
+  if(v.mode==='exam'){ delete S.activeExam; if(!complete) save(); }
+  const usedSecs = v.mode==='exam' ? Math.min(EXAM_MIN*60, Math.round((EXAM_MIN*60000 - Math.max(0, v.end-Date.now()))/1000)) : Math.round((Date.now()-v.startedAt)/1000);
+  if(v.mode==='exam' && complete){ S.exams.push({d:Date.now(), score, total, byTopic, secs: usedSecs}); while(S.exams.length>30) S.exams.shift(); save(); }
   view = {name:'results', mode:v.mode, label:v.label, score, total, answered:answered.length, byTopic, timeUp:timeUp===true, counted: v.mode!=='exam' || complete, wrong: answered.filter(it=>it.pick!==byId[it.id].a).map(it=>it.id)};
   render();
 }
